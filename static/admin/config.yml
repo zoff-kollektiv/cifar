@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: gustavpursche/cifar
+
+collections:
+  - name: "chapter"
+    label: "Chapter"
+    folder: "data/chapter"
+    create: true
+    preview: false
+    slug: "{{slug}}"
+    fields:
+      - label: "Name"
+        name: "title"
+        widget: "string"
+
+media_folder: "static/media/uploads"
