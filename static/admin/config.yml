@@ -3,9 +3,36 @@ backend:
   repo: gustavpursche/cifar
 
 collections:
-  - name: "chapter"
-    label: "Chapter"
-    folder: "data/chapter"
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Report"
+        name: "report"
+        file: "data/pages/report.yml"
+        fields:
+          - label: Title
+            name: title
+            widget: string
+
+          - label: "Text"
+            name: "body"
+            widget: "markdown"
+
+      - label: "Home"
+        name: "home"
+        file: "data/pages/home.yml"
+        fields:
+          - label: Title
+            name: title
+            widget: string
+
+          - label: "Text"
+            name: "body"
+            widget: "markdown"
+
+  - name: "person"
+    label: "Person"
+    folder: "data/person"
     create: true
     preview: false
     slug: "{{slug}}"
@@ -13,5 +40,22 @@ collections:
       - label: "Name"
         name: "title"
         widget: "string"
+
+      - label: "Aliases"
+        name: "aliases"
+        widget: "list"
+        field:
+          - label: "Name"
+            name: "name"
+            widget: "string"
+
+      - label: "Ancestor"
+        name: "ancestor"
+        widget: "relation"
+        collection: "person"
+
+      - label: "Intro"
+        name: "body"
+        widget: "markdown"
 
 media_folder: "static/media/uploads"
