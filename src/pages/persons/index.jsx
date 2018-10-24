@@ -7,7 +7,7 @@ import withNavigation from '../../components/with-navigation';
 const Page = ({ data }) => <div>
   <h1>Persons</h1>
 
-  <PersonsList persons={data.allMarkdownRemark.edges} />
+  <PersonsList persons={data.allMarkdownRemark && data.allMarkdownRemark.edges} />
 </div>
 
 export default withNavigation(Page);
