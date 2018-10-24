@@ -8,7 +8,7 @@ collections:
     files:
       - label: "Report"
         name: "report"
-        file: "data/pages/report.yml"
+        file: "data/pages/report.md"
         fields:
           - label: Title
             name: title
@@ -20,7 +20,7 @@ collections:
 
       - label: "Home"
         name: "home"
-        file: "data/pages/home.yml"
+        file: "data/pages/home.md"
         fields:
           - label: Title
             name: title
@@ -30,9 +30,20 @@ collections:
             name: "body"
             widget: "markdown"
 
-  - name: "person"
-    label: "Person"
-    folder: "data/person"
+  - name: "countries"
+    label: "Countries"
+    folder: "data/countries"
+    create: true
+    preview: false
+    slug: "{{slug}}"
+    fields:
+      - label: "Name"
+        name: "title"
+        widget: "string"
+
+  - name: "persons"
+    label: "Persons"
+    folder: "data/persons"
     create: true
     preview: false
     slug: "{{slug}}"
