@@ -60,10 +60,20 @@ collections:
             name: "name"
             widget: "string"
 
+      - label: "Country"
+        name: "country"
+        widget: "relation"
+        collection: "countries"
+        searchFields: ["title"]
+        valueField: "title"
+
       - label: "Ancestor"
         name: "ancestor"
         widget: "relation"
         collection: "person"
+        searchFields: ["title"]
+        valueField: "title"
+        required: false
 
       - label: "Intro"
         name: "body"
