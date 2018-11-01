@@ -21,4 +21,4 @@ class Network extends Component {
   }
 }
 
-export default withFauxDOM(Network);
+export default Network;
