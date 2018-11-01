@@ -54,7 +54,8 @@ export default css`
   }
 
   :global(.network .person-role) {
-    font-size: 12px;
+    font-size: 11px;
+    letter-spacing: 1px;
   }
 
   :global(.network .person-name) {

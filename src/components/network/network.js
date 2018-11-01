@@ -74,12 +74,10 @@ const render = root => {
 
   d3
     .forceSimulation(nodes)
-    .force('charge', d3.forceManyBody())
+    .force('charge', d3.forceManyBody().strength(-100))
     .force('center', d3.forceCenter(width / 2, height / 2))
     .force('collide', d3.forceCollide(70))
-    .force('link', d3.forceLink(links).distance(10))
-    .force('x', d3.forceX(width).strength(3))
-    .force('y', d3.forceY(height).strength(3))
+    .force('link', d3.forceLink(links).distance(5))
     .on('tick', () => {
       updateNodes();
       updateLinks();
