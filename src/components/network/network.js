@@ -13,7 +13,7 @@ const drawPersons = (svg, nodes) => {
 
   persons
     .append('circle')
-    .attr('class', 'person-circle')
+    .attr('class', d => `person-circle ${d.root ? 'person-circle--is-root' : ''}`)
     .attr('r', d => d.root ? 50 : 10);
 
   const info = persons
@@ -62,6 +62,7 @@ const render = root => {
 
   const updateLinks = () => {
     connections
+      .attr('class', d => `connection connection--${d.source.connection}`)
       .attr('x1', d => d.source.x)
       .attr('y1', d => d.source.y)
       .attr('x2', d => d.target.x)

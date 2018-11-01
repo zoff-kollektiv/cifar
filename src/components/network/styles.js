@@ -22,7 +22,15 @@ export default css`
 
   :global(.network .connection) {
     stroke: rgb(235, 231, 215);
-    stroke-width: 1px;
+    stroke-width: 3px;
+  }
+
+  :global(.network .connection--government) {
+    stroke: rgb(247, 98, 50);
+  }
+
+  :global(.network .connection--corporate) {
+    stroke: rgb(237, 232, 73);
   }
 
   :global(.network .person) {
@@ -31,8 +39,7 @@ export default css`
   }
 
   :global(.network .person:hover .person-circle) {
-    fill: rgb(183, 180, 170);
-    stroke: rgb(235, 231, 215);
+    fill: rgb(26, 35, 97);
   }
 
   :global(.network .person:hover .person-name) {
@@ -40,17 +47,21 @@ export default css`
   }
 
   :global(.network .person-info) {
-    transform: translateY(23px);
+    transform: translateY(20px);
   }
 
   :global(.network .person-info--for-root) {
-    transform: translateY(63px);
+    transform: translateY(65px);
   }
 
   :global(.network .person-circle) {
     fill: rgb(235, 231, 215);
-    stroke: rgb(183, 180, 170);
-    stroke-width: 1px;
+  }
+
+  :global(.network .person-circle--is-root) {
+    fill: white;
+    stroke: rgb(26, 35, 97);
+    stroke-width: 3px;
   }
 
   :global(.network .person-role) {

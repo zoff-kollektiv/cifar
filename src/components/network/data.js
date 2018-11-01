@@ -4,16 +4,16 @@ const nodes = [
   {name: 'Alaa Mubarak', role: 'Son', connection: 'family'},
   {name: 'Suzanne Mubarak', role: 'Spouse', connection: 'corporate'},
   {name: 'Gamal Mubarak', role: 'Son', connection: 'corporate'},
-  {name: 'Alaa Mubarak', role: 'Son', connection: 'corporate'},
-  {name: 'Suzanne Mubarak', role: 'Spouse', connection: 'corporate'},
+  {name: 'Alaa Mubarak', role: 'Son', connection: 'government'},
+  {name: 'Suzanne Mubarak', role: 'Spouse', connection: 'government'},
   {name: 'Gamal Mubarak', role: 'Son', connection: 'family'},
   {name: 'Alaa Mubarak', role: 'Son', connection: 'corporate'},
-  {name: 'Suzanne Mubarak', role: 'Spouse', connection: 'family'},
+  {name: 'Suzanne Mubarak', role: 'Spouse', connection: 'government'},
   {name: 'Gamal Mubarak', role: 'Son', connection: 'family'},
   {name: 'Alaa Mubarak', role: 'Son', connection: 'family'},
   {name: 'Suzanne Mubarak', role: 'Spouse', connection: 'family'},
   {name: 'Omar Alaa Mubarak', role: 'Grandson', connection: 'family'},
-  {name: 'Mahmoud Gamal Mubarak', role: 'Grandson', connection: 'family'}
+  {name: 'Mahmoud Gamal Mubarak', role: 'Grandson', connection: 'government'}
 ];
 
 const links = [
