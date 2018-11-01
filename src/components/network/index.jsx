@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
 import renderNetwork from './network';
 import styles from './styles';
@@ -8,15 +8,19 @@ class Network extends Component {
 
   componentDidMount () {
     renderNetwork(this.network.current);
+
+    window.addEventListener('resize', () => {
+      renderNetwork(this.network.current);
+    });
   }
 
   render () {
     return (
-      <div>
+      <Fragment>
         <style jsx global>{styles}</style>
 
         <div className="network" ref={this.network} />
-      </div>
+      </Fragment>
     )
   }
 }

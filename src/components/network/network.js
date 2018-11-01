@@ -2,57 +2,88 @@ import * as d3 from 'd3';
 
 import { nodes, links } from './data';
 
-const render = root => {
-  const svg = d3.select(root).append('svg');
-  const height = 400;
-  const width = 800;
+const drawPersons = (svg, nodes) => {
+  const persons = svg
+    .selectAll('.person')
+    .data(nodes)
+    .enter()
+      .append('g')
+      .attr('class', 'person')
+      .on('click', ({ name }) => alert(`Navigation to: ${name}`));
 
-  svg.attr('width', width).attr('height', height);
-  svg.append('g').attr('class', 'nodes');
-  svg.append('g').attr('class', 'links');
+  persons
+    .append('circle')
+    .attr('class', 'person-circle')
+    .attr('r', d => d.root ? 50 : 10);
+
+  const info = persons
+    .append('g')
+    .attr('class', ({ root }) => `person-info ${root ? 'person-info--for-root' : ''}`);
+
+  // name
+  info
+    .append('text')
+    .text(d => d.name)
+    .attr('class', 'person-name');
+
+  // role
+  info
+    .append('text')
+    .text(d => d.role)
+    .attr('class', 'person-role')
+    .attr('y', 13);
+
+  return persons;
+};
+
+const drawConnections = (svg, links) => {
+  const connections = svg
+    .selectAll('.connection')
+    .data(links)
+      .enter()
+        .append('line')
+        .attr('class', 'connection');
+
+  return connections;
+};
+
+const render = root => {
+  root.innerHTML = '';
+
+  const svg = d3.select(root).append('svg');
+  const { height, width } = root.getBoundingClientRect();
+
+  svg
+    .attr('viewBox', `0 0 ${width} ${height}`)
+    .attr('preserveAspectRatio', 'xMidYMid meet');
+
+  const connections = drawConnections(svg, links);
+  const persons = drawPersons(svg, nodes);
 
   const updateLinks = () => {
-    const el = svg.select('.links')
-      .selectAll('line')
-      .data(links);
-
-    el.enter()
-      .append('line')
-      .merge(el)
+    connections
       .attr('x1', d => d.source.x)
       .attr('y1', d => d.source.y)
       .attr('x2', d => d.target.x)
-      .attr('y2', d => d.target.y)
-
-    el.exit().remove();
+      .attr('y2', d => d.target.y);
   };
 
   const updateNodes = () => {
-    const el = svg.select('.nodes')
-      .selectAll('text')
-      .data(nodes);
-
-    el.enter()
-      .append('text')
-      .text(d => d.name)
-      .merge(el)
-      .attr('x', d => d.x)
-      .attr('y', d => d.y)
-      .attr('dy', 10);
-
-    el.exit().remove()
+    persons.attr('transform', ({ x, y }) => `translate(${x},${y})`);
   };
 
-  const ticked = () => {
-    updateLinks();
-    updateNodes();
-  };
-
-  d3.forceSimulation(nodes)
-    .force('charge', d3.forceManyBody().strength(-100))
+  d3
+    .forceSimulation(nodes)
+    .force('charge', d3.forceManyBody())
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('link', d3.forceLink().links(links))
-    .on('tick', ticked);
+    .force('collide', d3.forceCollide(70))
+    .force('link', d3.forceLink(links).distance(10))
+    .force('x', d3.forceX(width).strength(3))
+    .force('y', d3.forceY(height).strength(3))
+    .on('tick', () => {
+      updateNodes();
+      updateLinks();
+    });
 
   return svg;
 };
