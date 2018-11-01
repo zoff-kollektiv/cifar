@@ -2,7 +2,6 @@ import css from 'styled-jsx/css';
 
 export default css`
   :global(.network) {
-    background: yellow;
     height: 95vh;
     margin: 0 auto;
     max-width: 1000px;
@@ -59,8 +58,9 @@ export default css`
   }
 
   :global(.network .person-name) {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 900;
+    letter-spacing: 1px;
     line-height: 1.4;
   }
 `;
