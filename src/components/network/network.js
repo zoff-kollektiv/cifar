@@ -2,6 +2,26 @@ import * as d3 from 'd3';
 
 import { nodes, links } from './data';
 
+const appendImage = (svg, nodes) => {
+  const size = 150;
+
+  svg
+    .append('defs')
+      .append('pattern')
+      .attr('id', 'image')
+      .attr('x', -0.5 * size)
+      .attr('y', -0.5 * size)
+      .attr('patternUnits', 'userSpaceOnUse')
+      .attr('width', size)
+      .attr('height', size)
+        .append('image')
+        .attr('x', 0)
+        .attr('y', 0)
+        .attr('width', size)
+        .attr('height', size)
+        .attr('xlink:href', nodes.find(_ => _.root).image);
+};
+
 const drawPersons = (svg, nodes) => {
   const persons = svg
     .selectAll('.person')
@@ -14,7 +34,7 @@ const drawPersons = (svg, nodes) => {
   persons
     .append('circle')
     .attr('class', d => `person-circle ${d.root ? 'person-circle--is-root' : ''}`)
-    .attr('r', d => d.root ? 50 : 10);
+    .attr('r', d => d.root ? 70 : 10);
 
   const info = persons
     .append('g')
@@ -60,6 +80,8 @@ const render = root => {
   const connections = drawConnections(svg, links);
   const persons = drawPersons(svg, nodes);
 
+  appendImage(svg, nodes);
+
   const updateLinks = () => {
     connections
       .attr('class', d => `connection connection--${d.source.connection}`)
@@ -77,8 +99,8 @@ const render = root => {
     .forceSimulation(nodes)
     .force('charge', d3.forceManyBody().strength(-100))
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collide', d3.forceCollide(70))
-    .force('link', d3.forceLink(links).distance(5))
+    .force('collide', d3.forceCollide(65))
+    .force('link', d3.forceLink(links).distance(20))
     .on('tick', () => {
       updateNodes();
       updateLinks();

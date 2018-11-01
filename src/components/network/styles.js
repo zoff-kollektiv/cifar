@@ -47,11 +47,11 @@ export default css`
   }
 
   :global(.network .person-info) {
-    transform: translateY(20px);
+    transform: translateY(25px);
   }
 
   :global(.network .person-info--for-root) {
-    transform: translateY(65px);
+    transform: translateY(85px);
   }
 
   :global(.network .person-circle) {
@@ -59,7 +59,7 @@ export default css`
   }
 
   :global(.network .person-circle--is-root) {
-    fill: white;
+    fill: url(#image);
     stroke: rgb(26, 35, 97);
     stroke-width: 3px;
   }

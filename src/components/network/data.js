@@ -1,5 +1,5 @@
 const nodes = [
-  {name: 'Hosni Mubarak', role: 'President', root: true},
+  {name: 'Hosni Mubarak', role: 'President', root: true, image: 'https://trello-attachments.s3.amazonaws.com/5bc0b20255411e16156e4aa5/5bc9d76063f97a3fe8733a54/8f82123344a63ca65a698acd5559380f/mubarak-frei-sw2-dklblau.png'},
   {name: 'Gamal Mubarak', role: 'Son', connection: 'family'},
   {name: 'Alaa Mubarak', role: 'Son', connection: 'family'},
   {name: 'Suzanne Mubarak', role: 'Spouse', connection: 'corporate'},
