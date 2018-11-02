@@ -1,6 +1,4 @@
-const { createFilePath } = require('gatsby-source-filesystem');
-
-exports.onCreateNode = ({ node, getNode, actions }) => {
+exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions;
 
   if (node.internal.type === 'MarkdownRemark') {
@@ -20,4 +18,4 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: folder
     });
   }
-}
+};

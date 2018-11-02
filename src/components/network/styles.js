@@ -83,7 +83,7 @@ export default css`
     font-size: 12px;
     font-variation-settings: "wght" 600;
     font-weight: 600;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.025rem;
     line-height: 1.4;
   }
 `;

@@ -22,7 +22,7 @@ export default [
         connection: 'family',
         network: [
           {name: 'Alaa 5 Mubarak', role: 'Spouse', connection: 'government'},
-          {name: 'Gamal 5 Mubarak', role: 'Son', connection: 'family'},
+          {name: 'Gamal 5 Mubarak', role: 'Son', connection: 'family'}
         ]
       },
     ]

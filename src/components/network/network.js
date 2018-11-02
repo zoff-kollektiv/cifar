@@ -6,7 +6,8 @@ const createNodesAndLinks = person => {
 
   const storePerson = p => {
     const { network, ...rest } = p;
-    nodes.push({...rest});
+
+    nodes.push({ ...rest });
   };
 
   const storeLink = (target, source) => {
