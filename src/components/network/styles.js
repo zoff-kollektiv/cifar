@@ -15,7 +15,6 @@ export default css`
 
   :global(.network text) {
     text-anchor: middle;
-    font-family: -apple-system, BlinkMacSystemFont, Arial;
     fill: rgb(26, 35, 97);
     font-size: 14px;
   }
@@ -73,14 +72,15 @@ export default css`
   }
 
   :global(.network .person-role) {
-    font-size: 11px;
-    letter-spacing: 1px;
+    font-size: 10px;
+    letter-spacing: 0.025rem;
   }
 
   :global(.network .person-name) {
     font-size: 12px;
-    font-weight: 900;
-    letter-spacing: 1px;
+    font-variation-settings: "wght" 700;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
     line-height: 1.4;
   }
 `;
