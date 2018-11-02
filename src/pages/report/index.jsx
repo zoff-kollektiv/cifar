@@ -2,6 +2,7 @@ import { graphql } from 'gatsby';
 import React from 'react';
 
 import Report from '../../components/report';
+import withLayout from '../../components/with-layout';
 import withNavigation from '../../components/with-navigation';
 
 const Page = ({ data }) => {
@@ -11,7 +12,7 @@ const Page = ({ data }) => {
   </div>
 }
 
-export default withNavigation(Page);
+export default withNavigation(withLayout(Page));
 
 export const query = graphql`
   query Report {
