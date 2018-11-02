@@ -1,5 +1,7 @@
 import css from 'styled-jsx/css';
 
+import { colors } from '../../tokens';
+
 export default css`
   :global(.network) {
     height: 95vh;
@@ -15,12 +17,12 @@ export default css`
 
   :global(.network text) {
     text-anchor: middle;
-    fill: rgb(26, 35, 97);
+    fill: ${colors.blue};
     font-size: 14px;
   }
 
   :global(.network .connection) {
-    stroke: rgb(235, 231, 215);
+    stroke: ${colors.beige};
     stroke-width: 3px;
   }
 
@@ -38,15 +40,16 @@ export default css`
   }
 
   :global(.network .person:hover .person-circle:not(.person-circle--is-root)) {
-    fill: rgb(26, 35, 97);
+    fill: ${colors.blue};
   }
 
   :global(.network .person:hover .person-background-circle) {
-    fill: rgb(235, 231, 215);
+    fill: ${colors.beige};
   }
 
   :global(.network .person:hover .person-name) {
-    text-decoration: underline;
+    font-variation-settings: "wght" 900;
+    font-weight: 900;
   }
 
   :global(.network .person-info) {
@@ -62,12 +65,12 @@ export default css`
   }
 
   :global(.network .person-circle) {
-    fill: rgb(235, 231, 215);
+    fill: ${colors.beige};
   }
 
   :global(.network .person-circle--is-root) {
     fill: url(#image);
-    stroke: rgb(26, 35, 97);
+    stroke: ${colors.blue};
     stroke-width: 3px;
   }
 
@@ -78,8 +81,8 @@ export default css`
 
   :global(.network .person-name) {
     font-size: 12px;
-    font-variation-settings: "wght" 700;
-    font-weight: 700;
+    font-variation-settings: "wght" 600;
+    font-weight: 600;
     letter-spacing: 0.05rem;
     line-height: 1.4;
   }

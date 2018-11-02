@@ -114,6 +114,11 @@ export default css`
         url("/fonts/inter-ui/inter-ui.var.woff2") format("woff2");
   }
 
+  :global(body) {
+    margin: 0;
+    padding: 0;
+  }
+
   :global(html) {
     font-family: 'Inter UI', sans-serif;
   }
