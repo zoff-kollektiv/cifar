@@ -1,8 +1,4 @@
-import * as d3 from 'd3';
-
-const nodesById = d3.map();
-
-const persons = [
+export default [
   {
     name: 'Hosni Mubarak',
     role: 'President',
@@ -32,45 +28,3 @@ const persons = [
     ]
   }
 ];
-
-const createNodesAndLinks = person => {
-  const nodes = [];
-  const links = [];
-
-  const storePerson = p => {
-    const { network, ...rest } = p;
-    nodes.push({...rest});
-  };
-
-  const storeLink = (target, source) => {
-    links.push({
-      target: target.name,
-      source: source.name
-    });
-  };
-
-  const interateNetwork = p => {
-    storePerson(p);
-
-    if (p.network) {
-      p.network.forEach(_ => {
-        interateNetwork(_);
-        storeLink(_, p);
-      });
-    }
-  }
-
-  interateNetwork(person);
-
-  return { nodes, links };
-};
-
-const { nodes, links } = createNodesAndLinks(persons[0]);
-
-nodes.forEach(_ => nodesById.set(_.name, _));
-links.forEach(_ => {
-  _.source = nodesById.get(_.source);
-  _.target = nodesById.get(_.target);
-});
-
-export { nodes, links };

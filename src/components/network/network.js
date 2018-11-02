@@ -1,6 +1,36 @@
 import * as d3 from 'd3';
 
-import { nodes, links } from './data';
+const createNodesAndLinks = person => {
+  const nodes = [];
+  const links = [];
+
+  const storePerson = p => {
+    const { network, ...rest } = p;
+    nodes.push({...rest});
+  };
+
+  const storeLink = (target, source) => {
+    links.push({
+      target: target.name,
+      source: source.name
+    });
+  };
+
+  const interateNetwork = p => {
+    storePerson(p);
+
+    if (p.network) {
+      p.network.forEach(_ => {
+        interateNetwork(_);
+        storeLink(_, p);
+      });
+    }
+  }
+
+  interateNetwork(person);
+
+  return { nodes, links };
+};
 
 const appendImage = (svg, nodes) => {
   const size = 150;
@@ -74,11 +104,20 @@ const drawConnections = (svg, links) => {
   return connections;
 };
 
-const render = root => {
+const render = (root, data) => {
   root.innerHTML = '';
 
   const svg = d3.select(root).append('svg');
   const { height, width } = root.getBoundingClientRect();
+  const nodesById = d3.map();
+  const { nodes, links } = createNodesAndLinks(data[0]);
+
+  // setup links by name
+  nodes.forEach(_ => nodesById.set(_.name, _));
+  links.forEach(_ => {
+    _.source = nodesById.get(_.source);
+    _.target = nodesById.get(_.target);
+  });
 
   svg
     .attr('viewBox', `0 0 ${width} ${height}`)
