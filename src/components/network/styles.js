@@ -38,8 +38,12 @@ export default css`
     pointer-events: all;
   }
 
-  :global(.network .person:hover .person-circle) {
+  :global(.network .person:hover .person-circle:not(.person-circle--is-root)) {
     fill: rgb(26, 35, 97);
+  }
+
+  :global(.network .person:hover .person-background-circle) {
+    fill: rgb(235, 231, 215);
   }
 
   :global(.network .person:hover .person-name) {
@@ -52,6 +56,10 @@ export default css`
 
   :global(.network .person-info--for-root) {
     transform: translateY(85px);
+  }
+
+  :global(.network .person-background-circle) {
+    fill: white;
   }
 
   :global(.network .person-circle) {

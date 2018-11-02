@@ -31,6 +31,13 @@ const drawPersons = (svg, nodes) => {
       .attr('class', 'person')
       .on('click', ({ name }) => alert(`Navigation to: ${name}`));
 
+  // add a background-circle on the root person (for a background-color)
+  persons
+    .filter(d => d.root)
+    .append('circle')
+      .attr('class', 'person-background-circle')
+      .attr('r', d => d.root ? 70 : 10);
+
   persons
     .append('circle')
     .attr('class', d => `person-circle ${d.root ? 'person-circle--is-root' : ''}`)
