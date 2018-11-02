@@ -1,14 +1,46 @@
-import React, { Fragment } from 'react';
+import React, { Component, Fragment } from 'react';
 
 import Network from '../network';
 import Person from './person';
 
 import data from './data';
 
-export default ({ persons }) => <Fragment>
-  <Network data={data} />
+export default class PersonList extends Component {
+  state = {
+    view: 'list'
+  };
 
-  <ul>
-    {persons && persons.map(({ node }) => <Person key={node.frontmatter.title} {...node.frontmatter} />)}
-  </ul>;
-</Fragment>
+  updateView = event => {
+    const { value } = event.target;
+
+    this.setState({ view: value });
+  }
+
+  render() {
+    const { persons } = this.props;
+
+    return (
+      <Fragment>
+        Show as:
+
+        <label>
+          List
+          <input type="radio" name="view" value="list" checked={this.state.view === 'list'} onChange={this.updateView} />
+        </label>
+
+        <label>
+          Network
+          <input type="radio" name="view" value="network" checked={this.state.view === 'network'} onChange={this.updateView} />
+        </label>
+
+        {this.state.view === 'network' && <Network data={data} />}
+
+        {this.state.view === 'list' && (
+          <ul>
+            {persons && persons.map(({ node }) => <Person key={node.frontmatter.title} {...node.frontmatter} />)}
+          </ul>
+        )}
+      </Fragment>
+    )
+  }
+};

@@ -6,8 +6,6 @@ import withLayout from '../../components/with-layout';
 import withNavigation from '../../components/with-navigation';
 
 const Page = ({ data }) => <div>
-  <h1>Persons</h1>
-
   <PersonsList persons={data.allMarkdownRemark && data.allMarkdownRemark.edges} />
 </div>
 

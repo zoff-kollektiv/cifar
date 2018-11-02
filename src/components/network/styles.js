@@ -6,7 +6,6 @@ export default css`
   :global(.network) {
     height: 95vh;
     margin: 0 auto;
-    max-width: 1000px;
     width: 100%;
   }
 
