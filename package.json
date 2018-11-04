@@ -5,7 +5,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "lint": "eslint --fix --ext .js,.jsx ."
   },
   "dependencies": {
     "d3": "^5.7.0",
@@ -21,6 +22,15 @@
     "styled-jsx": "^3.1.0"
   },
   "devDependencies": {
-    "gatsby-transformer-remark": "^2.1.11"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "gatsby-transformer-remark": "^2.1.11",
+    "prettier": "^1.14.3"
   }
 }
