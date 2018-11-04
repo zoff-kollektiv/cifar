@@ -73,7 +73,10 @@ const createPersons = (graphql, createPage) =>
 
       createPage({
         path: pagePath,
-        component: path.resolve('src/templates/person/index.jsx')
+        component: path.resolve('src/templates/person/index.jsx'),
+        context: {
+          title
+        }
       });
     });
 
