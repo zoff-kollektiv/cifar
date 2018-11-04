@@ -100,7 +100,14 @@ exports.onCreateNode = ({ node, actions }) => {
 };
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions;
+  const { createPage, createRedirect } = actions;
+
+  createRedirect({
+    fromPath: '/persons',
+    toPath: '/persons/all',
+    redirectInBrowser: true,
+    isPermanent: true
+  });
 
   return Promise.all([
     createCountries(graphql, createPage),

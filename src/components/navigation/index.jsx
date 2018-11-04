@@ -10,7 +10,13 @@ export default () => <header>
 
   <nav>
     <Link to="/">Home</Link>
-    <Link to="/persons/all/">Persons</Link>
+    <Link to="/persons" getProps={({
+      isPartiallyCurrent
+    }) => {
+      return isPartiallyCurrent
+        ? { 'aria-current': 'partially' }
+        : null
+    }}>Persons</Link>
     <Link to="/report/">Report</Link>
   </nav>
 </header>
