@@ -10,19 +10,12 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'pages',
-        path: `${__dirname}/data/pages/`,
+        name: 'data',
+        path: `${__dirname}/data/`,
       },
     },
 
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'persons',
-        path: `${__dirname}/data/persons/`,
-      },
-    },
-
-    'gatsby-transformer-remark'
+    'gatsby-transformer-remark',
+    'gatsby-plugin-styled-jsx',
   ]
 };
