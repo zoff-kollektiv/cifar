@@ -58,7 +58,7 @@ collections:
         widget: "string"
 
       - label: "Name in native language"
-        name: "title"
+        name: "nameNative"
         widget: "string"
 
       - label: "Identifying information"
