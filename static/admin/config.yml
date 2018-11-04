@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: gustavpursche/cifar
+  branch: develop
 
 collections:
   - label: "Pages"
@@ -26,8 +27,8 @@ collections:
             name: title
             widget: string
 
-          - label: "Text"
-            name: "body"
+          - label: "Mission statement"
+            name: "missionStatement"
             widget: "markdown"
 
   - name: "countries"
@@ -41,6 +42,10 @@ collections:
         name: "title"
         widget: "string"
 
+      - label: "Summary"
+        name: "summary"
+        widget: "markdown"
+
   - name: "persons"
     label: "Persons"
     folder: "data/persons"
@@ -51,6 +56,18 @@ collections:
       - label: "Name"
         name: "title"
         widget: "string"
+
+      - label: "Name in native language"
+        name: "title"
+        widget: "string"
+
+      - label: "Identifying information"
+        name: "role"
+        widget: "string"
+
+      - label: "Image"
+        name: "image"
+        widget: "image"
 
       - label: "Aliases"
         name: "aliases"
@@ -66,6 +83,42 @@ collections:
         collection: "countries"
         searchFields: ["title"]
         valueField: "title"
+
+      - label: "Suspected or confirmed overseas properties"
+        name: "overseasProperties"
+        widget: "string"
+
+      - label: "Suspected or confirmed links to companies"
+        name: "linkedCompanies"
+        widget: "string"
+
+      - label: "Estimate of total stolen assets"
+        name: "stolenAssets"
+        widget: "string"
+
+      - label: "Estimates of assets frozen or confiscated"
+        name: "frozenAssets"
+        widget: "string"
+
+      - label: "Country of origin"
+        name: "originCountry"
+        widget: "string"
+
+      - label: "City of origin"
+        name: "originCity"
+        widget: "string"
+
+      - label: "Birthdate"
+        name: "birthdate"
+        widget: "date"
+
+      - label: "Gender"
+        name: "gender"
+        widget: "string"
+
+      - label: "Grounds for sanctions"
+        name: "groundsForSanctions"
+        widget: "string"
 
       - label: "Ancestor"
         name: "ancestor"
