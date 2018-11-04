@@ -26,7 +26,7 @@ const createCountries = (graphql, createPage) => {
 
       const countries = data.allMarkdownRemark.edges;
 
-      [...countries, { node: { frontmatter: { title: 'All' }}}].forEach(({ node: { frontmatter: { title }} }) => {
+      [...countries].forEach(({ node: { frontmatter: { title }} }) => {
         const pagePath = `/persons/${createSlug(title)}/`;
 
         console.log('create country', pagePath);
@@ -107,6 +107,11 @@ exports.createPages = ({ actions, graphql }) => {
     toPath: '/persons/all',
     redirectInBrowser: true,
     isPermanent: true
+  });
+
+  createPage({
+    path: '/persons/all',
+    component: path.resolve('src/templates/country/all.jsx')
   });
 
   return Promise.all([
