@@ -15,7 +15,7 @@ export default class PersonList extends Component {
     const { value } = event.target;
 
     this.setState({ view: value });
-  }
+  };
 
   render() {
     const { persons } = this.props;
@@ -23,25 +23,36 @@ export default class PersonList extends Component {
     return (
       <Constraint>
         Show as:
-
         <label>
           List
-          <input type="radio" name="view" value="list" checked={this.state.view === 'list'} onChange={this.updateView} />
+          <input
+            type="radio"
+            name="view"
+            value="list"
+            checked={this.state.view === 'list'}
+            onChange={this.updateView}
+          />
         </label>
-
         <label>
           Network
-          <input type="radio" name="view" value="network" checked={this.state.view === 'network'} onChange={this.updateView} />
+          <input
+            type="radio"
+            name="view"
+            value="network"
+            checked={this.state.view === 'network'}
+            onChange={this.updateView}
+          />
         </label>
-
         {this.state.view === 'network' && <Network data={data} />}
-
         {this.state.view === 'list' && (
           <ul>
-            {persons && persons.map(({ node }) => <Person key={node.frontmatter.title} {...node} />)}
+            {persons &&
+              persons.map(({ node }) => (
+                <Person key={node.frontmatter.title} {...node} />
+              ))}
           </ul>
         )}
       </Constraint>
-    )
+    );
   }
-};
+}

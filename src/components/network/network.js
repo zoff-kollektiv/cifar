@@ -26,7 +26,7 @@ const createNodesAndLinks = person => {
         storeLink(_, p);
       });
     }
-  }
+  };
 
   interateNetwork(person);
 
@@ -38,19 +38,19 @@ const appendImage = (svg, nodes) => {
 
   svg
     .append('defs')
-      .append('pattern')
-      .attr('id', 'image')
-      .attr('x', -0.5 * size)
-      .attr('y', -0.5 * size)
-      .attr('patternUnits', 'userSpaceOnUse')
-      .attr('width', size)
-      .attr('height', size)
-        .append('image')
-        .attr('x', 0)
-        .attr('y', 0)
-        .attr('width', size)
-        .attr('height', size)
-        .attr('xlink:href', nodes.find(_ => _.root).image);
+    .append('pattern')
+    .attr('id', 'image')
+    .attr('x', -0.5 * size)
+    .attr('y', -0.5 * size)
+    .attr('patternUnits', 'userSpaceOnUse')
+    .attr('width', size)
+    .attr('height', size)
+    .append('image')
+    .attr('x', 0)
+    .attr('y', 0)
+    .attr('width', size)
+    .attr('height', size)
+    .attr('xlink:href', nodes.find(_ => _.root).image);
 };
 
 const drawPersons = (svg, nodes) => {
@@ -58,25 +58,32 @@ const drawPersons = (svg, nodes) => {
     .selectAll('.person')
     .data(nodes)
     .enter()
-      .append('g')
-      .attr('class', 'person')
-      .on('click', ({ name }) => alert(`Navigation to: ${name}`));
+    .append('g')
+    .attr('class', 'person')
+    // eslint-disable-next-line no-alert
+    .on('click', ({ name }) => alert(`Navigation to: ${name}`));
 
   // add a background-circle on the root person (for a background-color)
   persons
     .filter(d => d.root)
     .append('circle')
-      .attr('class', 'person-background-circle')
-      .attr('r', d => d.root ? 70 : 10);
+    .attr('class', 'person-background-circle')
+    .attr('r', d => (d.root ? 70 : 10));
 
   persons
     .append('circle')
-    .attr('class', d => `person-circle ${d.root ? 'person-circle--is-root' : ''}`)
-    .attr('r', d => d.root ? 70 : 10);
+    .attr(
+      'class',
+      d => `person-circle ${d.root ? 'person-circle--is-root' : ''}`
+    )
+    .attr('r', d => (d.root ? 70 : 10));
 
   const info = persons
     .append('g')
-    .attr('class', ({ root }) => `person-info ${root ? 'person-info--for-root' : ''}`);
+    .attr(
+      'class',
+      ({ root }) => `person-info ${root ? 'person-info--for-root' : ''}`
+    );
 
   // name
   info
@@ -98,9 +105,9 @@ const drawConnections = (svg, links) => {
   const connections = svg
     .selectAll('.connection')
     .data(links)
-      .enter()
-        .append('line')
-        .attr('class', 'connection');
+    .enter()
+    .append('line')
+    .attr('class', 'connection');
 
   return connections;
 };
@@ -142,8 +149,7 @@ const render = (root, data) => {
     persons.attr('transform', ({ x, y }) => `translate(${x},${y})`);
   };
 
-  d3
-    .forceSimulation(nodes)
+  d3.forceSimulation(nodes)
     .force('charge', d3.forceManyBody().strength(-100))
     .force('center', d3.forceCenter(width / 2, height / 2))
     .force('collide', d3.forceCollide(65))
