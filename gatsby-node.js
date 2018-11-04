@@ -29,6 +29,7 @@ const createCountries = (graphql, createPage) =>
     [...countries].forEach(({ node: { frontmatter: { title } } }) => {
       const pagePath = `/persons/${createSlug(title)}/`;
 
+      // eslint-disable-next-line no-console
       console.log('create country', pagePath);
 
       createPage({
@@ -39,6 +40,8 @@ const createCountries = (graphql, createPage) =>
         }
       });
     });
+
+    return null;
   });
 
 const createPersons = (graphql, createPage) =>
@@ -65,6 +68,7 @@ const createPersons = (graphql, createPage) =>
     [...persons].forEach(({ node: { frontmatter: { title, country } } }) => {
       const pagePath = `/persons/${createSlug(country)}/${createSlug(title)}/`;
 
+      // eslint-disable-next-line no-console
       console.log('create person', pagePath);
 
       createPage({
@@ -72,6 +76,8 @@ const createPersons = (graphql, createPage) =>
         component: path.resolve('src/templates/person/index.jsx')
       });
     });
+
+    return null;
   });
 
 exports.onCreateNode = ({ node, actions }) => {

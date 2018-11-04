@@ -60,6 +60,7 @@ const drawPersons = (svg, nodes) => {
     .enter()
     .append('g')
     .attr('class', 'person')
+    // eslint-disable-next-line no-alert
     .on('click', ({ name }) => alert(`Navigation to: ${name}`));
 
   // add a background-circle on the root person (for a background-color)

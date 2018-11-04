@@ -11,6 +11,7 @@ export default ({ frontmatter, html }) => {
       <Constraint>
         <h1>{title}</h1>
 
+        {/* eslint-disable-next-line react/no-danger */}
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </Constraint>
     </div>
