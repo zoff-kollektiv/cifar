@@ -38,7 +38,7 @@ export default class PersonList extends Component {
 
         {this.state.view === 'list' && (
           <ul>
-            {persons && persons.map(({ node }) => <Person key={node.frontmatter.title} {...node.frontmatter} />)}
+            {persons && persons.map(({ node }) => <Person key={node.frontmatter.title} {...node} />)}
           </ul>
         )}
       </Constraint>

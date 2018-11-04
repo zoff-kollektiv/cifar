@@ -26,7 +26,7 @@ export const query = graphql`
     }
 
     persons: allMarkdownRemark(filter: { fields: { folder: { eq: "persons" } }, frontmatter: { country: { eq: $countryName } } }, sort: { fields: [frontmatter___title] }) {
-      ...persons
+      ...personsList
     }
   }
 `;
