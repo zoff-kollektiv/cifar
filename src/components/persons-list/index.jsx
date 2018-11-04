@@ -1,5 +1,6 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 
+import Constraint from '../constraint';
 import Network from '../network';
 import Person from './person';
 
@@ -20,7 +21,7 @@ export default class PersonList extends Component {
     const { persons } = this.props;
 
     return (
-      <Fragment>
+      <Constraint>
         Show as:
 
         <label>
@@ -40,7 +41,7 @@ export default class PersonList extends Component {
             {persons && persons.map(({ node }) => <Person key={node.frontmatter.title} {...node.frontmatter} />)}
           </ul>
         )}
-      </Fragment>
+      </Constraint>
     )
   }
 };
