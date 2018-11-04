@@ -1,14 +1,18 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 
+import Constraint from '../constraint';
+
 export default ({ frontmatter, html }) => {
   const { title } = frontmatter;
 
   return (
     <div className="report">
-      <h1>{title}</h1>
+      <Constraint>
+        <h1>{title}</h1>
 
-      <div dangerouslySetInnerHTML={{ __html: html }} />
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+      </Constraint>
     </div>
   )
 };

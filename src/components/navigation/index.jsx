@@ -10,7 +10,7 @@ export default () => <header>
 
   <nav>
     <Link to="/">Home</Link>
-    <Link to="/persons/">Persons</Link>
+    <Link to="/persons/all/">Persons</Link>
     <Link to="/report/">Report</Link>
   </nav>
 </header>
