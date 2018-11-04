@@ -10,12 +10,14 @@ export default ({ tabs }) => (
 
     <ul>
       <li>
-        <Link to={`/persons/all/`}>All</Link>
+        <Link to="/persons/all/">All</Link>
       </li>
 
-      {tabs.map(({ node: { frontmatter: { title }}}) => <li>
-        <Link to={`/persons/${createSlug(title)}/`}>{title}</Link>
-      </li>)}
+      {tabs.map(({ node: { frontmatter: { title } } }) => (
+        <li>
+          <Link to={`/persons/${createSlug(title)}/`}>{title}</Link>
+        </li>
+      ))}
     </ul>
   </nav>
 );

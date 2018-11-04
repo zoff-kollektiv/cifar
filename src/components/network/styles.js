@@ -47,7 +47,7 @@ export default css`
   }
 
   :global(.network .person:hover .person-name) {
-    font-variation-settings: "wght" 900;
+    font-variation-settings: 'wght' 900;
     font-weight: 900;
   }
 
@@ -80,7 +80,7 @@ export default css`
 
   :global(.network .person-name) {
     font-size: 12px;
-    font-variation-settings: "wght" 600;
+    font-variation-settings: 'wght' 600;
     font-weight: 600;
     letter-spacing: 0.025rem;
     line-height: 1.4;

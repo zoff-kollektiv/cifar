@@ -6,7 +6,7 @@ import styles from './styles';
 class Network extends Component {
   network = React.createRef();
 
-  componentDidMount () {
+  componentDidMount() {
     const { data } = this.props;
 
     renderNetwork(this.network.current, data);
@@ -16,14 +16,16 @@ class Network extends Component {
     });
   }
 
-  render () {
+  render() {
     return (
       <Fragment>
-        <style jsx global>{styles}</style>
+        <style jsx global>
+          {styles}
+        </style>
 
         <div className="network" ref={this.network} />
       </Fragment>
-    )
+    );
   }
 }
 

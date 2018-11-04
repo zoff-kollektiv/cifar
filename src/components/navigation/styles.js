@@ -11,7 +11,7 @@ export default css`
   }
 
   .title {
-    font-variation-settings: "wght" 500;
+    font-variation-settings: 'wght' 500;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
   }

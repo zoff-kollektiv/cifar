@@ -1,12 +1,13 @@
 const path = require('path');
 const slugify = require('slugify');
 
-const createSlug = text => slugify(text, {
-  lower: true
-});
+const createSlug = text =>
+  slugify(text, {
+    lower: true
+  });
 
-const createCountries = (graphql, createPage) => {
-  return graphql(`
+const createCountries = (graphql, createPage) =>
+  graphql(`
     query AllCountries {
       allMarkdownRemark(filter: { fields: { folder: { eq: "countries" } } }) {
         edges {
@@ -18,32 +19,30 @@ const createCountries = (graphql, createPage) => {
         }
       }
     }
-  `)
-    .then(({ errors, data }) => {
-      if (errors) {
-        return Promise.reject(errors);
-      }
+  `).then(({ errors, data }) => {
+    if (errors) {
+      return Promise.reject(errors);
+    }
 
-      const countries = data.allMarkdownRemark.edges;
+    const countries = data.allMarkdownRemark.edges;
 
-      [...countries].forEach(({ node: { frontmatter: { title }} }) => {
-        const pagePath = `/persons/${createSlug(title)}/`;
+    [...countries].forEach(({ node: { frontmatter: { title } } }) => {
+      const pagePath = `/persons/${createSlug(title)}/`;
 
-        console.log('create country', pagePath);
+      console.log('create country', pagePath);
 
-        createPage({
-          path: pagePath,
-          component: path.resolve('src/templates/country/index.jsx'),
-          context: {
-            countryName: title
-          }
-        });
+      createPage({
+        path: pagePath,
+        component: path.resolve('src/templates/country/index.jsx'),
+        context: {
+          countryName: title
+        }
       });
     });
-};
+  });
 
-const createPersons = (graphql, createPage) => {
-  return graphql(`
+const createPersons = (graphql, createPage) =>
+  graphql(`
     query AllPersons {
       allMarkdownRemark(filter: { fields: { folder: { eq: "persons" } } }) {
         edges {
@@ -56,26 +55,24 @@ const createPersons = (graphql, createPage) => {
         }
       }
     }
-  `)
-    .then(({ errors, data }) => {
-      if (errors) {
-        return Promise.reject(errors);
-      }
+  `).then(({ errors, data }) => {
+    if (errors) {
+      return Promise.reject(errors);
+    }
 
-      const persons = data.allMarkdownRemark.edges;
+    const persons = data.allMarkdownRemark.edges;
 
-      [...persons].forEach(({ node: { frontmatter: { title, country } } }) => {
-        const pagePath = `/persons/${createSlug(country)}/${createSlug(title)}/`;
+    [...persons].forEach(({ node: { frontmatter: { title, country } } }) => {
+      const pagePath = `/persons/${createSlug(country)}/${createSlug(title)}/`;
 
-        console.log('create person', pagePath);
+      console.log('create person', pagePath);
 
-        createPage({
-          path: pagePath,
-          component: path.resolve('src/templates/person/index.jsx')
-        });
+      createPage({
+        path: pagePath,
+        component: path.resolve('src/templates/person/index.jsx')
       });
     });
-};
+  });
 
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions;

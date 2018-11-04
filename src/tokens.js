@@ -8,7 +8,7 @@ const colors = {
 const fonts = {
   inter: {
     family: '"Inter UI", sans-serif',
-    familyVar: '"Inter UI var", sans-serif',
+    familyVar: '"Inter UI var", sans-serif'
   }
 };
 

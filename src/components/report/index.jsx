@@ -14,7 +14,7 @@ export default ({ frontmatter, html }) => {
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </Constraint>
     </div>
-  )
+  );
 };
 
 export const fragment = graphql`

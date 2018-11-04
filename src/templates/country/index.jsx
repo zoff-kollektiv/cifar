@@ -7,7 +7,10 @@ export default ({ data }) => <Country {...data} />;
 
 export const query = graphql`
   query AllPersonsPerCountry($countryName: String) {
-    countries: allMarkdownRemark(filter: { fields: { folder: { eq: "countries" } } }, sort: { fields: [frontmatter___title] }) {
+    countries: allMarkdownRemark(
+      filter: { fields: { folder: { eq: "countries" } } }
+      sort: { fields: [frontmatter___title] }
+    ) {
       edges {
         node {
           frontmatter {
@@ -17,7 +20,13 @@ export const query = graphql`
       }
     }
 
-    persons: allMarkdownRemark(filter: { fields: { folder: { eq: "persons" } }, frontmatter: { country: { eq: $countryName } } }, sort: { fields: [frontmatter___title] }) {
+    persons: allMarkdownRemark(
+      filter: {
+        fields: { folder: { eq: "persons" } }
+        frontmatter: { country: { eq: $countryName } }
+      }
+      sort: { fields: [frontmatter___title] }
+    ) {
       ...personsList
     }
   }
