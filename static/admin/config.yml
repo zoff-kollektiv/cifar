@@ -95,10 +95,11 @@ collections:
 
       - label: "Country"
         name: "country"
-        widget: "relation"
-        collection: "countries"
-        searchFields: ["title"]
-        valueField: "title"
+        widget: "select"
+        options:
+          - { label: "Egypt", value: "Egypt" }
+          - { label: "Tunesia", value: "Tunesia" }
+          - { label: "Ukraine", value: "Ukraine" }
 
       - label: "Suspected or confirmed overseas properties"
         name: "overseasProperties"
