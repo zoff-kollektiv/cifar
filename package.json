@@ -9,6 +9,7 @@
     "lint": "eslint --fix --ext .js,.jsx ."
   },
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "d3": "^5.7.0",
     "gatsby": "^2.0.38",
     "gatsby-image": "^2.0.19",
