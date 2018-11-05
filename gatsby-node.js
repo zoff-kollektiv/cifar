@@ -53,6 +53,7 @@ const createPersons = (graphql, createPage) =>
             frontmatter {
               country
               title
+              image
             }
           }
         }
@@ -65,20 +66,30 @@ const createPersons = (graphql, createPage) =>
 
     const persons = data.allMarkdownRemark.edges;
 
-    [...persons].forEach(({ node: { frontmatter: { title, country } } }) => {
-      const pagePath = `/persons/${createSlug(country)}/${createSlug(title)}/`;
-
-      // eslint-disable-next-line no-console
-      console.log('create person', pagePath);
-
-      createPage({
-        path: pagePath,
-        component: path.resolve('src/templates/person/index.jsx'),
-        context: {
-          title
+    [...persons].forEach(
+      ({
+        node: {
+          frontmatter: { title, country, image }
         }
-      });
-    });
+      }) => {
+        const pagePath = `/persons/${createSlug(country)}/${createSlug(
+          title
+        )}/`;
+        const imageFileName = path.basename(image);
+
+        // eslint-disable-next-line no-console
+        console.log('create person', pagePath);
+
+        createPage({
+          path: pagePath,
+          component: path.resolve('src/templates/person/index.jsx'),
+          context: {
+            title,
+            imageFileName
+          }
+        });
+      }
+    );
 
     return null;
   });

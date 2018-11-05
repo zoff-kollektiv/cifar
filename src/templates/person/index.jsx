@@ -6,8 +6,8 @@ import withLayout from '../../components/with-layout';
 import withNavigation from '../../components/with-navigation';
 
 const Page = ({ data }) => {
-  const { node } = data.allMarkdownRemark.edges[0];
-  const { html, frontmatter } = node;
+  const { image, person } = data;
+  const { html, frontmatter } = person;
   const { title, nameNative, ...table } = frontmatter;
 
   return (
@@ -16,6 +16,8 @@ const Page = ({ data }) => {
         {title}
         <small>{nameNative}</small>
       </h1>
+
+      <img src={image.childImageSharp.fluid.src} alt={title} />
 
       {/* eslint-disable-next-line react/no-danger */}
       <div dangerouslySetInnerHTML={{ __html: html }} />
@@ -35,24 +37,27 @@ const Page = ({ data }) => {
 export default withNavigation(withLayout(Page));
 
 export const query = graphql`
-  query Person($title: String) {
-    allMarkdownRemark(
-      filter: {
-        fields: { folder: { eq: "persons" } }
-        frontmatter: { title: { eq: $title } }
-      }
-    ) {
-      edges {
-        node {
-          html
-          frontmatter {
-            nameNative
-            title
-            role
-            aliases
-            overseasProperties
-          }
+  query Person($title: String, $imageFileName: String) {
+    image: file(relativePath: { eq: $imageFileName }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          src
+          srcSet
         }
+      }
+    }
+
+    person: markdownRemark(
+      fields: { folder: { eq: "persons" } }
+      frontmatter: { title: { eq: $title } }
+    ) {
+      html
+      frontmatter {
+        nameNative
+        title
+        role
+        aliases
+        overseasProperties
       }
     }
   }

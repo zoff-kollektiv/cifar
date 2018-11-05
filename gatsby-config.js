@@ -15,7 +15,17 @@ module.exports = {
       }
     },
 
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'uploads',
+        path: `${__dirname}/static/media/uploads`
+      }
+    },
+
     'gatsby-transformer-remark',
-    'gatsby-plugin-styled-jsx'
+    'gatsby-plugin-styled-jsx',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp'
   ]
 };
