@@ -69,6 +69,22 @@ collections:
         name: "image"
         widget: "image"
 
+      - label: "Ancestor"
+        name: "ancestor"
+        widget: "relation"
+        collection: "person"
+        searchFields: ["title"]
+        valueField: "title"
+        required: false
+
+      - label: "Connection to ancestor"
+        name: "connection"
+        widget: "select"
+        options:
+          - { label: "Family", value: "family" }
+          - { label: "Government", value: "government" }
+          - { label: "Private sector", value: "business" }
+
       - label: "Aliases"
         name: "aliases"
         widget: "list"
@@ -119,14 +135,6 @@ collections:
       - label: "Grounds for sanctions"
         name: "groundsForSanctions"
         widget: "string"
-
-      - label: "Ancestor"
-        name: "ancestor"
-        widget: "relation"
-        collection: "person"
-        searchFields: ["title"]
-        valueField: "title"
-        required: false
 
       - label: "Intro"
         name: "body"
