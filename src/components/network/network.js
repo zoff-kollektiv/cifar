@@ -60,6 +60,9 @@ const drawPersons = (svg, nodes) => {
     .enter()
     .append('g')
     .attr('class', 'person')
+    .attr('cx', d => d.x)
+    .attr('cy', d => d.y)
+    .attr('transform', ({ x, y }) => `translate(${x},${y})`)
     // eslint-disable-next-line no-alert
     .on('click', ({ name }) => alert(`Navigation to: ${name}`));
 
@@ -107,7 +110,12 @@ const drawConnections = (svg, links) => {
     .data(links)
     .enter()
     .append('line')
-    .attr('class', 'connection');
+    .attr('class', 'connection')
+    .attr('class', d => `connection connection--${d.target.connection}`)
+    .attr('x1', d => d.source.x)
+    .attr('y1', d => d.source.y)
+    .attr('x2', d => d.target.x)
+    .attr('y2', d => d.target.y);
 
   return connections;
 };
@@ -131,33 +139,27 @@ const render = (root, data) => {
     .attr('viewBox', `0 0 ${width} ${height}`)
     .attr('preserveAspectRatio', 'xMidYMid meet');
 
-  const connections = drawConnections(svg, links);
-  const persons = drawPersons(svg, nodes);
-
   appendImage(svg, nodes);
 
-  const updateLinks = () => {
-    connections
-      .attr('class', d => `connection connection--${d.target.connection}`)
-      .attr('x1', d => d.source.x)
-      .attr('y1', d => d.source.y)
-      .attr('x2', d => d.target.x)
-      .attr('y2', d => d.target.y);
-  };
-
-  const updateNodes = () => {
-    persons.attr('transform', ({ x, y }) => `translate(${x},${y})`);
-  };
-
-  d3.forceSimulation(nodes)
+  const simulation = d3
+    .forceSimulation(nodes)
     .force('charge', d3.forceManyBody().strength(-100))
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collide', d3.forceCollide(65))
-    .force('link', d3.forceLink(links).distance(20))
-    .on('tick', () => {
-      updateNodes();
-      updateLinks();
-    });
+    .force('collide', d3.forceCollide().radius(d => (d.root ? 80 : 55)))
+    .force('link', d3.forceLink())
+    .stop();
+
+  simulation
+    .force('link')
+    .links(links)
+    .distance(10);
+
+  for (let i = 0; i < 300; ++i) {
+    simulation.tick();
+  }
+
+  drawConnections(svg, links);
+  drawPersons(svg, nodes);
 
   return svg;
 };
