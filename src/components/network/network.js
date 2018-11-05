@@ -65,7 +65,6 @@ const drawPersons = (svg, nodes) => {
     .attr('cx', d => d.x)
     .attr('cy', d => d.y)
     .attr('transform', ({ x, y }) => `translate(${x},${y})`)
-    // eslint-disable-next-line no-alert
     .on('click', ({ country, name }) => {
       navigate(`/persons/${createSlug(country)}/${createSlug(name)}/`);
     });
