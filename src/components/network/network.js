@@ -1,4 +1,6 @@
 import * as d3 from 'd3';
+import { navigate } from '@reach/router';
+import createSlug from '../../lib/create-slug';
 
 const createNodesAndLinks = person => {
   const nodes = [];
@@ -64,7 +66,9 @@ const drawPersons = (svg, nodes) => {
     .attr('cy', d => d.y)
     .attr('transform', ({ x, y }) => `translate(${x},${y})`)
     // eslint-disable-next-line no-alert
-    .on('click', ({ name }) => alert(`Navigation to: ${name}`));
+    .on('click', ({ country, name }) => {
+      navigate(`/persons/${createSlug(country)}/${createSlug(name)}/`);
+    });
 
   // add a background-circle on the root person (for a background-color)
   persons
