@@ -36,7 +36,8 @@ export default class PersonList extends Component {
     const { persons } = this.props;
     const { view } = this.state;
     const url = window && new URL(window.location.href);
-    const showGraph = (url && url.searchParams.get('view') === 'network') || view === 'network';
+    const showGraph =
+      (url && url.searchParams.get('view') === 'network') || view === 'network';
 
     return (
       <Constraint>
