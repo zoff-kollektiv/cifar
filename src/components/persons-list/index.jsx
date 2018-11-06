@@ -7,7 +7,7 @@ import Person from './person';
 import data from './data';
 
 const updateHistory = view => {
-  const url = window && new URL(window.location.href);
+  const url = typeof window !== 'undefined' && new URL(window.location.href);
   const param = 'view';
 
   if (url && view === 'network') {
@@ -35,7 +35,7 @@ export default class PersonList extends Component {
   render() {
     const { persons } = this.props;
     const { view } = this.state;
-    const url = window && new URL(window.location.href);
+    const url = typeof window !== 'undefined' && new URL(window.location.href);
     const showGraph =
       (url && url.searchParams.get('view') === 'network') || view === 'network';
 
