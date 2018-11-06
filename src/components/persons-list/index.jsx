@@ -6,6 +6,19 @@ import Person from './person';
 
 import data from './data';
 
+const updateHistory = view => {
+  const url = window && new URL(window.location.href);
+  const param = 'view';
+
+  if (url && view === 'network') {
+    url.searchParams.append(param, 'network');
+  } else if (url) {
+    url.searchParams.delete(param);
+  }
+
+  window.history.pushState(null, document.title, url);
+};
+
 export default class PersonList extends Component {
   state = {
     view: 'list'
@@ -14,11 +27,16 @@ export default class PersonList extends Component {
   updateView = event => {
     const { value } = event.target;
 
+    updateHistory(value);
+
     this.setState({ view: value });
   };
 
   render() {
     const { persons } = this.props;
+    const { view } = this.state;
+    const url = window && new URL(window.location.href);
+    const showGraph = (url && url.searchParams.get('view') === 'network') || view === 'network';
 
     return (
       <Constraint>
@@ -29,7 +47,7 @@ export default class PersonList extends Component {
             type="radio"
             name="view"
             value="list"
-            checked={this.state.view === 'list'}
+            checked={!showGraph}
             onChange={this.updateView}
           />
         </label>
@@ -39,12 +57,12 @@ export default class PersonList extends Component {
             type="radio"
             name="view"
             value="network"
-            checked={this.state.view === 'network'}
+            checked={showGraph}
             onChange={this.updateView}
           />
         </label>
-        {this.state.view === 'network' && <Network data={data} />}
-        {this.state.view === 'list' && (
+        {showGraph && <Network data={data} />}
+        {!showGraph && (
           <ul>
             {persons &&
               persons.map(({ node }) => (
