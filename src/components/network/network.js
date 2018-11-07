@@ -32,8 +32,8 @@ const drawPersons = (svg, data) => {
     .attr('cx', d => d.x)
     .attr('cy', d => d.y)
     .attr('transform', ({ x, y }) => `translate(${x},${y})`)
-    .on('click', ({ country, name }) => {
-      navigate(`/persons/${createSlug(country)}/${createSlug(name)}/`);
+    .on('click', ({ country, title }) => {
+      navigate(`/persons/${createSlug(country)}/${createSlug(title)}/`);
     });
 
   // add a background-circle on the root person (for a background-color)
@@ -55,13 +55,14 @@ const drawPersons = (svg, data) => {
     .append('g')
     .attr(
       'class',
-      ({ ancestor }) => `person-info ${!ancestor ? 'person-info--for-root' : ''}`
+      ({ ancestor }) =>
+        `person-info ${!ancestor ? 'person-info--for-root' : ''}`
     );
 
   // name
   info
     .append('text')
-    .text(d => d.name)
+    .text(d => d.title)
     .attr('class', 'person-name');
 
   // role
@@ -98,10 +99,10 @@ const render = (root, data) => {
   const nodesById = d3.map();
 
   const links = data
-    .map(({ name, ancestor }) => {
+    .map(({ title, ancestor }) => {
       if (ancestor) {
         return {
-          source: name,
+          source: title,
           target: ancestor
         };
       }
@@ -111,7 +112,7 @@ const render = (root, data) => {
     .filter(Boolean);
 
   // setup links by name
-  data.forEach(_ => nodesById.set(_.name, _));
+  data.forEach(_ => nodesById.set(_.title, _));
   links.forEach(_ => {
     _.source = nodesById.get(_.source);
     _.target = nodesById.get(_.target);
