@@ -19,7 +19,7 @@ const appendImage = (svg, data) => {
     .attr('y', 0)
     .attr('width', size)
     .attr('height', size)
-    .attr('xlink:href', data.find(_ => _.root).image);
+    .attr('xlink:href', data.find(d => !d.ancestor).image);
 };
 
 const drawPersons = (svg, data) => {
@@ -38,24 +38,24 @@ const drawPersons = (svg, data) => {
 
   // add a background-circle on the root person (for a background-color)
   persons
-    .filter(d => d.root)
+    .filter(d => !d.ancestor)
     .append('circle')
     .attr('class', 'person-background-circle')
-    .attr('r', d => (d.root ? 70 : 10));
+    .attr('r', d => (!d.ancestor ? 70 : 10));
 
   persons
     .append('circle')
     .attr(
       'class',
-      d => `person-circle ${d.root ? 'person-circle--is-root' : ''}`
+      d => `person-circle ${!d.ancestor ? 'person-circle--is-root' : ''}`
     )
-    .attr('r', d => (d.root ? 70 : 10));
+    .attr('r', d => (!d.ancestor ? 70 : 10));
 
   const info = persons
     .append('g')
     .attr(
       'class',
-      ({ root }) => `person-info ${root ? 'person-info--for-root' : ''}`
+      ({ ancestor }) => `person-info ${!ancestor ? 'person-info--for-root' : ''}`
     );
 
   // name
@@ -127,7 +127,7 @@ const render = (root, data) => {
     .forceSimulation(data)
     .force('charge', d3.forceManyBody().strength(-100))
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collide', d3.forceCollide().radius(d => (d.root ? 80 : 55)))
+    .force('collide', d3.forceCollide().radius(d => (!d.ancestor ? 80 : 55)))
     .force('link', d3.forceLink())
     .stop();
 
