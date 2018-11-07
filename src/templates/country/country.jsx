@@ -8,7 +8,7 @@ import withNavigation from '../../components/with-navigation';
 const Page = ({ countries, persons }) => (
   <Fragment>
     <CountryTabs tabs={countries && countries.edges} />
-    <PersonsList persons={persons && persons.edges} />
+    {persons && persons.edges && <PersonsList persons={persons.edges} />}
   </Fragment>
 );
 
