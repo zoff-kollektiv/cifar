@@ -2,40 +2,7 @@ import * as d3 from 'd3';
 import { navigate } from '@reach/router';
 import createSlug from '../../lib/create-slug';
 
-const createNodesAndLinks = person => {
-  const nodes = [];
-  const links = [];
-
-  const storePerson = p => {
-    const { network, ...rest } = p;
-
-    nodes.push({ ...rest });
-  };
-
-  const storeLink = (target, source) => {
-    links.push({
-      target: target.name,
-      source: source.name
-    });
-  };
-
-  const interateNetwork = p => {
-    storePerson(p);
-
-    if (p.network) {
-      p.network.forEach(_ => {
-        interateNetwork(_);
-        storeLink(_, p);
-      });
-    }
-  };
-
-  interateNetwork(person);
-
-  return { nodes, links };
-};
-
-const appendImage = (svg, nodes) => {
+const appendImage = (svg, data) => {
   const size = 150;
 
   svg
@@ -52,49 +19,50 @@ const appendImage = (svg, nodes) => {
     .attr('y', 0)
     .attr('width', size)
     .attr('height', size)
-    .attr('xlink:href', nodes.find(_ => _.root).image);
+    .attr('xlink:href', data.find(d => !d.ancestor).image);
 };
 
-const drawPersons = (svg, nodes) => {
+const drawPersons = (svg, data) => {
   const persons = svg
     .selectAll('.person')
-    .data(nodes)
+    .data(data)
     .enter()
     .append('g')
     .attr('class', 'person')
     .attr('cx', d => d.x)
     .attr('cy', d => d.y)
     .attr('transform', ({ x, y }) => `translate(${x},${y})`)
-    .on('click', ({ country, name }) => {
-      navigate(`/persons/${createSlug(country)}/${createSlug(name)}/`);
+    .on('click', ({ country, title }) => {
+      navigate(`/persons/${createSlug(country)}/${createSlug(title)}/`);
     });
 
   // add a background-circle on the root person (for a background-color)
   persons
-    .filter(d => d.root)
+    .filter(d => !d.ancestor)
     .append('circle')
     .attr('class', 'person-background-circle')
-    .attr('r', d => (d.root ? 70 : 10));
+    .attr('r', d => (!d.ancestor ? 70 : 10));
 
   persons
     .append('circle')
     .attr(
       'class',
-      d => `person-circle ${d.root ? 'person-circle--is-root' : ''}`
+      d => `person-circle ${!d.ancestor ? 'person-circle--is-root' : ''}`
     )
-    .attr('r', d => (d.root ? 70 : 10));
+    .attr('r', d => (!d.ancestor ? 70 : 10));
 
   const info = persons
     .append('g')
     .attr(
       'class',
-      ({ root }) => `person-info ${root ? 'person-info--for-root' : ''}`
+      ({ ancestor }) =>
+        `person-info ${!ancestor ? 'person-info--for-root' : ''}`
     );
 
   // name
   info
     .append('text')
-    .text(d => d.name)
+    .text(d => d.title)
     .attr('class', 'person-name');
 
   // role
@@ -129,10 +97,22 @@ const render = (root, data) => {
   const svg = d3.select(root).append('svg');
   const { height, width } = root.getBoundingClientRect();
   const nodesById = d3.map();
-  const { nodes, links } = createNodesAndLinks(data[0]);
+
+  const links = data
+    .map(({ title, ancestor }) => {
+      if (ancestor) {
+        return {
+          source: title,
+          target: ancestor
+        };
+      }
+
+      return null;
+    })
+    .filter(Boolean);
 
   // setup links by name
-  nodes.forEach(_ => nodesById.set(_.name, _));
+  data.forEach(_ => nodesById.set(_.title, _));
   links.forEach(_ => {
     _.source = nodesById.get(_.source);
     _.target = nodesById.get(_.target);
@@ -142,13 +122,13 @@ const render = (root, data) => {
     .attr('viewBox', `0 0 ${width} ${height}`)
     .attr('preserveAspectRatio', 'xMidYMid meet');
 
-  appendImage(svg, nodes);
+  appendImage(svg, data);
 
   const simulation = d3
-    .forceSimulation(nodes)
+    .forceSimulation(data)
     .force('charge', d3.forceManyBody().strength(-100))
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collide', d3.forceCollide().radius(d => (d.root ? 80 : 55)))
+    .force('collide', d3.forceCollide().radius(d => (!d.ancestor ? 80 : 55)))
     .force('link', d3.forceLink())
     .stop();
 
@@ -162,7 +142,7 @@ const render = (root, data) => {
   }
 
   drawConnections(svg, links);
-  drawPersons(svg, nodes);
+  drawPersons(svg, data);
 
   return svg;
 };

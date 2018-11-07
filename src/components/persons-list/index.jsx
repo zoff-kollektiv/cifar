@@ -4,7 +4,8 @@ import Constraint from '../constraint';
 import Network from '../network';
 import Person from './person';
 
-import data from './data';
+const extractFrontmatter = persons =>
+  persons.map(person => person.node.frontmatter);
 
 const updateHistory = view => {
   const url = typeof window !== 'undefined' && new URL(window.location.href);
@@ -62,7 +63,7 @@ export default class PersonList extends Component {
             onChange={this.updateView}
           />
         </label>
-        {showGraph && <Network data={data} />}
+        {showGraph && <Network data={extractFrontmatter(persons)} />}
         {!showGraph && (
           <ul>
             {persons &&
