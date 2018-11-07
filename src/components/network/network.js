@@ -2,40 +2,7 @@ import * as d3 from 'd3';
 import { navigate } from '@reach/router';
 import createSlug from '../../lib/create-slug';
 
-const createNodesAndLinks = person => {
-  const nodes = [];
-  const links = [];
-
-  const storePerson = p => {
-    const { network, ...rest } = p;
-
-    nodes.push({ ...rest });
-  };
-
-  const storeLink = (target, source) => {
-    links.push({
-      target: target.name,
-      source: source.name
-    });
-  };
-
-  const interateNetwork = p => {
-    storePerson(p);
-
-    if (p.network) {
-      p.network.forEach(_ => {
-        interateNetwork(_);
-        storeLink(_, p);
-      });
-    }
-  };
-
-  interateNetwork(person);
-
-  return { nodes, links };
-};
-
-const appendImage = (svg, nodes) => {
+const appendImage = (svg, data) => {
   const size = 150;
 
   svg
@@ -52,13 +19,13 @@ const appendImage = (svg, nodes) => {
     .attr('y', 0)
     .attr('width', size)
     .attr('height', size)
-    .attr('xlink:href', nodes.find(_ => _.root).image);
+    .attr('xlink:href', data.find(_ => _.root).image);
 };
 
-const drawPersons = (svg, nodes) => {
+const drawPersons = (svg, data) => {
   const persons = svg
     .selectAll('.person')
-    .data(nodes)
+    .data(data)
     .enter()
     .append('g')
     .attr('class', 'person')
@@ -129,10 +96,22 @@ const render = (root, data) => {
   const svg = d3.select(root).append('svg');
   const { height, width } = root.getBoundingClientRect();
   const nodesById = d3.map();
-  const { nodes, links } = createNodesAndLinks(data[0]);
+
+  const links = data
+    .map(({ name, ancestor }) => {
+      if (ancestor) {
+        return {
+          source: name,
+          target: ancestor
+        };
+      }
+
+      return null;
+    })
+    .filter(Boolean);
 
   // setup links by name
-  nodes.forEach(_ => nodesById.set(_.name, _));
+  data.forEach(_ => nodesById.set(_.name, _));
   links.forEach(_ => {
     _.source = nodesById.get(_.source);
     _.target = nodesById.get(_.target);
@@ -142,10 +121,10 @@ const render = (root, data) => {
     .attr('viewBox', `0 0 ${width} ${height}`)
     .attr('preserveAspectRatio', 'xMidYMid meet');
 
-  appendImage(svg, nodes);
+  appendImage(svg, data);
 
   const simulation = d3
-    .forceSimulation(nodes)
+    .forceSimulation(data)
     .force('charge', d3.forceManyBody().strength(-100))
     .force('center', d3.forceCenter(width / 2, height / 2))
     .force('collide', d3.forceCollide().radius(d => (d.root ? 80 : 55)))
@@ -162,7 +141,7 @@ const render = (root, data) => {
   }
 
   drawConnections(svg, links);
-  drawPersons(svg, nodes);
+  drawPersons(svg, data);
 
   return svg;
 };
