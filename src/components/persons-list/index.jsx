@@ -63,7 +63,6 @@ export default class PersonList extends Component {
             onChange={this.updateView}
           />
         </label>
-        {console.log('what', extractFrontmatter(persons))}
         {showGraph && <Network data={extractFrontmatter(persons)} />}
         {!showGraph && (
           <ul>
