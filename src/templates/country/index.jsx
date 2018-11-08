@@ -3,7 +3,7 @@ import React from 'react';
 
 import Country from './country';
 
-export default ({ data }) => <Country {...data} />;
+export default props => <Country {...props} />;
 
 export const query = graphql`
   query AllPersonsPerCountry($countryName: String) {
