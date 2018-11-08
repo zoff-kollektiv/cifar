@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "name": "cifar-sanctions",
+  "description": "EU sanctions report",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
