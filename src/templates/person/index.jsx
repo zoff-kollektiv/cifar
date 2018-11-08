@@ -1,38 +1,11 @@
 import { graphql } from 'gatsby';
-import React, { Fragment } from 'react';
+import React from 'react';
 
-import Constraint from '../../components/constraint';
+import Person from '../../components/person';
 import withLayout from '../../components/with-layout';
 import withNavigation from '../../components/with-navigation';
 
-const Page = ({ data }) => {
-  const { image, person } = data;
-  const { html, frontmatter } = person;
-  const { title, nameNative, ...table } = frontmatter;
-
-  return (
-    <Constraint>
-      <h1>
-        {title}
-        <small>{nameNative}</small>
-      </h1>
-
-      <img src={image.childImageSharp.fluid.src} alt={title} />
-
-      {/* eslint-disable-next-line react/no-danger */}
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-
-      <dl>
-        {Object.keys(table).map(key => (
-          <Fragment key={key}>
-            <dt>{key}</dt>
-            <dd>{table[key]}</dd>
-          </Fragment>
-        ))}
-      </dl>
-    </Constraint>
-  );
-};
+const Page = ({ data }) => <Person {...data} />;
 
 export default withNavigation(withLayout(Page));
 

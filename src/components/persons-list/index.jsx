@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Constraint from '../constraint';
 import Network from '../network';
 import Person from './person';
+import styles from './styles';
 
 const extractFrontmatter = persons =>
   persons.map(person => person.node.frontmatter);
@@ -28,6 +29,7 @@ export default class PersonList extends Component {
 
     return (
       <Constraint>
+        <style jsx>{styles}</style>
         Show as:
         {showGraph ? (
           <Link to={`/persons/${slug}/`}>List</Link>
@@ -43,7 +45,7 @@ export default class PersonList extends Component {
           <Network data={extractFrontmatter(persons)} images={images.edges} />
         )}
         {!showGraph && (
-          <ul>
+          <ul className="person-list">
             {persons &&
               persons.map(({ node }) => (
                 <Person key={node.frontmatter.title} {...node} />

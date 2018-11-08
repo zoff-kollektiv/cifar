@@ -1,17 +1,24 @@
 import { graphql } from 'gatsby';
 import Link from 'gatsby-link';
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import createSlug from '../../../lib/create-slug';
+import styles from './styles';
 
-export default ({ frontmatter: { country, title } }) => (
-  <Fragment>
-    <h2>
+export default ({ frontmatter: { country, title, role } }) => (
+  <li className="person">
+    <style jsx>{styles}</style>
+
+    <figure className="image" />
+
+    <h2 className="title">
       <Link to={`/persons/${createSlug(country)}/${createSlug(title)}/`}>
         {title}
+
+        <small className="role">{role}</small>
       </Link>
     </h2>
-  </Fragment>
+  </li>
 );
 
 export const fragment = graphql`
@@ -21,7 +28,7 @@ export const fragment = graphql`
         frontmatter {
           country
           title
-          image
+          role
         }
       }
     }
