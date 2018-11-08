@@ -30,7 +30,8 @@ const createCountries = (graphql, createPage) =>
     const countries = data.countries.edges;
 
     [...countries].forEach(({ node: { frontmatter: { title } } }) => {
-      const pagePath = `/persons/${createSlug(title)}/`;
+      const slug = createSlug(title);
+      const pagePath = `/persons/${slug}/`;
 
       // eslint-disable-next-line no-console
       console.log('create country', pagePath);
@@ -39,7 +40,8 @@ const createCountries = (graphql, createPage) =>
         path: pagePath,
         component: path.resolve('src/templates/country/index.jsx'),
         context: {
-          countryName: title
+          countryName: title,
+          countrySlug: slug
         }
       });
     });

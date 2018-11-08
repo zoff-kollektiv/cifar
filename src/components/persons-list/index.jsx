@@ -1,3 +1,4 @@
+import Link from 'gatsby-link';
 import React, { Component } from 'react';
 
 import Constraint from '../constraint';
@@ -7,19 +8,6 @@ import Person from './person';
 const extractFrontmatter = persons =>
   persons.map(person => person.node.frontmatter);
 
-const updateHistory = view => {
-  const url = typeof window !== 'undefined' && new URL(window.location.href);
-  const param = 'view';
-
-  if (url && view === 'network') {
-    url.searchParams.append(param, 'network');
-  } else if (url) {
-    url.searchParams.delete(param);
-  }
-
-  window.history.pushState(null, document.title, url);
-};
-
 export default class PersonList extends Component {
   state = {
     view: 'list'
@@ -28,13 +16,11 @@ export default class PersonList extends Component {
   updateView = event => {
     const { value } = event.target;
 
-    updateHistory(value);
-
     this.setState({ view: value });
   };
 
   render() {
-    const { persons, images } = this.props;
+    const { persons, images, slug } = this.props;
     const { view } = this.state;
     const url = typeof window !== 'undefined' && new URL(window.location.href);
     const showGraph =
@@ -43,26 +29,16 @@ export default class PersonList extends Component {
     return (
       <Constraint>
         Show as:
-        <label>
-          List
-          <input
-            type="radio"
-            name="view"
-            value="list"
-            checked={!showGraph}
-            onChange={this.updateView}
-          />
-        </label>
-        <label>
-          Network
-          <input
-            type="radio"
-            name="view"
-            value="network"
-            checked={showGraph}
-            onChange={this.updateView}
-          />
-        </label>
+        {showGraph ? (
+          <Link to={`/persons/${slug}/`}>List</Link>
+        ) : (
+          <span>List</span>
+        )}
+        {showGraph ? (
+          <span>Network</span>
+        ) : (
+          <Link to={`/persons/${slug}/?view=network`}>Network</Link>
+        )}
         {showGraph && (
           <Network data={extractFrontmatter(persons)} images={images.edges} />
         )}
