@@ -1,21 +1,23 @@
 import { graphql } from 'gatsby';
-import React from 'react';
+import Helmet from 'react-helmet';
+import React, { Fragment } from 'react';
 
 import CountryOverview from './country-overview';
 
 export default () => (
-  <div>
+  <Fragment>
+    <Helmet>
+      <title>EU sanctions | cifar</title>
+    </Helmet>
     <CountryOverview />
-  </div>
+  </Fragment>
 );
 
 export const fragment = graphql`
   fragment home on MarkdownRemarkConnection {
-    edges {
-      node {
-        frontmatter {
-          title
-        }
+    node {
+      frontmatter {
+        title
       }
     }
   }
