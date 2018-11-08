@@ -2,7 +2,12 @@ import * as d3 from 'd3';
 import { navigate } from '@reach/router';
 import createSlug from '../../lib/create-slug';
 
-const appendImage = (svg, data) => {
+const findImageByUrl = (images, url) =>
+  images.find(({ node: { parent: { absolutePath } } }) =>
+    absolutePath.endsWith(url)
+  );
+
+const appendImage = (svg, data, images) => {
   const size = 150;
 
   svg
@@ -19,7 +24,11 @@ const appendImage = (svg, data) => {
     .attr('y', 0)
     .attr('width', size)
     .attr('height', size)
-    .attr('xlink:href', data.find(d => !d.ancestor).image);
+    .attr('xlink:href', () => {
+      const imageURL = data.find(_ => !_.ancestor).image;
+      const publicImage = findImageByUrl(images, imageURL);
+      return publicImage && publicImage.node.fluid.src;
+    });
 };
 
 const drawPersons = (svg, data) => {
@@ -91,7 +100,7 @@ const drawConnections = (svg, links) => {
   return connections;
 };
 
-const render = (root, data) => {
+const render = (root, data, images) => {
   root.innerHTML = '';
 
   const svg = d3.select(root).append('svg');
@@ -122,7 +131,7 @@ const render = (root, data) => {
     .attr('viewBox', `0 0 ${width} ${height}`)
     .attr('preserveAspectRatio', 'xMidYMid meet');
 
-  appendImage(svg, data);
+  appendImage(svg, data, images);
 
   const simulation = d3
     .forceSimulation(data)

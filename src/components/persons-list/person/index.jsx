@@ -21,6 +21,7 @@ export const fragment = graphql`
         frontmatter {
           country
           title
+          image
         }
       }
     }

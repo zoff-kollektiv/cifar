@@ -8,12 +8,15 @@ const createSlug = text =>
 
 const createCountries = (graphql, createPage) =>
   graphql(`
-    query AllCountries {
-      allMarkdownRemark(filter: { fields: { folder: { eq: "countries" } } }) {
+    query {
+      countries: allMarkdownRemark(
+        filter: { fields: { folder: { eq: "countries" } } }
+      ) {
         edges {
           node {
             frontmatter {
               title
+              image
             }
           }
         }
@@ -24,7 +27,7 @@ const createCountries = (graphql, createPage) =>
       return Promise.reject(errors);
     }
 
-    const countries = data.allMarkdownRemark.edges;
+    const countries = data.countries.edges;
 
     [...countries].forEach(({ node: { frontmatter: { title } } }) => {
       const pagePath = `/persons/${createSlug(title)}/`;
@@ -46,8 +49,10 @@ const createCountries = (graphql, createPage) =>
 
 const createPersons = (graphql, createPage) =>
   graphql(`
-    query AllPersons {
-      allMarkdownRemark(filter: { fields: { folder: { eq: "persons" } } }) {
+    query {
+      persons: allMarkdownRemark(
+        filter: { fields: { folder: { eq: "persons" } } }
+      ) {
         edges {
           node {
             frontmatter {
@@ -64,7 +69,7 @@ const createPersons = (graphql, createPage) =>
       return Promise.reject(errors);
     }
 
-    const persons = data.allMarkdownRemark.edges;
+    const persons = data.persons.edges;
 
     [...persons].forEach(
       ({

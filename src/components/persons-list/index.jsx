@@ -34,7 +34,7 @@ export default class PersonList extends Component {
   };
 
   render() {
-    const { persons } = this.props;
+    const { persons, images } = this.props;
     const { view } = this.state;
     const url = typeof window !== 'undefined' && new URL(window.location.href);
     const showGraph =
@@ -63,7 +63,9 @@ export default class PersonList extends Component {
             onChange={this.updateView}
           />
         </label>
-        {showGraph && <Network data={extractFrontmatter(persons)} />}
+        {showGraph && (
+          <Network data={extractFrontmatter(persons)} images={images.edges} />
+        )}
         {!showGraph && (
           <ul>
             {persons &&
