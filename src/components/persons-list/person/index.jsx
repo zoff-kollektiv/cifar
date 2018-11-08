@@ -9,15 +9,14 @@ export default ({ frontmatter: { country, title, role } }) => (
   <li className="person">
     <style jsx>{styles}</style>
 
-    <figure className="image" />
+    <Link to={`/persons/${createSlug(country)}/${createSlug(title)}/`}>
+      <figure className="image" />
 
-    <h2 className="title">
-      <Link to={`/persons/${createSlug(country)}/${createSlug(title)}/`}>
+      <h2 className="title">
         {title}
-
         <small className="role">{role}</small>
-      </Link>
-    </h2>
+      </h2>
+    </Link>
   </li>
 );
 

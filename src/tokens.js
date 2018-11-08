@@ -1,7 +1,7 @@
 const SCREEN_SIZES = [['phone', 500], ['tablet', 768], ['desktop', 1024]];
 
 const colors = {
-  beige: 'rgb(243, 231, 214)',
+  beige: 'rgb(235, 231, 214)',
   blue: 'rgb(25, 33, 98)'
 };
 

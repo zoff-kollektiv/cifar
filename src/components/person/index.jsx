@@ -21,7 +21,11 @@ export default ({
         </h1>
 
         <figure className="image">
-          <img src={image.childImageSharp.fluid.src} alt={title} className="image-image" />
+          <img
+            src={image.childImageSharp.fluid.src}
+            alt={title}
+            className="image-image"
+          />
         </figure>
       </header>
 

@@ -24,9 +24,14 @@ export default css`
     text-align: center;
   }
 
-  :global(.title > a) {
+  :global(.person > a) {
     color: currentColor;
     text-decoration: none;
+  }
+
+  :global(.person > a:hover .title),
+  :global(.person > a:focus .title) {
+    text-decoration: underline;
   }
 
   .role {

@@ -1,9 +1,11 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 
+import CountryOverview from './country-overview';
+
 export default () => (
   <div>
-    <h1>Home</h1>
+    <CountryOverview />
   </div>
 );
 
