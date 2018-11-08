@@ -3,7 +3,15 @@ import React from 'react';
 
 import Country from './country';
 
-export default ({ data }) => <Country {...data} />;
+export default props => {
+  const { pathContext, ...rest } = props;
+  const newPathContext = {
+    ...pathContext,
+    countrySlug: 'all'
+  };
+
+  return <Country {...rest} pathContext={newPathContext} />;
+};
 
 export const query = graphql`
   query AllPersons {
