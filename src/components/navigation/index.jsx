@@ -7,10 +7,9 @@ export default () => (
   <header>
     <style jsx>{styles}</style>
 
-    <strong className="title">EU sanctions watch</strong>
+    <Link to="/" className="title">EU sanctions watch</Link>
 
     <nav>
-      <Link to="/">Home</Link>
       <Link
         to="/persons"
         getProps={({ isPartiallyCurrent }) =>

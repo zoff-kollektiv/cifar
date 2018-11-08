@@ -10,9 +10,10 @@ export default css`
     padding: 1.25rem 2.5rem;
   }
 
-  .title {
+  :global(header .title) {
     font-variation-settings: 'wght' 500;
     letter-spacing: 0.05rem;
+    text-decoration: none;
     text-transform: uppercase;
   }
 
@@ -26,7 +27,7 @@ export default css`
     text-decoration: none;
   }
 
-  :global(header a[aria-current]),
+  :global(header a:not(.title)[aria-current]),
   :global(header a:hover),
   :global(header a:focus) {
     text-decoration: underline;
