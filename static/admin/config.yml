@@ -18,6 +18,13 @@ collections:
           - label: "Text"
             name: "body"
             widget: "markdown"
+            buttons:
+              - bold
+              - italic
+              - link
+              - quote
+              - bulleted-list
+              - numbered-list
 
       - label: "Home"
         name: "home"
@@ -30,6 +37,13 @@ collections:
           - label: "Mission statement"
             name: "missionStatement"
             widget: "markdown"
+            buttons:
+              - bold
+              - italic
+              - link
+              - quote
+              - bulleted-list
+              - numbered-list
 
   - name: "countries"
     label: "Countries"
@@ -45,6 +59,13 @@ collections:
       - label: "Summary"
         name: "summary"
         widget: "markdown"
+        buttons:
+          - bold
+          - italic
+          - link
+          - quote
+          - bulleted-list
+          - numbered-list
 
   - name: "persons"
     label: "Persons"
@@ -101,9 +122,12 @@ collections:
         name: "country"
         widget: "select"
         options:
-          - { label: "Egypt", value: "Egypt" }
-          - { label: "Tunesia", value: "Tunesia" }
-          - { label: "Ukraine", value: "Ukraine" }
+          - label: "Egypt"
+            value: "Egypt"
+          - label: "Tunesia"
+            value: "Tunesia"
+          - label: "Ukraine"
+            value: "Ukraine"
 
       - label: "Suspected or confirmed overseas properties"
         name: "overseasProperties"
@@ -117,32 +141,58 @@ collections:
 
       - label: "Estimate of total stolen assets"
         name: "stolenAssets"
-        widget: "string"
+        widget: "list"
         required: false
+        fields:
+          - label: "Amount"
+            name: "stolenAssetsAmount"
+            widget: "string"
+          - label: "Currency"
+            name: "stolenAssetsCurrency"
+            widget: "select"
+            options:
+              - label: "Euro"
+                value: "euro"
+              - label: "US Dollar"
+                value: "usd"
+          - label: "Source Link"
+            name: "stolenAssetsLink"
+            widget: "string"
+          - label: "Source Link Label"
+            name: "stolenAssetsLinkLabel"
+            widget: "string"
 
       - label: "Estimates of assets frozen or confiscated"
         name: "frozenAssets"
-        widget: "string"
+        widget: "list"
         required: false
+        fields:
+          - label: "Amount"
+            name: "stolenAssetsAmount"
+            widget: "string"
+          - label: "Currency"
+            name: "stolenAssetsCurrency"
+            widget: "select"
+            options:
+              - label: "Euro"
+                value: "euro"
+              - label: "US Dollar"
+                value: "usd"
+          - label: "Source Link"
+            name: "stolenAssetsLink"
+            widget: "string"
+          - label: "Source Link Label"
+            name: "stolenAssetsLinkLabel"
+            widget: "string"
 
-      - label: "Country of origin"
-        name: "originCountry"
-        widget: "string"
-        required: false
-
-      - label: "City of origin"
-        name: "originCity"
+      - label: "Place of origin"
+        name: "placeOfOrigin"
         widget: "string"
         required: false
 
       - label: "Birthdate"
         name: "birthdate"
         widget: "date"
-        required: false
-
-      - label: "Gender"
-        name: "gender"
-        widget: "string"
         required: false
 
       - label: "Grounds for sanctions"
@@ -154,5 +204,12 @@ collections:
         name: "body"
         widget: "markdown"
         required: false
+        buttons:
+          - bold
+          - italic
+          - link
+          - quote
+          - bulleted-list
+          - numbered-list
 
 media_folder: "static/media/uploads"
