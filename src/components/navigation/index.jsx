@@ -7,7 +7,9 @@ export default () => (
   <header>
     <style jsx>{styles}</style>
 
-    <Link to="/" className="title">EU sanctions watch</Link>
+    <Link to="/" className="title">
+      EU sanctions watch
+    </Link>
 
     <nav>
       <Link
