@@ -7,12 +7,12 @@ class Network extends Component {
   network = React.createRef();
 
   componentDidMount() {
-    const { data } = this.props;
+    const { data, images } = this.props;
 
-    renderNetwork(this.network.current, data);
+    renderNetwork(this.network.current, data, images);
 
     window.addEventListener('resize', () => {
-      renderNetwork(this.network.current, data);
+      renderNetwork(this.network.current, data, images);
     });
   }
 

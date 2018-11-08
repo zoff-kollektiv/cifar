@@ -26,5 +26,20 @@ export const query = graphql`
     ) {
       ...personsList
     }
+
+    images: allImageSharp {
+      edges {
+        node {
+          parent {
+            ... on File {
+              absolutePath
+            }
+          }
+          fluid(maxWidth: 150) {
+            src
+          }
+        }
+      }
+    }
   }
 `;
