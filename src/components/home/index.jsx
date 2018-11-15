@@ -4,10 +4,10 @@ import React, { Fragment } from 'react';
 
 import CountryOverview from './country-overview';
 
-export default () => (
+export default ({ frontmatter: { title } }) => (
   <Fragment>
     <Helmet>
-      <title>EU sanctions | cifar</title>
+      <title>{title}</title>
     </Helmet>
     <CountryOverview />
   </Fragment>
