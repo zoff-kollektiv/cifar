@@ -101,6 +101,7 @@ const drawConnections = (svg, links) => {
 };
 
 const render = (root, data, images) => {
+  // eslint-disable-next-line no-param-reassign
   root.innerHTML = '';
 
   const svg = d3.select(root).append('svg');
@@ -123,7 +124,9 @@ const render = (root, data, images) => {
   // setup links by name
   data.forEach(_ => nodesById.set(_.title, _));
   links.forEach(_ => {
+    // eslint-disable-next-line no-param-reassign
     _.source = nodesById.get(_.source);
+    // eslint-disable-next-line no-param-reassign
     _.target = nodesById.get(_.target);
   });
 
@@ -146,6 +149,7 @@ const render = (root, data, images) => {
     .links(links)
     .distance(10);
 
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < 300; ++i) {
     simulation.tick();
   }

@@ -7,7 +7,7 @@ import withNavigation from '../components/with-navigation';
 
 const Page = ({ data = {} }) => {
   const { page } = data;
-  return (<Home {...page} />);
+  return <Home {...page} />;
 };
 
 export default withNavigation(withLayout(Page));
