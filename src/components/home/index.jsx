@@ -15,10 +15,8 @@ export default () => (
 
 export const fragment = graphql`
   fragment home on MarkdownRemark {
-    node {
-      frontmatter {
-        title
-      }
+    frontmatter {
+      title
     }
   }
 `;
