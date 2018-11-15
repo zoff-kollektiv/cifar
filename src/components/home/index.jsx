@@ -14,11 +14,9 @@ export default () => (
 );
 
 export const fragment = graphql`
-  fragment home on MarkdownRemarkConnection {
-    node {
-      frontmatter {
-        title
-      }
+  fragment home on MarkdownRemark {
+    frontmatter {
+      title
     }
   }
 `;
