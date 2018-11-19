@@ -7,6 +7,7 @@ export default props => {
   const { pathContext, ...rest } = props;
   const newPathContext = {
     ...pathContext,
+    countryName: 'All affected persons',
     countrySlug: 'all'
   };
 
@@ -33,6 +34,12 @@ export const query = graphql`
       sort: { fields: [frontmatter___title] }
     ) {
       ...personsList
+    }
+
+    site: site {
+      siteMetadata {
+        title
+      }
     }
 
     images: allImageSharp {

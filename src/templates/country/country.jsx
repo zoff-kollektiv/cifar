@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import Helmet from 'react-helmet';
+import React from 'react';
 
 import Constraint from '../../components/constraint';
 import CountryTabs from '../../components/country-tabs';
@@ -7,10 +8,16 @@ import withLayout from '../../components/with-layout';
 import withNavigation from '../../components/with-navigation';
 
 const Page = ({
-  data: { countries, current, persons, images },
-  pathContext: { countrySlug }
+  data: { countries, current, persons, images, site },
+  pathContext: { countryName, countrySlug }
 }) => (
-  <Fragment>
+  <>
+    <Helmet>
+      <title>
+        {countryName} | {site.siteMetadata.title}
+      </title>
+    </Helmet>
+
     <CountryTabs tabs={countries && countries.edges} />
 
     {current && (
@@ -23,7 +30,7 @@ const Page = ({
     {persons && persons.edges && (
       <PersonsList persons={persons.edges} images={images} slug={countrySlug} />
     )}
-  </Fragment>
+  </>
 );
 
 export default withNavigation(withLayout(Page));

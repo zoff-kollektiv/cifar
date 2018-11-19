@@ -46,6 +46,12 @@ export const query = graphql`
       ...personsList
     }
 
+    site: site {
+      siteMetadata {
+        title
+      }
+    }
+
     images: allImageSharp {
       edges {
         node {
