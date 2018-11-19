@@ -14,7 +14,7 @@ export default ({ tabs }) => (
       </li>
 
       {tabs.map(({ node: { frontmatter: { title } } }) => (
-        <li>
+        <li key={title}>
           <Link to={`/persons/${createSlug(title)}/`}>{title}</Link>
         </li>
       ))}

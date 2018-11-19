@@ -20,6 +20,22 @@ export const query = graphql`
       }
     }
 
+    current: allMarkdownRemark(
+      filter: {
+        frontmatter: { title: { eq: $countryName } }
+        fields: { folder: { eq: "countries" } }
+      }
+    ) {
+      edges {
+        node {
+          rawMarkdownBody
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+
     persons: allMarkdownRemark(
       filter: {
         fields: { folder: { eq: "persons" } }

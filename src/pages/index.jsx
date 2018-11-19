@@ -9,6 +9,7 @@ import withNavigation from '../components/with-navigation';
 
 const Page = ({
   data: {
+    countries,
     missionStatement,
     privateSector,
     site: {
@@ -20,7 +21,7 @@ const Page = ({
     <Helmet>
       <title>{title}</title>
     </Helmet>
-    <CountryOverview {...missionStatement} />
+    <CountryOverview countries={countries.edges} {...missionStatement} />
     <PrivateSector {...privateSector} />
   </Fragment>
 );
@@ -36,6 +37,19 @@ export const query = graphql`
       }
     ) {
       ...missionStatement
+    }
+
+    countries: allMarkdownRemark(
+      filter: { fields: { folder: { eq: "countries" } } }
+      sort: { fields: [frontmatter___title] }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+          }
+        }
+      }
     }
 
     privateSector: markdownRemark(
