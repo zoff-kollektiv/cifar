@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Default title'
+    title: 'EU sanctions watch'
   },
 
   plugins: [
