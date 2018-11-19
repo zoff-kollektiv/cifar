@@ -24,26 +24,36 @@ export default class PersonList extends Component {
     const { persons, images, slug } = this.props;
     const { view } = this.state;
     const url = typeof window !== 'undefined' && new URL(window.location.href);
+    const showGraphSwitch = slug !== 'all';
     const showGraph =
       (url && url.searchParams.get('view') === 'network') || view === 'network';
 
     return (
       <Constraint>
         <style jsx>{styles}</style>
-        Show as:
-        {showGraph ? (
-          <Link to={`/persons/${slug}/`}>List</Link>
-        ) : (
-          <span>List</span>
+
+        {showGraphSwitch && (
+          <>
+            Show as:
+            {showGraph ? (
+              <Link to={`/persons/${slug}/`}>List</Link>
+            ) : (
+              <span>List</span>
+            )}
+            {showGraph ? (
+              <span>Network</span>
+            ) : (
+              <Link to={`/persons/${slug}/?view=network`}>Network</Link>
+            )}
+            {showGraph && (
+              <Network
+                data={extractFrontmatter(persons)}
+                images={images.edges}
+              />
+            )}
+          </>
         )}
-        {showGraph ? (
-          <span>Network</span>
-        ) : (
-          <Link to={`/persons/${slug}/?view=network`}>Network</Link>
-        )}
-        {showGraph && (
-          <Network data={extractFrontmatter(persons)} images={images.edges} />
-        )}
+
         {!showGraph && (
           <ul className="person-list">
             {persons &&
