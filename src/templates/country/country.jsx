@@ -7,30 +7,34 @@ import PersonsList from '../../components/persons-list';
 import withLayout from '../../components/with-layout';
 import withNavigation from '../../components/with-navigation';
 
+import styles from './styles';
+
 const Page = ({
   data: { countries, current, persons, images, site },
   pathContext: { countryName, countrySlug }
 }) => (
-  <>
+  <main>
     <Helmet>
       <title>
         {countryName} | {site.siteMetadata.title}
       </title>
     </Helmet>
 
+    <style jsx>{styles}</style>
+
     <CountryTabs tabs={countries && countries.edges} />
 
     {current && (
       <Constraint>
-        <h1>{current.edges[0].node.frontmatter.title}</h1>
-        <p>{current.edges[0].node.rawMarkdownBody}</p>
+        <h1 className="title">{current.edges[0].node.frontmatter.title}</h1>
+        <p className="intro">{current.edges[0].node.rawMarkdownBody}</p>
       </Constraint>
     )}
 
     {persons && persons.edges && (
       <PersonsList persons={persons.edges} images={images} slug={countrySlug} />
     )}
-  </>
+  </main>
 );
 
 export default withNavigation(withLayout(Page));

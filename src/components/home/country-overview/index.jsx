@@ -23,7 +23,7 @@ export default ({
       {countries.map(({ node: { frontmatter: { title: countryTitle } } }) => (
         <li className="country-container">
           <Link
-            to={`/persons/${createSlug(countryTitle)}`}
+            to={`/persons/${createSlug(countryTitle)}/`}
             className={countryStyles.className}
           >
             {countryTitle}

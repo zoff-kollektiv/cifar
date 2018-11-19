@@ -5,7 +5,7 @@ export default css`
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-bottom: 0;
+    margin-bottom: 5rem;
     margin-top: 1.5rem;
     padding-left: 0;
   }

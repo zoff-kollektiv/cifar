@@ -13,7 +13,7 @@ export default () => (
 
     <nav>
       <Link
-        to="/persons"
+        to="/persons/all/"
         getProps={({ isPartiallyCurrent }) =>
           isPartiallyCurrent ? { 'aria-current': 'partially' } : null
         }

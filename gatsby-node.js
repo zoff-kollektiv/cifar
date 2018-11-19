@@ -15,6 +15,7 @@ const createCountries = (graphql, createPage) =>
         edges {
           node {
             frontmatter {
+              slug
               title
               image
             }
@@ -29,22 +30,28 @@ const createCountries = (graphql, createPage) =>
 
     const countries = data.countries.edges;
 
-    [...countries].forEach(({ node: { frontmatter: { title } } }) => {
-      const slug = createSlug(title);
-      const pagePath = `/persons/${slug}/`;
-
-      // eslint-disable-next-line no-console
-      console.log('create country', pagePath);
-
-      createPage({
-        path: pagePath,
-        component: path.resolve('src/templates/country/index.jsx'),
-        context: {
-          countryName: title,
-          countrySlug: slug
+    [...countries].forEach(
+      ({
+        node: {
+          frontmatter: { slug: countrySlug, title }
         }
-      });
-    });
+      }) => {
+        const slug = createSlug(countrySlug || title);
+        const pagePath = `/persons/${slug}/`;
+
+        // eslint-disable-next-line no-console
+        console.log('create country', pagePath);
+
+        createPage({
+          path: pagePath,
+          component: path.resolve('src/templates/country/index.jsx'),
+          context: {
+            countryName: title,
+            countrySlug: slug
+          }
+        });
+      }
+    );
 
     return null;
   });
@@ -128,14 +135,9 @@ exports.createPages = ({ actions, graphql }) => {
 
   createRedirect({
     fromPath: '/persons',
-    toPath: '/persons/all',
+    toPath: '/persons/all/',
     redirectInBrowser: true,
     isPermanent: true
-  });
-
-  createPage({
-    path: '/persons/all',
-    component: path.resolve('src/templates/country/all.jsx')
   });
 
   return Promise.all([

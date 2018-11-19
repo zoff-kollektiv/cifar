@@ -40,7 +40,9 @@ export const query = graphql`
     }
 
     countries: allMarkdownRemark(
-      filter: { fields: { folder: { eq: "countries" } } }
+      filter: {
+        fields: { fileName: { ne: "all.md" }, folder: { eq: "countries" } }
+      }
       sort: { fields: [frontmatter___title] }
     ) {
       edges {
