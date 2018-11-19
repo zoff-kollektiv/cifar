@@ -10,7 +10,7 @@ import withNavigation from '../../components/with-navigation';
 import styles from './styles';
 
 const Page = ({
-  data: { countries, current, persons, images, site },
+  data: { countries, current, allPersons, personsByCountry, images, site },
   pathContext: { countryName, countrySlug }
 }) => (
   <main>
@@ -31,9 +31,15 @@ const Page = ({
       </Constraint>
     )}
 
-    {persons && persons.edges && (
-      <PersonsList persons={persons.edges} images={images} slug={countrySlug} />
-    )}
+    <PersonsList
+      persons={
+        countrySlug !== 'all'
+          ? personsByCountry && personsByCountry.edges
+          : allPersons.edges
+      }
+      images={images}
+      slug={countrySlug}
+    />
   </main>
 );
 
