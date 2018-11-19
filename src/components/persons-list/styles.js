@@ -8,7 +8,7 @@ export default css`
     flex-direction: row;
     list-style: none;
     margin-bottom: 5rem;
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
     padding-left: 0;
   }
 
@@ -21,9 +21,9 @@ export default css`
   .filter-label {
     font-size: 1rem;
     font-weight: 600;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.025rem;
     line-height: 1;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     margin-right: 0.5rem;
     text-transform: uppercase;
     vertical-align: middle;
@@ -38,12 +38,14 @@ export default css`
   .filter-submit {
     background-color: ${colors.blue};
     border: none;
+    border-radius: 2px;
     color: white;
     display: inline-block;
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 0.05rem;
+    line-height: 1;
     margin-left: 0.5rem;
-    padding: 0.5rem;
+    padding: 0.6rem 1.5rem;
   }
 `;

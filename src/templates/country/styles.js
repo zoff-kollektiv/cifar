@@ -17,6 +17,6 @@ export default css`
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.58;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 `;
