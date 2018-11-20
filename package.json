@@ -28,6 +28,9 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
+    "camelcase": "^5.0.0",
+    "csv-parser": "^2.1.0",
+    "empty-folder": "^2.0.3",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
