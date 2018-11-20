@@ -5,8 +5,10 @@ import React from 'react';
 import Block from '../block';
 import Cta from '../../cta';
 
+import countryShapes from '../../country-shapes';
+
 import createSlug from '../../../lib/create-slug';
-import styles, { countryStyles } from './styles';
+import styles, { countryStyles, countryShapeStyles } from './styles';
 
 export default ({
   countries,
@@ -16,17 +18,25 @@ export default ({
   <Block>
     <style jsx>{styles}</style>
     {countryStyles.styles}
+    {countryShapeStyles.styles}
 
     <p className="intro">{title}</p>
 
     <ul className="countries">
       {countries.map(({ node: { frontmatter: { title: countryTitle } } }) => (
-        <li className="country-container">
+        <li
+          className={`country-container country-container--for-${createSlug(
+            countryTitle
+          )}`}
+        >
           <Link
             to={`/persons/${createSlug(countryTitle)}/`}
             className={countryStyles.className}
           >
-            {countryTitle}
+            {countryShapes[createSlug(countryTitle)]({
+              className: countryShapeStyles.className
+            })}
+            <span className="country-title">{countryTitle}</span>
           </Link>
         </li>
       ))}

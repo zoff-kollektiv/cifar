@@ -15,14 +15,14 @@ export default css`
   }
 
   .outro {
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
 
   .countries {
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin: 3rem 0 1.5rem 0;
+    margin: 3rem 0 1.5rem -2.5rem;
     padding: 0;
   }
 
@@ -33,16 +33,43 @@ export default css`
   }
 
   .country-container + .country-container {
+    margin-left: 0.5rem;
+  }
+
+  .country-title {
+    color: ${colors.beige};
+    font-size: 0.875rem;
+    left: 50%;
+    position: absolute;
+    text-decoration: underline;
+    text-transform: uppercase;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .country-container--for-ukraine .country-title {
     margin-left: 1.5rem;
+  }
+
+  .country-container--for-tunesia .country-title {
+    margin-left: -0.5rem;
+    transform: translate(-50%, -50%) rotate(-90deg);
   }
 `;
 
 export const countryStyles = css.resolve`
   a {
-    background-color: ${colors.blue};
-    color: white;
+    color: ${colors.blue};
     display: block;
-    padding: 4rem 1.5rem;
+    padding: 1rem 1.5rem;
+    position: relative;
+    text-align: center;
     text-decoration: none;
+  }
+`;
+
+export const countryShapeStyles = css.resolve`
+  svg {
+    fill: currentColor;
   }
 `;
