@@ -51,7 +51,7 @@ export default css`
     margin-left: 1.5rem;
   }
 
-  .country-container--for-tunesia .country-title {
+  .country-container--for-tunisia .country-title {
     margin-left: -0.5rem;
     transform: translate(-50%, -50%) rotate(-90deg);
   }

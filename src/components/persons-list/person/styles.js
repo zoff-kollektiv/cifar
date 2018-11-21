@@ -4,7 +4,11 @@ import { colors } from '../../../tokens';
 
 export default css`
   .person {
+    align-items: center;
     color: ${colors.blue};
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
     width: 33.3333%;
   }
 
@@ -12,6 +16,7 @@ export default css`
     background-color: ${colors.beige};
     border-radius: 50%;
     height: 11rem;
+    margin: 0 auto 1rem auto;
     width: 11rem;
   }
 
@@ -36,6 +41,7 @@ export default css`
 
   .role {
     display: block;
+    font-size: 0.9rem;
     font-weight: 700;
     margin-top: 0.25rem;
   }

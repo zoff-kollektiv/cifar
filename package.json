@@ -28,6 +28,9 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
+    "camelcase": "^5.0.0",
+    "csv-parse": "^4.0.1",
+    "empty-folder": "^2.0.3",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
@@ -38,6 +41,7 @@
     "gatsby-transformer-remark": "^2.1.12",
     "husky": "^1.1.4",
     "lint-staged": "^8.0.5",
+    "node-fetch": "^2.3.0",
     "prettier": "^1.15.2"
   },
   "husky": {

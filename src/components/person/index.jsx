@@ -1,13 +1,12 @@
+import { graphql } from 'gatsby';
 import React, { Fragment } from 'react';
 
 import Constraint from '../constraint';
 import styles from './styles';
 
 export default ({
-  image,
   person: {
-    html,
-    frontmatter: { title, nameNative, ...table }
+    frontmatter: { name, nativeName, story, ...table }
   }
 }) => (
   <div className="person">
@@ -16,21 +15,13 @@ export default ({
     <Constraint>
       <header className="title-container">
         <h1 className="title">
-          {title}
-          <small className="title-native">{nameNative}</small>
+          {name}
+          <small className="title-native">{nativeName}</small>
         </h1>
-
-        <figure className="image">
-          <img
-            src={image.childImageSharp.fluid.src}
-            alt={title}
-            className="image-image"
-          />
-        </figure>
       </header>
 
       {/* eslint-disable-next-line react/no-danger */}
-      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <div dangerouslySetInnerHTML={{ __html: story }} />
 
       <h2>Information</h2>
 
@@ -45,3 +36,16 @@ export default ({
     </Constraint>
   </div>
 );
+
+export const fragment = graphql`
+  fragment person on MarkdownRemark {
+    frontmatter {
+      nativeName
+      name
+      identifyingInformation
+      aliases
+      suspectedOrConfirmedOverseasProperties
+      story
+    }
+  }
+`;
