@@ -32,6 +32,7 @@ const readCsvFiles = files =>
       .then(res => res.text())
       .then(data =>
         csv(data, {
+          cast: true,
           columns: true,
           trim: true
         })
@@ -52,17 +53,28 @@ const preparePersons = country =>
 
       switch (newKey) {
         case 'aliases':
-          newPerson[newKey] = person[key]
-            .split(',')
-            .map(alias => alias.trimStart().trimEnd());
+          if (person[key] && person[key] !== 'Uknown') {
+            newPerson[newKey] = person[key]
+              .split(',')
+              .map(alias => alias.trimStart().trimEnd());
+          } else {
+            newPerson[newKey] = '';
+          }
           break;
 
         case 'familyMembers':
         case 'familyMembersSubjectToSanctions':
-          newPerson[newKey] = person[key].split(',').map(name => {
-            const cleanName = name.match(FAMILY_MEMBER_REGEX)[0];
-            return cleanName.trimStart().trimEnd();
-          });
+          if (person[key] && person[key].length > 1) {
+            newPerson[newKey] = person[key].split(',').map(name => {
+              const cleanName = name
+                .match(FAMILY_MEMBER_REGEX)[0]
+                .trimStart()
+                .trimEnd();
+              return cleanName && cleanName.length > 1 && cleanName;
+            });
+          } else {
+            newPerson[newKey] = [];
+          }
           break;
 
         default:
