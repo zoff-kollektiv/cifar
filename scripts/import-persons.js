@@ -53,7 +53,7 @@ const preparePersons = country =>
 
       switch (newKey) {
         case 'aliases':
-          if (person[key] && person[key] !== 'Uknown') {
+          if (person[key] && person[key] !== 'Unknown') {
             newPerson[newKey] = person[key]
               .split(',')
               .map(alias => alias.trimStart().trimEnd());
@@ -79,7 +79,11 @@ const preparePersons = country =>
 
         default:
           if (!omitKeys.includes(newKey)) {
-            newPerson[newKey] = person[key];
+            if (person[key] === 'Unknown' || person[key] === 'Unkown') {
+              newPerson[newKey] = '';
+            } else {
+              newPerson[newKey] = person[key];
+            }
           }
       }
     });

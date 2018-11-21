@@ -10,18 +10,18 @@ aliases:
   - Mohamed Zohair Mohamed Wahid Garana
   - Mohamed Zoheir Mohamed Wahid Garrana
 identifyingInformation: Former Minister of Tourism
-placeOfBirth: Unkown
+placeOfBirth: ''
 dateOfBirth: 20.02.1959
 countryOfResidence: Egypt
 familyMembers:
   - Unkown
 familyMembersSubjectToSanctions:
   - Unkown
-suspectedOrConfirmedOverseasProperties: Unkown
-suspectedOrConfirmedLinksToLegalEntities: Unkown
-suspectedOrConfirmedLinksToBankAccounts: Unkown
-suspectedOrConfirmedLinksToOtherAssets: Unkown
-estimatesOfAssetsFrozenOrConfiscated: Unkown
+suspectedOrConfirmedOverseasProperties: ''
+suspectedOrConfirmedLinksToLegalEntities: ''
+suspectedOrConfirmedLinksToBankAccounts: ''
+suspectedOrConfirmedLinksToOtherAssets: ''
+estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: 0
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |

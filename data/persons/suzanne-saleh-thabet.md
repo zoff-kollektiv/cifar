@@ -29,10 +29,10 @@ familyMembersSubjectToSanctions:
 suspectedOrConfirmedOverseasProperties: >-
   London (Knightsbridge), Paris (Bois de Bologne), Madrid, Marbella (Malaga)
   Dubai, Washington, D.C., New York Beverly Hills 
-suspectedOrConfirmedLinksToLegalEntities: Unkown
-suspectedOrConfirmedLinksToBankAccounts: Unkown
-suspectedOrConfirmedLinksToOtherAssets: Unkown
-estimatesOfAssetsFrozenOrConfiscated: Unkown
+suspectedOrConfirmedLinksToLegalEntities: ''
+suspectedOrConfirmedLinksToBankAccounts: ''
+suspectedOrConfirmedLinksToOtherAssets: ''
+estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: 0
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 21.03.2011

@@ -27,8 +27,8 @@ suspectedOrConfirmedOverseasProperties: >-
   London (Knightsbridge), Paris (Bois de Bologne), Madrid, Marbella (Malaga)
   Dubai, Washington, D.C., New York Beverly Hills 
 suspectedOrConfirmedLinksToLegalEntities: 'Pan World Investments Inc., Brick Nominees Limited'
-suspectedOrConfirmedLinksToBankAccounts: Unkown
-suspectedOrConfirmedLinksToOtherAssets: Unkown
+suspectedOrConfirmedLinksToBankAccounts: ''
+suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
   300 million of frozen Swiss francs were said to belong to Mubarak’s sons Alaa
   and Gamal

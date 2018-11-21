@@ -10,7 +10,7 @@ aliases:
 identifyingInformation: >-
   Spouse of Mr Gamal Mahamed Hosni Elsayed Mubarak, son of former President of
   the Arab Republic of Egypt
-placeOfBirth: Unkown
+placeOfBirth: ''
 dateOfBirth: |
   13.10.1984
 countryOfResidence: Egypt
@@ -21,11 +21,11 @@ familyMembers:
   - Farida Gamal Mubarak
 familyMembersSubjectToSanctions:
   - Gamal Mubarak
-suspectedOrConfirmedOverseasProperties: Unkown
-suspectedOrConfirmedLinksToLegalEntities: Unkown
-suspectedOrConfirmedLinksToBankAccounts: Unkown
-suspectedOrConfirmedLinksToOtherAssets: Unkown
-estimatesOfAssetsFrozenOrConfiscated: Unkown
+suspectedOrConfirmedOverseasProperties: ''
+suspectedOrConfirmedLinksToLegalEntities: ''
+suspectedOrConfirmedLinksToBankAccounts: ''
+suspectedOrConfirmedLinksToOtherAssets: ''
+estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: 0
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |

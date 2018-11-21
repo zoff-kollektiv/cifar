@@ -10,8 +10,8 @@ aliases:
 identifyingInformation: >-
   Spouse of Mr. Alaa Mohamed Hosni Elsayed Mubarak, son of former President of
   the Arab Republic of Egypt
-placeOfBirth: Unkown
-dateOfBirth: Unkown
+placeOfBirth: ''
+dateOfBirth: ''
 countryOfResidence: Egypt
 familyMembers:
   - Alaa Mubarak
@@ -19,11 +19,11 @@ familyMembers:
   - Mohammed Mubarak (deceased)
 familyMembersSubjectToSanctions:
   - Alaa Mubarak
-suspectedOrConfirmedOverseasProperties: Unkown
-suspectedOrConfirmedLinksToLegalEntities: Unkown
-suspectedOrConfirmedLinksToBankAccounts: Unkown
-suspectedOrConfirmedLinksToOtherAssets: Unkown
-estimatesOfAssetsFrozenOrConfiscated: Unkown
+suspectedOrConfirmedOverseasProperties: ''
+suspectedOrConfirmedLinksToLegalEntities: ''
+suspectedOrConfirmedLinksToBankAccounts: ''
+suspectedOrConfirmedLinksToOtherAssets: ''
+estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: 0
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |

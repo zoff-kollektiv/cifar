@@ -6,7 +6,7 @@ nativeName: ''
 surname: Trabelsi
 firstAndMidleNames: ''
 aliases: ''
-identifyingInformation: ''
+identifyingInformation: wife of Ben Ali
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
