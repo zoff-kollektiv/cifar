@@ -9,6 +9,7 @@ const slugify = require('slugify');
 const yaml = require('js-yaml');
 
 const MARKDOWN_PATH = './data/persons';
+const FAMILY_MEMBER_REGEX = new RegExp('^[^-]*');
 
 const spreadsheetUrl =
   'https://docs.google.com/spreadsheets/d/1--Oftcd3_k3jp4xz5fhL1LCkOSjyjUWbSZa_xk38lLo/export?format=csv&id=1--Oftcd3_k3jp4xz5fhL1LCkOSjyjUWbSZa_xk38lLo&gid=';
@@ -54,6 +55,14 @@ const preparePersons = country =>
           newPerson[newKey] = person[key]
             .split(',')
             .map(alias => alias.trimStart().trimEnd());
+          break;
+
+        case 'familyMembers':
+        case 'familyMembersSubjectToSanctions':
+          newPerson[newKey] = person[key].split(',').map(name => {
+            const cleanName = name.match(FAMILY_MEMBER_REGEX)[0];
+            return cleanName.trimStart().trimEnd();
+          });
           break;
 
         default:
