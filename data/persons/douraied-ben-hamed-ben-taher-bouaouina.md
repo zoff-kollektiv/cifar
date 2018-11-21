@@ -1,0 +1,25 @@
+---
+id: 42
+name: ''
+fullName: Douraied Ben Hamed Ben Taher Bouaouina
+nativeName: ''
+surname: Bouaouina
+firstAndMidleNames: ''
+aliases: ''
+identifyingInformation: ''
+placeOfBirth: ''
+dateOfBirth: ''
+countryOfResidence: ''
+familyMembers: []
+familyMembersSubjectToSanctions: []
+suspectedOrConfirmedOverseasProperties: ''
+suspectedOrConfirmedLinksToLegalEntities: ''
+suspectedOrConfirmedLinksToBankAccounts: ''
+suspectedOrConfirmedLinksToOtherAssets: ''
+estimatesOfAssetsFrozenOrConfiscated: ''
+estimatesOfAssetsReturned: ''
+typeOfSanctions: ''
+startOfSanctions: ''
+story: ''
+
+---
