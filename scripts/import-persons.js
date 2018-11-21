@@ -1,13 +1,12 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
+/* eslint-disable import/no-extraneous-dependencies */
+
 const empty = require('empty-folder');
 const fs = require('fs');
-// eslint-disable-next-line import/no-extraneous-dependencies
 const camelCase = require('camelcase');
-// eslint-disable-next-line import/no-extraneous-dependencies
 const csv = require('csv-parse/lib/sync');
-// eslint-disable-next-line import/no-extraneous-dependencies
 const fetch = require('node-fetch');
 const slugify = require('slugify');
+const yaml = require('js-yaml');
 
 const MARKDOWN_PATH = './data/persons';
 
@@ -68,26 +67,15 @@ const preparePersons = country =>
   });
 
 const storePerson = person => {
-  const frontmatter = '---';
-  const personString = Object.keys(person)
-    .filter(key => key !== 'story')
-    .reduce((acc, current) => {
-      const value = person[current];
-
-      // eslint-disable-next-line no-param-reassign
-      acc += `${current}: ${value}\n`;
-      return acc;
-    }, '');
-
-  const { fullName, story } = person;
-
-  const personMarkdown = `${frontmatter}\n${personString}\n${frontmatter}\n${story}`;
+  const { fullName } = person;
+  const frontmatter = yaml.safeDump(person);
+  const output = `---\n${frontmatter}\n---`;
 
   if (fullName) {
     const fileName = `${slugify(fullName, { lower: true })}.md`;
 
     return empty(MARKDOWN_PATH, false, () => {
-      fs.writeFile(`${MARKDOWN_PATH}/${fileName}`, personMarkdown, () => {});
+      fs.writeFile(`${MARKDOWN_PATH}/${fileName}`, output, () => {});
     });
   }
 
