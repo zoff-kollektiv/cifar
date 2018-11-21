@@ -60,12 +60,12 @@ export default css`
     background-color: ${colors.blue};
     border-bottom: 2px solid ${colors.beige};
     color: white;
-    font-size: 1.125rem;
+    font-size: 0.9rem;
     font-weight: 700;
     flex: 0 1 auto;
+    letter-spacing: 0.02rem;
     text-transform: uppercase;
     width: 40%;
-    word-break: break-all;
   }
 
   dd {

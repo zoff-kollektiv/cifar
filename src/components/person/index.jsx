@@ -1,4 +1,5 @@
 import { graphql } from 'gatsby';
+import Helmet from 'react-helmet';
 import React, { Fragment } from 'react';
 
 import Constraint from '../constraint';
@@ -11,6 +12,10 @@ export default ({
   }
 }) => (
   <div className="person">
+    <Helmet>
+      <title>{name}</title>
+    </Helmet>
+
     <style jsx>{styles}</style>
 
     <Constraint>
