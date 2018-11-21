@@ -12,6 +12,7 @@ identifyingInformation: Former President of the Arab Republic of Egypt
 placeOfBirth: 'Egypt, Monufia Governorate, Kafr-El Meselha  '
 dateOfBirth: 04.05.1928
 countryOfResidence: Egypt
+corruptionLink: family
 familyMembers:
   - Suzanne Saleh Thabet
   - Alaa Mohamed Hosni Elsayed Mubarak

@@ -13,6 +13,7 @@ identifyingInformation: Former Minister of Fuel and Energy of Ukraine.
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
+corruptionLink: ''
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

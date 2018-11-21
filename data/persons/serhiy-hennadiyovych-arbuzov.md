@@ -12,6 +12,7 @@ identifyingInformation: Former Prime Minister of Ukraine
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
+corruptionLink: ''
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

@@ -11,6 +11,7 @@ identifyingInformation: daughter of Ben Ali
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: Seychelles
+corruptionLink: ''
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

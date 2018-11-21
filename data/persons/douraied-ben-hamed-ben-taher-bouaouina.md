@@ -1,16 +1,18 @@
 ---
 id: 42
 sanctionsCountry: Tunisia
-name: ''
+name: Douraid Bouaouina
 fullName: Douraied Ben Hamed Ben Taher Bouaouina
 nativeName: ''
 surname: Bouaouina
 firstAndMidleNames: ''
-aliases: []
-identifyingInformation: ''
+aliases:
+  - Douraïd Bouaouina
+identifyingInformation: nephew of Ben Ali
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
+corruptionLink: ''
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

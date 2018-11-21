@@ -11,6 +11,7 @@ identifyingInformation: special adviser at the Ministry of Transport
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
+corruptionLink: ''
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

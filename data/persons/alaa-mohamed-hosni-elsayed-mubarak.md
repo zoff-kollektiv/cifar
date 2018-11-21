@@ -14,6 +14,7 @@ identifyingInformation: Son of Hosni Mubarak
 placeOfBirth: 'Egypt, Cairo'
 dateOfBirth: 26.11.1960
 countryOfResidence: Egypt
+corruptionLink: family
 familyMembers:
   - Hosni Mubarak
   - Suzanne Mubarak

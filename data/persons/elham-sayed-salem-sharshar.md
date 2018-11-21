@@ -12,6 +12,7 @@ identifyingInformation: Spouse of Habib Ibrahim Eladli
 placeOfBirth: 'Egypt, Cairo'
 dateOfBirth: 23.01.1963
 countryOfResidence: Egypt
+corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

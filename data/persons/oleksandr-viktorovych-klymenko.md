@@ -11,6 +11,7 @@ identifyingInformation: Former Minister of Revenues and Charges of Ukraine
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
+corruptionLink: ''
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

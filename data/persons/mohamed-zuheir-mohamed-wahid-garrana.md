@@ -12,6 +12,7 @@ identifyingInformation: Former Minister of Tourism
 placeOfBirth: ''
 dateOfBirth: 20.02.1959
 countryOfResidence: Egypt
+corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

@@ -12,6 +12,7 @@ identifyingInformation: Spouse of Hosni Mubarak
 placeOfBirth: 'Egypt, Al Minya Governorate'
 dateOfBirth: 28.02.1941
 countryOfResidence: Egypt
+corruptionLink: family
 familyMembers:
   - Hosni Mubarak
   - Alaa Mohamed Hosni Elsayed Mubarak

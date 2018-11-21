@@ -12,6 +12,7 @@ identifyingInformation: 'Daughter-in-law of Hosni Mubarak, spouse of Alaa Mubara
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: Egypt
+corruptionLink: family
 familyMembers:
   - Alaa Mubarak
   - Omar Alaa Mubarak

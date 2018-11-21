@@ -11,6 +11,7 @@ identifyingInformation: Ex-president
 placeOfBirth: ''
 dateOfBirth: 03.09.1936
 countryOfResidence: Saudi Arabia
+corruptionLink: ''
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

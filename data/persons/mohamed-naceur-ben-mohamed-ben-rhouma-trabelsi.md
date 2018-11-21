@@ -11,6 +11,7 @@ identifyingInformation: Acting manager of an agricultural undertaking
 placeOfBirth: ''
 dateOfBirth: 24.06.1948
 countryOfResidence: ''
+corruptionLink: ''
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

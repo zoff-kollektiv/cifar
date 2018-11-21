@@ -12,6 +12,7 @@ identifyingInformation: Former Minister of Interior
 placeOfBirth: 'Egypt, Sharqiya Governorate'
 dateOfBirth: 01.03.1938
 countryOfResidence: Egypt
+corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

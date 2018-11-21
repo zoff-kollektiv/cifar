@@ -11,6 +11,7 @@ identifyingInformation: Former Deputy Minister of Internal Affairs
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
+corruptionLink: ''
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

@@ -11,6 +11,7 @@ identifyingInformation: businessmen / married to a Ben Ali's oldest daughter Dor
 placeOfBirth: Tunisa
 dateOfBirth: 13.01.1959
 countryOfResidence: 'Libya, United Arab Emirates'
+corruptionLink: ''
 familyMembers: []
 familyMembersSubjectToSanctions:
   - Misappropriation

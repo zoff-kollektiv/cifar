@@ -12,6 +12,7 @@ identifyingInformation: Former President of Ukraine
 placeOfBirth: 'Ukraine, Donetsk oblast (Region), Yenakieve'
 dateOfBirth: 09.07.1950
 countryOfResidence: Russia
+corruptionLink: ''
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
