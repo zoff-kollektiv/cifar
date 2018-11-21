@@ -10,9 +10,7 @@ const extractFrontmatter = persons =>
   persons.map(person => person.node.frontmatter);
 
 const filterPersonsByName = (persons, name) =>
-  !name
-    ? persons
-    : persons.filter(_ => _.node.frontmatter.title.includes(name));
+  !name ? persons : persons.filter(_ => _.node.frontmatter.name.includes(name));
 
 export default class PersonList extends Component {
   state = {
