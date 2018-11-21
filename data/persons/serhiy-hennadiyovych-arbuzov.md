@@ -1,7 +1,7 @@
 ---
 id: 20
 sanctionsCountry: Ukraine
-name: ''
+name: Serhiy Arbuzov
 fullName: Serhiy Hennadiyovych Arbuzov
 nativeName: Сергій Геннадійович Арбузов
 surname: Arbuzov
@@ -12,7 +12,7 @@ identifyingInformation: Former Prime Minister of Ukraine
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

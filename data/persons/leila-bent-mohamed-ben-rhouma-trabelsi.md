@@ -7,7 +7,7 @@ nativeName: ''
 surname: Trabelsi
 firstAndMidleNames: ''
 aliases: []
-identifyingInformation: wife of Ben Ali
+identifyingInformation: Souse of Zine El Abidine Ben Ali
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''

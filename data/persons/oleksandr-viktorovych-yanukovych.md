@@ -1,7 +1,7 @@
 ---
 id: 15
 sanctionsCountry: Ukraine
-name: ''
+name: Oleksandr Yanukovych
 fullName: Oleksandr Viktorovych Yanukovych
 nativeName: Олександр Вікторович Янукович
 surname: Yanukovych
@@ -11,7 +11,7 @@ identifyingInformation: Son of former President
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

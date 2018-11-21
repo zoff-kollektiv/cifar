@@ -7,7 +7,7 @@ nativeName: ''
 surname: Trabelsi
 firstAndMidleNames: Belhassen Ben Mohamed Ben Rhouma
 aliases: []
-identifyingInformation: businessmen
+identifyingInformation: businessman
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''

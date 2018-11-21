@@ -1,7 +1,7 @@
 ---
 id: 16
 sanctionsCountry: Ukraine
-name: ''
+name: Artem Pshonka
 fullName: Artem Viktorovych Pshonka
 nativeName: Артем Вікторович Пшонка
 surname: Pshonka
@@ -13,7 +13,7 @@ identifyingInformation: >-
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

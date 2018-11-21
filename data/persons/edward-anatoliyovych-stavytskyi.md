@@ -1,17 +1,19 @@
 ---
-id: 60
-sanctionsCountry: Tunisia
-name: ''
-fullName: Houssem Ben Mohamed Naceur Ben Mohame Trabelsi
-nativeName: ''
-surname: Trabelsi
-firstAndMidleNames: ''
-aliases: []
-identifyingInformation: ''
+id: 22
+sanctionsCountry: Ukraine
+name: Edward Stavytskyi
+fullName: Edward Anatoliyovych Stavytskyi
+nativeName: Едуард Анатолійович Ставицький
+surname: Stavytskyi
+firstAndMidleNames: Edward Anatoliyovych
+aliases:
+  - Eduard Anatoliyovych Stavytsky
+  - Natan Rozenberh
+identifyingInformation: Former Minister of Fuel and Energy of Ukraine.
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

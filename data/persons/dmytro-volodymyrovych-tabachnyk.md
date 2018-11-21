@@ -1,7 +1,7 @@
 ---
 id: 19
 sanctionsCountry: Ukraine
-name: ''
+name: Dmytro Tabachnyk
 fullName: Dmytro Volodymyrovych Tabachnyk
 nativeName: Дмитро Володимирович Табачник
 surname: Tabachnyk
@@ -11,7 +11,7 @@ identifyingInformation: Former Minister of Education and Science
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

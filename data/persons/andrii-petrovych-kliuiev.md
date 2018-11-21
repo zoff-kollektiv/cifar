@@ -1,7 +1,7 @@
 ---
 id: 13
 sanctionsCountry: Ukraine
-name: ''
+name: Andrii Kliuiev
 fullName: Andrii Petrovych Kliuiev
 nativeName: Андрій Петрович Клюєв
 surname: Kliuiev
@@ -12,7 +12,7 @@ identifyingInformation: Former Head of Administration of President of Ukraine
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

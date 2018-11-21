@@ -1,7 +1,7 @@
 ---
 id: 11
 sanctionsCountry: Ukraine
-name: ''
+name: Vitalii Zakharchenko
 fullName: Vitalii Yuriyovych Zakharchenko
 nativeName: Віталій Юрійович Захарченко
 surname: Zakharchenko
@@ -13,7 +13,7 @@ identifyingInformation: Former Minister of Internal Affairs
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

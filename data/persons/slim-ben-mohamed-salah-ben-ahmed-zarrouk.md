@@ -1,7 +1,7 @@
 ---
 id: 63
 sanctionsCountry: Tunisia
-name: ''
+name: Slim Zarrouk
 fullName: Slim Ben Mohamed Salah Ben Ahmed Zarrouk
 nativeName: ''
 surname: Zarrouk

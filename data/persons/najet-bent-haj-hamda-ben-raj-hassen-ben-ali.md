@@ -1,15 +1,15 @@
 ---
 id: 55
 sanctionsCountry: Tunisia
-name: ''
+name: Najet Ben Ali
 fullName: Najet Bent Haj Hamda Ben Raj Hassen Ben Ali
 nativeName: ''
 surname: Ben Ali
 firstAndMidleNames: ''
 aliases: []
-identifyingInformation: ''
+identifyingInformation: sister of Ben Ali
 placeOfBirth: ''
-dateOfBirth: ''
+dateOfBirth: 18.09.1956
 countryOfResidence: ''
 corruptionLink: ''
 familyMembers: []

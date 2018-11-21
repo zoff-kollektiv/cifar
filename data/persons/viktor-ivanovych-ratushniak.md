@@ -1,7 +1,7 @@
 ---
 id: 14
 sanctionsCountry: Ukraine
-name: ''
+name: Viktor Ratushniak
 fullName: Viktor Ivanovych Ratushniak
 nativeName: Віктор Іванович Ратушняк
 surname: Ratushniak
@@ -11,7 +11,7 @@ identifyingInformation: Former Deputy Minister of Internal Affairs
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

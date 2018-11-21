@@ -1,7 +1,7 @@
 ---
 id: 17
 sanctionsCountry: Ukraine
-name: ''
+name: Mykola Azarov
 fullName: Mykola Yanovych Azarov
 nativeName: Микола Янович Азаров
 surname: Azarov
@@ -12,7 +12,7 @@ identifyingInformation: Former Prime Minister of Ukraine
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

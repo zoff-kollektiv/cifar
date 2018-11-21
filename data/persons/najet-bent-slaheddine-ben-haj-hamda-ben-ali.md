@@ -7,9 +7,9 @@ nativeName: ''
 surname: Ben Ali
 firstAndMidleNames: ''
 aliases: []
-identifyingInformation: ''
+identifyingInformation: secretary
 placeOfBirth: ''
-dateOfBirth: ''
+dateOfBirth: 08.03.1980
 countryOfResidence: ''
 corruptionLink: ''
 familyMembers: []
