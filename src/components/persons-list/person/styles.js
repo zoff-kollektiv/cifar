@@ -12,11 +12,13 @@ export default css`
     width: 33.3333%;
   }
 
-  .image {
+  .image,
+  .image--has-file > img {
     background-color: ${colors.beige};
     border-radius: 50%;
     height: 11rem;
     margin: 0 auto 1rem auto;
+    object-fit: cover;
     width: 11rem;
   }
 

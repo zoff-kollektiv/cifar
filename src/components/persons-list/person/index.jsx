@@ -6,13 +6,22 @@ import createSlug from '../../../lib/create-slug';
 import styles from './styles';
 
 export default ({
+  image,
   frontmatter: { sanctionsCountry: country, name, identifyingInformation: role }
 }) => (
   <li className="person">
     <style jsx>{styles}</style>
 
     <Link to={`/persons/${createSlug(country)}/${createSlug(name)}/`}>
-      <figure className="image" />
+      <figure className={`image image--${image && 'has-file'}`}>
+        {image && (
+          <img
+            src={image.node.fluid.src}
+            srcSet={image.node.fluid.srcSet}
+            alt={`Portrait of ${name}`}
+          />
+        )}
+      </figure>
 
       <h2 className="title">
         {name}
@@ -27,6 +36,7 @@ export const fragment = graphql`
     edges {
       node {
         frontmatter {
+          id
           sanctionsCountry
           name
           identifyingInformation
