@@ -59,7 +59,10 @@ const createPersons = (graphql, createPage) =>
   graphql(`
     query {
       persons: allMarkdownRemark(
-        filter: { fields: { folder: { eq: "persons" } } }
+        filter: {
+          frontmatter: { name: { ne: "" } }
+          fields: { folder: { eq: "persons" } }
+        }
       ) {
         edges {
           node {
@@ -84,10 +87,6 @@ const createPersons = (graphql, createPage) =>
           frontmatter: { name, sanctionsCountry: country }
         }
       }) => {
-        if (!name) {
-          return;
-        }
-
         const pagePath = `/persons/${createSlug(country)}/${createSlug(name)}/`;
 
         // eslint-disable-next-line no-console
