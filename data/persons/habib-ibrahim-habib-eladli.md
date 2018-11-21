@@ -1,5 +1,6 @@
 ---
 id: 8
+sanctionsCountry: Egypt
 name: Habib el-Adly
 fullName: Habib Ibrahim Habib Eladli
 nativeName: حبيب إبراهيم العادلي‎
@@ -23,7 +24,7 @@ suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: 0
+estimatesOfAssetsReturned: '0'
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011

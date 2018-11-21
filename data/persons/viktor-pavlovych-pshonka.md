@@ -1,11 +1,12 @@
 ---
 id: 12
+sanctionsCountry: Ukraine
 name: ''
 fullName: Viktor Pavlovych Pshonka
 nativeName: Віктор Павлович Пшонка
 surname: Pshonka
 firstAndMidleNames: Pavlovych Pshonka
-aliases: ''
+aliases: []
 identifyingInformation: Former Prosecutor General of Ukraine
 placeOfBirth: ''
 dateOfBirth: ''

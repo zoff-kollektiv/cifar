@@ -1,5 +1,6 @@
 ---
 id: 2
+sanctionsCountry: Egypt
 name: Suzanne Saleh Thabet
 fullName: Suzanne Saleh Thabet
 nativeName: سوزان صالح ثابت‎
@@ -33,7 +34,7 @@ suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: 0
+estimatesOfAssetsReturned: '0'
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 21.03.2011
 story: >-

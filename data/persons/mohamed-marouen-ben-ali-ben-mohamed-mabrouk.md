@@ -1,5 +1,6 @@
 ---
 id: 65
+sanctionsCountry: Tunisia
 name: ''
 fullName: Mohamed Marouen Ben Ali Ben Mohamed Mabrouk
 nativeName: ''

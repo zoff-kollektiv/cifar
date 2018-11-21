@@ -1,11 +1,12 @@
 ---
 id: 69
+sanctionsCountry: Tunisia
 name: Slim Chiboub
 fullName: Mohamed Slim Ben Mohamed Hassen Ben Salah Chiboub
 nativeName: ''
 surname: Chiboub
 firstAndMidleNames: Mohamed Slim Ben Mohamed Hassen Ben Salah
-aliases: ''
+aliases: []
 identifyingInformation: businessmen / married to a Ben Ali's oldest daughter Dorsaf Ben Ali
 placeOfBirth: Tunisa
 dateOfBirth: 13.01.1959

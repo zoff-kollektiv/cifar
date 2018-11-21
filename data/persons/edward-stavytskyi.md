@@ -1,5 +1,6 @@
 ---
 id: 22
+sanctionsCountry: Ukraine
 name: ''
 fullName: Edward Stavytskyi
 nativeName: Едуард Анатолійович Ставицький

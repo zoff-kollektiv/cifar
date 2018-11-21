@@ -17,7 +17,6 @@ const createCountries = (graphql, createPage) =>
             frontmatter {
               slug
               title
-              image
             }
           }
         }
@@ -65,9 +64,8 @@ const createPersons = (graphql, createPage) =>
         edges {
           node {
             frontmatter {
-              country
-              title
-              image
+              sanctionsCountry
+              name
             }
           }
         }
@@ -83,13 +81,14 @@ const createPersons = (graphql, createPage) =>
     [...persons].forEach(
       ({
         node: {
-          frontmatter: { title, country, image }
+          frontmatter: { name, sanctionsCountry: country }
         }
       }) => {
-        const pagePath = `/persons/${createSlug(country)}/${createSlug(
-          title
-        )}/`;
-        const imageFileName = path.basename(image);
+        if (!name) {
+          return;
+        }
+
+        const pagePath = `/persons/${createSlug(country)}/${createSlug(name)}/`;
 
         // eslint-disable-next-line no-console
         console.log('create person', pagePath);
@@ -98,8 +97,7 @@ const createPersons = (graphql, createPage) =>
           path: pagePath,
           component: path.resolve('src/templates/person/index.jsx'),
           context: {
-            title,
-            imageFileName
+            name
           }
         });
       }

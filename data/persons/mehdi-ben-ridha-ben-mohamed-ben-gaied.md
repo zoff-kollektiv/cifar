@@ -1,11 +1,12 @@
 ---
 id: 68
+sanctionsCountry: Tunisia
 name: ''
 fullName: Mehdi Ben Ridha Ben Mohamed Ben Gaied
 nativeName: ''
 surname: Ben Gaied
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

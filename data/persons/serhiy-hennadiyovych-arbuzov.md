@@ -1,5 +1,6 @@
 ---
 id: 20
+sanctionsCountry: Ukraine
 name: ''
 fullName: Serhiy Hennadiyovych Arbuzov
 nativeName: Сергій Геннадійович Арбузов

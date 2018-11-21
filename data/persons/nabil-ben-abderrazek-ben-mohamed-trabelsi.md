@@ -1,11 +1,12 @@
 ---
 id: 66
+sanctionsCountry: Tunisia
 name: ''
 fullName: Nabil Ben Abderrazek Ben Mohamed Trabelsi
 nativeName: ''
 surname: Trabelsi
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

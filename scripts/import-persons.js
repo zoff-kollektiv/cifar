@@ -15,9 +15,9 @@ const spreadsheetUrl =
   'https://docs.google.com/spreadsheets/d/1--Oftcd3_k3jp4xz5fhL1LCkOSjyjUWbSZa_xk38lLo/export?format=csv&id=1--Oftcd3_k3jp4xz5fhL1LCkOSjyjUWbSZa_xk38lLo&gid=';
 
 const csvSheets = {
-  egypt: '1843456233',
-  tunisia: '1008588264',
-  ukraine: '1002256294'
+  Egypt: '1843456233',
+  Tunisia: '1008588264',
+  Ukraine: '1002256294'
 };
 
 const readCsvFiles = files =>
@@ -43,7 +43,6 @@ const preparePersons = country =>
   country.map(person => {
     const keys = Object.keys(person);
     const newPerson = {};
-    const omitKeys = ['sanctionsCountry'];
 
     keys.forEach(key => {
       const newKey = camelCase(key)
@@ -58,7 +57,7 @@ const preparePersons = country =>
               .split(',')
               .map(alias => alias.trimStart().trimEnd());
           } else {
-            newPerson[newKey] = '';
+            newPerson[newKey] = [];
           }
           break;
 
@@ -77,13 +76,15 @@ const preparePersons = country =>
           }
           break;
 
+        case 'estimatesOfAssetsReturned':
+          newPerson[newKey] = person[key].toString();
+          break;
+
         default:
-          if (!omitKeys.includes(newKey)) {
-            if (person[key] === 'Unknown' || person[key] === 'Unkown') {
-              newPerson[newKey] = '';
-            } else {
-              newPerson[newKey] = person[key];
-            }
+          if (person[key] === 'Unknown' || person[key] === 'Unkown') {
+            newPerson[newKey] = '';
+          } else {
+            newPerson[newKey] = person[key];
           }
       }
     });

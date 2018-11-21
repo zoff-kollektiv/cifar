@@ -1,5 +1,6 @@
 ---
 id: 7
+sanctionsCountry: Egypt
 name: Zuheir Garana
 fullName: Mohamed Zuheir Mohamed Wahid Garrana
 nativeName: زهير جرانة
@@ -22,7 +23,7 @@ suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: 0
+estimatesOfAssetsReturned: '0'
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011

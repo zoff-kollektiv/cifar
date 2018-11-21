@@ -1,11 +1,12 @@
 ---
 id: 67
+sanctionsCountry: Tunisia
 name: ''
 fullName: Sirine Bent Zine El Abidine Ben Haj Hamda Ben Ali
 nativeName: ''
 surname: Ben Ali
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

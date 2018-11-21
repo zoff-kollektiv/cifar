@@ -1,5 +1,6 @@
 ---
 id: 13
+sanctionsCountry: Ukraine
 name: ''
 fullName: Andrii Petrovych Kliuiev
 nativeName: Андрій Петрович Клюєв

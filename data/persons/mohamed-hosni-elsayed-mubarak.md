@@ -1,5 +1,6 @@
 ---
 id: 1
+sanctionsCountry: Egypt
 name: Hosni Mubarak
 fullName: Mohamed Hosni Elsayed Mubarak
 nativeName: محمد حسني السيد مبارك

@@ -1,5 +1,6 @@
 ---
 id: 9
+sanctionsCountry: Egypt
 name: Elham Sharshar
 fullName: Elham Sayed Salem Sharshar
 nativeName: لهام شرشر
@@ -20,7 +21,7 @@ suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: 0
+estimatesOfAssetsReturned: '0'
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011

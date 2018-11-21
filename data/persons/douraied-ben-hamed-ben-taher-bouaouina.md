@@ -1,11 +1,12 @@
 ---
 id: 42
+sanctionsCountry: Tunisia
 name: ''
 fullName: Douraied Ben Hamed Ben Taher Bouaouina
 nativeName: ''
 surname: Bouaouina
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

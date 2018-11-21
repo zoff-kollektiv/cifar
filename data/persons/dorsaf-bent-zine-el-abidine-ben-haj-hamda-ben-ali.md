@@ -1,5 +1,6 @@
 ---
 id: 70
+sanctionsCountry: Tunisia
 name: Dorsaf Ben Ali
 fullName: Dorsaf Bent Zine El Abidine Ben Haj Hamda Ben Ali
 nativeName: ''

@@ -1,14 +1,15 @@
 ---
 id: 40
-name: ''
+sanctionsCountry: Tunisia
+name: Imed Trabelsi
 fullName: Mohamed Imed Ben Mohamed Naceur Ben Mohamed Trabelsi
 nativeName: ''
 surname: Trabelsi
 firstAndMidleNames: ''
-aliases: ''
-identifyingInformation: ''
+aliases: []
+identifyingInformation: Leila Trabelsi's nephew / businessman
 placeOfBirth: ''
-dateOfBirth: ''
+dateOfBirth: 26.08.1974
 countryOfResidence: ''
 familyMembers: []
 familyMembersSubjectToSanctions: []

@@ -77,7 +77,7 @@ const drawPersons = (svg, data) => {
   // role
   info
     .append('text')
-    .text(d => d.role)
+    .text(d => d.identifyingInformation)
     .attr('class', 'person-role')
     .attr('y', 13);
 

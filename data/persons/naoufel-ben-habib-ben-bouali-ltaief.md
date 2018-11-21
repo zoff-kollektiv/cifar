@@ -1,11 +1,12 @@
 ---
 id: 34
+sanctionsCountry: Tunisia
 name: ''
 fullName: Naoufel Ben Habib Ben Bouali Ltaief
 nativeName: ''
 surname: Ltaief
 firstAndMidleNames: Naoufel Ben Habib Ben Bouali
-aliases: ''
+aliases: []
 identifyingInformation: special adviser at the Ministry of Transport
 placeOfBirth: ''
 dateOfBirth: ''

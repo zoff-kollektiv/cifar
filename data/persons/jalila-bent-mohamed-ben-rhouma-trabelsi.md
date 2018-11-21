@@ -1,11 +1,12 @@
 ---
 id: 38
+sanctionsCountry: Tunisia
 name: ''
 fullName: Jalila Bent Mohamed Ben Rhouma Trabelsi
 nativeName: ''
 surname: Trabelsi
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

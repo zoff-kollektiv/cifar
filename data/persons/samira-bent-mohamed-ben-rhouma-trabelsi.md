@@ -1,11 +1,12 @@
 ---
 id: 46
+sanctionsCountry: Tunisia
 name: ''
 fullName: Samira Bent Mohamed Ben Rhouma Trabelsi
 nativeName: ''
 surname: Trabelsi
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

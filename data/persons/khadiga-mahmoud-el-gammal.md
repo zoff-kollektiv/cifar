@@ -1,5 +1,6 @@
 ---
 id: 6
+sanctionsCountry: Egypt
 name: Khadiga El Gammal
 fullName: Khadiga Mahmoud El Gammal
 nativeName: خديجة الجمال
@@ -26,7 +27,7 @@ suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: 0
+estimatesOfAssetsReturned: '0'
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011

@@ -1,5 +1,6 @@
 ---
 id: 10
+sanctionsCountry: Ukraine
 name: ''
 fullName: Viktor Fedorovych Yanukovych
 nativeName: Вiктор Федорович Янукович

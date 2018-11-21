@@ -1,11 +1,12 @@
 ---
 id: 41
+sanctionsCountry: Tunisia
 name: ''
 fullName: Akrem Ben Hamed Ben Taher Bouaouina
 nativeName: ''
 surname: Bouaouina
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

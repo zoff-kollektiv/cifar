@@ -1,11 +1,12 @@
 ---
 id: 24
+sanctionsCountry: Tunisia
 name: Leila Trabelsi
 fullName: Leila Bent Mohamed Ben Rhouma Trabelsi
 nativeName: ''
 surname: Trabelsi
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: wife of Ben Ali
 placeOfBirth: ''
 dateOfBirth: ''

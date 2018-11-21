@@ -1,5 +1,6 @@
 ---
 id: 11
+sanctionsCountry: Ukraine
 name: ''
 fullName: Vitalii Yuriyovych Zakharchenko
 nativeName: Віталій Юрійович Захарченко

@@ -1,11 +1,12 @@
 ---
 id: 32
+sanctionsCountry: Tunisia
 name: Nesrine Ben Ali
 fullName: Nesrine Bent Zine El Abidine Ben Haj Hamda Ben Ali
 nativeName: ''
 surname: Ben Ali
 firstAndMidleNames: Nesrine Bent Zine El Abidine Ben Haj Hamda
-aliases: ''
+aliases: []
 identifyingInformation: daughter of Ben Ali
 placeOfBirth: ''
 dateOfBirth: 16.01.1987

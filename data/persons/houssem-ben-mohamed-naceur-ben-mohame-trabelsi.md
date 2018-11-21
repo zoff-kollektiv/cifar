@@ -1,11 +1,12 @@
 ---
 id: 60
+sanctionsCountry: Tunisia
 name: ''
 fullName: Houssem Ben Mohamed Naceur Ben Mohame Trabelsi
 nativeName: ''
 surname: Trabelsi
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

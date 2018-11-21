@@ -1,11 +1,12 @@
 ---
 id: 14
+sanctionsCountry: Ukraine
 name: ''
 fullName: Viktor Ivanovych Ratushniak
 nativeName: Віктор Іванович Ратушняк
 surname: Ratushniak
 firstAndMidleNames: Viktor Ivanovych
-aliases: ''
+aliases: []
 identifyingInformation: Former Deputy Minister of Internal Affairs
 placeOfBirth: ''
 dateOfBirth: ''

@@ -1,11 +1,12 @@
 ---
 id: 48
+sanctionsCountry: Tunisia
 name: ''
 fullName: Najmeddine Ben Slaheddine Ben Haj Hamda Ben Ali
 nativeName: ''
 surname: Ben Ali
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

@@ -1,11 +1,12 @@
 ---
 id: 59
+sanctionsCountry: Tunisia
 name: ''
 fullName: Faouzi Ben Haj Hamda Ben Haj Hassen Ben Ali
 nativeName: ''
 surname: Ben Ali
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

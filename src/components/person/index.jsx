@@ -4,10 +4,9 @@ import Constraint from '../constraint';
 import styles from './styles';
 
 export default ({
-  image,
   person: {
     html,
-    frontmatter: { title, nameNative, ...table }
+    frontmatter: { title, nativeName, ...table }
   }
 }) => (
   <div className="person">
@@ -17,16 +16,8 @@ export default ({
       <header className="title-container">
         <h1 className="title">
           {title}
-          <small className="title-native">{nameNative}</small>
+          <small className="title-native">{nativeName}</small>
         </h1>
-
-        <figure className="image">
-          <img
-            src={image.childImageSharp.fluid.src}
-            alt={title}
-            className="image-image"
-          />
-        </figure>
       </header>
 
       {/* eslint-disable-next-line react/no-danger */}

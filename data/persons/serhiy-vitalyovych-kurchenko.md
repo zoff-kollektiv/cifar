@@ -1,11 +1,12 @@
 ---
 id: 18
+sanctionsCountry: Ukraine
 name: ''
 fullName: Serhiy Vitalyovych Kurchenko
 nativeName: Сергій Віталійович Курченко
 surname: Kurchenko
 firstAndMidleNames: Serhiy Vitalyovych
-aliases: ''
+aliases: []
 identifyingInformation: Businessman
 placeOfBirth: ''
 dateOfBirth: ''

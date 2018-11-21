@@ -1,11 +1,12 @@
 ---
 id: 54
+sanctionsCountry: Tunisia
 name: ''
 fullName: Moez Ben Moncef Ben Mohamed Trabelsi
 nativeName: ''
 surname: Trabelsi
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

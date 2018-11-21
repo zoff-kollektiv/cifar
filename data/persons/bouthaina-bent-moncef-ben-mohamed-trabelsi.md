@@ -1,11 +1,12 @@
 ---
 id: 62
+sanctionsCountry: Tunisia
 name: ''
 fullName: Bouthaina Bent Moncef Ben Mohamed Trabelsi
 nativeName: ''
 surname: Trabelsi
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

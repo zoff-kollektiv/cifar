@@ -1,11 +1,12 @@
 ---
 id: 23
+sanctionsCountry: Tunisia
 name: Zine El Abidine Ben Ali
 fullName: Zine El Abidine Ben Haj Hamda Ben Haj Hassen Ben Ali
 nativeName: زين العابدين بن علي‎
 surname: Ben Ali
 firstAndMidleNames: Zine El Abidine Ben Haj Hamda Ben Haj Hassen
-aliases: ''
+aliases: []
 identifyingInformation: Ex-president
 placeOfBirth: ''
 dateOfBirth: 03.09.1936

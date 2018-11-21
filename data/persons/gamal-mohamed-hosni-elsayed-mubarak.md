@@ -1,5 +1,6 @@
 ---
 id: 5
+sanctionsCountry: Egypt
 name: Gamal Mubarak
 fullName: Gamal Mohamed Hosni Elsayed Mubarak
 nativeName: جمال مبارك
@@ -35,7 +36,7 @@ suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
   300 million of frozen Swiss francs were said to belong to Mubarak’s sons Alaa
   and Gamal
-estimatesOfAssetsReturned: 0
+estimatesOfAssetsReturned: '0'
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011

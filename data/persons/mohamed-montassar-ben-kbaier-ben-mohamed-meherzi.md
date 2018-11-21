@@ -1,11 +1,12 @@
 ---
 id: 47
+sanctionsCountry: Tunisia
 name: ''
 fullName: Mohamed Montassar Ben Kbaier Ben Mohamed Meherzi
 nativeName: ''
 surname: Meherzi
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

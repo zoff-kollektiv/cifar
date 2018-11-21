@@ -1,5 +1,6 @@
 ---
 id: 17
+sanctionsCountry: Ukraine
 name: ''
 fullName: Mykola Yanovych Azarov
 nativeName: Микола Янович Азаров

@@ -1,11 +1,12 @@
 ---
 id: 49
+sanctionsCountry: Tunisia
 name: ''
 fullName: Nefissa Bent Mohamed Ben Rhoum Trabelsi
 nativeName: ''
 surname: Trabelsi
 firstAndMidleNames: ''
-aliases: ''
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

@@ -26,11 +26,11 @@ export const query = graphql`
     ) {
       html
       frontmatter {
-        nameNative
+        nativeName
         title
-        role
+        identifyingInformation
         aliases
-        overseasProperties
+        suspectedOrConfirmedOverseasProperties
       }
     }
   }
