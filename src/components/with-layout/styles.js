@@ -2,6 +2,7 @@ import css from 'styled-jsx/css';
 
 export default css`
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI';
     font-style: normal;
     font-weight: 400;
@@ -11,6 +12,7 @@ export default css`
   }
 
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI';
     font-style: italic;
     font-weight: 400;
@@ -20,6 +22,7 @@ export default css`
   }
 
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI';
     font-style: normal;
     font-weight: 500;
@@ -29,6 +32,7 @@ export default css`
   }
 
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI';
     font-style: italic;
     font-weight: 500;
@@ -38,6 +42,7 @@ export default css`
   }
 
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI';
     font-style: normal;
     font-weight: 600;
@@ -47,6 +52,7 @@ export default css`
   }
 
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI';
     font-style: italic;
     font-weight: 600;
@@ -56,6 +62,7 @@ export default css`
   }
 
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI';
     font-style: normal;
     font-weight: 700;
@@ -65,6 +72,7 @@ export default css`
   }
 
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI';
     font-style: italic;
     font-weight: 700;
@@ -74,6 +82,7 @@ export default css`
   }
 
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI';
     font-style: normal;
     font-weight: 800;
@@ -82,6 +91,7 @@ export default css`
       url('/fonts/inter-ui/inter-ui-extra-bold.woff') format('woff');
   }
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI';
     font-style: italic;
     font-weight: 800;
@@ -91,6 +101,7 @@ export default css`
   }
 
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI';
     font-style: normal;
     font-weight: 900;
@@ -99,6 +110,7 @@ export default css`
       url('/fonts/inter-ui/inter-ui-black.woff') format('woff');
   }
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI';
     font-style: italic;
     font-weight: 900;
@@ -108,6 +120,7 @@ export default css`
   }
 
   @font-face {
+    font-display: swap;
     font-family: 'Inter UI var';
     src: url('/fonts/inter-ui/inter-ui.var.woff2') format('woff2-variations'),
       url('/fonts/inter-ui/inter-ui.var.woff2') format('woff2');
