@@ -74,7 +74,7 @@ export const query = graphql`
               absolutePath
             }
           }
-          fluid(maxWidth: 150) {
+          fluid(maxWidth: 180) {
             src
           }
         }

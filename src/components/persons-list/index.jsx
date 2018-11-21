@@ -12,6 +12,12 @@ const extractFrontmatter = persons =>
 const filterPersonsByName = (persons, name) =>
   !name ? persons : persons.filter(_ => _.node.frontmatter.name.includes(name));
 
+const findPersonsImage = (images, id) =>
+  images.find(({ node: { parent: { absolutePath } } }) => {
+    const normalizedId = id > 10 ? id : `0${id}`;
+    return absolutePath.includes(`/${normalizedId}-`);
+  });
+
 export default class PersonList extends Component {
   state = {
     persons: [],
@@ -114,7 +120,11 @@ export default class PersonList extends Component {
             {persons &&
               persons.length > 0 &&
               persons.map(({ node }) => (
-                <Person key={node.frontmatter.name} {...node} />
+                <Person
+                  key={node.frontmatter.name}
+                  image={findPersonsImage(images.edges, node.frontmatter.id)}
+                  {...node}
+                />
               ))}
           </ul>
         )}
