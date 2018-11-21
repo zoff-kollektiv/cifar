@@ -116,7 +116,7 @@ export default class PersonList extends Component {
             {persons &&
               persons.length > 0 &&
               persons.map(({ node }) => (
-                <Person key={node.frontmatter.title} {...node} />
+                <Person key={node.frontmatter.name} {...node} />
               ))}
           </ul>
         )}

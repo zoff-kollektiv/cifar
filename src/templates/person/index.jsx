@@ -10,7 +10,7 @@ const Page = ({ data }) => <Person {...data} />;
 export default withNavigation(withLayout(Page));
 
 export const query = graphql`
-  query Person($title: String, $imageFileName: String) {
+  query Person($name: String, $imageFileName: String) {
     image: file(relativePath: { eq: $imageFileName }) {
       childImageSharp {
         fluid(maxWidth: 900) {
@@ -22,16 +22,9 @@ export const query = graphql`
 
     person: markdownRemark(
       fields: { folder: { eq: "persons" } }
-      frontmatter: { title: { eq: $title } }
+      frontmatter: { name: { eq: $name } }
     ) {
-      html
-      frontmatter {
-        nameNative
-        title
-        role
-        aliases
-        overseasProperties
-      }
+      ...person
     }
   }
 `;

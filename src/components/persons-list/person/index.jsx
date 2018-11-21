@@ -5,15 +5,17 @@ import React from 'react';
 import createSlug from '../../../lib/create-slug';
 import styles from './styles';
 
-export default ({ frontmatter: { country, title, role } }) => (
+export default ({
+  frontmatter: { sanctionsCountry: country, name, identifyingInformation: role }
+}) => (
   <li className="person">
     <style jsx>{styles}</style>
 
-    <Link to={`/persons/${createSlug(country)}/${createSlug(title)}/`}>
+    <Link to={`/persons/${createSlug(country)}/${createSlug(name)}/`}>
       <figure className="image" />
 
       <h2 className="title">
-        {title}
+        {name}
         <small className="role">{role}</small>
       </h2>
     </Link>
@@ -25,9 +27,9 @@ export const fragment = graphql`
     edges {
       node {
         frontmatter {
-          country
-          title
-          role
+          sanctionsCountry
+          name
+          identifyingInformation
         }
       }
     }

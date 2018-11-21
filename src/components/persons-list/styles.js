@@ -6,6 +6,7 @@ export default css`
   .person-list {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     list-style: none;
     margin-bottom: 5rem;
     margin-top: 3.5rem;

@@ -1,9 +1,9 @@
 import Egypt from './egypt';
-import Tunesia from './tunesia';
+import Tunisia from './tunisia';
 import Ukraine from './ukraine';
 
 export default {
   egypt: Egypt,
-  tunesia: Tunesia,
+  tunisia: Tunisia,
   ukraine: Ukraine
 };

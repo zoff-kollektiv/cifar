@@ -17,7 +17,6 @@ const createCountries = (graphql, createPage) =>
             frontmatter {
               slug
               title
-              image
             }
           }
         }
@@ -60,14 +59,16 @@ const createPersons = (graphql, createPage) =>
   graphql(`
     query {
       persons: allMarkdownRemark(
-        filter: { fields: { folder: { eq: "persons" } } }
+        filter: {
+          frontmatter: { name: { ne: "" } }
+          fields: { folder: { eq: "persons" } }
+        }
       ) {
         edges {
           node {
             frontmatter {
-              country
-              title
-              image
+              sanctionsCountry
+              name
             }
           }
         }
@@ -83,13 +84,10 @@ const createPersons = (graphql, createPage) =>
     [...persons].forEach(
       ({
         node: {
-          frontmatter: { title, country, image }
+          frontmatter: { name, sanctionsCountry: country }
         }
       }) => {
-        const pagePath = `/persons/${createSlug(country)}/${createSlug(
-          title
-        )}/`;
-        const imageFileName = path.basename(image);
+        const pagePath = `/persons/${createSlug(country)}/${createSlug(name)}/`;
 
         // eslint-disable-next-line no-console
         console.log('create person', pagePath);
@@ -98,8 +96,7 @@ const createPersons = (graphql, createPage) =>
           path: pagePath,
           component: path.resolve('src/templates/person/index.jsx'),
           context: {
-            title,
-            imageFileName
+            name
           }
         });
       }

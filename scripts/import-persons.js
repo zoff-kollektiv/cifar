@@ -15,9 +15,9 @@ const spreadsheetUrl =
   'https://docs.google.com/spreadsheets/d/1--Oftcd3_k3jp4xz5fhL1LCkOSjyjUWbSZa_xk38lLo/export?format=csv&id=1--Oftcd3_k3jp4xz5fhL1LCkOSjyjUWbSZa_xk38lLo&gid=';
 
 const csvSheets = {
-  egypt: '1843456233',
-  tunisia: '1008588264',
-  ukraine: '1002256294'
+  Egypt: '1843456233',
+  Tunisia: '1008588264',
+  Ukraine: '1002256294'
 };
 
 const readCsvFiles = files =>
@@ -32,6 +32,7 @@ const readCsvFiles = files =>
       .then(res => res.text())
       .then(data =>
         csv(data, {
+          cast: true,
           columns: true,
           trim: true
         })
@@ -42,7 +43,6 @@ const preparePersons = country =>
   country.map(person => {
     const keys = Object.keys(person);
     const newPerson = {};
-    const omitKeys = ['sanctionsCountry'];
 
     keys.forEach(key => {
       const newKey = camelCase(key)
@@ -52,21 +52,38 @@ const preparePersons = country =>
 
       switch (newKey) {
         case 'aliases':
-          newPerson[newKey] = person[key]
-            .split(',')
-            .map(alias => alias.trimStart().trimEnd());
+          if (person[key] && person[key] !== 'Unknown') {
+            newPerson[newKey] = person[key]
+              .split(',')
+              .map(alias => alias.trimStart().trimEnd());
+          } else {
+            newPerson[newKey] = [];
+          }
           break;
 
         case 'familyMembers':
         case 'familyMembersSubjectToSanctions':
-          newPerson[newKey] = person[key].split(',').map(name => {
-            const cleanName = name.match(FAMILY_MEMBER_REGEX)[0];
-            return cleanName.trimStart().trimEnd();
-          });
+          if (person[key] && person[key].length > 1) {
+            newPerson[newKey] = person[key].split(',').map(name => {
+              const cleanName = name
+                .match(FAMILY_MEMBER_REGEX)[0]
+                .trimStart()
+                .trimEnd();
+              return cleanName && cleanName.length > 1 && cleanName;
+            });
+          } else {
+            newPerson[newKey] = [];
+          }
+          break;
+
+        case 'estimatesOfAssetsReturned':
+          newPerson[newKey] = person[key].toString();
           break;
 
         default:
-          if (!omitKeys.includes(newKey)) {
+          if (person[key] === 'Unknown' || person[key] === 'Unkown') {
+            newPerson[newKey] = '';
+          } else {
             newPerson[newKey] = person[key];
           }
       }
