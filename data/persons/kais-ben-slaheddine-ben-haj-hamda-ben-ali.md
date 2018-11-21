@@ -6,7 +6,8 @@ fullName: Kaïs Ben Slaheddine Ben Haj Hamda Ben Ali
 nativeName: ''
 surname: Ben Ali
 firstAndMidleNames: ''
-aliases: []
+aliases:
+  - Kaies Ben Slaheddine Ben Haj Hamda Ben Ali
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

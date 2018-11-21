@@ -1,7 +1,7 @@
 ---
 id: 45
 sanctionsCountry: Tunisia
-name: ''
+name: Mourad Trabelsi
 fullName: Mohamed Mourad Ben Mohamed Ben Rehouma Trabelsi
 nativeName: ''
 surname: Trabelsi
