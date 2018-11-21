@@ -7,7 +7,7 @@ nativeName: ''
 surname: Chiboub
 firstAndMidleNames: Mohamed Slim Ben Mohamed Hassen Ben Salah
 aliases: []
-identifyingInformation: businessmen / married to a Ben Ali's oldest daughter Dorsaf Ben Ali
+identifyingInformation: 'businessman / spouse of Dorsaf Ben Ali, daughter Zine el Abidine Ben Ali  '
 placeOfBirth: Tunisa
 dateOfBirth: 13.01.1959
 countryOfResidence: 'Libya, United Arab Emirates'

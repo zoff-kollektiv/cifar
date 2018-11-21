@@ -8,8 +8,10 @@ const fetch = require('node-fetch');
 const slugify = require('slugify');
 const yaml = require('js-yaml');
 
+const TRANSLATION_PATH = './data/translations';
 const MARKDOWN_PATH = './data/persons';
 const FAMILY_MEMBER_REGEX = new RegExp('^[^-]*');
+const TRANSLATIONS = {};
 
 const spreadsheetUrl =
   'https://docs.google.com/spreadsheets/d/1--Oftcd3_k3jp4xz5fhL1LCkOSjyjUWbSZa_xk38lLo/export?format=csv&id=1--Oftcd3_k3jp4xz5fhL1LCkOSjyjUWbSZa_xk38lLo&gid=';
@@ -49,6 +51,9 @@ const preparePersons = country =>
         .replace(':', '')
         .replace('(', '')
         .replace(')', '');
+
+      // store the mapping
+      TRANSLATIONS[newKey] = key;
 
       switch (newKey) {
         case 'aliases':
@@ -108,9 +113,16 @@ const storePerson = person => {
   return null;
 };
 
+const storeTranslations = () => {
+  const json = JSON.stringify(TRANSLATIONS, null, 2);
+
+  fs.writeFile(`${TRANSLATION_PATH}/columns.json`, json, () => {});
+};
+
 Promise.all(readCsvFiles(csvSheets))
   .then(countries => countries.map(country => preparePersons(country)))
   .then(countries => countries.flat())
   .then(persons => persons.map(person => storePerson(person)))
   // eslint-disable-next-line no-console
-  .then(persons => console.log(`Done. Processed ${persons.length} persons.`));
+  .then(persons => console.log(`Done. Processed ${persons.length} persons.`))
+  .then(() => storeTranslations());

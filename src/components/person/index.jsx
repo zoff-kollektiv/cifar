@@ -3,6 +3,7 @@ import React, { Fragment } from 'react';
 
 import Constraint from '../constraint';
 import styles from './styles';
+import translations from '../../../data/translations/columns.json';
 
 export default ({
   person: {
@@ -30,7 +31,7 @@ export default ({
           <Fragment key={key}>
             {table[key] && (
               <>
-                <dt>{key}</dt>
+                <dt>{translations[key] || key}</dt>
                 <dd>
                   {Array.isArray(table[key])
                     ? table[key].join(', ')

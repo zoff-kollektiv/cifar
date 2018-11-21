@@ -11,7 +11,7 @@ identifyingInformation: Businessman
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: private sector
+corruptionLink: business
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
