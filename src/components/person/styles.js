@@ -45,23 +45,42 @@ export default css`
     width: 100%;
   }
 
+  dl {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  dt,
+  dd {
+    padding: 1rem;
+  }
+
   dt {
     background-color: ${colors.blue};
-    clear: left;
+    border-bottom: 2px solid ${colors.beige};
     color: white;
-    float: left;
     font-size: 1.125rem;
     font-weight: 700;
-    padding: 0.5rem;
+    flex: 0 1 auto;
     text-transform: uppercase;
     width: 40%;
+    word-break: break-all;
   }
 
   dd {
-    border: 1px solid ${colors.blue};
-    float: left;
+    border: 2px solid ${colors.blue};
+    flex: 1 1 50%;
+    font-size: 1.125rem;
     margin-left: 0;
-    padding: 0.5rem;
-    width: 50%;
+    margin-top: -2px;
+  }
+
+  dt:last-of-type {
+    border-bottom-color: ${colors.blue};
+  }
+
+  dd:first-of-type {
+    margin-top: 0;
   }
 `;
