@@ -30,6 +30,7 @@ export const fragment = graphql`
           sanctionsCountry
           name
           identifyingInformation
+          corruptionLink
         }
       }
     }

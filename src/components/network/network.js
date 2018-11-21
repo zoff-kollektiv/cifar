@@ -47,25 +47,25 @@ const drawPersons = (svg, data) => {
 
   // add a background-circle on the root person (for a background-color)
   persons
-    .filter(d => !d.ancestor)
+    .filter(d => !d.corruptionLink)
     .append('circle')
     .attr('class', 'person-background-circle')
-    .attr('r', d => (!d.ancestor ? 70 : 10));
+    .attr('r', d => (!d.corruptionLink ? 70 : 10));
 
   persons
     .append('circle')
     .attr(
       'class',
-      d => `person-circle ${!d.ancestor ? 'person-circle--is-root' : ''}`
+      d => `person-circle ${!d.corruptionLink ? 'person-circle--is-root' : ''}`
     )
-    .attr('r', d => (!d.ancestor ? 70 : 10));
+    .attr('r', d => (!d.corruptionLink ? 70 : 10));
 
   const info = persons
     .append('g')
     .attr(
       'class',
-      ({ ancestor }) =>
-        `person-info ${!ancestor ? 'person-info--for-root' : ''}`
+      ({ corruptionLink }) =>
+        `person-info ${!corruptionLink ? 'person-info--for-root' : ''}`
     );
 
   // name
@@ -140,7 +140,10 @@ const render = (root, data, images) => {
     .forceSimulation(data)
     .force('charge', d3.forceManyBody().strength(-100))
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collide', d3.forceCollide().radius(d => (!d.ancestor ? 80 : 55)))
+    .force(
+      'collide',
+      d3.forceCollide().radius(d => (!d.corruptionLink ? 80 : 55))
+    )
     .force('link', d3.forceLink())
     .stop();
 
