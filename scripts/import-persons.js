@@ -4,39 +4,38 @@ const fs = require('fs');
 // eslint-disable-next-line import/no-extraneous-dependencies
 const camelCase = require('camelcase');
 // eslint-disable-next-line import/no-extraneous-dependencies
-const csv = require('csv-parser');
+const csv = require('csv-parse/lib/sync');
+// eslint-disable-next-line import/no-extraneous-dependencies
+const fetch = require('node-fetch');
 const slugify = require('slugify');
 
-const MARKDOWN_PATH = './data/persons/markdown';
-const BASE_PATH = './data/persons/csv';
+const MARKDOWN_PATH = './data/persons';
 
-const readCsvFiles = path =>
-  new Promise((resolve, reject) => {
-    fs.readdir(path, (err, files) => {
-      if (err) {
-        reject(err);
-      }
+const spreadsheetUrl =
+  'https://docs.google.com/spreadsheets/d/1--Oftcd3_k3jp4xz5fhL1LCkOSjyjUWbSZa_xk38lLo/export?format=csv&id=1--Oftcd3_k3jp4xz5fhL1LCkOSjyjUWbSZa_xk38lLo&gid=';
 
-      resolve(files);
-    });
-  });
+const csvSheets = {
+  egypt: '1843456233',
+  tunisia: '1008588264',
+  ukraine: '1002256294'
+};
 
-const readCsvFile = fileName =>
-  new Promise((resolve, reject) => {
-    const persons = [];
+const readCsvFiles = files =>
+  Object.keys(files).map(name => {
+    const id = csvSheets[name];
+    const url = spreadsheetUrl + id;
 
-    fs.createReadStream(`${BASE_PATH}/${fileName}`)
-      .pipe(csv())
-      .on('data', person => {
-        try {
-          persons.push(person);
-        } catch (err) {
-          reject(err);
-        }
-      })
-      .on('end', () => {
-        resolve(persons);
-      });
+    // eslint-disable-next-line no-console
+    console.log('Fetch: ', url);
+
+    return fetch(url)
+      .then(res => res.text())
+      .then(data =>
+        csv(data, {
+          columns: true,
+          trim: true
+        })
+      );
   });
 
 const preparePersons = country =>
@@ -95,8 +94,7 @@ const storePerson = person => {
   return null;
 };
 
-readCsvFiles(BASE_PATH)
-  .then(files => Promise.all(files.map(fileName => readCsvFile(fileName))))
+Promise.all(readCsvFiles(csvSheets))
   .then(countries => countries.map(country => preparePersons(country)))
   .then(countries => countries.flat())
   .then(persons => persons.map(person => storePerson(person)))
