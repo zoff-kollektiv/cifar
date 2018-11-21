@@ -28,8 +28,16 @@ export default ({
       <dl>
         {Object.keys(table).map(key => (
           <Fragment key={key}>
-            <dt>{key}</dt>
-            <dd>{table[key]}</dd>
+            {table[key] && (
+              <>
+                <dt>{key}</dt>
+                <dd>
+                  {Array.isArray(table[key])
+                    ? table[key].join(', ')
+                    : table[key]}
+                </dd>
+              </>
+            )}
           </Fragment>
         ))}
       </dl>
@@ -43,8 +51,20 @@ export const fragment = graphql`
       nativeName
       name
       identifyingInformation
+      dateOfBirth
+      placeOfBirth
+      countryOfResidence
       aliases
+      familyMembers
+      familyMembersSubjectToSanctions
+      suspectedOrConfirmedLinksToLegalEntities
       suspectedOrConfirmedOverseasProperties
+      suspectedOrConfirmedLinksToBankAccounts
+      suspectedOrConfirmedLinksToOtherAssets
+      estimatesOfAssetsFrozenOrConfiscated
+      estimatesOfAssetsReturned
+      typeOfSanctions
+      startOfSanctions
       story
     }
   }
