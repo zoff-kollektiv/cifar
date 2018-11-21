@@ -8,8 +8,7 @@ surname: Habib
 firstAndMidleNames: Ibrahim Habib  Eladli
 aliases:
   - Habib Ibrahim Habib al-Adli
-  - Habib Ibrahim Habib al-Adli
-  - Habib Ibrahim Habib Al-Adly
+  - Habib Ibrahim Habib al-Adly
   - Habib el-Adly
 identifyingInformation: Former Minister of Interior
 placeOfBirth: 'Egypt, Sharqiya Governorate'
