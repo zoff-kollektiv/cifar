@@ -8,9 +8,7 @@ surname: Suzanne
 firstAndMidleNames: Saleh Thabet
 aliases:
   - None
-identifyingInformation: >-
-  Spouse of Mr. Mohamed Hosni Elsayed Mubarak, former President of the Arab
-  Republic of Egypt
+identifyingInformation: Spouse of Hosni Mubarak
 placeOfBirth: 'Egypt, Al Minya Governorate'
 dateOfBirth: 28.02.1941
 countryOfResidence: Egypt

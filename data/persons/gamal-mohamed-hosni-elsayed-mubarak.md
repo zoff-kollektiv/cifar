@@ -8,9 +8,7 @@ surname: Mubarak
 firstAndMidleNames: Gamal Mohamed Hosni
 aliases:
   - None
-identifyingInformation: >-
-  Son of Mr. Mohamed Hosni Elsayed Mubarak, former President of the Arab
-  Republic of Egypt.
+identifyingInformation: Son of Hosni Mubarak
 placeOfBirth: 'Egypt, Cairo'
 dateOfBirth: 28.12.1963
 countryOfResidence: Egypt

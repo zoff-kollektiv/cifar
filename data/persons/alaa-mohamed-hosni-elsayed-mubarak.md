@@ -10,7 +10,7 @@ aliases:
   - Alaa Mohamed Hosni Elsayed Moubarak
   - Alaa Mohammed Hosni Sayyid Mubarak
   - Alaa Al Din Mohammed Hosni Ei Sayed Mubarak
-identifyingInformation: Son of Mr. Mohamed Hosni Elsayed Mubarak
+identifyingInformation: Son of Hosni Mubarak
 placeOfBirth: 'Egypt, Cairo'
 dateOfBirth: 26.11.1960
 countryOfResidence: Egypt
@@ -19,7 +19,6 @@ familyMembers:
   - Suzanne Mubarak
   - Heidi Rasekh
   - Omar Alaa Mubarak
-  - Mohammed Mubarak (deceased)
 familyMembersSubjectToSanctions:
   - Hosni Mubarak
   - Suzanne Mubarak

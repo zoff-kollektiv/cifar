@@ -7,7 +7,7 @@ nativeName: محمد حسني السيد مبارك
 surname: Mubarak
 firstAndMidleNames: Mohamed Hosni El sayed
 aliases:
-  - None
+  - Mohamed Hosni Elsayed Moubarak
 identifyingInformation: Former President of the Arab Republic of Egypt
 placeOfBirth: 'Egypt, Monufia Governorate, Kafr-El Meselha  '
 dateOfBirth: 04.05.1928
@@ -42,7 +42,7 @@ story: >-
   The former Air Force officer, Hosni Mubarak, was sworn into power in 1981,
   after the assassination of a former president Anwar Sadat. (Sadat's family
   members and number of "prominent members of Sadat’s circle were slapped with
-  criminal charges for misusing their power and other corrupt practices"). 
+  criminal charges for misusing their power and other corrupt practices). 
 
   But during the 30 year-long reign, Mubarak, his family and his close circle of
   advisers have enriched themselves through partnerships in powerful Egyptian

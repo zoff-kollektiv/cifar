@@ -7,13 +7,10 @@ nativeName: خديجة الجمال
 surname: Khadiga
 firstAndMidleNames: Mahmoud El Gammal
 aliases:
-  - Khadija El-Gammal/ el Gamal/ al-gammal
-identifyingInformation: >-
-  Spouse of Mr Gamal Mahamed Hosni Elsayed Mubarak, son of former President of
-  the Arab Republic of Egypt
+  - Khadija Mahmoud El-Gammal/ el Gamal/ al-gammal
+identifyingInformation: 'Daughter-in-law of Hosni Mubarak, spouse of Gamal Mubarak'
 placeOfBirth: ''
-dateOfBirth: |
-  13.10.1984
+dateOfBirth: 13.10.1984
 countryOfResidence: Egypt
 familyMembers:
   - Mahamoud el Gamal

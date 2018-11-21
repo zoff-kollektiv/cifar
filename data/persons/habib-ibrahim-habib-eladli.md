@@ -7,17 +7,13 @@ nativeName: حبيب إبراهيم العادلي‎
 surname: Habib
 firstAndMidleNames: Ibrahim Habib  Eladli
 aliases:
-  - Habib Ibrahim Habib al-Adli
-  - Habib Ibrahim Habib al-Adly
-  - Habib el-Adly
+  - Habib Ibrahim Habib al-Adli / al-Adly / el-Adly
 identifyingInformation: Former Minister of Interior
 placeOfBirth: 'Egypt, Sharqiya Governorate'
 dateOfBirth: 01.03.1938
 countryOfResidence: Egypt
-familyMembers:
-  - Unkown
-familyMembersSubjectToSanctions:
-  - Unkown
+familyMembers: []
+familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''

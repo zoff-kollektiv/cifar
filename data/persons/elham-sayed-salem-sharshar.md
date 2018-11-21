@@ -8,14 +8,12 @@ surname: Sharshar
 firstAndMidleNames: Elham Sayed Salem
 aliases:
   - None
-identifyingInformation: Spouse of Mr Habib Ibrahim Eladli
+identifyingInformation: Spouse of Habib Ibrahim Eladli
 placeOfBirth: 'Egypt, Cairo'
 dateOfBirth: 23.01.1963
 countryOfResidence: Egypt
-familyMembers:
-  - Unkown
-familyMembersSubjectToSanctions:
-  - Unkown
+familyMembers: []
+familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''

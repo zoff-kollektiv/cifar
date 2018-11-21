@@ -7,17 +7,13 @@ nativeName: زهير جرانة
 surname: Garrana
 firstAndMidleNames: Mohamed Zohir Mohamed Wahid
 aliases:
-  - Mohamed Zoheir/Zuheir/Zuhir Mohamed Wahid/Wahed Garrana
-  - Mohamed Zohair Mohamed Wahid Garana
-  - Mohamed Zoheir Mohamed Wahid Garrana
+  - Mohamed Zoheir/Zuheir/Zuhir/Zohair Mohamed Wahid/Wahed Garrana
 identifyingInformation: Former Minister of Tourism
 placeOfBirth: ''
 dateOfBirth: 20.02.1959
 countryOfResidence: Egypt
-familyMembers:
-  - Unkown
-familyMembersSubjectToSanctions:
-  - Unkown
+familyMembers: []
+familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''

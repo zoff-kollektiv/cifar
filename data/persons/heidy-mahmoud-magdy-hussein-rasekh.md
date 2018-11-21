@@ -8,9 +8,7 @@ surname: Heidy
 firstAndMidleNames: Mahmoud Magdy Hussein Rasekh
 aliases:
   - Heddy Mahmoud Magdy Hussein Rasekh
-identifyingInformation: >-
-  Spouse of Mr. Alaa Mohamed Hosni Elsayed Mubarak, son of former President of
-  the Arab Republic of Egypt
+identifyingInformation: 'Daughter-in-law of Hosni Mubarak, spouse of Alaa Mubarak'
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: Egypt
