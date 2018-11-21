@@ -109,7 +109,6 @@ export default css`
 
   @font-face {
     font-family: 'Inter UI var';
-    font-weight: 400 900; /* safe weight range */
     src: url('/fonts/inter-ui/inter-ui.var.woff2') format('woff2-variations'),
       url('/fonts/inter-ui/inter-ui.var.woff2') format('woff2');
   }
@@ -121,6 +120,7 @@ export default css`
 
   :global(html) {
     font-family: 'Inter UI', sans-serif;
+    font-feature-settings: 'calt' 1, 'kern' 1, 'liga' 1;
   }
 
   @supports (font-variation-settings: normal) {
