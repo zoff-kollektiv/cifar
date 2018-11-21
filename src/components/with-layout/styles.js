@@ -116,16 +116,20 @@ export default css`
   :global(body) {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
   }
 
   :global(html) {
-    font-family: 'Inter UI', sans-serif;
+    font-family: 'Inter UI', system-ui, sans-serif;
+    font-kerning: normal;
     font-feature-settings: 'calt' 1, 'kern' 1, 'liga' 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   @supports (font-variation-settings: normal) {
     :global(html) {
-      font-family: 'Inter UI var', sans-serif;
+      font-family: 'Inter UI var', system-ui, sans-serif;
     }
   }
 `;
