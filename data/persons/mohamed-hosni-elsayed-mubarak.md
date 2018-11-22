@@ -8,7 +8,7 @@ surname: Mubarak
 firstAndMidleNames: Mohamed Hosni El sayed
 aliases:
   - Mohamed Hosni Elsayed Moubarak
-identifyingInformation: Former President of the Arab Republic of Egypt
+identifyingInformation: Former President of Egypt
 placeOfBirth: 'Egypt, Monufia Governorate, Kafr-El Meselha  '
 dateOfBirth: 04.05.1928
 countryOfResidence: Egypt
