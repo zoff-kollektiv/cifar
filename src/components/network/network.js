@@ -7,6 +7,8 @@ const findImageByUrl = (images, url) =>
     absolutePath.endsWith(url)
   );
 
+const isRootPerson = person => person.name === 'Hosni Mubarak';
+
 const appendImage = (svg, data, images) => {
   const size = 150;
 
@@ -41,37 +43,36 @@ const drawPersons = (svg, data) => {
     .attr('cx', d => d.x)
     .attr('cy', d => d.y)
     .attr('transform', ({ x, y }) => `translate(${x},${y})`)
-    .on('click', ({ country, title }) => {
-      navigate(`/persons/${createSlug(country)}/${createSlug(title)}/`);
+    .on('click', ({ sanctionsCountry, name }) => {
+      navigate(`/persons/${createSlug(sanctionsCountry)}/${createSlug(name)}/`);
     });
 
   // add a background-circle on the root person (for a background-color)
   persons
-    .filter(d => !d.corruptionLink)
+    .filter(d => isRootPerson(d))
     .append('circle')
     .attr('class', 'person-background-circle')
-    .attr('r', d => (!d.corruptionLink ? 70 : 10));
+    .attr('r', d => (isRootPerson(d) ? 70 : 10));
 
   persons
     .append('circle')
     .attr(
       'class',
-      d => `person-circle ${!d.corruptionLink ? 'person-circle--is-root' : ''}`
+      d => `person-circle ${isRootPerson(d) ? 'person-circle--is-root' : ''}`
     )
-    .attr('r', d => (!d.corruptionLink ? 70 : 10));
+    .attr('r', d => (isRootPerson(d) ? 70 : 10));
 
   const info = persons
     .append('g')
     .attr(
       'class',
-      ({ corruptionLink }) =>
-        `person-info ${!corruptionLink ? 'person-info--for-root' : ''}`
+      d => `person-info ${isRootPerson(d) ? 'person-info--for-root' : ''}`
     );
 
   // name
   info
     .append('text')
-    .text(d => d.title)
+    .text(d => d.name)
     .attr('class', 'person-name');
 
   // role
@@ -107,13 +108,14 @@ const render = (root, data, images) => {
   const svg = d3.select(root).append('svg');
   const { height, width } = root.getBoundingClientRect();
   const nodesById = d3.map();
+  const rootPerson = data.find(_ => isRootPerson(_));
 
   const links = data
-    .map(({ title, ancestor }) => {
-      if (ancestor) {
+    .map(({ name }) => {
+      if (rootPerson) {
         return {
-          source: title,
-          target: ancestor
+          source: name,
+          target: rootPerson.name
         };
       }
 
@@ -122,7 +124,7 @@ const render = (root, data, images) => {
     .filter(Boolean);
 
   // setup links by name
-  data.forEach(_ => nodesById.set(_.title, _));
+  data.forEach(_ => nodesById.set(_.name, _));
   links.forEach(_ => {
     // eslint-disable-next-line no-param-reassign
     _.source = nodesById.get(_.source);
