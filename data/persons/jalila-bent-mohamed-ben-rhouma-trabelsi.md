@@ -1,9 +1,9 @@
 ---
 id: 38
 sanctionsCountry: Tunisia
-name: ''
+name: Jalila Trabelsi
 fullName: Jalila Bent Mohamed Ben Rhouma Trabelsi
-nativeName: ''
+nativeName: جليلة الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: ''
 aliases: []

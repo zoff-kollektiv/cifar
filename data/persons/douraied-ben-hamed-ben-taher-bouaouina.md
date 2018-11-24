@@ -3,7 +3,7 @@ id: 42
 sanctionsCountry: Tunisia
 name: Douraid Bouaouina
 fullName: Douraied Ben Hamed Ben Taher Bouaouina
-nativeName: ''
+nativeName: دريد بوعوينة
 surname: Bouaouina
 firstAndMidleNames: ''
 aliases:

@@ -3,7 +3,7 @@ id: 67
 sanctionsCountry: Tunisia
 name: Cyrine Ben Aii
 fullName: Cyrine Bent Zine El Abidine Ben Haj Hamda Ben Ali
-nativeName: ''
+nativeName: سيرين بن علي
 surname: Ben Ali
 firstAndMidleNames: ''
 aliases:

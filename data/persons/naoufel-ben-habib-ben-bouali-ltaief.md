@@ -1,9 +1,9 @@
 ---
 id: 34
 sanctionsCountry: Tunisia
-name: ''
+name: Naoufel Ltaief
 fullName: Naoufel Ben Habib Ben Bouali Ltaief
-nativeName: ''
+nativeName: نوفل لطيف
 surname: Ltaief
 firstAndMidleNames: Naoufel Ben Habib Ben Bouali
 aliases: []

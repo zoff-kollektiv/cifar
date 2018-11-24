@@ -3,7 +3,7 @@ id: 32
 sanctionsCountry: Tunisia
 name: Nesrine Ben Ali
 fullName: Nesrine Bent Zine El Abidine Ben Haj Hamda Ben Ali
-nativeName: ''
+nativeName: نسرين بن علي‎
 surname: Ben Ali
 firstAndMidleNames: Nesrine Bent Zine El Abidine Ben Haj Hamda
 aliases: []

@@ -3,7 +3,7 @@ id: 46
 sanctionsCountry: Tunisia
 name: Samira Trabelsi
 fullName: Samira Bent Mohamed Ben Rhouma Trabelsi
-nativeName: ''
+nativeName: سميرة الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: ''
 aliases: []

@@ -3,7 +3,7 @@ id: 69
 sanctionsCountry: Tunisia
 name: Slim Chiboub
 fullName: Mohamed Slim Ben Mohamed Hassen Ben Salah Chiboub
-nativeName: ''
+nativeName: سليم شيبوب
 surname: Chiboub
 firstAndMidleNames: Mohamed Slim Ben Mohamed Hassen Ben Salah
 aliases: []

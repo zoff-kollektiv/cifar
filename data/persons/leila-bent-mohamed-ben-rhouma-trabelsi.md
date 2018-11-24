@@ -3,10 +3,11 @@ id: 24
 sanctionsCountry: Tunisia
 name: Leila Trabelsi
 fullName: Leila Bent Mohamed Ben Rhouma Trabelsi
-nativeName: ''
+nativeName: ليلى الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: ''
-aliases: []
+aliases:
+  - Leïla Ben Ali
 identifyingInformation: Souse of Zine El Abidine Ben Ali
 placeOfBirth: ''
 dateOfBirth: ''

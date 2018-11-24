@@ -3,7 +3,7 @@ id: 65
 sanctionsCountry: Tunisia
 name: Marwan Ben Mabrouk
 fullName: Mohamed Marouen Ben Ali Ben Mohamed Mabrouk
-nativeName: ''
+nativeName: مروان مبروك
 surname: Mabrouk
 firstAndMidleNames: ''
 aliases:
