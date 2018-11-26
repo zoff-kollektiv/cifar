@@ -74,7 +74,10 @@ export const query = graphql`
               absolutePath
             }
           }
-          fluid(maxWidth: 180) {
+          fluid(
+            maxWidth: 180
+            duotone: { highlight: "#ebe7d6", shadow: "#192162" }
+          ) {
             src
           }
         }
