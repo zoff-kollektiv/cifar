@@ -7,9 +7,9 @@ nativeName: Дмитро Володимирович Табачник
 surname: Tabachnyk
 firstAndMidleNames: Dmytro Volodymyrovych
 aliases: []
-identifyingInformation: Former Minister of Education and Science
-placeOfBirth: ''
-dateOfBirth: ''
+identifyingInformation: Former Minister of Education and Science of Ukraine
+placeOfBirth: 'Ukraine, Kiev'
+dateOfBirth: 28.11.1963
 countryOfResidence: ''
 corruptionLink: government
 familyMembers: []
@@ -20,8 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 06.03.2014
 story: ''
 
 ---

@@ -8,8 +8,8 @@ surname: Pshonka
 firstAndMidleNames: Pavlovych Pshonka
 aliases: []
 identifyingInformation: Former Prosecutor General of Ukraine
-placeOfBirth: ''
-dateOfBirth: ''
+placeOfBirth: 'Ukraine, Donetsk oblast, Serhiyivka '
+dateOfBirth: 06.02.1954
 countryOfResidence: ''
 corruptionLink: government
 familyMembers: []
@@ -20,8 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 06.03.2014
 story: ''
 
 ---

@@ -7,9 +7,9 @@ nativeName: Віктор Іванович Ратушняк
 surname: Ratushniak
 firstAndMidleNames: Viktor Ivanovych
 aliases: []
-identifyingInformation: Former Deputy Minister of Internal Affairs
-placeOfBirth: ''
-dateOfBirth: ''
+identifyingInformation: Former Deputy Minister of Internal Affairs of Ukraine
+placeOfBirth: .
+dateOfBirth: 16.10.1959
 countryOfResidence: ''
 corruptionLink: government
 familyMembers: []
@@ -20,8 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 06.03.2014
 story: ''
 
 ---

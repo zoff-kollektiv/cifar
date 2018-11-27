@@ -8,7 +8,7 @@ surname: Garrana
 firstAndMidleNames: Mohamed Zohir Mohamed Wahid
 aliases:
   - Mohamed Zoheir/Zuheir/Zuhir/Zohair Mohamed Wahid/Wahed Garrana
-identifyingInformation: Former Minister of Tourism
+identifyingInformation: Former Minister of Tourism of Egypt
 placeOfBirth: ''
 dateOfBirth: 20.02.1959
 countryOfResidence: Egypt

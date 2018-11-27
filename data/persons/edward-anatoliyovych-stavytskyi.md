@@ -10,8 +10,8 @@ aliases:
   - Eduard Anatoliyovych Stavytsky
   - Natan Rozenberh
 identifyingInformation: Former Minister of Fuel and Energy of Ukraine.
-placeOfBirth: ''
-dateOfBirth: ''
+placeOfBirth: 'Ukraine, Sumy oblast, Lebedyn '
+dateOfBirth: 04.10.1972
 countryOfResidence: ''
 corruptionLink: government
 familyMembers: []
@@ -22,8 +22,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 06.03.2014
 story: ''
 
 ---

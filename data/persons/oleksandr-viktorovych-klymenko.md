@@ -8,8 +8,8 @@ surname: Klymenko
 firstAndMidleNames: Oleksandr Viktorovych
 aliases: []
 identifyingInformation: Former Minister of Revenues and Charges of Ukraine
-placeOfBirth: ''
-dateOfBirth: ''
+placeOfBirth: 'Ukraine, Donetsk oblast, Makiivka'
+dateOfBirth: 16.11.1980
 countryOfResidence: ''
 corruptionLink: government
 familyMembers: []
@@ -20,8 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 06.03.2014
 story: ''
 
 ---
