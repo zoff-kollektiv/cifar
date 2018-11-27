@@ -3,7 +3,10 @@ import { navigate } from '@reach/router';
 import createSlug from '../../lib/create-slug';
 import findImageById from '../../lib/find-image-by-id';
 
-const isRootPerson = person => person.name === 'Hosni Mubarak';
+const isRootPerson = person =>
+  person.name === 'Hosni Mubarak' ||
+  person.name === 'Dorsaf Ben Ali' ||
+  person.name === 'Andrii Kliuiev';
 
 const appendImage = (svg, data, images) => {
   const size = 180;
@@ -140,7 +143,7 @@ const render = (root, data, images) => {
     .force('center', d3.forceCenter(width / 2, height / 2))
     .force(
       'collide',
-      d3.forceCollide().radius(d => (isRootPerson(d) ? 80 : 55))
+      d3.forceCollide().radius(d => (isRootPerson(d) ? 90 : 55))
     )
     .force('link', d3.forceLink())
     .stop();
@@ -148,7 +151,7 @@ const render = (root, data, images) => {
   simulation
     .force('link')
     .links(links)
-    .distance(10);
+    .distance(150);
 
   // eslint-disable-next-line no-plusplus
   for (let i = 0; i < 300; ++i) {
