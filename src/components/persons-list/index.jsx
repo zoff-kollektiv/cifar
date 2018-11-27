@@ -6,17 +6,13 @@ import Network from '../network';
 import Person from './person';
 import styles from './styles';
 
+import findImageById from '../../lib/find-image-by-id';
+
 const extractFrontmatter = persons =>
   persons.map(person => person.node.frontmatter);
 
 const filterPersonsByName = (persons, name) =>
   !name ? persons : persons.filter(_ => _.node.frontmatter.name.includes(name));
-
-const findPersonsImage = (images, id) =>
-  images.find(({ node: { parent: { absolutePath } } }) => {
-    const normalizedId = id > 10 ? id : `0${id}`;
-    return absolutePath.includes(`/${normalizedId}-`);
-  });
 
 export default class PersonList extends Component {
   state = {
@@ -122,7 +118,7 @@ export default class PersonList extends Component {
               persons.map(({ node }) => (
                 <Person
                   key={node.frontmatter.name}
-                  image={findPersonsImage(images.edges, node.frontmatter.id)}
+                  image={findImageById(images.edges, node.frontmatter.id)}
                   {...node}
                 />
               ))}

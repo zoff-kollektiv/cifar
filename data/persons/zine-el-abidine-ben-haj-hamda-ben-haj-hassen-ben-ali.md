@@ -7,7 +7,7 @@ nativeName: زين العابدين بن علي‎
 surname: Ben Ali
 firstAndMidleNames: Zine El Abidine Ben Haj Hamda Ben Haj Hassen
 aliases: []
-identifyingInformation: Ex-president
+identifyingInformation: Former president of Tunisia
 placeOfBirth: ''
 dateOfBirth: 03.09.1936
 countryOfResidence: Saudi Arabia

@@ -1,14 +1,16 @@
 import * as d3 from 'd3';
 import { navigate } from '@reach/router';
 import createSlug from '../../lib/create-slug';
+import findImageById from '../../lib/find-image-by-id';
 
-const findImageByUrl = (images, url) =>
-  images.find(({ node: { parent: { absolutePath } } }) =>
-    absolutePath.endsWith(url)
-  );
+// TODO: make this more generic
+const isRootPerson = person =>
+  person.name === 'Hosni Mubarak' ||
+  person.name === 'Dorsaf Ben Ali' ||
+  person.name === 'Andrii Kliuiev';
 
 const appendImage = (svg, data, images) => {
-  const size = 150;
+  const size = 180;
 
   svg
     .append('defs')
@@ -25,9 +27,9 @@ const appendImage = (svg, data, images) => {
     .attr('width', size)
     .attr('height', size)
     .attr('xlink:href', () => {
-      const imageURL = data.find(_ => !_.ancestor).image;
-      const publicImage = findImageByUrl(images, imageURL);
-      return publicImage && publicImage.node.fluid.src;
+      const { id } = data.find(_ => isRootPerson(_));
+      const image = findImageById(images, id);
+      return image && image.node.fluid.src;
     });
 };
 
@@ -41,37 +43,36 @@ const drawPersons = (svg, data) => {
     .attr('cx', d => d.x)
     .attr('cy', d => d.y)
     .attr('transform', ({ x, y }) => `translate(${x},${y})`)
-    .on('click', ({ country, title }) => {
-      navigate(`/persons/${createSlug(country)}/${createSlug(title)}/`);
+    .on('click', ({ sanctionsCountry, name }) => {
+      navigate(`/persons/${createSlug(sanctionsCountry)}/${createSlug(name)}/`);
     });
 
   // add a background-circle on the root person (for a background-color)
   persons
-    .filter(d => !d.corruptionLink)
+    .filter(d => isRootPerson(d))
     .append('circle')
     .attr('class', 'person-background-circle')
-    .attr('r', d => (!d.corruptionLink ? 70 : 10));
+    .attr('r', d => (isRootPerson(d) ? 70 : 10));
 
   persons
     .append('circle')
     .attr(
       'class',
-      d => `person-circle ${!d.corruptionLink ? 'person-circle--is-root' : ''}`
+      d => `person-circle ${isRootPerson(d) ? 'person-circle--is-root' : ''}`
     )
-    .attr('r', d => (!d.corruptionLink ? 70 : 10));
+    .attr('r', d => (isRootPerson(d) ? 70 : 10));
 
   const info = persons
     .append('g')
     .attr(
       'class',
-      ({ corruptionLink }) =>
-        `person-info ${!corruptionLink ? 'person-info--for-root' : ''}`
+      d => `person-info ${isRootPerson(d) ? 'person-info--for-root' : ''}`
     );
 
   // name
   info
     .append('text')
-    .text(d => d.title)
+    .text(d => d.name)
     .attr('class', 'person-name');
 
   // role
@@ -91,7 +92,7 @@ const drawConnections = (svg, links) => {
     .enter()
     .append('line')
     .attr('class', 'connection')
-    .attr('class', d => `connection connection--${d.target.connection}`)
+    .attr('class', d => `connection connection--${d.target.corruptionLink}`)
     .attr('x1', d => d.source.x)
     .attr('y1', d => d.source.y)
     .attr('x2', d => d.target.x)
@@ -107,13 +108,14 @@ const render = (root, data, images) => {
   const svg = d3.select(root).append('svg');
   const { height, width } = root.getBoundingClientRect();
   const nodesById = d3.map();
+  const rootPerson = data.find(_ => isRootPerson(_));
 
   const links = data
-    .map(({ title, ancestor }) => {
-      if (ancestor) {
+    .map(({ name }) => {
+      if (rootPerson) {
         return {
-          source: title,
-          target: ancestor
+          source: name,
+          target: rootPerson.name
         };
       }
 
@@ -122,7 +124,7 @@ const render = (root, data, images) => {
     .filter(Boolean);
 
   // setup links by name
-  data.forEach(_ => nodesById.set(_.title, _));
+  data.forEach(_ => nodesById.set(_.name, _));
   links.forEach(_ => {
     // eslint-disable-next-line no-param-reassign
     _.source = nodesById.get(_.source);
@@ -142,7 +144,7 @@ const render = (root, data, images) => {
     .force('center', d3.forceCenter(width / 2, height / 2))
     .force(
       'collide',
-      d3.forceCollide().radius(d => (!d.corruptionLink ? 80 : 55))
+      d3.forceCollide().radius(d => (isRootPerson(d) ? 90 : 55))
     )
     .force('link', d3.forceLink())
     .stop();
@@ -150,7 +152,7 @@ const render = (root, data, images) => {
   simulation
     .force('link')
     .links(links)
-    .distance(10);
+    .distance(150);
 
   // eslint-disable-next-line no-plusplus
   for (let i = 0; i < 300; ++i) {

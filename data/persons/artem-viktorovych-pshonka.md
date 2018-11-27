@@ -10,8 +10,8 @@ aliases: []
 identifyingInformation: >-
   Deputy Head of the faction of Party of Regions in the Verkhovna Rada of
   Ukraine
-placeOfBirth: ''
-dateOfBirth: ''
+placeOfBirth: 'Ukraine, Donetsk oblast, Kramatorsk '
+dateOfBirth: 19.03.1976
 countryOfResidence: ''
 corruptionLink: government
 familyMembers: []
@@ -22,8 +22,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 06.03.2014
 story: ''
 
 ---

@@ -3,7 +3,7 @@ id: 52
 sanctionsCountry: Tunisia
 name: ''
 fullName: Habib Ben Kaddour Ben Mustapha Ben Zakir
-nativeName: ''
+nativeName: حبيب بن زكير
 surname: Ben Zakir
 firstAndMidleNames: ''
 aliases: []

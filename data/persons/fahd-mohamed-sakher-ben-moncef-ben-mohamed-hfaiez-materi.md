@@ -3,7 +3,7 @@ id: 31
 sanctionsCountry: Tunisia
 name: Sakher El Materi
 fullName: Fahd Mohamed Sakher Ben Moncef Ben Mohamed Hfaiez Materi
-nativeName: محمد صخر الماطري‎
+nativeName: صخر الماطري
 surname: Materi
 firstAndMidleNames: Fahd Mohamed Sakher Ben Moncef Ben Mohamed Hfaiez
 aliases: []

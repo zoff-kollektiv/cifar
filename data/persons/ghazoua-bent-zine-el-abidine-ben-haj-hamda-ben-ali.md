@@ -3,7 +3,7 @@ id: 64
 sanctionsCountry: Tunisia
 name: ''
 fullName: Ghazoua Bent Zine El Abidine Ben Haj Hamda Ben Ali
-nativeName: ''
+nativeName: غزوة  بن علي
 surname: Ben Ali
 firstAndMidleNames: ''
 aliases: []

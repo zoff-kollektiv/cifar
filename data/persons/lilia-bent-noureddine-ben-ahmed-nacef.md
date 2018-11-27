@@ -3,7 +3,7 @@ id: 56
 sanctionsCountry: Tunisia
 name: ''
 fullName: Lilia Bent Noureddine Ben Ahmed Nacef
-nativeName: ''
+nativeName: ليليا ناصف
 surname: Nacef
 firstAndMidleNames: ''
 aliases: []

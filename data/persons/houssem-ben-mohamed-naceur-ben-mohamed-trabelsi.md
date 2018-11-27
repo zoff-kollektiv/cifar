@@ -3,7 +3,7 @@ id: 60
 sanctionsCountry: Tunisia
 name: Houssem Trabelsi
 fullName: Houssem Ben Mohamed Naceur Ben Mohamed Trabelsi
-nativeName: ''
+nativeName: حسام الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: ''
 aliases: []

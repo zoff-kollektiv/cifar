@@ -7,21 +7,25 @@ nativeName: Олександр Вікторович Янукович
 surname: Yanukovych
 firstAndMidleNames: Oleksandr Viktorovych
 aliases: []
-identifyingInformation: Son of former President
-placeOfBirth: ''
-dateOfBirth: ''
-countryOfResidence: ''
+identifyingInformation: Son of a former President of Ukraine
+placeOfBirth: 'Ukraine, Donetsk oblast, Yenakieve'
+dateOfBirth: 10.07.1973
+countryOfResidence: Russia
 corruptionLink: family
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Viktor Fedorovych Yanukovych
+  - Liudmyla Oleksandrivna Yanukovych
+  - Viktor Viktorovych Yanukovych
+familyMembersSubjectToSanctions:
+  - Viktor Fedorovych Yanukovych
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 06.03.2014
 story: ''
 
 ---

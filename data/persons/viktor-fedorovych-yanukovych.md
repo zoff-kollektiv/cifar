@@ -7,21 +7,28 @@ nativeName: Вiктор Федорович Янукович
 surname: Yanukovych
 firstAndMidleNames: Viktor Fedorovych
 aliases:
-  - Viktor Fedorovich Yanukovich (Виктор Фёдорович Янукович)
+  - Viktor Fedorovich Yanukovich
+  - Виктор Фёдорович Янукович
 identifyingInformation: Former President of Ukraine
-placeOfBirth: 'Ukraine, Donetsk oblast (Region), Yenakieve'
+placeOfBirth: 'Ukraine, Donetsk oblast, Yenakieve'
 dateOfBirth: 09.07.1950
 countryOfResidence: Russia
 corruptionLink: ''
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Liudmyla Oleksandrivna Yanukovych
+  - Oleksandr Viktorovych Yanukovych
+  - Viktor Viktorovych Yanukovych
+  - Illia Viktorovych Yanukovych
+  - Olha Stanislavivna Yanukovych
+familyMembersSubjectToSanctions:
+  - Oleksandr Viktorovych Yanukovych
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: TI Russia source but not found
-typeOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 story: >-
   embezzlement of more than 7 million euros ($7.6 million) of state funds

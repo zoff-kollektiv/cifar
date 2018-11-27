@@ -1,9 +1,9 @@
 ---
 id: 36
 sanctionsCountry: Tunisia
-name: ''
+name: Imed Ltaief
 fullName: Imed Ben Habib Ben Bouali Ltaief
-nativeName: ''
+nativeName: عماد لطيف
 surname: Ltaief
 firstAndMidleNames: ''
 aliases:

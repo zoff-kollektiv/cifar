@@ -9,8 +9,8 @@ firstAndMidleNames: Andrii Petrovych
 aliases:
   - Andriy Petrovych Klyuyev/Kluev
 identifyingInformation: Former Head of Administration of President of Ukraine
-placeOfBirth: ''
-dateOfBirth: ''
+placeOfBirth: 'Ukraine, Donetsk oblast, Donetsk '
+dateOfBirth: 12.08.1964
 countryOfResidence: ''
 corruptionLink: government
 familyMembers: []
@@ -21,8 +21,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 06.03.2014
 story: ''
 
 ---

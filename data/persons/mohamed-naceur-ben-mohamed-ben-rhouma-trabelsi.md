@@ -3,7 +3,7 @@ id: 37
 sanctionsCountry: Tunisia
 name: Mohamed Naceur Trabelsi
 fullName: Mohamed Naceur Ben Mohamed Ben Rhouma Trabelsi
-nativeName: ''
+nativeName: محمد الناصر الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: ''
 aliases: []

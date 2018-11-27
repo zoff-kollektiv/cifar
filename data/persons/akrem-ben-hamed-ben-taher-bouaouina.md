@@ -1,9 +1,9 @@
 ---
 id: 41
 sanctionsCountry: Tunisia
-name: ''
+name: Akrem Bouaouina
 fullName: Akrem Ben Hamed Ben Taher Bouaouina
-nativeName: ''
+nativeName: اكرم بوعوينة
 surname: Bouaouina
 firstAndMidleNames: ''
 aliases: []

@@ -3,7 +3,7 @@ id: 27
 sanctionsCountry: Tunisia
 name: Slim Ben Ali
 fullName: Slim Ben Tijani Ben Haj Hamda Ben Ali
-nativeName: ''
+nativeName: سليم بن علي
 surname: Ben Ali
 firstAndMidleNames: ''
 aliases: []
