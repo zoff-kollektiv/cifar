@@ -1,16 +1,12 @@
 import * as d3 from 'd3';
 import { navigate } from '@reach/router';
 import createSlug from '../../lib/create-slug';
-
-const findImageByUrl = (images, url) =>
-  images.find(({ node: { parent: { absolutePath } } }) =>
-    absolutePath.endsWith(url)
-  );
+import findImageById from '../../lib/find-image-by-id';
 
 const isRootPerson = person => person.name === 'Hosni Mubarak';
 
 const appendImage = (svg, data, images) => {
-  const size = 150;
+  const size = 180;
 
   svg
     .append('defs')
@@ -27,9 +23,9 @@ const appendImage = (svg, data, images) => {
     .attr('width', size)
     .attr('height', size)
     .attr('xlink:href', () => {
-      const imageURL = data.find(_ => !_.ancestor).image;
-      const publicImage = findImageByUrl(images, imageURL);
-      return publicImage && publicImage.node.fluid.src;
+      const { id } = data.find(_ => isRootPerson(_));
+      const image = findImageById(images, id);
+      return image && image.node.fluid.src;
     });
 };
 
@@ -92,7 +88,7 @@ const drawConnections = (svg, links) => {
     .enter()
     .append('line')
     .attr('class', 'connection')
-    .attr('class', d => `connection connection--${d.target.connection}`)
+    .attr('class', d => `connection connection--${d.target.corruptionLink}`)
     .attr('x1', d => d.source.x)
     .attr('y1', d => d.source.y)
     .attr('x2', d => d.target.x)
@@ -144,7 +140,7 @@ const render = (root, data, images) => {
     .force('center', d3.forceCenter(width / 2, height / 2))
     .force(
       'collide',
-      d3.forceCollide().radius(d => (!d.corruptionLink ? 80 : 55))
+      d3.forceCollide().radius(d => (isRootPerson(d) ? 80 : 55))
     )
     .force('link', d3.forceLink())
     .stop();
