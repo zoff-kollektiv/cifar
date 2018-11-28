@@ -2,16 +2,17 @@ import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import React, { Fragment } from 'react';
 
+import Block from '../components/home/block';
 import CountryOverview from '../components/home/country-overview';
-import PrivateSector from '../components/home/private-sector';
+import Cta from '../components/cta';
 import withLayout from '../components/with-layout';
 import withNavigation from '../components/with-navigation';
 
 const Page = ({
   data: {
+    blocks,
     countries,
     missionStatement,
-    privateSector,
     site: {
       siteMetadata: { title }
     }
@@ -22,7 +23,26 @@ const Page = ({
       <title>{title}</title>
     </Helmet>
     <CountryOverview countries={countries.edges} {...missionStatement} />
-    <PrivateSector {...privateSector} />
+
+    {blocks &&
+      blocks.edges.map(
+        (
+          {
+            node: {
+              html,
+              frontmatter: { title: blockTitle, buttonLink, buttonLabel }
+            }
+          },
+          index
+        ) => (
+          <Block theme={index % 2 === 0 ? 'white' : false} title={blockTitle}>
+            {/* eslint-disable-next-line react/no-danger */}
+            <div dangerouslySetInnerHTML={{ __html: html }} />
+
+            <Cta href={buttonLink} label={buttonLabel} />
+          </Block>
+        )
+      )}
   </Fragment>
 );
 
@@ -54,10 +74,25 @@ export const query = graphql`
       }
     }
 
-    privateSector: markdownRemark(
-      fields: { folder: { eq: "home" }, fileName: { eq: "private-sector.md" } }
+    blocks: allMarkdownRemark(
+      filter: {
+        fields: {
+          folder: { eq: "home" }
+          fileName: { in: ["effectiveness.md", "private-sector.md"] }
+        }
+      }
+      sort: { fields: [frontmatter___sort] }
     ) {
-      ...privateSector
+      edges {
+        node {
+          html
+          frontmatter {
+            buttonLabel
+            buttonLink
+            title
+          }
+        }
+      }
     }
 
     site: site {

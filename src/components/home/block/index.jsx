@@ -4,10 +4,13 @@ import Constraint from '../../constraint';
 
 import styles from './styles';
 
-export default ({ children, theme = 'beige' }) => (
+export default ({ children, theme = 'beige', title }) => (
   <section className={`has-theme--${theme}`}>
     <style jsx>{styles}</style>
 
-    <Constraint>{children}</Constraint>
+    <Constraint>
+      <h2 className="title">{title}</h2>
+      {children}
+    </Constraint>
   </section>
 );

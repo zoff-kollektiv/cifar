@@ -6,6 +6,7 @@ title: >-
 countriesTitle: Sanctioned people by countries
 buttonLabel: Browse all people
 buttonLink: /persons/all/
+sort: 0
 ---
 We are documenting the persons under sanction and analyzing sanctions as a tool
 against corruption.
