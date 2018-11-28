@@ -3,10 +3,11 @@ import css from 'styled-jsx/css';
 import { colors } from '../../tokens';
 
 export default css`
-  .report {
+  .about {
     color: ${colors.blue};
     font-size: 1.5rem;
     line-height: 1.45;
+    padding-bottom: 8rem;
   }
 
   .title {

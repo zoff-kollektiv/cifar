@@ -20,7 +20,7 @@ export default () => (
       >
         Persons
       </Link>
-      <Link to="/report/">Report</Link>
+      <Link to="/about/">About</Link>
     </nav>
   </header>
 );
