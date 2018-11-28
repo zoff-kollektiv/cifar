@@ -47,9 +47,9 @@ export default class PersonList extends Component {
     const url = typeof window !== 'undefined' && new URL(window.location.href);
     const hasInitialPersons = initialPersons && initialPersons.length > 0;
     const showGraphSwitch = hasInitialPersons && slug !== 'all';
-    const showFilter = hasInitialPersons;
     const showGraph =
       (url && url.searchParams.get('view') === 'network') || view === 'network';
+    const showFilter = hasInitialPersons && !showGraph;
 
     return (
       <Constraint>

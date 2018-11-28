@@ -1,6 +1,6 @@
 import css from 'styled-jsx/css';
 
-import { colors } from '../../../tokens';
+import { colors, mq } from '../../../tokens';
 
 export default css`
   .person {
@@ -8,27 +8,48 @@ export default css`
     color: ${colors.blue};
     display: flex;
     flex-direction: column;
-    padding-bottom: 2.5rem;
-    width: 33.3333%;
+    padding-bottom: 1.5rem;
+    width: 50%;
+  }
+
+  @media ${mq.tablet} {
+    .person {
+      padding-bottom: 2.5rem;
+      width: 33.3333%;
+    }
   }
 
   .image,
   .image--has-file > img {
     background-color: ${colors.beige};
     border-radius: 50%;
-    height: 11rem;
+    height: 7rem;
     margin: 0 auto 1rem auto;
     object-fit: cover;
-    width: 11rem;
+    width: 7rem;
+  }
+
+  @media ${mq.tablet} {
+    .image,
+    .image--has-file > img {
+      height: 11rem;
+      width: 11rem;
+    }
   }
 
   .title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.2;
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
+  }
+
+  @media ${mq.tablet} {
+    .title {
+      font-size: 1.5rem;
+    }
   }
 
   :global(.person > a) {
@@ -42,9 +63,15 @@ export default css`
   }
 
   .role {
-    display: block;
+    display: none;
     font-size: 0.9rem;
     font-weight: 700;
     margin-top: 0.25rem;
+  }
+
+  @media ${mq.tablet} {
+    .role {
+      display: block;
+    }
   }
 `;
