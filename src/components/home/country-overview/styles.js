@@ -18,11 +18,21 @@ export default css`
     margin-top: 3rem;
   }
 
+  .countries-title {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
   .countries {
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin: 3rem 0 1.5rem -2.5rem;
+    margin: 0 0 1.5rem -2.5rem;
     padding: 0;
   }
 
