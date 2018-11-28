@@ -3,11 +3,7 @@ import { navigate } from '@reach/router';
 import createSlug from '../../lib/create-slug';
 import findImageById from '../../lib/find-image-by-id';
 
-// TODO: make this more generic
-const isRootPerson = person =>
-  person.name === 'Hosni Mubarak' ||
-  person.name === 'Dorsaf Ben Ali' ||
-  person.name === 'Andrii Kliuiev';
+const isRootPerson = person => !person.corruptionLink;
 
 const appendImage = (svg, data, images) => {
   const size = 180;
