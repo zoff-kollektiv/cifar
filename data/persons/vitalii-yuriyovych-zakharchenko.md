@@ -7,23 +7,31 @@ nativeName: Віталій Юрійович Захарченко
 surname: Zakharchenko
 firstAndMidleNames: Vitalii Yuriyovych
 aliases:
-  - Vitaliy Yurievich Zakharchenko
-  - Виталий Юрьевич Захарченко
+  - >-
+    Vitaliy /Vitali Yurievich / Iurievich / Iurevich / Iuriiovych Zakharchenko /
+    Zaharchenko
 identifyingInformation: Former Minister of Internal Affairs of Ukraine
 placeOfBirth: 'Ukraine, Donetsk oblast, Kostiantynivka'
 dateOfBirth: 20.01.1963
 countryOfResidence: ''
 corruptionLink: government
-familyMembers: []
+familyMembers:
+  - Lyudmyla Zakharchenko
 familyMembersSubjectToSanctions: []
-suspectedOrConfirmedOverseasProperties: ''
-suspectedOrConfirmedLinksToLegalEntities: ''
-suspectedOrConfirmedLinksToBankAccounts: ''
-suspectedOrConfirmedLinksToOtherAssets: ''
-estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+suspectedOrConfirmedOverseasProperties: .
+suspectedOrConfirmedLinksToLegalEntities: .
+suspectedOrConfirmedLinksToBankAccounts: .
+suspectedOrConfirmedLinksToOtherAssets: .
+estimatesOfAssetsFrozenOrConfiscated: None
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
-story: ''
+story: >-
+  Zakharchenko was ousted from the office at the same time as Viktor Yanukovych,
+  both facing charges of using violence against protesters in the February 2014
+  Euromaidan riots, which led to several deaths. He was last seen in Russia in
+  April 2014 during a joint press conference with Viktor Yanukovych and former
+  Viktor Pshonka. [Source]
+  (https://www.rt.com/news/yanukovich-ukraine-war-civil-292/)
 
 ---

@@ -55,7 +55,9 @@ story: >-
   Egyptian operations and such local partners were usually connected to
   Mubarak's network of family and allies.
 
-  https://www.huffingtonpost.com/2011/02/11/how-the-mubarak-family-made-its-billions_n_821757.html
+  [Source]
+  (https://www.huffingtonpost.com/2011/02/11/how-the-mubarak-family-made-its-billions_n_821757.html
+  )
 
   After serving his time in prison together with his father and brother, Gamal
   has been seen again attending public weddings and sporting events, as a

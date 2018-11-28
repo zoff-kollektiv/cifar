@@ -11,7 +11,7 @@ aliases:
 identifyingInformation: Former Prime Minister of Ukraine
 placeOfBirth: 'Russia, Kaluga oblast, Kaluga'
 dateOfBirth: 17.12.1947
-countryOfResidence: ''
+countryOfResidence: Russia
 corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
@@ -20,7 +20,7 @@ suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 story: ''

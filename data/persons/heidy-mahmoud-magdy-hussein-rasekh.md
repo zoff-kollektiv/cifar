@@ -39,7 +39,7 @@ story: >-
   Heidi Rasekh reportedly bought land from the New Urban Communities Authority
   in Sharm El-Sheikh in 2005 that was registered as 1000 square meters for LE1
   million. The plot actually comprises 5000 square meters and is worth LE8
-  million,
-  https://www.egyptindependent.com/prosecution-mubarak-and-family-amassed-le9-billion/ 
+  million, [Source]
+  (https://www.egyptindependent.com/prosecution-mubarak-and-family-amassed-le9-billion/) 
 
 ---
