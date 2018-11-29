@@ -31,7 +31,8 @@ const filterPersonsByName = (persons, name) => {
 export default class PersonList extends Component {
   state = {
     persons: [],
-    view: 'list'
+    view: 'list',
+    filter: ''
   };
 
   constructor(props) {
@@ -45,19 +46,14 @@ export default class PersonList extends Component {
 
     this.setState(state => ({
       ...state,
+      filter: name,
       persons: filterPersonsByName(persons, name)
     }));
   };
 
-  updateView = event => {
-    const { value } = event.target;
-
-    this.setState({ view: value });
-  };
-
   render() {
     const { persons: initialPersons, images, slug } = this.props;
-    const { persons, view } = this.state;
+    const { persons, view, filter } = this.state;
     const url = typeof window !== 'undefined' && new URL(window.location.href);
     const hasInitialPersons = initialPersons && initialPersons.length > 0;
     const showGraphSwitch = hasInitialPersons && slug !== 'all';
@@ -91,6 +87,7 @@ export default class PersonList extends Component {
                 name="name-filter"
                 id="name-filter"
                 className="filter-input"
+                defaultValue={filter}
                 onChange={event => {
                   this.updateNameFilter(event.target.value);
                 }}
@@ -118,7 +115,7 @@ export default class PersonList extends Component {
             )}
             {showGraph && (
               <Network
-                data={extractFrontmatter(persons)}
+                data={extractFrontmatter(initialPersons)}
                 images={images.edges}
               />
             )}
