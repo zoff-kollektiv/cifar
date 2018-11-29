@@ -1,4 +1,6 @@
 import css from 'styled-jsx/css';
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
 
 import { colors, mq } from '../../tokens';
 
@@ -15,30 +17,58 @@ export default css`
     padding-right: 2.5rem;
   }
 
-  :global(header .title) {
-    font-variation-settings: 'wght' 500;
-    letter-spacing: 0.05rem;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-
   nav {
     align-self: flex-end;
     margin-left: auto;
   }
+`;
 
-  :global(header a) {
+export const navLinkStyles = css.resolve`
+  a {
     color: currentColor;
+    font-size: 0.8rem;
     text-decoration: none;
   }
 
-  :global(header a:not(.title)[aria-current]),
-  :global(header a:hover),
-  :global(header a:focus) {
+  @media ${mq.tablet} {
+    a {
+      font-size: 1rem;
+    }
+  }
+
+  a[aria-current],
+  a:hover,
+  a:focus {
     text-decoration: underline;
   }
 
-  :global(header a + a) {
-    margin-left: 1.5rem;
+  a + a {
+    margin-left: 1rem;
+  }
+
+  @media ${mq.tablet} {
+    a + a {
+      margin-left: 1.5rem;
+    }
+  }
+`;
+
+export const titleStyles = css.resolve`
+  a {
+    color: currentColor;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.025rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  @media ${mq.tablet} {
+    a {
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 0.05rem;
+    }
   }
 `;
