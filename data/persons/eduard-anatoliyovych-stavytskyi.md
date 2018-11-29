@@ -1,23 +1,23 @@
 ---
 id: 22
 sanctionsCountry: Ukraine
-name: Edward Stavytskyi
-fullName: Edward Anatoliyovych Stavytskyi
+name: Eduard Stavytskyi
+fullName: Eduard Anatoliyovych Stavytskyi
 nativeName: Едуард Анатолійович Ставицький
 surname: Stavytskyi
-firstAndMidleNames: Edward Anatoliyovych
+firstAndMidleNames: Eduard Anatoliyovych
 aliases:
-  - Eduard Anatoliyovych Stavytsky
+  - Edward Anatoliyovych Stavytsky
   - Natan Rozenberh
 identifyingInformation: Former Minister of Fuel and Energy of Ukraine.
 placeOfBirth: 'Ukraine, Sumy oblast, Lebedyn '
 dateOfBirth: 04.10.1972
-countryOfResidence: ''
+countryOfResidence: Israel
 corruptionLink: government
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
-suspectedOrConfirmedLinksToLegalEntities: ''
+suspectedOrConfirmedLinksToLegalEntities: 'ТОВ "ДІАГРАМА" , ГО "ДЮФК "АМЕТИСТ-2001" '
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''

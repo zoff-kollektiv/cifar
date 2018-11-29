@@ -8,7 +8,7 @@ surname: Khadiga
 firstAndMidleNames: Mahmoud El Gammal
 aliases:
   - Khadija Mahmoud El-Gammal/ el Gamal/ al-gammal
-identifyingInformation: 'Daughter-in-law of Hosni Mubarak, spouse of Gamal Mubarak'
+identifyingInformation: Daughter-in-law of Hosni Mubarak
 placeOfBirth: ''
 dateOfBirth: 13.10.1984
 countryOfResidence: Egypt

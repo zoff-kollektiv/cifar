@@ -29,7 +29,7 @@ suspectedOrConfirmedLinksToLegalEntities: BG Bank
 suspectedOrConfirmedLinksToBankAccounts: >-
   Swiss bank account [Source]
   (https://www.reuters.com/article/us-ukraine-crisis-assets/swiss-government-freezes-assets-of-nine-more-ukrainians-idUSBREA290QT20140310)
-suspectedOrConfirmedLinksToOtherAssets: ''
+suspectedOrConfirmedLinksToOtherAssets: .
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
