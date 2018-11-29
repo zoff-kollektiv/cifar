@@ -1,9 +1,9 @@
 ---
-id: 61
+id: 26
 sanctionsCountry: Tunisia
-name: ''
-fullName: Farid Ben Haj Hamda Ben Haj Hassen Ben Ali
-nativeName: فريد  بن علي
+name: Sofiene Ben Ali
+fullName: ''
+nativeName: سفيان بن علي
 surname: Ben Ali
 firstAndMidleNames: ''
 aliases: []

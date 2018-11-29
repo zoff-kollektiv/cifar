@@ -105,12 +105,12 @@ const preparePersons = country =>
   });
 
 const storePerson = person => {
-  const { fullName } = person;
+  const { id, name } = person;
   const frontmatter = yaml.safeDump(person);
   const output = `---\n${frontmatter}---\n`;
 
-  if (fullName) {
-    const fileName = `${slugify(fullName, { lower: true })}.md`;
+  if (name) {
+    const fileName = `${slugify(`${id}-${name}`, { lower: true })}.md`;
 
     return empty(MARKDOWN_PATH, false, () => {
       fs.writeFile(`${MARKDOWN_PATH}/${fileName}`, output, () => {});

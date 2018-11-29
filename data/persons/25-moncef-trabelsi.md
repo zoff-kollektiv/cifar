@@ -1,13 +1,13 @@
 ---
-id: 59
+id: 25
 sanctionsCountry: Tunisia
-name: ''
-fullName: Faouzi Ben Haj Hamda Ben Haj Hassen Ben Ali
-nativeName: فوزي بن علي
-surname: Ben Ali
+name: Moncef Trabelsi
+fullName: ''
+nativeName: المنصف الطرابلسي
+surname: Trabelsi
 firstAndMidleNames: ''
 aliases: []
-identifyingInformation: ''
+identifyingInformation: Managing director (ex-president's brother-in-law)
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
