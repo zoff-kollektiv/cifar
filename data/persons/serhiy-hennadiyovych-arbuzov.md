@@ -7,9 +7,14 @@ nativeName: Сергій Геннадійович Арбузов
 surname: Arbuzov
 firstAndMidleNames: Hennadiyovych Arbuzov
 aliases:
-  - >-
-    Sergei /Serhii /Sergij /Sergii / Sergey Gennadievich / Gennadevich /
-    Gennadiiovych / Gennadijovich Arbuzov
+  - Sergei
+  - Serhii
+  - Sergij
+  - Sergii
+  - Sergey Gennadievich
+  - Gennadevich
+  - Gennadiiovych
+  - Gennadijovich Arbuzov
 identifyingInformation: Former Prime Minister of Ukraine
 placeOfBirth: 'Ukraine, Donetsk oblast, Donetsk '
 dateOfBirth: 24.03.1976

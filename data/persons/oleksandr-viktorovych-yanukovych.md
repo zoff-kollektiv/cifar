@@ -7,11 +7,22 @@ nativeName: Олександр Вікторович Янукович
 surname: Yanukovych
 firstAndMidleNames: Oleksandr Viktorovych
 aliases:
-  - >-
-    Alexander / Olecsandr / Alexandr / Aleksandr / Olexandr   Yanucovich /
-    Janukovych / Janukowytsch / Ianoukovytch / Janukovyč / Yanucovych /
-    Janukovich / Ianukovych  Victorovych / Viktorovych / Viktorovich /
-    Wiktorowytsch / Viktorovyč
+  - Alexander
+  - Olecsandr
+  - Alexandr
+  - Aleksandr
+  - Olexandr   Yanucovich
+  - Janukovych
+  - Janukowytsch
+  - Ianoukovytch
+  - Janukovyč
+  - Yanucovych
+  - Janukovich
+  - Ianukovych  Victorovych
+  - Viktorovych
+  - Viktorovich
+  - Wiktorowytsch
+  - Viktorovyč
 identifyingInformation: Son of a former President of Ukraine
 placeOfBirth: 'Ukraine, Donetsk oblast, Yenakieve'
 dateOfBirth: 10.07.1973

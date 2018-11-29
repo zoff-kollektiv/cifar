@@ -60,7 +60,11 @@ const preparePersons = country =>
           if (person[key] && person[key] !== 'None') {
             newPerson[newKey] = person[key]
               .split(',')
-              .map(alias => alias.trimStart().trimEnd());
+              .map(alias => alias.trimStart().trimEnd())
+              .map(alias => alias.split('/'))
+              .flat()
+              .map(alias => alias.trimStart().trimEnd())
+              .filter(Boolean);
           } else {
             newPerson[newKey] = [];
           }

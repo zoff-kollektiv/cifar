@@ -7,9 +7,12 @@ nativeName: Олександр Вікторович Клименко
 surname: Klymenko
 firstAndMidleNames: Oleksandr Viktorovych
 aliases:
-  - >-
-    Aleksandr / Alexandr Victorovych / Viktorovych / Viktorovich / Wiktorowytsch
-    / Viktorovyč Klimenko
+  - Aleksandr
+  - Alexandr Victorovych
+  - Viktorovych
+  - Viktorovich
+  - Wiktorowytsch
+  - Viktorovyč Klimenko
 identifyingInformation: Former Minister of Revenues and Charges of Ukraine
 placeOfBirth: 'Ukraine, Donetsk oblast, Makiivka'
 dateOfBirth: 16.11.1980

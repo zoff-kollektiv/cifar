@@ -7,9 +7,13 @@ nativeName: Артем Вікторович Пшонка
 surname: Pshonka
 firstAndMidleNames: Artem Viktorovych
 aliases:
-  - >-
-    Artyom Victorovych / Viktorovych / Viktorovich / Wiktorowytsch / Viktorovyč
-    Pchonka / Pshonca / Pšonka
+  - Artyom Victorovych
+  - Viktorovych
+  - Viktorovich
+  - Wiktorowytsch
+  - Viktorovyč Pchonka
+  - Pshonca
+  - Pšonka
 identifyingInformation: >-
   Deputy Head of the faction of Party of Regions in the Verkhovna Rada of
   Ukraine

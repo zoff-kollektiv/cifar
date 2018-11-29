@@ -7,10 +7,17 @@ nativeName: Вiктор Федорович Янукович
 surname: Yanukovych
 firstAndMidleNames: Viktor Fedorovych
 aliases:
-  - >-
-    Viktor Fedorovich / Fedorowytsch / Fedorovytch / Fedorovyč Yanukovich /
-    Janukovych / Janukowytsch / Ianoukovytch / Janukovyč / Yanucovych /
-    Janukovich / Ianukovych
+  - Viktor Fedorovich
+  - Fedorowytsch
+  - Fedorovytch
+  - Fedorovyč Yanukovich
+  - Janukovych
+  - Janukowytsch
+  - Ianoukovytch
+  - Janukovyč
+  - Yanucovych
+  - Janukovich
+  - Ianukovych
 identifyingInformation: Former President of Ukraine
 placeOfBirth: 'Ukraine, Donetsk oblast, Yenakieve'
 dateOfBirth: 09.07.1950

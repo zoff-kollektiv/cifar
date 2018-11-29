@@ -7,9 +7,14 @@ nativeName: Андрій Петрович Клюєв
 surname: Kliuiev
 firstAndMidleNames: Andrii Petrovych
 aliases:
-  - >-
-    Andriy / Andrij  Petrovych / Petrovič / Petrovich Klyuyev / Kluev / Kliuiev
-    / Kljuyev / Kljujev
+  - Andriy
+  - Andrij  Petrovych
+  - Petrovič
+  - Petrovich Klyuyev
+  - Kluev
+  - Kliuiev
+  - Kljuyev
+  - Kljujev
 identifyingInformation: Former Head of Administration of President of Ukraine
 placeOfBirth: 'Ukraine, Donetsk oblast, Donetsk '
 dateOfBirth: 12.08.1964

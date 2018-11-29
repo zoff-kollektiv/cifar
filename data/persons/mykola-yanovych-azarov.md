@@ -7,9 +7,13 @@ nativeName: Микола Янович Азаров
 surname: Azarov
 firstAndMidleNames: Mykola Yanovych
 aliases:
-  - >-
-    Nikolai Yanovich / Janowytsch / Ianovich / Ianovytch / Janovich / Janovych
-    Azarov / Asarow
+  - Nikolai Yanovich
+  - Janowytsch
+  - Ianovich
+  - Ianovytch
+  - Janovich
+  - Janovych Azarov
+  - Asarow
 identifyingInformation: Former Prime Minister of Ukraine
 placeOfBirth: 'Russia, Kaluga oblast, Kaluga'
 dateOfBirth: 17.12.1947

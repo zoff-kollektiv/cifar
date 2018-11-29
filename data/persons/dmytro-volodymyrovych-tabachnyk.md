@@ -7,9 +7,12 @@ nativeName: Дмитро Володимирович Табачник
 surname: Tabachnyk
 firstAndMidleNames: Dmytro Volodymyrovych
 aliases:
-  - |-
-    Dmitrii / Dimitry Volodymyrovych /  Vladimirovich Tabachnyk / 
-    Tabachnik / Tabachnyc / Tabachnik /
+  - Dmitrii
+  - Dimitry Volodymyrovych
+  - Vladimirovich Tabachnyk
+  - Tabachnik
+  - Tabachnyc
+  - Tabachnik
 identifyingInformation: Former Minister of Education and Science of Ukraine
 placeOfBirth: 'Ukraine, Kiev'
 dateOfBirth: 28.11.1963

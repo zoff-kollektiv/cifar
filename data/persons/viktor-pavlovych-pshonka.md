@@ -7,7 +7,11 @@ nativeName: Віктор Павлович Пшонка
 surname: Pshonka
 firstAndMidleNames: Pavlovych Pshonka
 aliases:
-  - Viktor Pavlovytch / Pawlowytsch / Pavlovič Pchonka / Pshonca / Pšonka
+  - Viktor Pavlovytch
+  - Pawlowytsch
+  - Pavlovič Pchonka
+  - Pshonca
+  - Pšonka
 identifyingInformation: Former Prosecutor General of Ukraine
 placeOfBirth: 'Ukraine, Donetsk oblast, Serhiyivka '
 dateOfBirth: 06.02.1954

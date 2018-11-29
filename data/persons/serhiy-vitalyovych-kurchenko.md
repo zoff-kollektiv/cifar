@@ -7,9 +7,14 @@ nativeName: Сергій Віталійович Курченко
 surname: Kurchenko
 firstAndMidleNames: Serhiy Vitalyovych
 aliases:
-  - >-
-    Serhiy /Serhii /Sergij /Sergii / Sergey Vitalyovych / Vitaliyovych /
-    Vitalijovich / Vitaliiovych  Kurchenko
+  - Serhiy
+  - Serhii
+  - Sergij
+  - Sergii
+  - Sergey Vitalyovych
+  - Vitaliyovych
+  - Vitalijovich
+  - Vitaliiovych  Kurchenko
 identifyingInformation: Ukrainian businessman
 placeOfBirth: 'Ukraine, Kharkiv oblast, Kharkiv'
 dateOfBirth: 21.09.1985

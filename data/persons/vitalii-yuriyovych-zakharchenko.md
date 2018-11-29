@@ -7,9 +7,12 @@ nativeName: Віталій Юрійович Захарченко
 surname: Zakharchenko
 firstAndMidleNames: Vitalii Yuriyovych
 aliases:
-  - >-
-    Vitaliy /Vitali Yurievich / Iurievich / Iurevich / Iuriiovych Zakharchenko /
-    Zaharchenko
+  - Vitaliy
+  - Vitali Yurievich
+  - Iurievich
+  - Iurevich
+  - Iuriiovych Zakharchenko
+  - Zaharchenko
 identifyingInformation: Former Minister of Internal Affairs of Ukraine
 placeOfBirth: 'Ukraine, Donetsk oblast, Kostiantynivka'
 dateOfBirth: 20.01.1963
