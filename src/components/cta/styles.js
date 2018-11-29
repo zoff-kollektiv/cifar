@@ -16,7 +16,7 @@ export const linkStyles = css.resolve`
     border-radius: 0.25rem;
     color: white;
     display: inline-block;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     margin-top: 1.5rem;
     padding: 0.7rem 1.35rem;
     text-decoration: none;

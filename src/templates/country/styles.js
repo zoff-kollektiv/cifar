@@ -5,16 +5,23 @@ import { colors, mq } from '../../tokens';
 export default css`
   .title {
     color: ${colors.blue};
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     font-weight: 700;
     line-height: 1.12;
     margin-bottom: 0;
-    margin-top: 3.5rem;
+    margin-top: 2rem;
+  }
+
+  @media ${mq.phone} {
+    .title {
+      font-size: 2.2rem;
+    }
   }
 
   @media ${mq.tablet} {
     .title {
       font-size: 3.34rem;
+      margin-top: 3.5rem;
     }
   }
 
@@ -23,7 +30,13 @@ export default css`
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.45;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  @media ${mq.phone} {
+    .intro {
+      margin-bottom: 3rem;
+    }
   }
 
   @media ${mq.tablet} {

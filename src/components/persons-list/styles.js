@@ -2,7 +2,7 @@ import css from 'styled-jsx/css';
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 
-import { colors } from '../../tokens';
+import { colors, mq } from '../../tokens';
 
 export default css`
   .person-list {
@@ -29,21 +29,35 @@ export default css`
   }
 
   .filter-label {
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.025rem;
     line-height: 1;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
     margin-right: 0.5rem;
     text-transform: uppercase;
     vertical-align: middle;
   }
 
+  @media ${mq.phone} {
+    .filter-label {
+      font-size: 1rem;
+      margin-left: 2rem;
+    }
+  }
+
   .filter-input {
     border: 3px solid ${colors.blue};
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     vertical-align: middle;
-    width: 12rem;
+    width: 10rem;
+  }
+
+  @media ${mq.phone} {
+    .filter-input {
+      font-size: 1.4rem;
+      width: 12rem;
+    }
   }
 
   .filter-submit {
@@ -52,12 +66,20 @@ export default css`
     border-radius: 2px;
     color: white;
     display: inline-block;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     letter-spacing: 0.05rem;
     line-height: 1;
-    margin-left: 0.5rem;
-    padding: 0.6rem 1.5rem;
+    margin-left: 0.25rem;
+    padding: 0.6rem 1.25rem;
+  }
+
+  @media ${mq.phone} {
+    .filter-submit {
+      font-size: 1rem;
+      margin-left: 0.5rem;
+      padding: 0.6rem 1.5rem;
+    }
   }
 
   .view {

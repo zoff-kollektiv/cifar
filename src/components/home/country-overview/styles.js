@@ -69,8 +69,9 @@ export default css`
 
   .country-title {
     color: ${colors.blue};
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-top: 0.75rem;
     text-transform: uppercase;
   }
 

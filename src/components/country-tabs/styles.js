@@ -67,7 +67,7 @@ export const tabStyles = css.resolve`
     background-color: ${colors.blue};
     color: currentColor;
     display: block;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.05rem;
     padding: 0.6rem 0.45rem;

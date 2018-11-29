@@ -10,17 +10,10 @@ export default css`
     background-color: ${colors.beige};
     color: ${colors.blue};
     display: flex;
-    padding: 0.75rem 1.5rem;
+    padding: 1rem 1.5rem;
     position: sticky;
     top: 0;
     z-index: 100;
-  }
-
-  @media ${mq.phone} {
-    header {
-      padding-bottom: 1rem;
-      padding-top: 1rem;
-    }
   }
 
   @media ${mq.tablet} {
