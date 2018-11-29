@@ -30,7 +30,7 @@ suspectedOrConfirmedLinksToLegalEntities: 'A LOT !!! https://pep.org.ua/en/perso
 suspectedOrConfirmedLinksToBankAccounts: >-
   Swiss bank account [Source ]
   (https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
-suspectedOrConfirmedLinksToOtherAssets: .
+suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
   Assets worth 2 million USD in Switzerland [Source 1]
   (https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)

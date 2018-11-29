@@ -23,12 +23,12 @@ familyMembers:
   - Liudmyla Mykolaivna Azarova
   - Oleksii Mykolaiovych Azarov
 familyMembersSubjectToSanctions: []
-suspectedOrConfirmedOverseasProperties: .
-suspectedOrConfirmedLinksToLegalEntities: .
+suspectedOrConfirmedOverseasProperties: ''
+suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: >-
   Swiss bank account [Source]
   (https://www.pressreader.com/ukraine/kyiv-post/20170210/281694024525834)
-suspectedOrConfirmedLinksToOtherAssets: .
+suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available

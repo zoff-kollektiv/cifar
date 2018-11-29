@@ -31,7 +31,7 @@ familyMembers:
   - Olha Stanislavivna Yanukovych
 familyMembersSubjectToSanctions:
   - Oleksandr Viktorovych Yanukovych
-suspectedOrConfirmedOverseasProperties: .
+suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-
   Bitkeep Development llp, Leolita trading Ltd, Aero Holdings Limited, LIMITED
   LIABILITY COMPANY "CENTRAVIA", LLC AMADEUS KO, BPT Express Ltd, LLC
@@ -40,7 +40,7 @@ suspectedOrConfirmedLinksToLegalEntities: >-
 suspectedOrConfirmedLinksToBankAccounts: >-
   Alleged links to bank accounts in Latvia, Cyprus, Belize, BVI or UK [Source]
   (https://www.aljazeera.com/news/2017/12/exclusive-dirty-deal-traced-ukrainian-tycoons-171217131747631.html)
-suspectedOrConfirmedLinksToOtherAssets: .
+suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
   None [Source]
   (https://www.kyivpost.com/ukraine-politics/lawyers-says-european-commission-reveals-no-yanukovych-assets-frozen-eu-sanctions.html)

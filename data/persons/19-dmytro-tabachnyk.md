@@ -22,14 +22,14 @@ familyMembers:
   - Tatyana Nazarova
   - Mykhailo Volodymyrovych Tabachnyk
 familyMembersSubjectToSanctions: []
-suspectedOrConfirmedOverseasProperties: .
+suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-
   "Strategic Finance Group "TIKO" llc , "IDP" llc , "San11" llc , "Riotrade" llc
   , "Informational and Technology System" llc , "bk "Artbud" llc , "Technology
   and Consulting" llc , "Graal" llc
-suspectedOrConfirmedLinksToBankAccounts: .
-suspectedOrConfirmedLinksToOtherAssets: .
-estimatesOfAssetsFrozenOrConfiscated: .
+suspectedOrConfirmedLinksToBankAccounts: ''
+suspectedOrConfirmedLinksToOtherAssets: ''
+estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014

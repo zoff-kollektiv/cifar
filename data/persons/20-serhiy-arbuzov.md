@@ -28,7 +28,7 @@ familyMembers:
   - Hennadii Pavlovych Arbuzov
   - Valentyna Ivanivna Arbuzova
 familyMembersSubjectToSanctions: []
-suspectedOrConfirmedOverseasProperties: .
+suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-
   ТОВ "ДЕНТ-СЕРВІС" , ТОВ "ПРИВАТТУР" ,  ηε,   Newlight Import s.a, Katiema
   Enterprises Limited , Loricom Holding Group , foxtron networks limited ,
@@ -37,8 +37,8 @@ suspectedOrConfirmedLinksToLegalEntities: >-
 suspectedOrConfirmedLinksToBankAccounts: >-
   Latvian bank accounts
   [Soure](https://en.interfax.com.ua/news/press-conference/313396.html)
-suspectedOrConfirmedLinksToOtherAssets: .
-estimatesOfAssetsFrozenOrConfiscated: .
+suspectedOrConfirmedLinksToOtherAssets: ''
+estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014

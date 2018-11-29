@@ -21,11 +21,11 @@ corruptionLink: government
 familyMembers:
   - Lyudmyla Zakharchenko
 familyMembersSubjectToSanctions: []
-suspectedOrConfirmedOverseasProperties: .
-suspectedOrConfirmedLinksToLegalEntities: .
-suspectedOrConfirmedLinksToBankAccounts: .
-suspectedOrConfirmedLinksToOtherAssets: .
-estimatesOfAssetsFrozenOrConfiscated: None
+suspectedOrConfirmedOverseasProperties: ''
+suspectedOrConfirmedLinksToLegalEntities: ''
+suspectedOrConfirmedLinksToBankAccounts: ''
+suspectedOrConfirmedLinksToOtherAssets: ''
+estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014

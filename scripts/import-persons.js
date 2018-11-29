@@ -45,6 +45,7 @@ const preparePersons = country =>
   country.map(person => {
     const keys = Object.keys(person);
     const newPerson = {};
+    const omitValues = ['Unknown', 'Unkown', '.', 'None'];
 
     keys.forEach(key => {
       const newKey = camelCase(key)
@@ -57,7 +58,7 @@ const preparePersons = country =>
 
       switch (newKey) {
         case 'aliases':
-          if (person[key] && person[key] !== 'None') {
+          if (person[key] && !omitValues.includes(person[key])) {
             newPerson[newKey] = person[key]
               .split(',')
               .map(alias => alias.trimStart().trimEnd())
@@ -93,7 +94,7 @@ const preparePersons = country =>
           break;
 
         default:
-          if (person[key] === 'Unknown' || person[key] === 'Unkown') {
+          if (omitValues.includes(person[key])) {
             newPerson[newKey] = '';
           } else {
             newPerson[newKey] = person[key];

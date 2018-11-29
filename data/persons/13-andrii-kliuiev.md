@@ -26,7 +26,7 @@ familyMembers:
   - Bohdan Andriiovych Kliuiev
   - Kyrylo Andriiovych Kliuiev
 familyMembersSubjectToSanctions: []
-suspectedOrConfirmedOverseasProperties: .
+suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-
   ПРАТ "ЗОКМ" , ПРАТ "ВІСТЕК", PrJSC "factory of semiconductors" , SLAV
   HANDEL,VERTRETUNG UND BETEILIGUNG AKTIENGESELLSCHAFT ,  ПАТ "МАШЗАВОД" М
@@ -50,7 +50,7 @@ suspectedOrConfirmedLinksToLegalEntities: >-
 suspectedOrConfirmedLinksToBankAccounts: >-
   Russia, Cyprus, Latvia, Bahamas, Switzerland [Source]
   (https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
-suspectedOrConfirmedLinksToOtherAssets: .
+suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
   26 million francs and a mansion in Switzerland [Source]
   (https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)

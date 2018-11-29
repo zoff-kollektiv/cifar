@@ -34,7 +34,7 @@ familyMembers:
   - Viktor Viktorovych Yanukovych
 familyMembersSubjectToSanctions:
   - Viktor Fedorovych Yanukovych
-suspectedOrConfirmedOverseasProperties: .
+suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-
   "KOMPLEKS DRUZHBA" PJSC , energoinvest holding, "Mako Invest" llc,
   "Energoinvest Holding" PrJSC, "Mako-trading" llc, PrJSC "Capital Building

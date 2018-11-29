@@ -23,8 +23,8 @@ familyMembers:
   - V. O. Klymenko
   - A. O. Klymenko
 familyMembersSubjectToSanctions: []
-suspectedOrConfirmedOverseasProperties: .
-suspectedOrConfirmedLinksToLegalEntities: .
+suspectedOrConfirmedOverseasProperties: ''
+suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
