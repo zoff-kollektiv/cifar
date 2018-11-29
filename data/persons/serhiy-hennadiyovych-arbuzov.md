@@ -50,5 +50,4 @@ story: >-
   property and funds by abuse of official position.  [Source
   1](https://ukranews.com/en/news/544600-pgo-serves-azarov-with-suspicion-of-inflicting-losses-of-uah-22-billion-on-state-serves-arbuzov)
   [Source 2] (https://pep.org.ua/uk/person/9558#reputation)
-
 ---

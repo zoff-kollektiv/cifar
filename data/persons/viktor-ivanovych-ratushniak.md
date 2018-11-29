@@ -28,5 +28,4 @@ story: >-
   Ukraine. Together with the former Interior Minister Vitaliy Zakharchenko and
   other high-ranking officials from the Yanukovich era, Ratushniak is wanted in
   Ukraine for embezzlement.
-
 ---

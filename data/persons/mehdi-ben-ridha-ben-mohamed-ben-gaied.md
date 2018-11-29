@@ -24,5 +24,4 @@ typeOfSanctions: ''
 startOfSanctions: >-
   http://www.kapitalis.com/politique/6827-tunisie-mehdi-ben-gaied-ex-fiance-de-halima-ben-ali-entendu-par-la-justice.html
 story: ''
-
 ---

@@ -58,5 +58,4 @@ story: >-
   after being acquitted of charges of killing protesters but remains under
   investigation for alleged corruption. Mubarak is said t reside in his private
   family residence in Cairo’s upscale district of Heliopolis.
-
 ---

@@ -63,5 +63,4 @@ story: >-
   https://www.wsj.com/articles/sons-of-ex-egypt-leader-mubarak-arrested-in-graft-probe-1537038338
   However, in September 2018, Gamal and his brother Alaa were arrested for
   charges of manipulation of the stock market.
-
 ---

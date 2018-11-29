@@ -47,5 +47,4 @@ story: >-
   been investigted for corruption. One such case has been an alleged
   misappropriation of funds and donations related to the Alexandria Library.
   [Source] (http://content.time.com/time/world/article/0,8599,2071446,00.html) 
-
 ---

@@ -34,5 +34,4 @@ story: >-
   some of whom are not subject to sanctions anymore.  He has been sentenced to
   five years in prison for letting two businessmen buy state land illegally.
   https://www.voanews.com/a/egypts-former-tourism-minister-gets-5-years-for-corruption-121573429/158072.html  
-
 ---

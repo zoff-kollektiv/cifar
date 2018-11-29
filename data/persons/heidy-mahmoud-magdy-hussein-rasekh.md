@@ -41,5 +41,4 @@ story: >-
   million. The plot actually comprises 5000 square meters and is worth LE8
   million, [Source]
   (https://www.egyptindependent.com/prosecution-mubarak-and-family-amassed-le9-billion/) 
-
 ---

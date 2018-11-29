@@ -27,5 +27,4 @@ story: >-
   Former journalist in State-owned Al-Ahram Daily newspaper in its Crime
   section. Owner and editor-in-chief of a weekly newspaper Al-Zaman
   https://dailynewsegypt.com/2016/06/01/wife-mubarak-era-interior-minister-al-adly-launches-newspaper/
-
 ---

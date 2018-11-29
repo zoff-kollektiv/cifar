@@ -36,5 +36,4 @@ story: >-
   business administration from the American University in Cairo, where she has
   met Gamal Mubarak during a conference in 2006. Together they have two
   children, son Mahmoud Gamal Mubarak  and a daughter Farida Gamal Mubarak.
-
 ---

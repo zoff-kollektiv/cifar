@@ -36,5 +36,4 @@ story: >-
   April 2014 during a joint press conference with Viktor Yanukovych and former
   Viktor Pshonka. [Source]
   (https://www.rt.com/news/yanukovich-ukraine-war-civil-292/)
-
 ---

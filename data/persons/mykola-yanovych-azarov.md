@@ -40,5 +40,4 @@ story: >-
   Minister of Ukraine, it is suspected that Azarov committed a massive loss of
   budget funds, in the interests of LLC "ESU". Azarov is currently residing in
   Russia. [Source] (https://pep.org.ua/uk/person/9553#reputation) 
-
 ---

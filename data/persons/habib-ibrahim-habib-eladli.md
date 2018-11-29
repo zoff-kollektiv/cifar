@@ -35,5 +35,4 @@ story: >-
   pressure of human rights grouped to hold him and the regime accountable for
   use of torture and physical and psychological abuse of detainees.. .........
   In hiding? freed?
-
 ---

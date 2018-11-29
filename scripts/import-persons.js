@@ -107,7 +107,7 @@ const preparePersons = country =>
 const storePerson = person => {
   const { fullName } = person;
   const frontmatter = yaml.safeDump(person);
-  const output = `---\n${frontmatter}\n---`;
+  const output = `---\n${frontmatter}---\n`;
 
   if (fullName) {
     const fileName = `${slugify(fullName, { lower: true })}.md`;

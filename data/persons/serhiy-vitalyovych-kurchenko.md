@@ -57,5 +57,4 @@ story: >-
   (https://www.kyivpost.com/article/content/business/forbes-takes-further-steps-to-deny-fugitive-kurchenko-foreign-language-publishing-license-395353.html)
   [Source 3]
   (http://euromaidanpress.com/2016/11/02/smuggling-business-donbas-criminal-coal-akhmetov-kurchenko-cigarettes-ukraine-russia/)
-
 ---

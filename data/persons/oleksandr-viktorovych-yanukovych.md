@@ -67,5 +67,4 @@ story: >-
   Alexander Yanukovych held immediately after his father Victor Yanukovych was
   elected president of Ukraine. [Source]
   (https://pep.org.ua/uk/person/9416#dossier)
-
 ---

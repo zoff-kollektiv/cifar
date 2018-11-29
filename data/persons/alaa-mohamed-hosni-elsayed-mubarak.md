@@ -53,5 +53,4 @@ story: >-
 
   In September 2018, Alaa was arrested along with his brother Gamal, accused of
   manipulating the stock market.
-
 ---

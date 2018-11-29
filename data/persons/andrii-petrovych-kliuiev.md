@@ -69,5 +69,4 @@ story: >-
 
   [Source 1] (https://pep.org.ua/uk/person/742#dossier) [Source 2]
   (https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
-
 ---

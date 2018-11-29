@@ -43,5 +43,4 @@ story: >-
   Yanukovych. Artem Pshonka has been linked to BG Bank which has been declared
   insolvent and is facing charges of fraud [Source]
   (https://www.kyivpost.com/article/content/business/bg-bank-steals-from-sinking-ship-417545.html)
-
 ---
