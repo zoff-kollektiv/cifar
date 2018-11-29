@@ -38,12 +38,19 @@ export default css`
   }
 
   .title {
-    font-size: 1.25rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 700;
     line-height: 1.2;
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
+  }
+
+  @media ${mq.phone} {
+    .title {
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
   }
 
   @media ${mq.tablet} {

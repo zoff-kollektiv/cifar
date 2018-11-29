@@ -26,6 +26,7 @@ export default css`
     background-color: ${colors.blue};
     color: white;
     display: inline-block;
+    position: relative;
   }
 
   .filter-label {
