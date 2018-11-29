@@ -1,13 +1,18 @@
 import css from 'styled-jsx/css';
 
-import { colors } from '../../tokens';
+import { colors, mq } from '../../tokens';
 
 export default css`
   header {
     background-color: ${colors.beige};
     color: ${colors.blue};
     display: flex;
-    padding: 1.25rem 2.5rem;
+    padding: 1.25rem 1.5rem;
+  }
+
+  @media ${mq.tablet} {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   :global(header .title) {
