@@ -41,6 +41,8 @@ export const fragment = graphql`
           name
           identifyingInformation
           corruptionLink
+          aliases
+          nativeName
         }
       }
     }

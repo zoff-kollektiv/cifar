@@ -11,8 +11,22 @@ import findImageById from '../../lib/find-image-by-id';
 const extractFrontmatter = persons =>
   persons.map(person => person.node.frontmatter);
 
-const filterPersonsByName = (persons, name) =>
-  !name ? persons : persons.filter(_ => _.node.frontmatter.name.includes(name));
+const filterPersonsByName = (persons, name) => {
+  if (!name) {
+    return persons;
+  }
+
+  return persons.filter(
+    ({
+      node: {
+        frontmatter: { name: personName, aliases, nativeName }
+      }
+    }) =>
+      personName.includes(name) ||
+      nativeName.includes(name) ||
+      aliases.find(alias => alias.includes(name))
+  );
+};
 
 export default class PersonList extends Component {
   state = {
