@@ -1,12 +1,14 @@
 import Link from 'gatsby-link';
-import React, { Component } from 'react';
+import React, { Component, lazy, Suspense } from 'react';
 
 import Constraint from '../constraint';
-import Network from '../network';
+import Loading from '../loading';
 import Person from './person';
 import styles, { viewSwitchStyles, viewSwitchActiveStyles } from './styles';
 
 import findImageById from '../../lib/find-image-by-id';
+
+const Network = lazy(() => import('../network'));
 
 const extractFrontmatter = persons =>
   persons.map(person => person.node.frontmatter);
@@ -134,10 +136,12 @@ export default class PersonList extends Component {
         </div>
 
         {showGraph && (
-          <Network
-            data={extractFrontmatter(initialPersons)}
-            images={images.edges}
-          />
+          <Suspense fallback={<Loading />}>
+            <Network
+              data={extractFrontmatter(initialPersons)}
+              images={images.edges}
+            />
+          </Suspense>
         )}
 
         {!showGraph && (
