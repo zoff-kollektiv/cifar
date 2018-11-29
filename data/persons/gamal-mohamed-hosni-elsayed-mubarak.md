@@ -22,7 +22,6 @@ familyMembersSubjectToSanctions:
   - .Hosni Mubarak
   - Suzanne Mubarak
   - Khadiga el Gamal
-  - ''
 suspectedOrConfirmedOverseasProperties: >-
   London (Knightsbridge), Paris (Bois de Bologne), Madrid, Marbella (Malaga)
   Dubai, Washington, D.C., New York Beverly Hills 

@@ -20,7 +20,6 @@ familyMembers:
   - Serhii Petrovych Kliuiev
   - Bohdan Andriiovych Kliuiev
   - Kyrylo Andriiovych Kliuiev
-  - ''
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: .
 suspectedOrConfirmedLinksToLegalEntities: >-

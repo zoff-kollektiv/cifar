@@ -21,7 +21,6 @@ familyMembers:
   - Olha M. Pshonka
   - S. A. Pshonka
   - M. A. Pshonka
-  - ''
 familyMembersSubjectToSanctions:
   - Viktor Pavlovych Pshonka
 suspectedOrConfirmedOverseasProperties: .
