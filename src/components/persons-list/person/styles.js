@@ -8,7 +8,7 @@ export default css`
     color: ${colors.blue};
     display: flex;
     flex-direction: column;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
     width: 50%;
   }
 
@@ -24,7 +24,7 @@ export default css`
     background-color: ${colors.beige};
     border-radius: 50%;
     height: 7rem;
-    margin: 0 auto 1rem auto;
+    margin: 0 auto 0.5rem auto;
     object-fit: cover;
     width: 7rem;
   }
@@ -33,6 +33,7 @@ export default css`
     .image,
     .image--has-file > img {
       height: 11rem;
+      margin-bottom: 1rem;
       width: 11rem;
     }
   }

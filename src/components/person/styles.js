@@ -1,33 +1,52 @@
 import css from 'styled-jsx/css';
 
-import { colors } from '../../tokens';
+import { colors, mq } from '../../tokens';
 
 export default css`
   .person {
     color: ${colors.blue};
-    font-size: 1.5rem;
-    line-height: 1.45;
+    font-size: 1.25rem;
+    line-height: 1.35;
     padding-bottom: 4rem;
+  }
+
+  @media ${mq.phone} {
+    .person {
+      font-size: 1.5rem;
+      line-height: 1.45;
+    }
   }
 
   .title-container {
     display: flex;
     flex-direction: row;
-    margin-bottom: 3rem;
-    margin-top: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  @media ${mq.phone} {
+    .title-container {
+      margin-bottom: 3rem;
+      margin-top: 4rem;
+    }
   }
 
   .title {
-    font-size: 2.43rem;
+    font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.2;
-    margin-right: 1.5rem;
     margin-top: 0;
-    width: 75%;
+  }
+
+  @media ${mq.phone} {
+    .title {
+      font-size: 2.43rem;
+    }
   }
 
   .title-native {
     display: block;
+    margin-top: 0.2rem;
   }
 
   .image {
@@ -53,27 +72,49 @@ export default css`
 
   dt,
   dd {
-    padding: 1rem;
+    padding: 0.35rem 0.5rem;
+  }
+
+  @media ${mq.phone} {
+    dt,
+    dd {
+      padding: 1rem;
+    }
   }
 
   dt {
     background-color: ${colors.blue};
-    border-bottom: 2px solid ${colors.beige};
     color: white;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 700;
     flex: 0 1 auto;
     letter-spacing: 0.02rem;
     text-transform: uppercase;
-    width: 40%;
+    width: 100%;
+  }
+
+  @media ${mq.phone} {
+    dt {
+      border-bottom: 2px solid ${colors.beige};
+      font-size: 0.9rem;
+      width: 40%;
+    }
   }
 
   dd {
     border: 2px solid ${colors.blue};
     flex: 1 1 50%;
-    font-size: 1.125rem;
+    font-size: 1rem;
     margin-left: 0;
-    margin-top: -2px;
+    margin-bottom: 4px;
+  }
+
+  @media ${mq.phone} {
+    dd {
+      font-size: 1.125rem;
+      margin-bottom: 0;
+      margin-top: -2px;
+    }
   }
 
   dt:last-of-type {
