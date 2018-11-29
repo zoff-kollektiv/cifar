@@ -6,8 +6,7 @@ fullName: Suzanne Saleh Thabet
 nativeName: سوزان صالح ثابت‎
 surname: Suzanne
 firstAndMidleNames: Saleh Thabet
-aliases:
-  - None
+aliases: []
 identifyingInformation: Spouse of Hosni Mubarak
 placeOfBirth: 'Egypt, Al Minya Governorate'
 dateOfBirth: 28.02.1941

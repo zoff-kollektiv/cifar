@@ -57,7 +57,7 @@ const preparePersons = country =>
 
       switch (newKey) {
         case 'aliases':
-          if (person[key] && person[key] !== 'Unknown') {
+          if (person[key] && person[key] !== 'None') {
             newPerson[newKey] = person[key]
               .split(',')
               .map(alias => alias.trimStart().trimEnd());

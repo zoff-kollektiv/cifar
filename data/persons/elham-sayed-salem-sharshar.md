@@ -6,8 +6,7 @@ fullName: Elham Sayed Salem Sharshar
 nativeName: لهام شرشر
 surname: Sharshar
 firstAndMidleNames: Elham Sayed Salem
-aliases:
-  - None
+aliases: []
 identifyingInformation: Spouse of Habib Ibrahim Eladli
 placeOfBirth: 'Egypt, Cairo'
 dateOfBirth: 23.01.1963

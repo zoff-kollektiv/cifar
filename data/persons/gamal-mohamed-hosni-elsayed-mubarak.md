@@ -6,8 +6,7 @@ fullName: Gamal Mohamed Hosni Elsayed Mubarak
 nativeName: جمال مبارك
 surname: Mubarak
 firstAndMidleNames: Gamal Mohamed Hosni
-aliases:
-  - None
+aliases: []
 identifyingInformation: Son of Hosni Mubarak
 placeOfBirth: 'Egypt, Cairo'
 dateOfBirth: 28.12.1963
