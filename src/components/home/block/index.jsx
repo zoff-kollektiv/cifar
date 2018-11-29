@@ -9,7 +9,7 @@ export default ({ children, theme = 'beige', title }) => (
     <style jsx>{styles}</style>
 
     <Constraint>
-      <h2 className="title">{title}</h2>
+      {title && <h2 className="title">{title}</h2>}
       {children}
     </Constraint>
   </section>

@@ -6,15 +6,29 @@ import { colors, mq } from '../../tokens';
 
 export default css`
   header {
+    align-items: center;
     background-color: ${colors.beige};
     color: ${colors.blue};
     display: flex;
-    padding: 1.25rem 1.5rem;
+    padding: 0.75rem 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  @media ${mq.phone} {
+    header {
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+    }
   }
 
   @media ${mq.tablet} {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    header {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      position: static;
+    }
   }
 
   nav {

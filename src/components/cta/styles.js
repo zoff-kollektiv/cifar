@@ -2,7 +2,7 @@ import css from 'styled-jsx/css';
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 
-import { colors } from '../../tokens';
+import { colors, mq } from '../../tokens';
 
 export default css`
   div {
@@ -16,8 +16,17 @@ export const linkStyles = css.resolve`
     border-radius: 0.25rem;
     color: white;
     display: inline-block;
-    margin-top: 2.5rem;
-    padding: 0.75rem 2rem;
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.35rem;
     text-decoration: none;
+  }
+
+  @media ${mq.phone} {
+    a {
+      font-size: 1rem;
+      margin-top: 2.5rem;
+      padding: 0.75rem 2rem;
+    }
   }
 `;

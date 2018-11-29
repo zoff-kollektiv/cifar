@@ -8,7 +8,13 @@ export default css`
   nav {
     background-color: ${colors.beige};
     color: white;
-    padding-top: 2rem;
+    padding-top: 1rem;
+  }
+
+  @media ${mq.phone} {
+    nav {
+      padding-top: 2rem;
+    }
   }
 
   ul {
@@ -32,7 +38,13 @@ export default css`
   }
 
   li + li {
-    margin-left: 0.15rem;
+    margin-left: 0.075rem;
+  }
+
+  @media ${mq.phone} {
+    li + li {
+      margin-left: 0.15rem;
+    }
   }
 `;
 
