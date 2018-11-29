@@ -27,14 +27,16 @@ export default css`
 
   .intro {
     color: ${colors.blue};
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 500;
-    line-height: 1.45;
+    line-height: 1.35;
     margin-bottom: 2rem;
   }
 
   @media ${mq.phone} {
     .intro {
+      font-size: 1.25rem;
+      line-height: 1.45;
       margin-bottom: 3rem;
     }
   }
