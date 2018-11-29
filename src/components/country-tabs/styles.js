@@ -2,7 +2,7 @@
 import React from 'react';
 import css from 'styled-jsx/css';
 
-import { colors } from '../../tokens';
+import { colors, mq } from '../../tokens';
 
 export default css`
   nav {
@@ -20,6 +20,10 @@ export default css`
     margin-top: 0;
     padding-left: 0;
   }
+
+  li + li {
+    margin-left: 0.15rem;
+  }
 `;
 
 export const tabStyles = css.resolve`
@@ -27,11 +31,27 @@ export const tabStyles = css.resolve`
     background-color: ${colors.blue};
     color: currentColor;
     display: block;
-    font-size: 1.125rem;
+    font-size: 0.75rem;
     font-weight: 700;
-    letter-spacing: 0.075rem;
-    padding: 0.65rem 3.5rem;
+    letter-spacing: 0.05rem;
+    padding: 0.6rem 0.45rem;
     text-decoration: none;
+    white-space: nowrap;
+  }
+
+  @media ${mq.tablet} {
+    a {
+      font-size: 1.125rem;
+      letter-spacing: 0.075rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+  }
+
+  a:not([aria-current]):hover,
+  a:not([aria-current]):focus {
+    cursor: pointer;
+    text-decoration: underline;
   }
 `;
 

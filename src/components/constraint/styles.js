@@ -4,7 +4,7 @@ import { mq } from '../../tokens';
 
 export default css`
   div {
-    max-width: 800px;
+    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1.5rem;
