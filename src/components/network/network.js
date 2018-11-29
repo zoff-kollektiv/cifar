@@ -98,6 +98,10 @@ const drawConnections = (svg, links) => {
 };
 
 const render = (root, data, images) => {
+  if (!root) {
+    return undefined;
+  }
+
   // eslint-disable-next-line no-param-reassign
   root.innerHTML = '';
 
