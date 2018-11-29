@@ -14,15 +14,39 @@ export default css`
   ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+
     list-style: none;
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 0;
   }
 
+  li {
+    flex: 1 0 auto;
+  }
+
+  @media ${mq.phone} {
+    li {
+      flex-grow: 0;
+    }
+  }
+
   li + li {
     margin-left: 0.15rem;
+  }
+`;
+
+export const tabContainerStyles = css.resolve`
+  div {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  @media ${mq.phone} {
+    div {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
   }
 `;
 
@@ -35,8 +59,17 @@ export const tabStyles = css.resolve`
     font-weight: 700;
     letter-spacing: 0.05rem;
     padding: 0.6rem 0.45rem;
+    text-align: center;
     text-decoration: none;
     white-space: nowrap;
+  }
+
+  @media ${mq.phone} {
+    a {
+      font-size: 0.9rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
   }
 
   @media ${mq.tablet} {

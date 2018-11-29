@@ -2,8 +2,8 @@ import React from 'react';
 
 import styles from './styles';
 
-export default ({ children }) => (
-  <div>
+export default ({ className, children }) => (
+  <div className={className}>
     <style jsx>{styles}</style>
     {children}
   </div>
