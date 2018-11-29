@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import Constraint from '../constraint';
 import Network from '../network';
 import Person from './person';
-import styles from './styles';
+import styles, { viewSwitchStyles, viewSwitchActiveStyles } from './styles';
 
 import findImageById from '../../lib/find-image-by-id';
 
@@ -64,62 +64,80 @@ export default class PersonList extends Component {
     return (
       <Constraint>
         <style jsx>{styles}</style>
+        {viewSwitchStyles.styles}
+        {viewSwitchActiveStyles.styles}
 
-        {showFilter && (
-          <form
-            onSubmit={event => {
-              event.preventDefault();
+        <div className="filter-container">
+          {showFilter && (
+            <form
+              onSubmit={event => {
+                event.preventDefault();
 
-              const formData = new FormData(event.target);
-              const name = formData.get('name-filter');
+                const formData = new FormData(event.target);
+                const name = formData.get('name-filter');
 
-              this.updateNameFilter(name);
-            }}
-          >
-            <div className="filter">
-              {/* eslint-disable-next-line */}
-              <label htmlFor="name-filter" className="filter-label">
-                Filter by name
-              </label>
+                this.updateNameFilter(name);
+              }}
+            >
+              <div className="filter">
+                {/* eslint-disable-next-line */}
+                <label htmlFor="name-filter" className="filter-label">
+                  Filter by name
+                </label>
 
-              <input
-                type="text"
-                name="name-filter"
-                id="name-filter"
-                className="filter-input"
-                defaultValue={filter}
-                onChange={event => {
-                  this.updateNameFilter(event.target.value);
-                }}
-              />
+                <input
+                  type="text"
+                  name="name-filter"
+                  id="name-filter"
+                  className="filter-input"
+                  defaultValue={filter}
+                  onChange={event => {
+                    this.updateNameFilter(event.target.value);
+                  }}
+                />
+              </div>
+
+              <button type="submit" className="filter-submit">
+                Filter
+              </button>
+            </form>
+          )}
+
+          {showGraphSwitch && (
+            <div className="view">
+              <span className="view-label">Show as</span>
+
+              {showGraph ? (
+                <Link
+                  className={viewSwitchStyles.className}
+                  to={`/persons/${slug}/`}
+                >
+                  List
+                </Link>
+              ) : (
+                <span className={viewSwitchActiveStyles.className}>List</span>
+              )}
+              {showGraph ? (
+                <span className={viewSwitchActiveStyles.className}>
+                  Network
+                </span>
+              ) : (
+                <Link
+                  className={viewSwitchStyles.className}
+                  to={`/persons/${slug}/?view=network`}
+                >
+                  Network
+                </Link>
+              )}
             </div>
+          )}
+        </div>
 
-            <button type="submit" className="filter-submit">
-              Filter
-            </button>
-          </form>
-        )}
-
-        {showGraphSwitch && (
-          <>
-            Show as:
-            {showGraph ? (
-              <Link to={`/persons/${slug}/`}>List</Link>
-            ) : (
-              <span>List</span>
-            )}
-            {showGraph ? (
-              <span>Network</span>
-            ) : (
-              <Link to={`/persons/${slug}/?view=network`}>Network</Link>
-            )}
-            {showGraph && (
-              <Network
-                data={extractFrontmatter(initialPersons)}
-                images={images.edges}
-              />
-            )}
-          </>
+        {showGraph && (
+          <Network
+            data={extractFrontmatter(initialPersons)}
+            images={images.edges}
+          />
         )}
 
         {!showGraph && (
