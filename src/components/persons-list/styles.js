@@ -33,7 +33,7 @@ export default css`
     font-weight: 600;
     letter-spacing: 0.025rem;
     line-height: 1;
-    margin-left: 0.5rem;
+    margin-left: 2rem;
     margin-right: 0.5rem;
     text-transform: uppercase;
     vertical-align: middle;
