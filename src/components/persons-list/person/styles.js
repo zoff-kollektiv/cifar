@@ -47,13 +47,6 @@ export default css`
     text-align: center;
   }
 
-  @media ${mq.phone} {
-    .title {
-      font-size: 1.25rem;
-      font-weight: 500;
-    }
-  }
-
   @media ${mq.tablet} {
     .title {
       font-size: 1.5rem;
@@ -72,8 +65,8 @@ export default css`
 
   .role {
     display: none;
-    font-size: 0.9rem;
-    font-weight: 700;
+    font-size: 0.85rem;
+    font-weight: 400;
     margin-top: 0.25rem;
   }
 
