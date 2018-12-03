@@ -76,6 +76,12 @@ export const tabStyles = css.resolve`
     white-space: nowrap;
   }
 
+  a:hover,
+  a:focus {
+    background-color: white;
+    color: ${colors.blue};
+  }
+
   @media ${mq.phone} {
     a {
       font-size: 0.9rem;

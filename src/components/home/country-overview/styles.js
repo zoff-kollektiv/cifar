@@ -108,6 +108,12 @@ export const countryStyles = css.resolve`
     position: relative;
     text-align: center;
     text-decoration: none;
+    transition: transform 150ms ease;
+  }
+
+  a:hover,
+  a:focus {
+    transform: scale(1.08);
   }
 
   @media ${mq.phone} {
