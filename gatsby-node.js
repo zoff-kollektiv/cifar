@@ -1,9 +1,30 @@
+const fetch = require('node-fetch');
 const path = require('path');
 const slugify = require('slugify');
+
+const POSTS_WP_ENDPOINT = 'https://cifar.eu/wp-json/wp/v2/posts/?per_page=3';
 
 const createSlug = text =>
   slugify(text, {
     lower: true
+  });
+
+const fetchNews = () => fetch(POSTS_WP_ENDPOINT).then(res => res.json());
+
+const createStartpage = createPage =>
+  fetchNews().then(news => {
+    // eslint-disable-next-line no-console
+    console.log('create page: /');
+
+    createPage({
+      path: '/',
+      component: path.resolve('src/templates/home/index.jsx'),
+      context: {
+        news
+      }
+    });
+
+    return null;
   });
 
 const createCountries = (graphql, createPage) =>
@@ -139,6 +160,7 @@ exports.createPages = ({ actions, graphql }) => {
 
   return Promise.all([
     createCountries(graphql, createPage),
-    createPersons(graphql, createPage)
+    createPersons(graphql, createPage),
+    createStartpage(createPage)
   ]);
 };

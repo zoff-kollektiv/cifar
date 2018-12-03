@@ -2,13 +2,15 @@ import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import React, { Fragment } from 'react';
 
-import Block from '../components/home/block';
-import CountryOverview from '../components/home/country-overview';
-import Cta from '../components/cta';
-import withLayout from '../components/with-layout';
-import withNavigation from '../components/with-navigation';
+import Block from '../../components/home/block';
+import CountryOverview from '../../components/home/country-overview';
+import Cta from '../../components/cta';
+import News from '../../components/news';
+import withLayout from '../../components/with-layout';
+import withNavigation from '../../components/with-navigation';
 
 const Page = ({
+  pageContext: { news },
   data: {
     blocks,
     countries,
@@ -43,6 +45,12 @@ const Page = ({
           </Block>
         )
       )}
+
+    {news && (
+      <Block theme="white" title="News">
+        <News items={news} />
+      </Block>
+    )}
   </Fragment>
 );
 
