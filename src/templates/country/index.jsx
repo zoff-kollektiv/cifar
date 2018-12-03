@@ -75,7 +75,7 @@ export const query = graphql`
             }
           }
           fluid(
-            maxWidth: 180
+            maxWidth: 400
             duotone: { highlight: "#ebe7d6", shadow: "#192162" }
           ) {
             src
