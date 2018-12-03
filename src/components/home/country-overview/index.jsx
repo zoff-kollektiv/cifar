@@ -46,7 +46,7 @@ export default ({
 
     <p className="outro">{rawMarkdownBody}</p>
 
-    <Cta href={buttonLink} label={buttonLabel} />
+    <Cta href={buttonLink} label={buttonLabel} theme="light" />
   </Block>
 );
 
