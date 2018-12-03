@@ -11,7 +11,7 @@ identifyingInformation: married to Nesrine Ben Ali / businessman
 placeOfBirth: ''
 dateOfBirth: 02.12.1981
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

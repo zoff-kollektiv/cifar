@@ -11,7 +11,7 @@ identifyingInformation: 'businessman / spouse of Dorsaf Ben Ali, daughter Zine e
 placeOfBirth: Tunisa
 dateOfBirth: 13.01.1959
 countryOfResidence: 'Libya, United Arab Emirates'
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions:
   - Misappropriation

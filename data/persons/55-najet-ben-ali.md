@@ -11,7 +11,7 @@ identifyingInformation: sister of Ben Ali
 placeOfBirth: ''
 dateOfBirth: 18.09.1956
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

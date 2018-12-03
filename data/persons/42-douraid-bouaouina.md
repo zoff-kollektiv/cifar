@@ -7,12 +7,13 @@ nativeName: دريد بوعوينة
 surname: Bouaouina
 firstAndMidleNames: ''
 aliases:
+  - Doraid
   - Douraïd Bouaouina
 identifyingInformation: nephew of Ben Ali
 placeOfBirth: ''
-dateOfBirth: ''
+dateOfBirth: 26.04.1950
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

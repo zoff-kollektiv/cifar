@@ -1,10 +1,10 @@
 ---
-id: 46
+id: 47
 sanctionsCountry: Tunisia
-name: Samira Trabelsi
-fullName: Samira Bent Mohamed Ben Rhouma Trabelsi
-nativeName: سميرة الطرابلسي
-surname: Trabelsi
+name: Montassar Meherzi
+fullName: Mohamed Montassar Ben Kbaier Ben Mohamed Meherzi
+nativeName: منتصر محرزي
+surname: Meherzi
 firstAndMidleNames: ''
 aliases: []
 identifyingInformation: ''

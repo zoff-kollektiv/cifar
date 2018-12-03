@@ -10,9 +10,9 @@ aliases:
   - Leïla Ben Ali
 identifyingInformation: Souse of Zine El Abidine Ben Ali
 placeOfBirth: ''
-dateOfBirth: ''
+dateOfBirth: 24.10.1956
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

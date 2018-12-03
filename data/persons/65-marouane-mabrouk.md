@@ -1,12 +1,13 @@
 ---
-id: 46
+id: 65
 sanctionsCountry: Tunisia
-name: Samira Trabelsi
-fullName: Samira Bent Mohamed Ben Rhouma Trabelsi
-nativeName: سميرة الطرابلسي
-surname: Trabelsi
+name: Marouane Mabrouk
+fullName: Mohamed Marouen Ben Ali Ben Mohamed Mabrouk
+nativeName: مروان مبروك
+surname: Mabrouk
 firstAndMidleNames: ''
-aliases: []
+aliases:
+  - Mohamed Marwan Ben Ali Ben Mohamed Mabrouk
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

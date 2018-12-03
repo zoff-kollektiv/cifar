@@ -1,12 +1,13 @@
 ---
-id: 46
+id: 52
 sanctionsCountry: Tunisia
-name: Samira Trabelsi
-fullName: Samira Bent Mohamed Ben Rhouma Trabelsi
-nativeName: سميرة الطرابلسي
-surname: Trabelsi
+name: Habib Zakir
+fullName: Habib Ben Kaddour Ben Mustapha Ben Zakir
+nativeName: حبيب بن زكير
+surname: Ben Zakir
 firstAndMidleNames: ''
-aliases: []
+aliases:
+  - Zakik
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

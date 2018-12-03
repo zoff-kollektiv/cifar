@@ -1,17 +1,17 @@
 ---
-id: 30
+id: 58
 sanctionsCountry: Tunisia
-name: Mohamed Montassar Ltaief
-fullName: Mohamed Montassar Ben Habib Ben Bouali Ltaief
-nativeName: منتصر  لطيف
-surname: Ltaief
+name: Mourad Mehdoui
+fullName: Mourad Ben Hédi Ben Ali Mehdoui
+nativeName: مراد  مهدوي
+surname: Mehdoui
 firstAndMidleNames: ''
 aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

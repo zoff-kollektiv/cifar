@@ -1,9 +1,9 @@
 ---
-id: 46
+id: 49
 sanctionsCountry: Tunisia
-name: Samira Trabelsi
-fullName: Samira Bent Mohamed Ben Rhouma Trabelsi
-nativeName: سميرة الطرابلسي
+name: Nefissa Trabelsi
+fullName: Nefissa Bent Mohamed Ben Rhoum Trabelsi
+nativeName: نفيسة الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: ''
 aliases: []

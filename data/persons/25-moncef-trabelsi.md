@@ -2,16 +2,16 @@
 id: 25
 sanctionsCountry: Tunisia
 name: Moncef Trabelsi
-fullName: ''
+fullName: DEAD
 nativeName: المنصف الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: ''
 aliases: []
-identifyingInformation: Managing director (ex-president's brother-in-law)
+identifyingInformation: ex-president's brother-in-law
 placeOfBirth: ''
-dateOfBirth: ''
+dateOfBirth: 04.03.1944
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

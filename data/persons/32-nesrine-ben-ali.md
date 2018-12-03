@@ -11,7 +11,7 @@ identifyingInformation: daughter of Ben Ali
 placeOfBirth: ''
 dateOfBirth: 16.01.1987
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

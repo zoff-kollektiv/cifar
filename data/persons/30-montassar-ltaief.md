@@ -1,12 +1,14 @@
 ---
-id: 46
+id: 30
 sanctionsCountry: Tunisia
-name: Samira Trabelsi
-fullName: Samira Bent Mohamed Ben Rhouma Trabelsi
-nativeName: سميرة الطرابلسي
-surname: Trabelsi
+name: Montassar Ltaief
+fullName: Mohamed Montassar Ben Habib Ben Bouali Ltaief
+nativeName: منتصر  لطيف
+surname: Ltaief
 firstAndMidleNames: ''
-aliases: []
+aliases:
+  - Ltaief
+  - Eltaief
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

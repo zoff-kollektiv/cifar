@@ -1,17 +1,18 @@
 ---
-id: 43
+id: 51
 sanctionsCountry: Tunisia
-name: Mohamed Trabelsi
-fullName: Mohamed Adel Ben Mohamed Ben Rehouma Trabelsi
-nativeName: محمد الطرابلسي
-surname: Trabelsi
+name: Kaïs Ben Ali
+fullName: Kaïs Ben Slaheddine Ben Haj Hamda Ben Ali
+nativeName: قيس بن علي
+surname: Ben Ali
 firstAndMidleNames: ''
-aliases: []
+aliases:
+  - Kaies Ben Slaheddine Ben Haj Hamda Ben Ali
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

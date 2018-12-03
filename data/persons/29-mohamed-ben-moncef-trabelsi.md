@@ -7,11 +7,11 @@ nativeName: محمد بن منصف الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: ''
 aliases: []
-identifyingInformation: ''
+identifyingInformation: Laila Trabelsi's nephew
 placeOfBirth: ''
-dateOfBirth: ''
+dateOfBirth: 07.01.1980
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

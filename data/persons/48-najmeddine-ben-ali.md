@@ -1,12 +1,13 @@
 ---
-id: 46
+id: 48
 sanctionsCountry: Tunisia
-name: Samira Trabelsi
-fullName: Samira Bent Mohamed Ben Rhouma Trabelsi
-nativeName: سميرة الطرابلسي
-surname: Trabelsi
+name: Najmeddine Ben Ali
+fullName: Najmeddine Ben Slaheddine Ben Haj Hamda Ben Ali
+nativeName: نجم الدين بن علي
+surname: Ben Ali
 firstAndMidleNames: ''
-aliases: []
+aliases:
+  - Nesmeddine
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''

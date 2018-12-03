@@ -2,7 +2,7 @@
 id: 26
 sanctionsCountry: Tunisia
 name: Sofiene Ben Ali
-fullName: ''
+fullName: DEAD
 nativeName: سفيان بن علي
 surname: Ben Ali
 firstAndMidleNames: ''
@@ -11,7 +11,7 @@ identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

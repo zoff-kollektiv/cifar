@@ -1,9 +1,9 @@
 ---
-id: 46
+id: 43
 sanctionsCountry: Tunisia
-name: Samira Trabelsi
-fullName: Samira Bent Mohamed Ben Rhouma Trabelsi
-nativeName: سميرة الطرابلسي
+name: Mohamed Adel Trabelsi
+fullName: Mohamed Adel Ben Mohamed Ben Rehouma Trabelsi
+nativeName: محمد الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: ''
 aliases: []

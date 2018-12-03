@@ -1,18 +1,17 @@
 ---
-id: 65
+id: 59
 sanctionsCountry: Tunisia
-name: Marwan Ben Mabrouk
-fullName: Mohamed Marouen Ben Ali Ben Mohamed Mabrouk
-nativeName: مروان مبروك
-surname: Mabrouk
+name: Faouzi Ben Ali
+fullName: Faouzi Ben Haj Hamda Ben Haj Hassen Ben Ali
+nativeName: فوزي بن علي
+surname: Ben Ali
 firstAndMidleNames: ''
-aliases:
-  - Mohamed Marwan Ben Ali Ben Mohamed Mabrouk
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
-corruptionLink: ''
+corruptionLink: family
 familyMembers: []
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''

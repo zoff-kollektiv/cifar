@@ -1,10 +1,10 @@
 ---
-id: 46
+id: 64
 sanctionsCountry: Tunisia
-name: Samira Trabelsi
-fullName: Samira Bent Mohamed Ben Rhouma Trabelsi
-nativeName: سميرة الطرابلسي
-surname: Trabelsi
+name: Ghazoua Ben Ali
+fullName: Ghazoua Bent Zine El Abidine Ben Haj Hamda Ben Ali
+nativeName: غزوة  بن علي
+surname: Ben Ali
 firstAndMidleNames: ''
 aliases: []
 identifyingInformation: ''
