@@ -8,7 +8,7 @@ surname: Ratushniak
 firstAndMidleNames: Viktor Ivanovych
 aliases:
   - Victor Ivanovych Ratushniac
-identifyingInformation: Former Deputy Minister of Internal Affairs of Ukraine
+identifyingInformation: Former Deputy Minister of Internal Affairs
 placeOfBirth: ''
 dateOfBirth: 16.10.1959
 countryOfResidence: ''

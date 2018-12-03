@@ -15,7 +15,7 @@ aliases:
   - Gennadevich
   - Gennadiiovych
   - Gennadijovich Arbuzov
-identifyingInformation: Former Prime Minister of Ukraine
+identifyingInformation: Former Prime Minister
 placeOfBirth: 'Ukraine, Donetsk oblast, Donetsk '
 dateOfBirth: 24.03.1976
 countryOfResidence: ''
@@ -36,7 +36,7 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   Finance Limited , akemi management limited , Quickpace Limited , Opalcore ltd 
 suspectedOrConfirmedLinksToBankAccounts: >-
   Latvian bank accounts
-  [Soure](https://en.interfax.com.ua/news/press-conference/313396.html)
+  [Source](https://en.interfax.com.ua/news/press-conference/313396.html)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None

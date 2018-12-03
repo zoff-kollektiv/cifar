@@ -7,7 +7,7 @@ nativeName: لهام شرشر
 surname: Sharshar
 firstAndMidleNames: Elham Sayed Salem
 aliases: []
-identifyingInformation: Spouse of Habib Ibrahim Eladli
+identifyingInformation: Spouse of Habib el-Adly
 placeOfBirth: 'Egypt, Cairo'
 dateOfBirth: 23.01.1963
 countryOfResidence: Egypt
@@ -26,5 +26,5 @@ startOfSanctions: |
 story: >-
   Former journalist in State-owned Al-Ahram Daily newspaper in its Crime
   section. Owner and editor-in-chief of a weekly newspaper Al-Zaman
-  https://dailynewsegypt.com/2016/06/01/wife-mubarak-era-interior-minister-al-adly-launches-newspaper/
+  [Source](https://dailynewsegypt.com/2016/06/01/wife-mubarak-era-interior-minister-al-adly-launches-newspaper/)
 ---

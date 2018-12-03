@@ -10,7 +10,7 @@ aliases:
   - Habib Ibrahim Habib al-Adli
   - al-Adly
   - el-Adly
-identifyingInformation: Former Minister of Interior of Egypt
+identifyingInformation: Former Minister of Interior
 placeOfBirth: 'Egypt, Sharqiya Governorate'
 dateOfBirth: 01.03.1938
 countryOfResidence: Egypt

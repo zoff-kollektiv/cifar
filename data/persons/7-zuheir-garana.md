@@ -12,7 +12,7 @@ aliases:
   - Zuhir
   - Zohair Mohamed Wahid
   - Wahed Garrana
-identifyingInformation: Former Minister of Tourism of Egypt
+identifyingInformation: Former Minister of Tourism
 placeOfBirth: ''
 dateOfBirth: 20.02.1959
 countryOfResidence: Egypt

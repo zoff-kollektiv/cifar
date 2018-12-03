@@ -20,6 +20,7 @@
     "gatsby-plugin-styled-jsx": "^3.0.3",
     "gatsby-source-filesystem": "^2.0.10",
     "gatsby-transformer-sharp": "^2.1.9",
+    "node-fetch": "^2.3.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
@@ -41,7 +42,6 @@
     "gatsby-transformer-remark": "^2.1.14",
     "husky": "^1.2.0",
     "lint-staged": "^8.1.0",
-    "node-fetch": "^2.3.0",
     "prettier": "^1.15.2"
   },
   "husky": {

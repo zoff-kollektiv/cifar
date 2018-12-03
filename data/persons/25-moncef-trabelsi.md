@@ -7,7 +7,7 @@ nativeName: المنصف الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: ''
 aliases: []
-identifyingInformation: ex-president's brother-in-law
+identifyingInformation: Ex-president's brother-in-law
 placeOfBirth: ''
 dateOfBirth: 04.03.1944
 countryOfResidence: ''

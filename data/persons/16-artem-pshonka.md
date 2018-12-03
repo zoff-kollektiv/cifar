@@ -14,9 +14,7 @@ aliases:
   - Viktorovyč Pchonka
   - Pshonca
   - Pšonka
-identifyingInformation: >-
-  Deputy Head of the faction of Party of Regions in the Verkhovna Rada of
-  Ukraine
+identifyingInformation: Deputy Head of the faction of Party of Regions in the Verkhovna Rada
 placeOfBirth: 'Ukraine, Donetsk oblast, Kramatorsk '
 dateOfBirth: 19.03.1976
 countryOfResidence: ''

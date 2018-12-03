@@ -21,16 +21,6 @@ suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
-startOfSanctions: >-
-  Person subject to judicial investigations by the Tunisian authorities for
-  misappropriation of pub­ lic monies by a public office-holder, misuse of
-  office by a public office-holder to procure an un­ justified advantage for a
-  third party and to cause a loss to the administration, exerting wrongful
-  influence over a public office-holder with a view to obtaining directly or
-  indirectly an advantage for another person and for the offence of the re­
-  ceipt by a public official of public funds which he knew were not due, and
-  used for the personal
-
-  benefit of himself or members of his family.
+startOfSanctions: ''
 story: ''
 ---

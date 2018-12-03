@@ -15,7 +15,7 @@ aliases:
   - Kliuiev
   - Kljuyev
   - Kljujev
-identifyingInformation: Former Head of Administration of President of Ukraine
+identifyingInformation: Former Head of Administration of President
 placeOfBirth: 'Ukraine, Donetsk oblast, Donetsk '
 dateOfBirth: 12.08.1964
 countryOfResidence: ''
