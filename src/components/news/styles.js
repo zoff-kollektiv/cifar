@@ -1,18 +1,30 @@
 import css from 'styled-jsx/css';
 
-import { colors } from '../../tokens';
+import { colors, mq } from '../../tokens';
 
 export default css`
   ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     list-style: none;
     margin: 0;
     padding: 0;
   }
 
+  @media ${mq.tablet} {
+    ul {
+      flex-direction: row;
+    }
+  }
+
   li + li {
-    margin-left: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  @media ${mq.tablet} {
+    li + li {
+      margin-left: 1.5rem;
+    }
   }
 
   .title {
@@ -33,7 +45,13 @@ export default css`
   }
 
   .content-container {
-    margin-top: 2rem;
+    margin-top: 1rem;
+  }
+
+  @media ${mq.tablet} {
+    .content-container {
+      margin-top: 2rem;
+    }
   }
 
   .date {
