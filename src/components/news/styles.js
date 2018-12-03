@@ -18,6 +18,7 @@ export default css`
   .title {
     color: ${colors.blue};
     font-size: 1.2rem;
+    font-weight: 700;
     line-height: 1.3;
   }
 
@@ -32,13 +33,14 @@ export default css`
   }
 
   .content-container {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
 
   .date {
     display: inline;
-    font-size: 1rem;
-    margin-right: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 900;
+    margin-right: 0.25rem;
   }
 
   .content {
