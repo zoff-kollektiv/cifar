@@ -4,8 +4,19 @@ import styles from './styles';
 
 const formatDate = dateStr => {
   const date = new Date(dateStr);
+  let day = `${date.getDate()}`;
+  let month = `${date.getDate()}`;
+  const year = date.getFullYear();
 
-  return `${date.getDate()}.${date.getMonth()}.${date.getFullYear()}`;
+  if (day.length === 1) {
+    day = `0${day}`;
+  }
+
+  if (month.length === 1) {
+    month = `0${month}`;
+  }
+
+  return `${day}/${month}/${year}`;
 };
 
 export default ({ items }) => (
