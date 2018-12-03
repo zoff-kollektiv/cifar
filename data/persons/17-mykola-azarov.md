@@ -14,7 +14,7 @@ aliases:
   - Janovich
   - Janovych Azarov
   - Asarow
-identifyingInformation: Former Prime Minister of Ukraine
+identifyingInformation: Former Prime Minister
 placeOfBirth: 'Russia, Kaluga oblast, Kaluga'
 dateOfBirth: 17.12.1947
 countryOfResidence: Russia

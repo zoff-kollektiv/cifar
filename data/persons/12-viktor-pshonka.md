@@ -12,7 +12,7 @@ aliases:
   - Pavlovič Pchonka
   - Pshonca
   - Pšonka
-identifyingInformation: Former Prosecutor General of Ukraine
+identifyingInformation: Former Prosecutor General
 placeOfBirth: 'Ukraine, Donetsk oblast, Serhiyivka '
 dateOfBirth: 06.02.1954
 countryOfResidence: Russia

@@ -13,7 +13,7 @@ aliases:
   - Viktorovich
   - Wiktorowytsch
   - Viktorovyč Klimenko
-identifyingInformation: Former Minister of Revenues and Charges of Ukraine
+identifyingInformation: Former Minister of Revenues and Charges
 placeOfBirth: 'Ukraine, Donetsk oblast, Makiivka'
 dateOfBirth: 16.11.1980
 countryOfResidence: ''

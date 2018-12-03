@@ -23,7 +23,7 @@ aliases:
   - Viktorovich
   - Wiktorowytsch
   - Viktorovyč
-identifyingInformation: Son of a former President of Ukraine
+identifyingInformation: Son of a former President
 placeOfBirth: 'Ukraine, Donetsk oblast, Yenakieve'
 dateOfBirth: 10.07.1973
 countryOfResidence: Russia

@@ -13,7 +13,7 @@ aliases:
   - Tabachnik
   - Tabachnyc
   - Tabachnik
-identifyingInformation: Former Minister of Education and Science of Ukraine
+identifyingInformation: Former Minister of Education and Science
 placeOfBirth: 'Ukraine, Kiev'
 dateOfBirth: 28.11.1963
 countryOfResidence: Israel

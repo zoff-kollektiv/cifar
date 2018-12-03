@@ -18,7 +18,7 @@ aliases:
   - Yanucovych
   - Janukovich
   - Ianukovych
-identifyingInformation: Former President of Ukraine
+identifyingInformation: Former President
 placeOfBirth: 'Ukraine, Donetsk oblast, Yenakieve'
 dateOfBirth: 09.07.1950
 countryOfResidence: Russia

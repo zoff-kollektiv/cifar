@@ -13,7 +13,7 @@ aliases:
   - Iurevich
   - Iuriiovych Zakharchenko
   - Zaharchenko
-identifyingInformation: Former Minister of Internal Affairs of Ukraine
+identifyingInformation: Former Minister of Internal Affairs
 placeOfBirth: 'Ukraine, Donetsk oblast, Kostiantynivka'
 dateOfBirth: 20.01.1963
 countryOfResidence: ''
