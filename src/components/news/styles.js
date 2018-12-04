@@ -4,6 +4,7 @@ import { colors, mq } from '../../tokens';
 
 export default css`
   ul {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -24,6 +25,7 @@ export default css`
   @media ${mq.tablet} {
     li + li {
       margin-left: 1.5rem;
+      margin-top: 0;
     }
   }
 
