@@ -40,6 +40,7 @@ export default css`
     margin-bottom: 1.5rem;
     margin-top: 2rem;
     text-align: center;
+    text-transform: uppercase;
   }
 
   .countries {

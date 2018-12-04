@@ -16,9 +16,12 @@ export const linkStyles = css.resolve`
     border-radius: 0.15rem;
     display: inline-block;
     font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.075rem;
     margin-top: 1.5rem;
     padding: 0.6rem 1.25rem;
     text-decoration: none;
+    text-transform: uppercase;
   }
 
   @media ${mq.phone} {
