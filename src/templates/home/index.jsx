@@ -52,7 +52,11 @@ const Page = ({
               <Checklist title={checklistTitle} items={checklist} />
             )}
 
-            <Cta href={buttonLink} label={buttonLabel} />
+            <Cta
+              theme={index % 2 === 0 ? 'dark' : 'light'}
+              href={buttonLink}
+              label={buttonLabel}
+            />
           </Block>
         )
       )}
