@@ -3,21 +3,23 @@ import css from 'styled-jsx/css';
 import { colors, mq } from '../../../tokens';
 
 export default css`
-  section {
+  .block {
     background-color: ${colors.beige};
     color: ${colors.blue};
+    font-size: 1.25rem;
+    line-height: 1.4;
     padding-bottom: 2rem;
     padding-top: 1rem;
   }
 
   @media ${mq.tablet} {
-    section {
+    .block {
       padding-bottom: 4rem;
       padding-top: 3rem;
     }
   }
 
-  section.has-theme--white {
+  .block.block--has-theme-white {
     background-color: white;
   }
 

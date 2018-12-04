@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import React, { Fragment } from 'react';
 
 import Block from '../../components/home/block';
+import Checklist from '../../components/checklist';
 import CountryOverview from '../../components/home/country-overview';
 import Cta from '../../components/cta';
 import News from '../../components/news';
@@ -32,7 +33,13 @@ const Page = ({
           {
             node: {
               html,
-              frontmatter: { title: blockTitle, buttonLink, buttonLabel }
+              frontmatter: {
+                checklist,
+                checklistTitle,
+                title: blockTitle,
+                buttonLink,
+                buttonLabel
+              }
             }
           },
           index
@@ -41,13 +48,17 @@ const Page = ({
             {/* eslint-disable-next-line react/no-danger */}
             <div dangerouslySetInnerHTML={{ __html: html }} />
 
+            {checklist && (
+              <Checklist title={checklistTitle} items={checklist} />
+            )}
+
             <Cta href={buttonLink} label={buttonLabel} />
           </Block>
         )
       )}
 
     {news && (
-      <Block theme="white" title="News">
+      <Block title="News">
         <News items={news} />
       </Block>
     )}
@@ -86,7 +97,9 @@ export const query = graphql`
       filter: {
         fields: {
           folder: { eq: "home" }
-          fileName: { in: ["effectiveness.md", "private-sector.md"] }
+          fileName: {
+            in: ["effectiveness.md", "private-sector.md", "sanctions.md"]
+          }
         }
       }
       sort: { fields: [frontmatter___sort] }
@@ -97,6 +110,8 @@ export const query = graphql`
           frontmatter {
             buttonLabel
             buttonLink
+            checklist
+            checklistTitle
             title
           }
         }

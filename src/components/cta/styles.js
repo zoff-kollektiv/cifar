@@ -13,7 +13,7 @@ export default css`
 
 export const linkStyles = css.resolve`
   .button {
-    border-radius: 0.25rem;
+    border-radius: 0.15rem;
     display: inline-block;
     font-size: 0.95rem;
     margin-top: 1.5rem;
