@@ -40,8 +40,10 @@ export default ({
           )}
         </header>
 
-        {/* eslint-disable-next-line react/no-danger */}
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <div className="person-story">
+          {/* eslint-disable-next-line react/no-danger */}
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </div>
 
         <h2>Information</h2>
 

@@ -59,6 +59,10 @@ export default css`
     width: 15rem;
   }
 
+  :global(.person-story a) {
+    color: currentColor;
+  }
+
   dl {
     display: flex;
     flex-direction: row;
