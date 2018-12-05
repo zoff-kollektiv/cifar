@@ -1,7 +1,7 @@
 ---
 id: 69
-sanctionsCountry: Tunisia
 name: Slim Chiboub
+sanctionsCountry: Tunisia
 fullName: Mohamed Slim Ben Mohamed Hassen Ben Salah Chiboub
 nativeName: سليم شيبوب
 surname: Chiboub
@@ -32,5 +32,5 @@ startOfSanctions: >-
   http://kapitalis.com/tunisie/2016/05/05/reconciliation-nationale-slim-chiboub-fait-premier-pas/,
   http://www.businessnews.com.tn/slim-chiboub-arrete-a-son-arrivee-en-tunisie-puis-transfere-au-tribunal-audio,520,51236,4,
   https://www.jeuneafrique.com/mag/586420/politique/tunisie-que-devient-slim-chiboub/ 
-story: 'Switzerland, EU'
 ---
+  Switzerland, EU

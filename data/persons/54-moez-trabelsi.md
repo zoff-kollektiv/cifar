@@ -1,7 +1,7 @@
 ---
 id: 54
-sanctionsCountry: Tunisia
 name: Moez Trabelsi
+sanctionsCountry: Tunisia
 fullName: Moez Ben Moncef Ben Mohamed Trabelsi
 nativeName: معز الطرابلسي
 surname: Trabelsi
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

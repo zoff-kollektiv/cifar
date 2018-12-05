@@ -1,7 +1,7 @@
 ---
 id: 23
-sanctionsCountry: Tunisia
 name: Zine El Abidine Ben Ali
+sanctionsCountry: Tunisia
 fullName: Zine El Abidine Ben Haj Hamda Ben Haj Hassen Ben Ali
 nativeName: زين العابدين بن علي‎
 surname: Ben Ali
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

@@ -1,7 +1,7 @@
 ---
 id: 50
-sanctionsCountry: Tunisia
 name: Hamda Ben Ali
+sanctionsCountry: Tunisia
 fullName: Hamda Ben Slaheddine Ben Haj Hamda Ben Ali
 nativeName: حمدة بن علي
 surname: Ben Ali
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

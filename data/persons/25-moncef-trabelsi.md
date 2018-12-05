@@ -1,7 +1,7 @@
 ---
 id: 25
-sanctionsCountry: Tunisia
 name: Moncef Trabelsi
+sanctionsCountry: Tunisia
 fullName: DEAD
 nativeName: المنصف الطرابلسي
 surname: Trabelsi
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

@@ -1,7 +1,7 @@
 ---
 id: 15
-sanctionsCountry: Ukraine
 name: Oleksandr Yanukovych
+sanctionsCountry: Ukraine
 fullName: Oleksandr Viktorovych Yanukovych
 nativeName: Олександр Вікторович Янукович
 surname: Yanukovych
@@ -60,11 +60,10 @@ estimatesOfAssetsFrozenOrConfiscated: >-
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
-story: >-
-  Oleksandr Viktorovych Yanukovych was one of the richest businessmen in
-  Ukraine. Forbes  estimated the total value of assets of Alexander Yanukovych
-  was estimated at 510 million USD. The rapid growth of the business empire of
-  Alexander Yanukovych held immediately after his father Victor Yanukovych was
-  elected president of Ukraine.
-  [Source](https://pep.org.ua/uk/person/9416#dossier)
 ---
+  Oleksandr Viktorovych Yanukovych was one of the richest businessmen in Ukraine. 
+  Forbes  estimated the total value of assets of Alexander Yanukovych was 
+  estimated at 510 million USD. The rapid growth of the business empire of 
+  Alexander Yanukovych held immediately after his father Victor Yanukovych was 
+  elected president of Ukraine. 
+  [Source](https://pep.org.ua/uk/person/9416#dossier)

@@ -1,7 +1,7 @@
 ---
 id: 40
-sanctionsCountry: Tunisia
 name: Imed Trabelsi
+sanctionsCountry: Tunisia
 fullName: Mohamed Imed Ben Mohamed Naceur Ben Mohamed Trabelsi
 nativeName: عماد الطرابلسي
 surname: Trabelsi
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

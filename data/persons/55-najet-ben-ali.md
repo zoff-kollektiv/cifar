@@ -1,7 +1,7 @@
 ---
 id: 55
-sanctionsCountry: Tunisia
 name: Najet Ben Ali
+sanctionsCountry: Tunisia
 fullName: Najet Bent Haj Hamda Ben Raj Hassen Ben Ali
 nativeName: نجاة بن علي‎
 surname: Ben Ali
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

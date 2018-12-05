@@ -1,7 +1,7 @@
 ---
 id: 65
-sanctionsCountry: Tunisia
 name: Marouane Mabrouk
+sanctionsCountry: Tunisia
 fullName: Mohamed Marouen Ben Ali Ben Mohamed Mabrouk
 nativeName: مروان مبروك
 surname: Mabrouk
@@ -23,5 +23,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

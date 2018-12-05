@@ -1,7 +1,7 @@
 ---
 id: 51
-sanctionsCountry: Tunisia
 name: Kaïs Ben Ali
+sanctionsCountry: Tunisia
 fullName: Kaïs Ben Slaheddine Ben Haj Hamda Ben Ali
 nativeName: قيس بن علي
 surname: Ben Ali
@@ -23,5 +23,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

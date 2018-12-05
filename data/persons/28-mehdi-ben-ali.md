@@ -1,7 +1,7 @@
 ---
 id: 28
-sanctionsCountry: Tunisia
 name: Mehdi Ben Ali
+sanctionsCountry: Tunisia
 fullName: Mehdi Ben Tijani Ben Haj Hamda Ben Haj Hassen Ben Ali
 nativeName: مهدي بن علي
 surname: Ben Ali
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

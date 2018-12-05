@@ -1,7 +1,7 @@
 ---
 id: 14
-sanctionsCountry: Ukraine
 name: Viktor Ratushniak
+sanctionsCountry: Ukraine
 fullName: Viktor Ivanovych Ratushniak
 nativeName: Віктор Іванович Ратушняк
 surname: Ratushniak
@@ -23,9 +23,8 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
-story: >-
-  Viktor Ratushniak is the former deputy head of the Interior Ministry of
-  Ukraine. Together with the former Interior Minister Vitaliy Zakharchenko and
-  other high-ranking officials from the Yanukovich era, Ratushniak is wanted in
-  Ukraine for embezzlement.
 ---
+  Viktor Ratushniak is the former deputy head of the Interior Ministry of Ukraine. 
+  Together with the former Interior Minister Vitaliy Zakharchenko and other 
+  high-ranking officials from the Yanukovich era, Ratushniak is wanted in Ukraine 
+  for embezzlement.

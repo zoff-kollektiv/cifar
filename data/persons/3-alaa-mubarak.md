@@ -1,7 +1,7 @@
 ---
 id: 3
-sanctionsCountry: Egypt
 name: Alaa Mubarak
+sanctionsCountry: Egypt
 fullName: Alaa Mohamed Hosni Elsayed Mubarak
 nativeName: علاء مبارك‎
 surname: Mubarak
@@ -37,20 +37,16 @@ estimatesOfAssetsReturned: '0'
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011
-story: >-
-  Alaa, Mubarak's older son was a businessman who owned a company that services
-  most of the airlines in Egypt but unlike his younger sibling, show no interest
-  in politics. Both sons were known for their extraagant and luxurious
-  lifestyles during their father's 30-year reign.
-
-  Investigations that followed the Panama Papers leak revealed Alaa as the owner
-  of Pan World Investments, an investment fund for the Mubarak family of nearly
-  $1 billion incorporated by Mossack Fonseca.
-
-  Alongisde his father and older brother, Alaa was Initially sentenced for three
-  years in prison for diverting millions of public money to maintain
-  presidential palaces.
-
-  In September 2018, Alaa was arrested along with his brother Gamal, accused of
-  manipulating the stock market.
 ---
+  Alaa, Mubarak's older son was a businessman who owned a company that services 
+  most of the airlines in Egypt but unlike his younger sibling, show no interest 
+  in politics. Both sons were known for their extraagant and luxurious lifestyles 
+  during their father's 30-year reign.
+  Investigations that followed the Panama Papers leak revealed Alaa as the owner 
+  of Pan World Investments, an investment fund for the Mubarak family of nearly $1 
+  billion incorporated by Mossack Fonseca.
+  Alongisde his father and older brother, Alaa was Initially sentenced for three 
+  years in prison for diverting millions of public money to maintain presidential 
+  palaces.
+  In September 2018, Alaa was arrested along with his brother Gamal, accused of 
+  manipulating the stock market.

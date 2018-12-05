@@ -1,7 +1,7 @@
 ---
 id: 22
-sanctionsCountry: Ukraine
 name: Eduard Stavytskyi
+sanctionsCountry: Ukraine
 fullName: Eduard Anatoliyovych Stavytskyi
 nativeName: Едуард Анатолійович Ставицький
 surname: Stavytskyi
@@ -24,5 +24,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
-story: ''
 ---
+  

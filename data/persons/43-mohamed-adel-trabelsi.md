@@ -1,7 +1,7 @@
 ---
 id: 43
-sanctionsCountry: Tunisia
 name: Mohamed Adel Trabelsi
+sanctionsCountry: Tunisia
 fullName: Mohamed Adel Ben Mohamed Ben Rehouma Trabelsi
 nativeName: محمد الطرابلسي
 surname: Trabelsi
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

@@ -1,7 +1,7 @@
 ---
 id: 70
-sanctionsCountry: Tunisia
 name: Dorsaf Ben Ali
+sanctionsCountry: Tunisia
 fullName: Dorsaf Bent Zine El Abidine Ben Haj Hamda Ben Ali
 nativeName: درصاف بن علي
 surname: Ben Ali
@@ -30,5 +30,5 @@ startOfSanctions: >-
   plot of land belonging to the Ministry of Defense, in the city of Hammamet
   (under appeal):
   https://directinfo.webmanagercenter.com/2018/04/18/tunisie-le-tribunal-militaire-ordonne-lemprisonnement-de-dorsaf-ben-ali-chiboub/
-story: ''
 ---
+  

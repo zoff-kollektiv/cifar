@@ -1,7 +1,7 @@
 ---
 id: 21
-sanctionsCountry: Ukraine
 name: Oleksandr Klymenko
+sanctionsCountry: Ukraine
 fullName: Oleksandr Viktorovych Klymenko
 nativeName: Олександр Вікторович Клименко
 surname: Klymenko
@@ -31,5 +31,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
-story: ''
 ---
+  

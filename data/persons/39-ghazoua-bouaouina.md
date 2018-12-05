@@ -1,7 +1,7 @@
 ---
 id: 39
-sanctionsCountry: Tunisia
 name: Ghazoua Bouaouina
+sanctionsCountry: Tunisia
 fullName: Ghazoua Bent Hamed Ben Taher Bouaouina
 nativeName: غزوة بوعوينة
 surname: Bouaouina
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

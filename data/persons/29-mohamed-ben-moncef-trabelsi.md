@@ -1,7 +1,7 @@
 ---
 id: 29
-sanctionsCountry: Tunisia
 name: Mohamed Ben Moncef Trabelsi
+sanctionsCountry: Tunisia
 fullName: Mohamed Ben Moncef Ben Mohamed Trabelsi
 nativeName: محمد بن منصف الطرابلسي
 surname: Trabelsi
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

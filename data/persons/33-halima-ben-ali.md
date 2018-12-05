@@ -1,7 +1,7 @@
 ---
 id: 33
-sanctionsCountry: Tunisia
 name: Halima Ben Ali
+sanctionsCountry: Tunisia
 fullName: Halima Bent Zine El Abidine Ben Haj Hamda Ben Ali
 nativeName: حليمة بن علي
 surname: Ben Ali
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

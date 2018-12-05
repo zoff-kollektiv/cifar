@@ -1,7 +1,7 @@
 ---
 id: 35
-sanctionsCountry: Tunisia
 name: Belhassen Trabelsi
+sanctionsCountry: Tunisia
 fullName: Belhassen Ben Mohamed Ben Rhouma Trabelsi
 nativeName: بلحسن الطرابلسي
 surname: Trabelsi
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

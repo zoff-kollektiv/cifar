@@ -1,7 +1,7 @@
 ---
 id: 57
-sanctionsCountry: Tunisia
 name: Hayet Ben Ali
+sanctionsCountry: Tunisia
 fullName: Hayet Bent Haj Hamda Ben Haj Hassen Ben Ali
 nativeName: حياة بن علي
 surname: Ben Ali
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

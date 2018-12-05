@@ -1,7 +1,7 @@
 ---
 id: 49
-sanctionsCountry: Tunisia
 name: Nefissa Trabelsi
+sanctionsCountry: Tunisia
 fullName: Nefissa Bent Mohamed Ben Rhoum Trabelsi
 nativeName: نفيسة الطرابلسي
 surname: Trabelsi
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

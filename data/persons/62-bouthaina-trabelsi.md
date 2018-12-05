@@ -1,7 +1,7 @@
 ---
 id: 62
-sanctionsCountry: Tunisia
 name: Bouthaina Trabelsi
+sanctionsCountry: Tunisia
 fullName: Bouthaina Bent Moncef Ben Mohamed Trabelsi
 nativeName: بثينة الطرابلسي
 surname: Trabelsi
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

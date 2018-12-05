@@ -1,7 +1,7 @@
 ---
 id: 20
-sanctionsCountry: Ukraine
 name: Serhiy Arbuzov
+sanctionsCountry: Ukraine
 fullName: Serhiy Hennadiyovych Arbuzov
 nativeName: Сергій Геннадійович Арбузов
 surname: Arbuzov
@@ -42,12 +42,11 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
-story: >-
-  As the Ukraine's former First Deputy Prime Minister, Azrubov became interim
-  Prime Minister following the resignation of Mykola Azarov in January 2014. A
-  month later, on 27 February 2014, he was dismissed. There are several crominal
-  proceedigns against Azrubov in Ukraine for misappropriation or seizure of
-  property and funds by abuse of official position.  [Source
-  1](https://ukranews.com/en/news/544600-pgo-serves-azarov-with-suspicion-of-inflicting-losses-of-uah-22-billion-on-state-serves-arbuzov)
-  [Source 2](https://pep.org.ua/uk/person/9558#reputation)
 ---
+  As the Ukraine's former First Deputy Prime Minister, Azrubov became interim 
+  Prime Minister following the resignation of Mykola Azarov in January 2014. A 
+  month later, on 27 February 2014, he was dismissed. There are several crominal 
+  proceedigns against Azrubov in Ukraine for misappropriation or seizure of 
+  property and funds by abuse of official position.  [Source 
+  1](https://ukranews.com/en/news/544600-pgo-serves-azarov-with-suspicion-of-inflicting-losses-of-uah-22-billion-on-state-serves-arbuzov) 
+  [Source 2](https://pep.org.ua/uk/person/9558#reputation)

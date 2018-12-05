@@ -1,7 +1,7 @@
 ---
 id: 24
-sanctionsCountry: Tunisia
 name: Leila Trabelsi
+sanctionsCountry: Tunisia
 fullName: Leila Bent Mohamed Ben Rhouma Trabelsi
 nativeName: ليلى الطرابلسي
 surname: Trabelsi
@@ -23,5 +23,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

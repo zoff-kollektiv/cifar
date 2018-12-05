@@ -1,7 +1,7 @@
 ---
 id: 30
-sanctionsCountry: Tunisia
 name: Montassar Ltaief
+sanctionsCountry: Tunisia
 fullName: Mohamed Montassar Ben Habib Ben Bouali Ltaief
 nativeName: منتصر  لطيف
 surname: Ltaief
@@ -24,5 +24,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

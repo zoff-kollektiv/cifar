@@ -1,7 +1,7 @@
 ---
 id: 59
-sanctionsCountry: Tunisia
 name: Faouzi Ben Ali
+sanctionsCountry: Tunisia
 fullName: Faouzi Ben Haj Hamda Ben Haj Hassen Ben Ali
 nativeName: فوزي بن علي
 surname: Ben Ali
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

@@ -1,7 +1,7 @@
 ---
 id: 58
-sanctionsCountry: Tunisia
 name: Mourad Mehdoui
+sanctionsCountry: Tunisia
 fullName: Mourad Ben Hédi Ben Ali Mehdoui
 nativeName: مراد  مهدوي
 surname: Mehdoui
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

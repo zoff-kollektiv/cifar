@@ -1,7 +1,7 @@
 ---
 id: 17
-sanctionsCountry: Ukraine
 name: Mykola Azarov
+sanctionsCountry: Ukraine
 fullName: Mykola Yanovych Azarov
 nativeName: Микола Янович Азаров
 surname: Azarov
@@ -33,11 +33,10 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
-story: >-
-  Azarov held several public posts before becoming the Prime Minister of Ukraine
-  in March 2010. He was the Prime Minister until 27 January 2014, when he
-  resigned after weeks of Euromaidan protests. During his term as the Prime
-  Minister of Ukraine, it is suspected that Azarov committed a massive loss of
-  budget funds, in the interests of LLC "ESU". Azarov is currently residing in
-  Russia. [Source](https://pep.org.ua/uk/person/9553#reputation) 
 ---
+  Azarov held several public posts before becoming the Prime Minister of Ukraine 
+  in March 2010. He was the Prime Minister until 27 January 2014, when he resigned 
+  after weeks of Euromaidan protests. During his term as the Prime Minister of 
+  Ukraine, it is suspected that Azarov committed a massive loss of budget funds, 
+  in the interests of LLC "ESU". Azarov is currently residing in Russia. 
+  [Source](https://pep.org.ua/uk/person/9553#reputation) 

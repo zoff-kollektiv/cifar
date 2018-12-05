@@ -1,7 +1,7 @@
 ---
 id: 48
-sanctionsCountry: Tunisia
 name: Najmeddine Ben Ali
+sanctionsCountry: Tunisia
 fullName: Najmeddine Ben Slaheddine Ben Haj Hamda Ben Ali
 nativeName: نجم الدين بن علي
 surname: Ben Ali
@@ -23,5 +23,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

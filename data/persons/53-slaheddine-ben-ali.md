@@ -1,7 +1,7 @@
 ---
 id: 53
-sanctionsCountry: Tunisia
 name: Slaheddine Ben Ali
+sanctionsCountry: Tunisia
 fullName: Slaheddine Ben Haj Hamda Ben Haj Hassen Ben Ali
 nativeName: صلاح الدين بن علي
 surname: Ben Ali
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  

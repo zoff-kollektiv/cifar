@@ -1,7 +1,7 @@
 ---
 id: 64
-sanctionsCountry: Tunisia
 name: Ghazoua Ben Ali
+sanctionsCountry: Tunisia
 fullName: Ghazoua Bent Zine El Abidine Ben Haj Hamda Ben Ali
 nativeName: غزوة  بن علي
 surname: Ben Ali
@@ -22,5 +22,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: ''
 startOfSanctions: ''
-story: ''
 ---
+  
