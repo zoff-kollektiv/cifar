@@ -98,10 +98,6 @@ export default class PersonList extends Component {
                   }}
                 />
               </div>
-
-              <button type="submit" className="filter-submit">
-                Filter
-              </button>
             </form>
           )}
 

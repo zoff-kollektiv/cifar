@@ -61,28 +61,6 @@ export default css`
     }
   }
 
-  .filter-submit {
-    background-color: ${colors.blue};
-    border: none;
-    border-radius: 2px;
-    color: white;
-    display: inline-block;
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 0.05rem;
-    line-height: 1;
-    margin-left: 0.25rem;
-    padding: 0.6rem 1.25rem;
-  }
-
-  @media ${mq.phone} {
-    .filter-submit {
-      font-size: 1rem;
-      margin-left: 0.5rem;
-      padding: 0.6rem 1.5rem;
-    }
-  }
-
   .view {
     align-self: flex-end;
     margin-left: auto;
