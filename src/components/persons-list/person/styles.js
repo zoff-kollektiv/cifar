@@ -19,23 +19,26 @@ export default css`
     }
   }
 
-  .image,
-  .image--has-file > img {
+  .image {
     background-color: ${colors.beige};
     border-radius: 50%;
     height: 7rem;
     margin: 0 auto 0.5rem auto;
-    object-fit: cover;
+    overflow: hidden;
     width: 7rem;
   }
 
   @media ${mq.tablet} {
-    .image,
-    .image--has-file > img {
+    .image {
       height: 11rem;
       margin-bottom: 1rem;
       width: 11rem;
     }
+  }
+
+  .image img {
+    height: 100%;
+    width: 100%;
   }
 
   .title {

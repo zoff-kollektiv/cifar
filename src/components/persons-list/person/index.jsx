@@ -13,7 +13,7 @@ export default ({
     <style jsx>{styles}</style>
 
     <Link to={`/persons/${createSlug(country)}/${createSlug(name)}/`}>
-      <figure className={`image image--${image && 'has-file'}`}>
+      <figure className="image">
         {image && (
           <img
             src={image.node.fluid.src}
