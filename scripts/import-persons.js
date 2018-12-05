@@ -122,7 +122,10 @@ const preparePersons = country =>
 const storePerson = person => {
   const { id, name, story, ...rest } = person;
   const frontmatter = yaml.safeDump({ id, name, ...rest });
-  const output = `---\n${frontmatter}---\n${wrap(story, { width: 80 })}\n`;
+  const output = `---\n${frontmatter}---\n${wrap(story, {
+    indent: '',
+    width: 80
+  })}\n`;
 
   if (name) {
     const fileName = `${slugify(`${id}-${name}`, { lower: true })}.md`;
