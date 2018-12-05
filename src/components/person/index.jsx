@@ -3,14 +3,42 @@ import Helmet from 'react-helmet';
 import React, { Fragment } from 'react';
 
 import Constraint from '../constraint';
+import createSlug from '../../lib/create-slug';
 import findImageById from '../../lib/find-image-by-id';
 import styles from './styles';
 import translations from '../../../data/translations/columns.json';
 
+const renderPersonValue = (key, value, data) => {
+  if (key === 'familyMembersSubjectToSanctions') {
+    return (
+      <Fragment>
+        {value.map((member, index) => (
+          <Fragment key={member}>
+            {index === 0 ? '' : ', '}
+            <a
+              href={`/persons/${createSlug(data.sanctionsCountry)}/${createSlug(
+                member
+              )}/`}
+            >
+              {member}
+            </a>
+          </Fragment>
+        ))}
+      </Fragment>
+    );
+  }
+
+  if (Array.isArray(value)) {
+    return value.join(', ');
+  }
+
+  return value;
+};
+
 export default ({
   images,
   person: {
-    frontmatter: { id, name, nativeName, ...table },
+    frontmatter: { id, sanctionsCountry, name, nativeName, ...table },
     html
   }
 }) => {
@@ -50,16 +78,16 @@ export default ({
         <dl>
           {Object.keys(table).map(key => (
             <Fragment key={key}>
-              {table[key] && (
-                <>
-                  <dt>{translations[key] || key}</dt>
-                  <dd>
-                    {Array.isArray(table[key])
-                      ? table[key].join(', ')
-                      : table[key]}
-                  </dd>
-                </>
-              )}
+              {table[key] &&
+                ((Array.isArray(table[key]) && table[key].length > 0) ||
+                  !Array.isArray(table[key])) && (
+                  <>
+                    <dt>{translations[key] || key}</dt>
+                    <dd>
+                      {renderPersonValue(key, table[key], { sanctionsCountry })}
+                    </dd>
+                  </>
+                )}
             </Fragment>
           ))}
         </dl>
@@ -89,6 +117,7 @@ export const fragment = graphql`
       estimatesOfAssetsReturned
       typeOfSanctions
       startOfSanctions
+      sanctionsCountry
     }
     html
   }
