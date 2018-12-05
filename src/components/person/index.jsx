@@ -11,7 +11,7 @@ import translations from '../../../data/translations/columns.json';
 const renderPersonValue = (key, value, data) => {
   if (key === 'familyMembersSubjectToSanctions') {
     return (
-      <Fragment>
+      <div className="person-info-html">
         {value.map((member, index) => (
           <Fragment key={member}>
             {index === 0 ? '' : ', '}
@@ -24,7 +24,7 @@ const renderPersonValue = (key, value, data) => {
             </a>
           </Fragment>
         ))}
-      </Fragment>
+      </div>
     );
   }
 
@@ -32,7 +32,13 @@ const renderPersonValue = (key, value, data) => {
     return value.join(', ');
   }
 
-  return value;
+  return (
+    <div
+      className="person-info-html"
+      // eslint-disable-next-line react/no-danger
+      dangerouslySetInnerHTML={{ __html: value }}
+    />
+  );
 };
 
 export default ({
@@ -55,6 +61,12 @@ export default ({
       <Constraint>
         <header className="title-container">
           <h1 className="title">
+            <a
+              href={`/persons/${createSlug(sanctionsCountry)}/`}
+              className="back"
+            >
+              ‹ All affected persons of {sanctionsCountry}
+            </a>
             {name}
             <small className="title-native">{nativeName}</small>
           </h1>

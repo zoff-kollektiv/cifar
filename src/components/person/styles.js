@@ -31,6 +31,14 @@ export default css`
     }
   }
 
+  .back {
+    display: block;
+    color: currentColor;
+    font-size: 0.6rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0.85rem;
+  }
+
   .title {
     font-size: 1.8rem;
     font-weight: 700;
@@ -46,7 +54,6 @@ export default css`
 
   .title-native {
     display: block;
-    margin-top: 0.2rem;
   }
 
   .image {
@@ -59,8 +66,14 @@ export default css`
     width: 15rem;
   }
 
-  :global(.person-story a) {
+  :global(.person-story a),
+  :global(.person-info-html a) {
     color: currentColor;
+  }
+
+  :global(.person-info-html > p) {
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   dl {

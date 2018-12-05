@@ -1,5 +1,7 @@
 const fetch = require('node-fetch');
 const path = require('path');
+const remark = require('remark');
+const remarkHtml = require('remark-html');
 const slugify = require('slugify');
 
 const POSTS_WP_ENDPOINT = 'https://cifar.eu/wp-json/wp/v2/posts/?per_page=3';
@@ -144,6 +146,24 @@ exports.onCreateNode = ({ node, actions }) => {
       node,
       name: 'folder',
       value: folder
+    });
+  }
+
+  // parse frontmatter fields of persons to markdown
+  if (node.internal.type === 'MarkdownRemark') {
+    [
+      'startOfSanctions',
+      'suspectedOrConfirmedOverseasProperties',
+      'estimatesOfAssetsFrozenOrConfiscated',
+      'suspectedOrConfirmedLinksToBankAccounts'
+    ].forEach(key => {
+      if (node.frontmatter && node.frontmatter[key]) {
+        // eslint-disable-next-line no-param-reassign
+        node.frontmatter[key] = remark()
+          .use(remarkHtml)
+          .processSync(node.frontmatter[key])
+          .toString();
+      }
     });
   }
 };
