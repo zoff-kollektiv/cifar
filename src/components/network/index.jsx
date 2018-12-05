@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 
+import Constraint from '../constraint';
 import renderNetwork from './network';
 import styles from './styles';
 
@@ -19,11 +20,31 @@ class Network extends Component {
   render() {
     return (
       <Fragment>
-        <style jsx global>
-          {styles}
-        </style>
+        <style jsx>{styles}</style>
 
         <div className="network" ref={this.network} />
+        <div className="labels">
+          <Constraint>
+            <div className="labels-list-container">
+              <h5>Connection types</h5>
+
+              <ul>
+                <li>
+                  <span className="color color--family" /> Family
+                </li>
+
+                <li>
+                  <span className="color color--government" /> Government
+                </li>
+
+                <li>
+                  <span className="color color--private-sector" /> Private
+                  sector
+                </li>
+              </ul>
+            </div>
+          </Constraint>
+        </div>
       </Fragment>
     );
   }

@@ -29,13 +29,15 @@ const appendImage = (svg, data, images) => {
     });
 };
 
-const drawPersons = (svg, data) => {
+const drawPersons = (svg, data, { svgWidth }) => {
+  const isLeft = posX => svgWidth / 2 > posX;
+
   const persons = svg
     .selectAll('.person')
     .data(data)
     .enter()
     .append('g')
-    .attr('class', 'person')
+    .attr('class', d => `person person--link-${d.corruptionLink}`)
     .attr('cx', d => d.x)
     .attr('cy', d => d.y)
     .attr('transform', ({ x, y }) => `translate(${x},${y})`)
@@ -48,7 +50,7 @@ const drawPersons = (svg, data) => {
     .filter(d => isRootPerson(d))
     .append('circle')
     .attr('class', 'person-background-circle')
-    .attr('r', d => (isRootPerson(d) ? 70 : 10));
+    .attr('r', 70);
 
   persons
     .append('circle')
@@ -56,7 +58,7 @@ const drawPersons = (svg, data) => {
       'class',
       d => `person-circle ${isRootPerson(d) ? 'person-circle--is-root' : ''}`
     )
-    .attr('r', d => (isRootPerson(d) ? 70 : 10));
+    .attr('r', d => (isRootPerson(d) ? 70 : 15));
 
   const info = persons
     .append('g')
@@ -69,26 +71,67 @@ const drawPersons = (svg, data) => {
   info
     .append('text')
     .text(d => d.name)
-    .attr('class', 'person-name');
+    .attr('class', 'person-name')
+    .attr('text-anchor', d => {
+      if (isRootPerson(d)) {
+        return 'middle';
+      }
+
+      return isLeft(d.x) ? 'end' : 'start';
+    })
+    .attr('y', d => {
+      if (isRootPerson(d)) {
+        return 87;
+      }
+
+      return -2;
+    })
+    .attr('x', d => {
+      if (isRootPerson(d)) {
+        return 0;
+      }
+
+      return isLeft(d.x) ? -1 * 23 : 23;
+    });
 
   // role
   info
     .append('text')
     .text(d => d.identifyingInformation)
     .attr('class', 'person-role')
-    .attr('y', 13);
+    .attr('text-anchor', d => {
+      if (isRootPerson(d)) {
+        return 'middle';
+      }
+
+      return isLeft(d.x) ? 'end' : 'start';
+    })
+    .attr('y', d => {
+      if (isRootPerson(d)) {
+        return 98;
+      }
+
+      return 10;
+    })
+    .attr('x', d => {
+      if (isRootPerson(d)) {
+        return 0;
+      }
+
+      return isLeft(d.x) ? -1 * 23 : 23;
+    });
 
   return persons;
 };
 
 const drawConnections = (svg, links) => {
   const connections = svg
-    .selectAll('.connection')
+    .selectAll('.link')
     .data(links)
     .enter()
     .append('line')
-    .attr('class', 'connection')
-    .attr('class', d => `connection connection--${d.target.corruptionLink}`)
+    .attr('class', 'link')
+    .attr('class', d => `link link--${d.source.corruptionLink}`)
     .attr('x1', d => d.source.x)
     .attr('y1', d => d.source.y)
     .attr('x2', d => d.target.x)
@@ -140,11 +183,10 @@ const render = (root, data, images) => {
 
   const simulation = d3
     .forceSimulation(data)
-    .force('charge', d3.forceManyBody().strength(-100))
     .force('center', d3.forceCenter(width / 2, height / 2))
     .force(
       'collide',
-      d3.forceCollide().radius(d => (isRootPerson(d) ? 90 : 55))
+      d3.forceCollide().radius(d => (isRootPerson(d) ? 100 : 60))
     )
     .force('link', d3.forceLink())
     .stop();
@@ -152,15 +194,24 @@ const render = (root, data, images) => {
   simulation
     .force('link')
     .links(links)
-    .distance(150);
+    .distance(d => {
+      switch (d.source.corruptionLink) {
+        case 'family':
+          return 20;
+        case 'government':
+          return 150;
+        default:
+          return 200;
+      }
+    });
 
   // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < 300; ++i) {
+  for (let i = 0; i < 500; ++i) {
     simulation.tick();
   }
 
   drawConnections(svg, links);
-  drawPersons(svg, data);
+  drawPersons(svg, data, { svgWidth: width, svgHeight: height });
 
   return svg;
 };

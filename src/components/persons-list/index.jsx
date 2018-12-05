@@ -64,72 +64,88 @@ export default class PersonList extends Component {
     const showFilter = hasInitialPersons && !showGraph;
 
     return (
-      <Constraint>
-        <style jsx>{styles}</style>
-        {viewSwitchStyles.styles}
-        {viewSwitchActiveStyles.styles}
+      <>
+        <Constraint>
+          <style jsx>{styles}</style>
+          {viewSwitchStyles.styles}
+          {viewSwitchActiveStyles.styles}
 
-        <div className="filter-container">
-          {showFilter && (
-            <form
-              onSubmit={event => {
-                event.preventDefault();
+          <div className="filter-container">
+            {showFilter && (
+              <form
+                onSubmit={event => {
+                  event.preventDefault();
 
-                const formData = new FormData(event.target);
-                const name = formData.get('name-filter');
+                  const formData = new FormData(event.target);
+                  const name = formData.get('name-filter');
 
-                this.updateNameFilter(name);
-              }}
-            >
-              <div className="filter">
-                {/* eslint-disable-next-line */}
-                <label htmlFor="name-filter" className="filter-label">
-                  Filter by name
-                </label>
+                  this.updateNameFilter(name);
+                }}
+              >
+                <div className="filter">
+                  {/* eslint-disable-next-line */}
+                  <label htmlFor="name-filter" className="filter-label">
+                    Filter by name
+                  </label>
 
-                <input
-                  type="text"
-                  name="name-filter"
-                  id="name-filter"
-                  className="filter-input"
-                  defaultValue={filter}
-                  onChange={event => {
-                    this.updateNameFilter(event.target.value);
-                  }}
-                />
+                  <input
+                    type="text"
+                    name="name-filter"
+                    id="name-filter"
+                    className="filter-input"
+                    defaultValue={filter}
+                    onChange={event => {
+                      this.updateNameFilter(event.target.value);
+                    }}
+                  />
+                </div>
+              </form>
+            )}
+
+            {showGraphSwitch && (
+              <div className="view">
+                <span className="view-label">Show as</span>
+
+                {showGraph ? (
+                  <Link
+                    className={viewSwitchStyles.className}
+                    to={`/persons/${slug}/`}
+                  >
+                    List
+                  </Link>
+                ) : (
+                  <span className={viewSwitchActiveStyles.className}>List</span>
+                )}
+                {showGraph ? (
+                  <span className={viewSwitchActiveStyles.className}>
+                    Network
+                  </span>
+                ) : (
+                  <Link
+                    className={viewSwitchStyles.className}
+                    to={`/persons/${slug}/?view=network`}
+                  >
+                    Network
+                  </Link>
+                )}
               </div>
-            </form>
-          )}
+            )}
+          </div>
 
-          {showGraphSwitch && (
-            <div className="view">
-              <span className="view-label">Show as</span>
-
-              {showGraph ? (
-                <Link
-                  className={viewSwitchStyles.className}
-                  to={`/persons/${slug}/`}
-                >
-                  List
-                </Link>
-              ) : (
-                <span className={viewSwitchActiveStyles.className}>List</span>
-              )}
-              {showGraph ? (
-                <span className={viewSwitchActiveStyles.className}>
-                  Network
-                </span>
-              ) : (
-                <Link
-                  className={viewSwitchStyles.className}
-                  to={`/persons/${slug}/?view=network`}
-                >
-                  Network
-                </Link>
-              )}
-            </div>
+          {!showGraph && (
+            <ul className="person-list">
+              {persons &&
+                persons.length > 0 &&
+                persons.map(({ node }) => (
+                  <Person
+                    key={node.frontmatter.name}
+                    image={findImageById(images.edges, node.frontmatter.id)}
+                    {...node}
+                  />
+                ))}
+            </ul>
           )}
-        </div>
+        </Constraint>
 
         {showGraph && (
           <Suspense fallback={<Loading />}>
@@ -139,21 +155,7 @@ export default class PersonList extends Component {
             />
           </Suspense>
         )}
-
-        {!showGraph && (
-          <ul className="person-list">
-            {persons &&
-              persons.length > 0 &&
-              persons.map(({ node }) => (
-                <Person
-                  key={node.frontmatter.name}
-                  image={findImageById(images.edges, node.frontmatter.id)}
-                  {...node}
-                />
-              ))}
-          </ul>
-        )}
-      </Constraint>
+      </>
     );
   }
 }
