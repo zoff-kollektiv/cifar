@@ -47,6 +47,19 @@ const preparePersons = country =>
     const newPerson = {};
     const omitValues = ['Unknown', 'Unkown', '.', 'None'];
 
+    const normalizeValue = value => {
+      if (typeof value !== 'string') {
+        return value;
+      }
+
+      let newVal = value;
+
+      // Remove spaces between markdown link text and URL
+      newVal = newVal.replace(/]\s\(/gm, '](', newVal);
+
+      return newVal;
+    };
+
     keys.forEach(key => {
       const newKey = camelCase(key)
         .replace(':', '')
@@ -97,7 +110,7 @@ const preparePersons = country =>
           if (omitValues.includes(person[key])) {
             newPerson[newKey] = '';
           } else {
-            newPerson[newKey] = person[key];
+            newPerson[newKey] = normalizeValue(person[key]);
           }
       }
     });

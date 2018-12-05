@@ -24,18 +24,18 @@ familyMembers:
   - Olena Rymarenko
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: >-
-  Property in Switzerland [Source 1]
-  (https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
+  Property in Switzerland [Source
+  1](https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
 suspectedOrConfirmedLinksToLegalEntities: 'A LOT !!! https://pep.org.ua/en/person/15452'
 suspectedOrConfirmedLinksToBankAccounts: >-
-  Swiss bank account [Source ]
-  (https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
+  Swiss bank account [Source
+  ](https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
-  Assets worth 2 million USD in Switzerland [Source 1]
-  (https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
-  80 million USD held in Latvian bank accounts [Source 2]
-  (https://www.occrp.org/en/daily/4545-ukraine-kyiv-court-seizes-billionaire-kurchenko-s-14-offshore-accounts)
+  Assets worth 2 million USD in Switzerland [Source
+  1](https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
+  80 million USD held in Latvian bank accounts [Source
+  2](https://www.occrp.org/en/daily/4545-ukraine-kyiv-court-seizes-billionaire-kurchenko-s-14-offshore-accounts)
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
@@ -49,12 +49,12 @@ story: >-
   Ukraine until July 2015 when the U.S. government imposed sanctions on him and
   he was denied to use the Forbes brand. He is allegedly residing in Russia,
   where he has acquired real estate and continues to engage in entrepreneurial
-  activity. [Source]
-  (https://www.reuters.com/article/us-russia-capitalism-kurchenko-specialre/special-report-how-a-29-year-old-ukrainian-made-a-killing-on-russian-gas-idUSKBN0JP1KO20141212)
-  [Source 1]
-  (https://www.thedailybeast.com/sergiy-kurchenko-ukraines-missing-oligarch)
-  [Source 2]
-  (https://www.kyivpost.com/article/content/business/forbes-takes-further-steps-to-deny-fugitive-kurchenko-foreign-language-publishing-license-395353.html)
-  [Source 3]
-  (http://euromaidanpress.com/2016/11/02/smuggling-business-donbas-criminal-coal-akhmetov-kurchenko-cigarettes-ukraine-russia/)
+  activity.
+  [Source](https://www.reuters.com/article/us-russia-capitalism-kurchenko-specialre/special-report-how-a-29-year-old-ukrainian-made-a-killing-on-russian-gas-idUSKBN0JP1KO20141212)
+  [Source
+  1](https://www.thedailybeast.com/sergiy-kurchenko-ukraines-missing-oligarch)
+  [Source
+  2](https://www.kyivpost.com/article/content/business/forbes-takes-further-steps-to-deny-fugitive-kurchenko-foreign-language-publishing-license-395353.html)
+  [Source
+  3](http://euromaidanpress.com/2016/11/02/smuggling-business-donbas-criminal-coal-akhmetov-kurchenko-cigarettes-ukraine-russia/)
 ---

@@ -38,12 +38,12 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   "TANTALITE", Blythe Europe Ltd, LLC "DOM LESSON", LLC "NORD-2007", LLC
   "PRINTING HOUSE "NEW WORLD"
 suspectedOrConfirmedLinksToBankAccounts: >-
-  Alleged links to bank accounts in Latvia, Cyprus, Belize, BVI or UK [Source]
-  (https://www.aljazeera.com/news/2017/12/exclusive-dirty-deal-traced-ukrainian-tycoons-171217131747631.html)
+  Alleged links to bank accounts in Latvia, Cyprus, Belize, BVI or UK
+  [Source](https://www.aljazeera.com/news/2017/12/exclusive-dirty-deal-traced-ukrainian-tycoons-171217131747631.html)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
-  None [Source]
-  (https://www.kyivpost.com/ukraine-politics/lawyers-says-european-commission-reveals-no-yanukovych-assets-frozen-eu-sanctions.html)
+  None
+  [Source](https://www.kyivpost.com/ukraine-politics/lawyers-says-european-commission-reveals-no-yanukovych-assets-frozen-eu-sanctions.html)
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
@@ -57,11 +57,11 @@ story: >-
   The area of the residence has its own helicopter ground, a zoo, a collection
   of cars, a golf course, a dairy farm and a restaurant. The exact amount of
   stolen by Yanukovych is still unknown. The estimated damage to the state
-  budget varies up to 40 and even 100 billion USD. [Source 1]
-  (https://pep.org.ua/uk/person/747#dossier)  [Source 2]
-  (https://www.opendemocracy.net/od-russia/serhij-leschenko/yanukovych-luxury-residence-and-money-trail-that-leads-to-london)
-  [Source 3]
-  (https://uncaccoalition.org/files/Asset-Recovery-Ukraine-Full-Report.pdf)
-  [Source 4]
-  (https://www.reuters.com/article/us-ukraine-crisis-yanukovich/toppled-mafia-president-cost-ukraine-up-to-100-billion-prosecutor-says-idUSBREA3T0K820140430)
+  budget varies up to 40 and even 100 billion USD. [Source
+  1](https://pep.org.ua/uk/person/747#dossier)  [Source
+  2](https://www.opendemocracy.net/od-russia/serhij-leschenko/yanukovych-luxury-residence-and-money-trail-that-leads-to-london)
+  [Source
+  3](https://uncaccoalition.org/files/Asset-Recovery-Ukraine-Full-Report.pdf)
+  [Source
+  4](https://www.reuters.com/article/us-ukraine-crisis-yanukovich/toppled-mafia-president-cost-ukraine-up-to-100-billion-prosecutor-says-idUSBREA3T0K820140430)
 ---

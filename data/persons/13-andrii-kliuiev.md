@@ -48,12 +48,12 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   Helios Netherlands B. V. ,  KOLTRESO COMMERCIAL LTD , MIlideno Holdings Ltd. ,
   Kvalisto Holdings Ltd , 
 suspectedOrConfirmedLinksToBankAccounts: >-
-  Russia, Cyprus, Latvia, Bahamas, Switzerland [Source]
-  (https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
+  Russia, Cyprus, Latvia, Bahamas, Switzerland
+  [Source](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
-  26 million francs and a mansion in Switzerland [Source]
-  (https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
+  26 million francs and a mansion in Switzerland
+  [Source](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
@@ -67,6 +67,6 @@ story: >-
   linked to few Austrian holding companies.
 
 
-  [Source 1] (https://pep.org.ua/uk/person/742#dossier) [Source 2]
-  (https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
+  [Source 1](https://pep.org.ua/uk/person/742#dossier) [Source
+  2](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
 ---

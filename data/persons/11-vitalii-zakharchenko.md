@@ -34,6 +34,6 @@ story: >-
   both facing charges of using violence against protesters in the February 2014
   Euromaidan riots, which led to several deaths. He was last seen in Russia in
   April 2014 during a joint press conference with Viktor Yanukovych and former
-  Viktor Pshonka. [Source]
-  (https://www.rt.com/news/yanukovich-ukraine-war-civil-292/)
+  Viktor Pshonka.
+  [Source](https://www.rt.com/news/yanukovich-ukraine-war-civil-292/)
 ---

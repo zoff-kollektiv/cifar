@@ -38,5 +38,5 @@ story: >-
   of abuse of office in the execution of state orders and implementation of
   public procurement. Together with his brother Mikhail, they are controllers of
   a number of enterprises that continue business activity.  He is now believed
-  to be in Israel. [Source] (https://pep.org.ua/uk/person/9555#dossier)
+  to be in Israel. [Source](https://pep.org.ua/uk/person/9555#dossier)
 ---

@@ -49,14 +49,14 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   LLC, ТОВ "САТІН КОНСАЛТ", ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ "КРЕДО-АКТИВ
   КОРПОРЕЙШН", TPK A LLC, Varenda ltd  
 suspectedOrConfirmedLinksToBankAccounts: >-
-  1 million Swiss franks on MAKO Trading SA bank account [Source]
-  (https://en.interfax.com.ua/news/general/407631.html)
+  1 million Swiss franks on MAKO Trading SA bank account
+  [Source](https://en.interfax.com.ua/news/general/407631.html)
 suspectedOrConfirmedLinksToOtherAssets: >-
-  luxury yacht [Source]
-  (https://www.unian.info/common/1266574-yanukovych-sons-yacht-spotted-near-turkey-video.html)
+  luxury yacht
+  [Source](https://www.unian.info/common/1266574-yanukovych-sons-yacht-spotted-near-turkey-video.html)
 estimatesOfAssetsFrozenOrConfiscated: >-
   A Swiss account controlled by Victor Fedorovych's company MAKO Trading SA and
-  its assets [Source] (https://en.interfax.com.ua/news/general/407631.html)
+  its assets [Source](https://en.interfax.com.ua/news/general/407631.html)
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
@@ -65,6 +65,6 @@ story: >-
   Ukraine. Forbes  estimated the total value of assets of Alexander Yanukovych
   was estimated at 510 million USD. The rapid growth of the business empire of
   Alexander Yanukovych held immediately after his father Victor Yanukovych was
-  elected president of Ukraine. [Source]
-  (https://pep.org.ua/uk/person/9416#dossier)
+  elected president of Ukraine.
+  [Source](https://pep.org.ua/uk/person/9416#dossier)
 ---

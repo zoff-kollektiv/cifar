@@ -28,8 +28,8 @@ familyMembersSubjectToSanctions:
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: BG Bank
 suspectedOrConfirmedLinksToBankAccounts: >-
-  Swiss bank account [Source]
-  (https://www.reuters.com/article/us-ukraine-crisis-assets/swiss-government-freezes-assets-of-nine-more-ukrainians-idUSBREA290QT20140310)
+  Swiss bank account
+  [Source](https://www.reuters.com/article/us-ukraine-crisis-assets/swiss-government-freezes-assets-of-nine-more-ukrainians-idUSBREA290QT20140310)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
@@ -39,6 +39,6 @@ story: >-
   Artem Pshonka, together with his father Viktor Pshonka are both wanted on
   criminal charges for abuse of office.  Both fled Ukraine shortly after Viktor
   Yanukovych. Artem Pshonka has been linked to BG Bank which has been declared
-  insolvent and is facing charges of fraud [Source]
-  (https://www.kyivpost.com/article/content/business/bg-bank-steals-from-sinking-ship-417545.html)
+  insolvent and is facing charges of fraud
+  [Source](https://www.kyivpost.com/article/content/business/bg-bank-steals-from-sinking-ship-417545.html)
 ---

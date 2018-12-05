@@ -26,8 +26,8 @@ familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: >-
-  Swiss bank account [Source]
-  (https://www.pressreader.com/ukraine/kyiv-post/20170210/281694024525834)
+  Swiss bank account
+  [Source](https://www.pressreader.com/ukraine/kyiv-post/20170210/281694024525834)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
@@ -39,5 +39,5 @@ story: >-
   resigned after weeks of Euromaidan protests. During his term as the Prime
   Minister of Ukraine, it is suspected that Azarov committed a massive loss of
   budget funds, in the interests of LLC "ESU". Azarov is currently residing in
-  Russia. [Source] (https://pep.org.ua/uk/person/9553#reputation) 
+  Russia. [Source](https://pep.org.ua/uk/person/9553#reputation) 
 ---
