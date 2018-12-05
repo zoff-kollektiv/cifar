@@ -36,8 +36,8 @@ estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---
-  Artem Pshonka, together with his father Viktor Pshonka are both wanted on 
-  criminal charges for abuse of office.  Both fled Ukraine shortly after Viktor 
-  Yanukovych. Artem Pshonka has been linked to BG Bank which has been declared 
-  insolvent and is facing charges of fraud 
-  [Source](https://www.kyivpost.com/article/content/business/bg-bank-steals-from-sinking-ship-417545.html)
+Artem Pshonka, together with his father Viktor Pshonka are both wanted on 
+criminal charges for abuse of office.  Both fled Ukraine shortly after Viktor 
+Yanukovych. Artem Pshonka has been linked to BG Bank which has been declared 
+insolvent and is facing charges of fraud 
+[Source](https://www.kyivpost.com/article/content/business/bg-bank-steals-from-sinking-ship-417545.html)
