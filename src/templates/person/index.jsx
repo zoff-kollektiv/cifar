@@ -10,12 +10,21 @@ const Page = ({ data }) => <Person {...data} />;
 export default withNavigation(withLayout(Page));
 
 export const query = graphql`
-  query Person($name: String, $imageFileName: String) {
-    image: file(relativePath: { eq: $imageFileName }) {
-      childImageSharp {
-        fluid(maxWidth: 900) {
-          src
-          srcSet
+  query Person($name: String) {
+    images: allImageSharp {
+      edges {
+        node {
+          parent {
+            ... on File {
+              absolutePath
+            }
+          }
+          fluid(
+            maxWidth: 600
+            duotone: { highlight: "#ebe7d6", shadow: "#192162" }
+          ) {
+            src
+          }
         }
       }
     }

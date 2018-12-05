@@ -50,18 +50,13 @@ export default css`
   }
 
   .image {
+    align-self: flex-end;
     background-color: ${colors.beige};
     border-radius: 50%;
-    flex: 1 0 auto;
-    margin: 0;
+    margin: 0 0 0 auto;
     overflow: hidden;
     height: 15rem;
     width: 15rem;
-  }
-
-  .image-image {
-    height: auto;
-    width: 100%;
   }
 
   dl {
