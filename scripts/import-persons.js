@@ -7,6 +7,7 @@ const csv = require('csv-parse/lib/sync');
 const fetch = require('node-fetch');
 const slugify = require('slugify');
 const yaml = require('js-yaml');
+const wrap = require('word-wrap');
 
 const TRANSLATION_PATH = './data/translations';
 const MARKDOWN_PATH = './data/persons';
@@ -119,9 +120,9 @@ const preparePersons = country =>
   });
 
 const storePerson = person => {
-  const { id, name } = person;
-  const frontmatter = yaml.safeDump(person);
-  const output = `---\n${frontmatter}---\n`;
+  const { id, name, story, ...rest } = person;
+  const frontmatter = yaml.safeDump({ id, name, ...rest });
+  const output = `---\n${frontmatter}---\n${wrap(story, { width: 80 })}\n`;
 
   if (name) {
     const fileName = `${slugify(`${id}-${name}`, { lower: true })}.md`;

@@ -8,7 +8,8 @@ import translations from '../../../data/translations/columns.json';
 
 export default ({
   person: {
-    frontmatter: { name, nativeName, story, ...table }
+    frontmatter: { name, nativeName, ...table },
+    html
   }
 }) => (
   <div className="person">
@@ -27,7 +28,7 @@ export default ({
       </header>
 
       {/* eslint-disable-next-line react/no-danger */}
-      <div dangerouslySetInnerHTML={{ __html: story }} />
+      <div dangerouslySetInnerHTML={{ __html: html }} />
 
       <h2>Information</h2>
 
@@ -71,7 +72,7 @@ export const fragment = graphql`
       estimatesOfAssetsReturned
       typeOfSanctions
       startOfSanctions
-      story
     }
+    html
   }
 `;
