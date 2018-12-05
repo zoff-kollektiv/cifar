@@ -139,6 +139,10 @@ export default css`
     -moz-osx-font-smoothing: grayscale;
   }
 
+  :global(:focus:not(:focus-visible)) {
+    outline: none;
+  }
+
   @supports (font-variation-settings: normal) {
     :global(html) {
       font-family: 'Inter UI var', system-ui, sans-serif;
