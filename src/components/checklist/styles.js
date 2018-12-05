@@ -1,4 +1,6 @@
 import css from 'styled-jsx/css';
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
 
 import { colors, mq } from '../../tokens';
 
@@ -37,9 +39,25 @@ export default css`
   li {
     font-size: 1rem;
     font-weight: 700;
+    position: relative;
   }
 
   li + li {
     margin-top: 1.5rem;
+  }
+`;
+
+export const checkIconStyles = css.resolve`
+  svg {
+    background-color: white;
+    border-radius: 50%;
+    color: ${colors.blue};
+    height: 1.25rem;
+    left: -3.5rem;
+    padding: 0.5rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.25rem;
   }
 `;
