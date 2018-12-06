@@ -57,7 +57,7 @@ state-wned but later privatised and enhanced from unknown income. The area of
 the residence has its own helicopter ground, a zoo, a collection of cars, a golf 
 course, a dairy farm and a restaurant. The exact amount of stolen by Yanukovych 
 is still unknown. The estimated damage to the state budget varies up to 40 and 
-even 100 billion USD. [Source 1](https://pep.org.ua/uk/person/747#dossier)  
+even 100 billion USD. [Source 1](https://pep.org.ua/uk/person/747#dossier) 
 [Source 
 2](https://www.opendemocracy.net/od-russia/serhij-leschenko/yanukovych-luxury-residence-and-money-trail-that-leads-to-london) 
 [Source 

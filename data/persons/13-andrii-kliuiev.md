@@ -65,6 +65,5 @@ Administration. Together with his younger brother Sergiy Petrovich Klyuev they
 were active in the solar energy business. The Klyuyev brothers are the 
 beneficiary owners of a number of companies, from whose 70 were formerly linked 
 to few Austrian holding companies.
-
 [Source 1](https://pep.org.ua/uk/person/742#dossier) [Source 
 2](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)

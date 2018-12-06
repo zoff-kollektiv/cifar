@@ -7,7 +7,11 @@ nativeName: Віктор Іванович Ратушняк
 surname: Ratushniak
 firstAndMidleNames: Viktor Ivanovych
 aliases:
-  - Victor Ivanovych Ratushniac
+  - Victor Ivanovych
+  - Ivanovich Ratushniac
+  - Ratushnyak
+  - Ratouchniak
+  - Ratuschnjak
 identifyingInformation: Former Deputy Minister of Internal Affairs
 placeOfBirth: ''
 dateOfBirth: 16.10.1959
