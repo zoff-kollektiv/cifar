@@ -1,4 +1,6 @@
 import css from 'styled-jsx/css';
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
 
 import { colors } from '../../tokens';
 
@@ -16,7 +18,7 @@ export default css`
     letter-spacing: 0.075rem;
   }
 
-  ul {
+  .columns {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -25,12 +27,20 @@ export default css`
     padding: 0;
   }
 
-  li {
+  ul.columns {
+    width: 60%;
+  }
+
+  .column {
     display: flex;
     flex-direction: column;
     font-size: 1.125rem;
     margin-top: 2rem;
     width: 50%;
+  }
+
+  .column--logo {
+    width: 40%;
   }
 
   .label {
@@ -51,5 +61,17 @@ export default css`
   a:hover,
   a:focus {
     text-decoration: underline;
+  }
+`;
+
+export const logoStyles = css.resolve`
+  svg {
+    color: white;
+    height: 8rem;
+    width: 10rem;
+  }
+
+  path {
+    fill: white;
   }
 `;
