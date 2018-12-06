@@ -4,9 +4,15 @@ import React, { Component, lazy, Suspense } from 'react';
 import Constraint from '../constraint';
 import Loading from '../loading';
 import Person from './person';
-import styles, { viewSwitchStyles, viewSwitchActiveStyles } from './styles';
+import styles, {
+  viewSwitchStyles,
+  viewSwitchActiveStyles,
+  viewIconStyles
+} from './styles';
 
 import findImageById from '../../lib/find-image-by-id';
+import ListIcon from '../../static/list-ul.svg';
+import NetworkIcon from '../../static/share-alt.svg';
 
 const Network = lazy(() => import('../network'));
 
@@ -69,6 +75,7 @@ export default class PersonList extends Component {
           <style jsx>{styles}</style>
           {viewSwitchStyles.styles}
           {viewSwitchActiveStyles.styles}
+          {viewIconStyles.styles}
 
           <div className="filter-container">
             {showFilter && (
@@ -104,20 +111,24 @@ export default class PersonList extends Component {
 
             {showGraphSwitch && (
               <div className="view">
-                <span className="view-label">Show as</span>
+                <span className="view-label">View as</span>
 
                 {showGraph ? (
                   <Link
                     className={viewSwitchStyles.className}
                     to={`/persons/${slug}/`}
                   >
+                    <ListIcon className={viewIconStyles.className} />
                     List
                   </Link>
                 ) : (
-                  <span className={viewSwitchActiveStyles.className}>List</span>
+                  <span className={viewSwitchActiveStyles.className}>
+                    <ListIcon className={viewIconStyles.className} /> List
+                  </span>
                 )}
                 {showGraph ? (
                   <span className={viewSwitchActiveStyles.className}>
+                    <NetworkIcon className={viewIconStyles.className} />
                     Network
                   </span>
                 ) : (
@@ -125,6 +136,7 @@ export default class PersonList extends Component {
                     className={viewSwitchStyles.className}
                     to={`/persons/${slug}/?view=network`}
                   >
+                    <NetworkIcon className={viewIconStyles.className} />
                     Network
                   </Link>
                 )}

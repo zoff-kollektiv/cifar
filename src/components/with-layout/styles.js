@@ -131,7 +131,8 @@ export default css`
     padding: 0;
   }
 
-  :global(html) {
+  :global(html),
+  :global(input[type='text']) {
     font-family: 'Inter UI', system-ui, sans-serif;
     font-kerning: normal;
     font-feature-settings: 'calt' 1, 'kern' 1, 'liga' 1;

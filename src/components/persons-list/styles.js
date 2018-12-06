@@ -49,14 +49,17 @@ export default css`
 
   .filter-input {
     border: 3px solid ${colors.blue};
-    font-size: 1.25rem;
+    color ${colors.blue};
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.3rem 0.5rem;
     vertical-align: middle;
     width: 10rem;
   }
 
   @media ${mq.phone} {
     .filter-input {
-      font-size: 1.4rem;
+      font-size: 1.1rem;
       width: 12rem;
     }
   }
@@ -76,11 +79,12 @@ export default css`
 `;
 
 const viewSwitchCommon = `
+  border: 2px solid ${colors.blue};
   border-radius: 3px;
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   margin-right: 0.5rem;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 0.65rem 0.4rem 0.65rem;
   text-decoration: none;
 `;
 
@@ -88,13 +92,13 @@ export const viewSwitchStyles = css.resolve`
   a {
     ${viewSwitchCommon}
     background-color: ${colors.blue};
-    border: 1px solid transparent;
     color: white;
   }
 
   a:hover,
   a:focus {
-    text-decoration: underline;
+    background-color: white;
+    color: ${colors.blue};
   }
 `;
 
@@ -102,7 +106,17 @@ export const viewSwitchActiveStyles = css.resolve`
   span {
     ${viewSwitchCommon}
     background-color: white;
-    border: 1px solid ${colors.blue};
     color: ${colors.blue};
+  }
+`;
+
+export const viewIconStyles = css.resolve`
+  svg {
+    height: 1.2rem;
+    margin-right: 0.4rem;
+    position: relative;
+    top: -0.05rem;
+    vertical-align: middle;
+    width: 1.2rem;
   }
 `;
