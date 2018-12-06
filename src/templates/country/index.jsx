@@ -42,7 +42,7 @@ export const query = graphql`
         frontmatter: { name: { ne: "" } }
         fields: { folder: { eq: "persons" } }
       }
-      sort: { fields: [frontmatter___title] }
+      sort: { fields: [frontmatter___id] }
     ) {
       ...personsList
     }
@@ -55,7 +55,7 @@ export const query = graphql`
           sanctionsCountry: { eq: $countryName }
         }
       }
-      sort: { fields: [frontmatter___title] }
+      sort: { fields: [frontmatter___id] }
     ) {
       ...personsList
     }
