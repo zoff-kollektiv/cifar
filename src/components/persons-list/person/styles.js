@@ -22,7 +22,9 @@ export default css`
   .image {
     background-color: ${colors.beige};
     border-radius: 50%;
+    display: flex;
     height: 7rem;
+    justify-content: center;
     margin: 0 auto 0.5rem auto;
     overflow: hidden;
     width: 7rem;
@@ -37,8 +39,8 @@ export default css`
   }
 
   .image img {
-    height: 100%;
-    width: 100%;
+    height: 11.45rem;
+    width: 11.45rem;
   }
 
   .title {
