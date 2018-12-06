@@ -22,7 +22,6 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
-'': 'Switzerland, EU'
 ---
 Son-in-law of the former President, businessperson and former head of the 
 Tunisian National Olympic Committee, after the revolution he fled to the UAE. 

@@ -22,7 +22,6 @@ estimatesOfAssetsFrozenOrConfiscated: Unclear
 estimatesOfAssetsReturned: Unclear
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
-'': ''
 ---
 Daughter of former President Ben Ali, wife of also sanctioned businessman Slim 
 Chiboub. Sentenced in April 2018 to two years imprisonment for appropriating a 

@@ -36,6 +36,5 @@ estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
-'': ''
 ---
 

@@ -67,6 +67,11 @@ const preparePersons = country =>
         .replace('(', '')
         .replace(')', '');
 
+      // do not store empty columns
+      if (!newKey) {
+        return;
+      }
+
       // store the mapping
       TRANSLATIONS[newKey] = key;
 
