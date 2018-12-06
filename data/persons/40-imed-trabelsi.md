@@ -5,7 +5,7 @@ sanctionsCountry: Tunisia
 fullName: Mohamed Imed Ben Mohamed Naceur Ben Mohamed Trabelsi
 nativeName: عماد الطرابلسي
 surname: Trabelsi
-firstAndMidleNames: ''
+firstAndMidleNames: Mohamed Imed Ben Mohamed Naceur Ben Mohamed
 aliases: []
 identifyingInformation: Leila Trabelsi's nephew / businessman
 placeOfBirth: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

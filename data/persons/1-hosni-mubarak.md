@@ -54,5 +54,5 @@ In 2014, 'Hosni Mubarak and his sons Gamal and Alaa Mubarak received three and
 four-year jail sentences on charges of embezzlement and were ordered to pay a 
 $17.5 million fine. In March 2017, Hosni Mubarak was released from detention 
 after being acquitted of charges of killing protesters but remains under 
-investigation for alleged corruption. Mubarak is said t reside in his private 
+investigation for alleged corruption. Mubarak is said to reside in his private 
 family residence in Cairo’s upscale district of Heliopolis.

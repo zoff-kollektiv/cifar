@@ -2,10 +2,10 @@
 id: 26
 name: Sofiene Ben Ali
 sanctionsCountry: Tunisia
-fullName: DEAD
+fullName: Sofiene Ben Habib Ben Haj Hamda Ben Ali
 nativeName: سفيان بن علي
 surname: Ben Ali
-firstAndMidleNames: ''
+firstAndMidleNames: Sofiene Ben Habib Ben Haj Hamda
 aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
-
+DEAD

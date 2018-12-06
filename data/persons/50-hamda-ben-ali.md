@@ -5,7 +5,7 @@ sanctionsCountry: Tunisia
 fullName: Hamda Ben Slaheddine Ben Haj Hamda Ben Ali
 nativeName: حمدة بن علي
 surname: Ben Ali
-firstAndMidleNames: ''
+firstAndMidleNames: Hamda Ben Slaheddine Ben Haj Hamda
 aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

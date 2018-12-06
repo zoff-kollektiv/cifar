@@ -5,7 +5,7 @@ sanctionsCountry: Tunisia
 fullName: Mohamed Mourad Ben Mohamed Ben Rehouma Trabelsi
 nativeName: محمد مراد الطرابلسي
 surname: Trabelsi
-firstAndMidleNames: ''
+firstAndMidleNames: Mohamed Mourad Ben Mohamed Ben Rehouma
 aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

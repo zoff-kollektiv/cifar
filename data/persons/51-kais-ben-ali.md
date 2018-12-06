@@ -5,9 +5,8 @@ sanctionsCountry: Tunisia
 fullName: Kaïs Ben Slaheddine Ben Haj Hamda Ben Ali
 nativeName: قيس بن علي
 surname: Ben Ali
-firstAndMidleNames: ''
-aliases:
-  - Kaies Ben Slaheddine Ben Haj Hamda Ben Ali
+firstAndMidleNames: Kaïs Ben Slaheddine Ben Haj Hamda
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''
@@ -21,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

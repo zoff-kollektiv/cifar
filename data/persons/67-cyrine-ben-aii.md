@@ -5,10 +5,10 @@ sanctionsCountry: Tunisia
 fullName: Cyrine Bent Zine El Abidine Ben Haj Hamda Ben Ali
 nativeName: سيرين بن علي
 surname: Ben Ali
-firstAndMidleNames: ''
+firstAndMidleNames: Cyrine Bent Zine El Abidine Ben Haj Hamda
 aliases:
-  - Sirine Bent Zine El Abidine Ben Haj Hamda Ben Ali
-identifyingInformation: ''
+  - Sirine Ben Ali
+identifyingInformation: Daughter of Zine El Abidine Ben Ali
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
@@ -21,7 +21,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

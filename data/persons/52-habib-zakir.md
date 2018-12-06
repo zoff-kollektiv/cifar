@@ -5,9 +5,9 @@ sanctionsCountry: Tunisia
 fullName: Habib Ben Kaddour Ben Mustapha Ben Zakir
 nativeName: حبيب بن زكير
 surname: Ben Zakir
-firstAndMidleNames: ''
+firstAndMidleNames: Habib Ben Kaddour Ben Mustapha Ben
 aliases:
-  - Zakik
+  - Habib Zakik
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''
@@ -21,7 +21,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

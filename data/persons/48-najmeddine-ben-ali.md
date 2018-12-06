@@ -5,9 +5,9 @@ sanctionsCountry: Tunisia
 fullName: Najmeddine Ben Slaheddine Ben Haj Hamda Ben Ali
 nativeName: نجم الدين بن علي
 surname: Ben Ali
-firstAndMidleNames: ''
+firstAndMidleNames: Najmeddine Ben Slaheddine Ben Haj Hamda
 aliases:
-  - Nesmeddine
+  - Nesmeddine Ben Ali
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''
@@ -21,7 +21,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

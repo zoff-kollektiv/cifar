@@ -7,7 +7,7 @@ nativeName: حليمة بن علي
 surname: Ben Ali
 firstAndMidleNames: Halima Bent Zine El Abidine Ben Haj Hamda
 aliases: []
-identifyingInformation: daughter of Ben Ali
+identifyingInformation: Daughter of Zine El Abidine Ben Ali
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: Seychelles
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

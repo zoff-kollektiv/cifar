@@ -5,7 +5,7 @@ sanctionsCountry: Tunisia
 fullName: Nefissa Bent Mohamed Ben Rhoum Trabelsi
 nativeName: نفيسة الطرابلسي
 surname: Trabelsi
-firstAndMidleNames: ''
+firstAndMidleNames: Nefissa Bent Mohamed Ben Rhouma
 aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

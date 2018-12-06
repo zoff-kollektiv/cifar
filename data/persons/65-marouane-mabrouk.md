@@ -5,9 +5,8 @@ sanctionsCountry: Tunisia
 fullName: Mohamed Marouen Ben Ali Ben Mohamed Mabrouk
 nativeName: مروان مبروك
 surname: Mabrouk
-firstAndMidleNames: ''
-aliases:
-  - Mohamed Marwan Ben Ali Ben Mohamed Mabrouk
+firstAndMidleNames: Mohamed Marouen Ben Ali Ben Mohamed
+aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''
@@ -21,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

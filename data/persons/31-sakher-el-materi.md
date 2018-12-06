@@ -7,7 +7,7 @@ nativeName: صخر الماطري
 surname: Materi
 firstAndMidleNames: Fahd Mohamed Sakher Ben Moncef Ben Mohamed Hfaiez
 aliases: []
-identifyingInformation: married to Nesrine Ben Ali / businessman
+identifyingInformation: Son-in-law of Zine El Abidine Ben Ali
 placeOfBirth: ''
 dateOfBirth: 02.12.1981
 countryOfResidence: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
-
+Married to Nesrine Ben Ali

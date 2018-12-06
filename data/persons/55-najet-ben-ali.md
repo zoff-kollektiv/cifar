@@ -5,9 +5,9 @@ sanctionsCountry: Tunisia
 fullName: Najet Bent Haj Hamda Ben Raj Hassen Ben Ali
 nativeName: نجاة بن علي‎
 surname: Ben Ali
-firstAndMidleNames: ''
+firstAndMidleNames: Najet Bent Haj Hamda Ben Raj Hassen
 aliases: []
-identifyingInformation: sister of Ben Ali
+identifyingInformation: Sister of Zine El Abidine Ben Ali
 placeOfBirth: ''
 dateOfBirth: 18.09.1956
 countryOfResidence: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

@@ -5,7 +5,7 @@ sanctionsCountry: Tunisia
 fullName: Mohamed Montassar Ben Kbaier Ben Mohamed Meherzi
 nativeName: منتصر محرزي
 surname: Meherzi
-firstAndMidleNames: ''
+firstAndMidleNames: Mohamed Montassar Ben Kbaier Ben Mohamed
 aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

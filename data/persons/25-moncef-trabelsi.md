@@ -2,12 +2,12 @@
 id: 25
 name: Moncef Trabelsi
 sanctionsCountry: Tunisia
-fullName: DEAD
+fullName: Moncef Ben Mohamed Ben Rhouma Trabelsi
 nativeName: المنصف الطرابلسي
 surname: Trabelsi
-firstAndMidleNames: ''
+firstAndMidleNames: Moncef Ben Mohamed Ben Rhouma
 aliases: []
-identifyingInformation: Ex-president's brother-in-law
+identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
 placeOfBirth: ''
 dateOfBirth: 04.03.1944
 countryOfResidence: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
-
+DEAD

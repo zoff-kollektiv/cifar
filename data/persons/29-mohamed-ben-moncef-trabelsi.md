@@ -5,9 +5,9 @@ sanctionsCountry: Tunisia
 fullName: Mohamed Ben Moncef Ben Mohamed Trabelsi
 nativeName: محمد بن منصف الطرابلسي
 surname: Trabelsi
-firstAndMidleNames: ''
+firstAndMidleNames: Mohamed Ben Moncef Ben Mohamed
 aliases: []
-identifyingInformation: Laila Trabelsi's nephew
+identifyingInformation: Nephew of Laila Trabelsi
 placeOfBirth: ''
 dateOfBirth: 07.01.1980
 countryOfResidence: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

@@ -5,7 +5,7 @@ sanctionsCountry: Tunisia
 fullName: Farid Ben Haj Hamda Ben Haj Hassen Ben Ali
 nativeName: فريد  بن علي
 surname: Ben Ali
-firstAndMidleNames: ''
+firstAndMidleNames: Farid Ben Haj Hamda Ben Haj Hassen
 aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

@@ -5,7 +5,7 @@ sanctionsCountry: Tunisia
 fullName: Mourad Ben Hédi Ben Ali Mehdoui
 nativeName: مراد  مهدوي
 surname: Mehdoui
-firstAndMidleNames: ''
+firstAndMidleNames: Mourad Ben Hédi Ben Ali
 aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

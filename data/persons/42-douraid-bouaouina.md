@@ -5,11 +5,11 @@ sanctionsCountry: Tunisia
 fullName: Douraied Ben Hamed Ben Taher Bouaouina
 nativeName: دريد بوعوينة
 surname: Bouaouina
-firstAndMidleNames: ''
+firstAndMidleNames: Douraied Ben Hamed Ben Taher
 aliases:
   - Doraid
   - Douraïd Bouaouina
-identifyingInformation: nephew of Ben Ali
+identifyingInformation: Nephew of Zine El Abidine Ben Ali
 placeOfBirth: ''
 dateOfBirth: 26.04.1950
 countryOfResidence: ''
@@ -22,7 +22,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

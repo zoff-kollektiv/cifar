@@ -5,9 +5,9 @@ sanctionsCountry: Tunisia
 fullName: Ghazoua Bent Zine El Abidine Ben Haj Hamda Ben Ali
 nativeName: غزوة  بن علي
 surname: Ben Ali
-firstAndMidleNames: ''
+firstAndMidleNames: Ghazoua Bent Zine El Abidine Ben Haj Hamda
 aliases: []
-identifyingInformation: ''
+identifyingInformation: Daughter of Zine El Abidine Ben Ali
 placeOfBirth: ''
 dateOfBirth: ''
 countryOfResidence: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

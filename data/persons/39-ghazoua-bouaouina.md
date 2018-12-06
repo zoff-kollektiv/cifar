@@ -5,7 +5,7 @@ sanctionsCountry: Tunisia
 fullName: Ghazoua Bent Hamed Ben Taher Bouaouina
 nativeName: غزوة بوعوينة
 surname: Bouaouina
-firstAndMidleNames: ''
+firstAndMidleNames: Ghazoua Bent Hamed Ben Taher
 aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

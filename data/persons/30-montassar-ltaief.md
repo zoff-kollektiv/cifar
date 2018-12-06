@@ -5,10 +5,10 @@ sanctionsCountry: Tunisia
 fullName: Mohamed Montassar Ben Habib Ben Bouali Ltaief
 nativeName: منتصر  لطيف
 surname: Ltaief
-firstAndMidleNames: ''
+firstAndMidleNames: Mohamed Montassar Ben Habib Ben Bouali
 aliases:
-  - Ltaief
-  - Eltaief
+  - Montassar Eltaief
+  - Letaief
 identifyingInformation: ''
 placeOfBirth: ''
 dateOfBirth: ''
@@ -22,7 +22,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

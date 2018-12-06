@@ -5,8 +5,9 @@ sanctionsCountry: Tunisia
 fullName: Imed Ben Habib Ben Bouali Ltaief
 nativeName: عماد لطيف
 surname: Ltaief
-firstAndMidleNames: ''
+firstAndMidleNames: Imed Ben Habib Ben Bouali
 aliases:
+  - Imed Eltaief
   - Letaief
 identifyingInformation: ''
 placeOfBirth: ''
@@ -21,7 +22,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 

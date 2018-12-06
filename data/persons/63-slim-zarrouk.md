@@ -5,7 +5,7 @@ sanctionsCountry: Tunisia
 fullName: Slim Ben Mohamed Salah Ben Ahmed Zarrouk
 nativeName: سليم زروق
 surname: Zarrouk
-firstAndMidleNames: ''
+firstAndMidleNames: Slim Ben Mohamed Salah Ben Ahmed
 aliases: []
 identifyingInformation: ''
 placeOfBirth: ''
@@ -20,7 +20,8 @@ suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: ''
-typeOfSanctions: ''
-startOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
+startOfSanctions: 04.02.2011
+'': ''
 ---
 
