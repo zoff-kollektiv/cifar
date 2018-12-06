@@ -43,6 +43,7 @@ export const fragment = graphql`
           corruptionLink
           aliases
           nativeName
+          firstAndMidleNames
         }
       }
     }

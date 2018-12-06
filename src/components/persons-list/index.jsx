@@ -27,11 +27,17 @@ const filterPersonsByName = (persons, name) => {
   return persons.filter(
     ({
       node: {
-        frontmatter: { name: personName, aliases, nativeName }
+        frontmatter: {
+          name: personName,
+          aliases,
+          nativeName,
+          firstAndMidleNames
+        }
       }
     }) =>
       personName.includes(name) ||
       nativeName.includes(name) ||
+      firstAndMidleNames.includes(name) ||
       aliases.find(alias => alias.includes(name))
   );
 };
