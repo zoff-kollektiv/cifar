@@ -43,6 +43,7 @@ const renderPersonValue = (key, value, data) => {
 
 export default ({
   images,
+  site,
   person: {
     frontmatter: { id, sanctionsCountry, name, nativeName, ...table },
     html
@@ -53,7 +54,9 @@ export default ({
   return (
     <div className="person">
       <Helmet>
-        <title>{name}</title>
+        <title>
+          {name} | {site.siteMetadata.title}
+        </title>
       </Helmet>
 
       <style jsx>{styles}</style>

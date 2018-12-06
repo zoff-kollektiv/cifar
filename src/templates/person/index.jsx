@@ -35,5 +35,11 @@ export const query = graphql`
     ) {
       ...person
     }
+
+    site: site {
+      siteMetadata {
+        title
+      }
+    }
   }
 `;

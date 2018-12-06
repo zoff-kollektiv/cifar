@@ -1,11 +1,18 @@
 import { graphql } from 'gatsby';
+import Helmet from 'react-helmet';
 import React from 'react';
 
 import Constraint from '../constraint';
 import styles from './styles';
 
-export default ({ frontmatter: { title }, html }) => (
+export default ({ site, frontmatter: { title }, html }) => (
   <div className="about">
+    <Helmet>
+      <title>
+        {title} | {site.siteMetadata.title}
+      </title>
+    </Helmet>
+
     <style jsx>{styles}</style>
 
     <Constraint>

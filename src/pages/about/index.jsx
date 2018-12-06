@@ -5,9 +5,9 @@ import About from '../../components/about';
 import withLayout from '../../components/with-layout';
 import withNavigation from '../../components/with-navigation';
 
-const Page = ({ data: { page } }) => (
+const Page = ({ data: { site, page } }) => (
   <div>
-    <About {...page} />
+    <About site={site} {...page} />
   </div>
 );
 
@@ -19,6 +19,12 @@ export const query = graphql`
       fields: { folder: { eq: "pages" }, fileName: { eq: "about.md" } }
     ) {
       ...about
+    }
+
+    site: site {
+      siteMetadata {
+        title
+      }
     }
   }
 `;
