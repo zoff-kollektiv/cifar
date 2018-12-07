@@ -23,6 +23,7 @@ class Network extends Component {
         <style jsx>{styles}</style>
 
         <div className="network" ref={this.network} />
+
         <div className="labels">
           <Constraint>
             <div className="labels-list-container">

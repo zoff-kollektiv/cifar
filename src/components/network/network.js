@@ -3,10 +3,25 @@ import { navigate } from '@reach/router';
 import createSlug from '../../lib/create-slug';
 import findImageById from '../../lib/find-image-by-id';
 
+const personInRadiusOfMiddle = (x, y, cx, cy, radius) =>
+  (x - cx) * (x - cx) + (y - cy) * (y - cy) <= radius * radius;
+
 const isRootPerson = person => !person.corruptionLink;
 
+const getWindowWidth = () =>
+  window.innerWidth ||
+  document.documentElement.clientWidth ||
+  document.body.clientWidth;
+
+let ROOT_PERSON_RADIUS = 45;
+let PERSON_RADIUS = 7;
+
+let LENGTH_FAMILY = 20;
+let LENGTH_GOVERMENT = 90;
+let LENGTH_DEFAULT = 120;
+
 const appendImage = (svg, data, images) => {
-  const size = 180;
+  const size = ROOT_PERSON_RADIUS * 2;
 
   svg
     .append('defs')
@@ -50,7 +65,7 @@ const drawPersons = (svg, data, { svgWidth }) => {
     .filter(d => isRootPerson(d))
     .append('circle')
     .attr('class', 'person-background-circle')
-    .attr('r', 70);
+    .attr('r', ROOT_PERSON_RADIUS);
 
   persons
     .append('circle')
@@ -58,7 +73,7 @@ const drawPersons = (svg, data, { svgWidth }) => {
       'class',
       d => `person-circle ${isRootPerson(d) ? 'person-circle--is-root' : ''}`
     )
-    .attr('r', d => (isRootPerson(d) ? 70 : 15));
+    .attr('r', d => (isRootPerson(d) ? ROOT_PERSON_RADIUS : PERSON_RADIUS));
 
   const info = persons
     .append('g')
@@ -81,7 +96,7 @@ const drawPersons = (svg, data, { svgWidth }) => {
     })
     .attr('y', d => {
       if (isRootPerson(d)) {
-        return 87;
+        return ROOT_PERSON_RADIUS * 1.24;
       }
 
       return -2;
@@ -91,7 +106,9 @@ const drawPersons = (svg, data, { svgWidth }) => {
         return 0;
       }
 
-      return isLeft(d.x) ? -1 * 23 : 23;
+      const x = PERSON_RADIUS * 1.3;
+
+      return isLeft(d.x) ? -1 * x : x;
     });
 
   // role
@@ -108,7 +125,7 @@ const drawPersons = (svg, data, { svgWidth }) => {
     })
     .attr('y', d => {
       if (isRootPerson(d)) {
-        return 98;
+        return ROOT_PERSON_RADIUS * 1.4;
       }
 
       return 10;
@@ -118,7 +135,9 @@ const drawPersons = (svg, data, { svgWidth }) => {
         return 0;
       }
 
-      return isLeft(d.x) ? -1 * 23 : 23;
+      const x = PERSON_RADIUS * 1.3;
+
+      return isLeft(d.x) ? -1 * x : x;
     });
 
   return persons;
@@ -142,11 +161,29 @@ const drawConnections = (svg, links) => {
 
 const render = (root, data, images) => {
   if (!root) {
-    return undefined;
+    return null;
   }
 
   // eslint-disable-next-line no-param-reassign
   root.innerHTML = '';
+
+  if (getWindowWidth() > 500) {
+    ROOT_PERSON_RADIUS = 65;
+    PERSON_RADIUS = 12;
+
+    LENGTH_FAMILY = 15;
+    LENGTH_GOVERMENT = 120;
+    LENGTH_DEFAULT = 120;
+  }
+
+  if (getWindowWidth() > 1000) {
+    ROOT_PERSON_RADIUS = 65;
+    PERSON_RADIUS = 14;
+
+    LENGTH_FAMILY = 30;
+    LENGTH_GOVERMENT = 140;
+    LENGTH_DEFAULT = 180;
+  }
 
   const svg = d3.select(root).append('svg');
   const { height, width } = root.getBoundingClientRect();
@@ -179,41 +216,75 @@ const render = (root, data, images) => {
     .attr('viewBox', `0 0 ${width} ${height}`)
     .attr('preserveAspectRatio', 'xMidYMid meet');
 
-  appendImage(svg, data, images);
-
   const simulation = d3
     .forceSimulation(data)
+    .force('charge', d3.forceManyBody().strength(-100))
     .force('center', d3.forceCenter(width / 2, height / 2))
     .force(
       'collide',
-      d3.forceCollide().radius(d => (isRootPerson(d) ? 100 : 60))
+      d3
+        .forceCollide()
+        .radius(d =>
+          isRootPerson(d) ? ROOT_PERSON_RADIUS * 1.75 : PERSON_RADIUS * 1.2
+        )
     )
-    .force('link', d3.forceLink())
+    .force(
+      'link',
+      d3.forceLink(links).distance(d => {
+        let value;
+        const { x: tX, y: tY } = d.source;
+        const shorterEdge = Math.min(width, height);
+        let radius = 0.2;
+
+        if (getWindowWidth() > 500) {
+          radius = 0.5;
+        }
+
+        if (getWindowWidth() > 1000) {
+          radius = 0.75;
+        }
+
+        switch (d.source.corruptionLink) {
+          case 'family':
+            value = LENGTH_FAMILY;
+            break;
+          case 'government':
+            value = LENGTH_GOVERMENT;
+            break;
+          default:
+            value = LENGTH_DEFAULT;
+        }
+
+        if (
+          personInRadiusOfMiddle(
+            tX,
+            tY,
+            width / 2,
+            height / 2,
+            (shorterEdge / 2) * radius
+          )
+        ) {
+          value *= 1.6;
+        } else {
+          value *= 0.2;
+        }
+
+        return value;
+      })
+    )
     .stop();
 
-  simulation
-    .force('link')
-    .links(links)
-    .distance(d => {
-      switch (d.source.corruptionLink) {
-        case 'family':
-          return 20;
-        case 'government':
-          return 150;
-        default:
-          return 200;
-      }
-    });
-
   // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < 500; ++i) {
+  for (let i = 0; i < 300; ++i) {
     simulation.tick();
   }
 
   drawConnections(svg, links);
   drawPersons(svg, data, { svgWidth: width, svgHeight: height });
 
-  return svg;
+  appendImage(svg, data, images);
+
+  return null;
 };
 
 export default render;
