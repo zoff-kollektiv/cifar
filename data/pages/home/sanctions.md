@@ -1,17 +1,11 @@
 ---
-title: Why did the EU impose sanctions and how do they work?
-buttonLabel: Read more
+title: How do misappropriation sanctions work?
+buttonLabel: Find out more
 buttonLink: /about/
-checklistTitle: Pre-requisites of the EU misappropriation sanctions
-checklist:
-  - High levels of corruption in a country that threaten the rule of law
-  - Foreign policy crisis
-  - Availability of the stolen assets on the EU territory
-  - Sudden take-over of power, revolution where the old regime is ousted
 sort: 1
 ---
-Following the revolutions in 2011 and 2014 Tunisia, Egypt, and Ukraine, the
-Council of the European Union imposed misappropriation sanctions on corrupt
-members of the previous regimes. EU member states then froze assets
-(bank accounts, properties, cars) of former presidents, their families and
-business partners.
+Following the revolutions in 2011 in Tunisia and Egypt and 2014 in Ukraine, the
+Council of the European Union imposed misappropriation sanctions on persons
+suspected of corruption from the ousted regimes. These require that any assets
+relating to persons on the list, including houses and bank accounts, are frozen
+in all EU Member States.
