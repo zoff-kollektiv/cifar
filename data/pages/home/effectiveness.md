@@ -4,10 +4,9 @@ buttonLabel: Read our report
 buttonLink: /report/
 checklistTitle: Pre-requisites of the EU misappropriation sanctions
 checklist:
-  - High levels of corruption in a country that threaten the rule of law
-  - Foreign policy crisis
-  - Availability of the stolen assets on the EU territory
-  - Sudden take-over of power, revolution where the old regime is ousted
+  - Sanctions have been successful at signalling political support to the new governments of Tunisia Egypt and Ukraine.
+  - Very few stolen assets have been returned back to these countries and some individuals have already been delisted.
+  - Sanctions for possible corruption have only been applied in these three cases, and criteria for listing are unclear.
 sort: 2
 ---
 Our research shows that the effectiveness of misappropriation sanctions should
