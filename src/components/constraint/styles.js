@@ -7,7 +7,6 @@ export default css`
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }

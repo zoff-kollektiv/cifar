@@ -22,6 +22,11 @@ export default css`
     flex-wrap: nowrap;
   }
 
+  form {
+    flex: 1 0 auto;
+    width: 40%;
+  }
+
   .filter {
     background-color: ${colors.blue};
     color: white;
@@ -30,51 +35,84 @@ export default css`
   }
 
   .filter-label {
+    color: ${colors.blue};
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.025rem;
     line-height: 1;
-    margin-left: 0.5rem;
     margin-right: 0.5rem;
+    position: absolute;
     text-transform: uppercase;
+    top: -1rem;
     vertical-align: middle;
   }
 
-  @media ${mq.phone} {
+  @media ${mq.tablet} {
     .filter-label {
+      color: white;
       font-size: 1rem;
       margin-left: 2rem;
+      position: static;
     }
   }
 
   .filter-input {
-    border: 3px solid ${colors.blue};
+    border: 2px solid ${colors.blue};
     color ${colors.blue};
     font-size: 1rem;
     font-weight: 600;
-    padding: 0.3rem 0.5rem;
+    padding: 0.2rem 0.5rem;
     vertical-align: middle;
-    width: 10rem;
+    width: 8rem;
   }
 
   @media ${mq.phone} {
     .filter-input {
       font-size: 1.1rem;
-      width: 12rem;
+      padding: 0.3rem 0.5rem;
+      width: 11rem;
+    }
+  }
+
+  @media ${mq.tablet} {
+    .filter-input {
+      width: 16rem;
     }
   }
 
   .view {
-    align-self: flex-end;
-    margin-left: auto;
+    margin-right: 0.5rem;
+    margin-top: -1.1rem;
+    order: -1;
+  }
+
+  @media ${mq.phone} {
+    .view {
+      align-self: flex-end;
+      margin-left: auto;
+      margin-right: 0;
+      margin-top: 0;
+      order: inherit;
+    }
   }
 
   .view-label {
     color: ${colors.blue};
-    font-size: 0.8rem;
+    display: block;
+    font-size: 0.7rem;
     font-weight: 600;
-    margin-right: 0.5rem;
+    margin-bottom: 0.2rem;
+    margin-right: 0.25rem;
     text-transform: uppercase;
+  }
+
+  @media ${mq.phone} {
+    .view-label {
+      display: inline-block;
+      font-size: 0.8rem;
+      margin-bottom: 0;
+      margin-right: 0.5rem;
+    }
   }
 `;
 
@@ -83,8 +121,8 @@ const viewSwitchCommon = `
   border-radius: 3px;
   display: inline-block;
   font-size: 0.75rem;
-  margin-right: 0.5rem;
-  padding: 0.6rem 0.65rem 0.4rem 0.65rem;
+  margin-right: 0.25rem;
+  padding: 0.35rem 0.5rem 0.3rem 0.5rem;
   text-decoration: none;
 `;
 
@@ -93,6 +131,13 @@ export const viewSwitchStyles = css.resolve`
     ${viewSwitchCommon}
     background-color: ${colors.blue};
     color: white;
+  }
+
+  @media ${mq.phone} {
+    a {
+      margin-right: 0.5rem;
+      padding: 0.6rem 0.65rem 0.4rem 0.65rem;
+    }
   }
 
   a:hover,
@@ -112,11 +157,19 @@ export const viewSwitchActiveStyles = css.resolve`
 
 export const viewIconStyles = css.resolve`
   svg {
-    height: 1.2rem;
-    margin-right: 0.4rem;
+    height: 0.85rem;
+    margin-right: 0.2rem;
     position: relative;
     top: -0.05rem;
     vertical-align: middle;
-    width: 1.2rem;
+    width: 0.85rem;
+  }
+
+  @media ${mq.phone} {
+    svg {
+      height: 1.2rem;
+      margin-right: 0.4rem;
+      width: 1.2rem;
+    }
   }
 `;

@@ -39,8 +39,15 @@ export default css`
   }
 
   .image img {
-    height: 11.45rem;
-    width: 11.45rem;
+    height: 7.45rem;
+    width: 7.45rem;
+  }
+
+  @media ${mq.tablet} {
+    .image img {
+      height: 11.45rem;
+      width: 11.45rem;
+    }
   }
 
   .title {

@@ -61,9 +61,24 @@ export default css`
     background-color: ${colors.beige};
     border-radius: 50%;
     margin: 0 0 0 auto;
+    object-fit: cover;
     overflow: hidden;
-    height: 15rem;
-    width: 15rem;
+    height: 7rem;
+    width: 7rem;
+  }
+
+  @media ${mq.phone} {
+    .image {
+      height: 10rem;
+      width: 10rem;
+    }
+  }
+
+  @media ${mq.tablet} {
+    .image {
+      height: 15rem;
+      width: 15rem;
+    }
   }
 
   :global(.person-story a),

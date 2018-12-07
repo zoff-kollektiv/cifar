@@ -15,9 +15,9 @@ export const linkStyles = css.resolve`
   .button {
     border-radius: 0.15rem;
     display: inline-block;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     font-weight: 600;
-    letter-spacing: 0.075rem;
+    letter-spacing: 0.05rem;
     margin-top: 1.5rem;
     padding: 0.6rem 1.25rem;
     text-decoration: none;
@@ -27,6 +27,7 @@ export const linkStyles = css.resolve`
   @media ${mq.phone} {
     .button {
       font-size: 0.95rem;
+      letter-spacing: 0.075rem;
       margin-top: 2.5rem;
       padding: 0.65rem 2rem;
     }
