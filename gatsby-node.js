@@ -29,6 +29,48 @@ const createStartpage = createPage =>
     return null;
   });
 
+const createReport = (graphql, createPage) =>
+  graphql(`
+    query {
+      page: markdownRemark(
+        fields: { folder: { eq: "pages" }, fileName: { eq: "report.md" } }
+      ) {
+        frontmatter {
+          date
+          author
+          title
+        }
+        html
+      }
+
+      site: site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `).then(({ errors, data }) => {
+    if (errors) {
+      return Promise.reject(errors);
+    }
+
+    const { page, site } = data;
+
+    // eslint-disable-next-line no-console
+    console.log('create report');
+
+    createPage({
+      path: '/report/',
+      component: path.resolve('src/templates/report/index.jsx'),
+      context: {
+        page,
+        site
+      }
+    });
+
+    return null;
+  });
+
 const createCountries = (graphql, createPage) =>
   graphql(`
     query {
@@ -181,6 +223,7 @@ exports.createPages = ({ actions, graphql }) => {
   return Promise.all([
     createCountries(graphql, createPage),
     createPersons(graphql, createPage),
+    createReport(graphql, createPage),
     createStartpage(createPage)
   ]);
 };
