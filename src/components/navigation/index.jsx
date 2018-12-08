@@ -23,6 +23,11 @@ export default () => (
       >
         Persons
       </Link>
+
+      <Link to="/report/" className={navLinkStyles.className}>
+        Report
+      </Link>
+
       <Link to="/about/" className={navLinkStyles.className}>
         About
       </Link>

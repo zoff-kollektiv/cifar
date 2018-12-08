@@ -5,11 +5,7 @@ import About from '../../components/about';
 import withLayout from '../../components/with-layout';
 import withNavigation from '../../components/with-navigation';
 
-const Page = ({ data: { site, page } }) => (
-  <div>
-    <About site={site} {...page} />
-  </div>
-);
+const Page = ({ data: { site, page } }) => <About site={site} {...page} />;
 
 export default withNavigation(withLayout(Page));
 
