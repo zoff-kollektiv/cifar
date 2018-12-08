@@ -66,7 +66,7 @@ const createReport = (graphql, createPage) =>
         matches.forEach((match, index) => {
           const footnote = match.split('#')[1];
           const number = index + 1;
-          const link = `<a href="#footnote-${number}" class="footnote-link">[${number}]</a>`;
+          const link = `<a href="#footnote-${number}" id="footnote-link-${number}" class="footnote-link">[${number}]</a>`;
 
           footnotes.push({
             number,

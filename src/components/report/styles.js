@@ -55,7 +55,7 @@ export default css`
     letter-spacing: -0.01rem;
   }
 
-  :global(.report-content h2) {
+  :global(.report h2) {
     font-size: 30px;
     font-weight: 600;
     line-height: 1.2;
@@ -63,7 +63,7 @@ export default css`
     margin-top: 5rem;
   }
 
-  :global(.report-content h3) {
+  :global(.report h3) {
     font-size: 24px;
     font-weight: 600;
     line-height: 1.2;
@@ -71,7 +71,7 @@ export default css`
     text-transform: uppercase;
   }
 
-  :global(.report-content h4) {
+  :global(.report h4) {
     font-size: 24px;
     font-weight: 600;
     line-height: 1.2;
@@ -79,7 +79,11 @@ export default css`
     margin-top: 3.5rem;
   }
 
-  :global(.report-content h3 + h4) {
+  :global(.report h2 + h3) {
+    margin-top: 1.2rem;
+  }
+
+  :global(.report h3 + h4) {
     margin-top: -0.75rem;
   }
 
@@ -98,27 +102,30 @@ export default css`
     text-decoration: underline;
   }
 
-  .footnotes {
-    list-style: none;
-    margin: 0 0 0 -0.25rem;
-    padding: 0;
-  }
-
   .footnote + .footnote {
     margin-top: 1.5rem;
   }
 
   .footnote {
-    font-size: 1rem;
     padding: 0.25rem;
+    word-break: break-all;
   }
 
-  .footnote-number {
-    display: inline-block;
+  .footnote-back {
     font-size: 0.8rem;
-    font-weight: 900;
-    margin-right: 0.25rem;
-    vertical-align: super;
+    margin-left: 0.75rem;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+
+  :global(.footnote a) {
+    color: currentColor;
+    text-decoration: none;
+  }
+
+  :global(.footnote a:hover),
+  :global(.footnote a:focus) {
+    text-decoration: underline;
   }
 
   :target {

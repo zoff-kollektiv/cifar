@@ -46,8 +46,15 @@ export default ({
                 id={`footnote-${number}`}
                 key={`footnote-${number}`}
               >
-                <strong className="footnote-number">{number}</strong>
-                {footnote}
+                {/* eslint-disable-next-line react/no-danger */}
+                <span dangerouslySetInnerHTML={{ __html: footnote }} />
+                <a
+                  href={`#footnote-link-${number}`}
+                  aria-label="Back to content"
+                  className="footnote-back"
+                >
+                  ↵
+                </a>
               </li>
             ))}
           </ol>
