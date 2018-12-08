@@ -82,4 +82,46 @@ export default css`
   :global(.report-content h3 + h4) {
     margin-top: -0.75rem;
   }
+
+  :global(.report-content .footnote-link) {
+    color: currentColor;
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 0.05rem;
+    margin-left: 0.25rem;
+    text-decoration: none;
+    vertical-align: super;
+  }
+
+  :global(.report-content .footnote-link:hover),
+  :global(.report-content .footnote-link:focus) {
+    text-decoration: underline;
+  }
+
+  .footnotes {
+    list-style: none;
+    margin: 0 0 0 -0.25rem;
+    padding: 0;
+  }
+
+  .footnote + .footnote {
+    margin-top: 1.5rem;
+  }
+
+  .footnote {
+    font-size: 1rem;
+    padding: 0.25rem;
+  }
+
+  .footnote-number {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 900;
+    margin-right: 0.25rem;
+    vertical-align: super;
+  }
+
+  :target {
+    background-color: rgb(255, 243, 210);
+  }
 `;

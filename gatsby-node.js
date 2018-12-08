@@ -56,14 +56,46 @@ const createReport = (graphql, createPage) =>
 
     const { page, site } = data;
 
+    const replaceFootnotes = text => {
+      let newText = text;
+      const search = /#(.*)#/g;
+      const matches = newText.match(search);
+      const footnotes = [];
+
+      if (matches) {
+        matches.forEach((match, index) => {
+          const footnote = match.split('#')[1];
+          const number = index + 1;
+          const link = `<a href="#footnote-${number}" class="footnote-link">[${number}]</a>`;
+
+          footnotes.push({
+            number,
+            footnote
+          });
+
+          newText = newText.replace(match, link);
+        });
+      }
+
+      return {
+        text: newText,
+        footnotes
+      };
+    };
+
+    const { text: newText, footnotes } = replaceFootnotes(page.html);
+
+    page.html = newText;
+
     // eslint-disable-next-line no-console
-    console.log('create report');
+    console.log('create page: /report/');
 
     createPage({
       path: '/report/',
       component: path.resolve('src/templates/report/index.jsx'),
       context: {
         page,
+        footnotes,
         site
       }
     });

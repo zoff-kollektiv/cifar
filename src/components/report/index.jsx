@@ -6,7 +6,12 @@ import Constraint from '../constraint';
 
 import styles from './styles';
 
-export default ({ site, html, frontmatter: { author, date, title } }) => (
+export default ({
+  footnotes,
+  site,
+  html,
+  frontmatter: { author, date, title }
+}) => (
   <div className="report">
     <style jsx>{styles}</style>
 
@@ -29,6 +34,25 @@ export default ({ site, html, frontmatter: { author, date, title } }) => (
         dangerouslySetInnerHTML={{ __html: html }}
       />
       {/* eslint-enable react/no-danger */}
+
+      {footnotes && (
+        <>
+          <h2>Footnotes</h2>
+
+          <ol className="footnotes">
+            {footnotes.map(({ number, footnote }) => (
+              <li
+                className="footnote"
+                id={`footnote-${number}`}
+                key={`footnote-${number}`}
+              >
+                <strong className="footnote-number">{number}</strong>
+                {footnote}
+              </li>
+            ))}
+          </ol>
+        </>
+      )}
     </Constraint>
   </div>
 );
