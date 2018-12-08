@@ -33,4 +33,8 @@ export default css`
       font-size: 2.43rem;
     }
   }
+
+  .about-content {
+    letter-spacing: -0.01rem;
+  }
 `;

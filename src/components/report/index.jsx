@@ -3,24 +3,29 @@ import Helmet from 'react-helmet';
 import React from 'react';
 
 import Constraint from '../constraint';
+
 import styles from './styles';
 
-export default ({ site, frontmatter: { title }, html }) => (
-  <div className="about">
+export default ({ site, html, frontmatter: { author, date, title } }) => (
+  <div className="report">
+    <style jsx>{styles}</style>
+
     <Helmet>
       <title>
         {title} | {site.siteMetadata.title}
       </title>
     </Helmet>
 
-    <style jsx>{styles}</style>
-
     <Constraint>
-      <h1 className="title">{title}</h1>
+      <h1 className="title">
+        <small className="title-date">{date}</small>
+        {title}
+        <small className="title-author">{author}</small>
+      </h1>
 
       {/* eslint-disable react/no-danger */}
       <div
-        className="about-content"
+        className="report-content"
         dangerouslySetInnerHTML={{ __html: html }}
       />
       {/* eslint-enable react/no-danger */}
@@ -29,8 +34,10 @@ export default ({ site, frontmatter: { title }, html }) => (
 );
 
 export const fragment = graphql`
-  fragment about on MarkdownRemark {
+  fragment report on MarkdownRemark {
     frontmatter {
+      date
+      author
       title
     }
     html
