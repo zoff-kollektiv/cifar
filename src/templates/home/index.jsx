@@ -116,7 +116,10 @@ export const query = graphql`
           frontmatter {
             buttonLabel
             buttonLink
-            checklist
+            checklist {
+              text
+              icon
+            }
             checklistTitle
             title
           }
