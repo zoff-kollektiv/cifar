@@ -169,8 +169,34 @@ export default css`
     pointer-events: all;
   }
 
+  :global(.network .person-name) {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.025rem;
+  }
+
+  @supports (font-variation-settings: normal) {
+    :global(.network .person-name) {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
+  @media ${mq.phone} {
+    :global(.network .person-name) {
+      font-size: 12px;
+    }
+  }
+
   :global(.network .person:hover .person-name) {
     font-weight: 900;
+  }
+
+  @supports (font-variation-settings: normal) {
+    :global(.network .person:hover .person-name) {
+      font-variation-settings: 'wght' 900;
+      font-weight: inherit;
+    }
   }
 
   :global(.network .person-background-circle),
@@ -191,14 +217,13 @@ export default css`
   }
 
   :global(.network .person-role) {
-    font-size: 10px;
+    font-size: 9px;
     letter-spacing: 0.025rem;
   }
 
-  :global(.network .person-name) {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.025rem;
-    line-height: 1.4;
+  @media ${mq.phone} {
+    :global(.network .person-role) {
+      font-size: 10px;
+    }
   }
 `;

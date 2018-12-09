@@ -14,7 +14,7 @@ class Network extends Component {
 
     window.addEventListener('resize', () => {
       // only re-render on large screens; below scale
-      if (getWindowWidth() > 600) {
+      if (getWindowWidth() >= 500) {
         renderNetwork(this.network.current, data, images);
       }
     });

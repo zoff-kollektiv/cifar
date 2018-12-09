@@ -186,9 +186,13 @@ const render = (root, data, images) => {
   }
 
   const svg = d3.select(root).append('svg');
-  const { height, width } = root.getBoundingClientRect();
+  const boundingClientRect = root.getBoundingClientRect();
+  let { width } = boundingClientRect;
+  const { height } = boundingClientRect;
   const nodesById = d3.map();
   const rootPerson = data.find(_ => isRootPerson(_));
+
+  width = Math.max(width, 500);
 
   const links = data
     .map(({ name }) => {
