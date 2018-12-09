@@ -126,6 +126,12 @@ export default css`
       url('/fonts/inter-ui/inter-ui.var.woff2') format('woff2');
   }
 
+  :global(*),
+  :global(*::after),
+  :global(*::before) {
+    box-sizing: border-box;
+  }
+
   :global(body) {
     margin: 0;
     padding: 0;

@@ -24,14 +24,25 @@ export default css`
 
   form {
     flex: 1 0 auto;
+    margin-right: 1rem;
+    max-width: 20rem;
     width: 40%;
   }
 
+  @media ${mq.tablet} {
+    form {
+      max-width: 28rem;
+    }
+  }
+
   .filter {
+    align-items: center;
     background-color: ${colors.blue};
     color: white;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     position: relative;
+    width: 100%;
   }
 
   .filter-label {
@@ -45,6 +56,7 @@ export default css`
     text-transform: uppercase;
     top: -1rem;
     vertical-align: middle;
+    white-space: nowrap;
   }
 
   @media ${mq.tablet} {
@@ -63,20 +75,13 @@ export default css`
     font-weight: 600;
     padding: 0.2rem 0.5rem;
     vertical-align: middle;
-    width: 8rem;
+    width: 100%;
   }
 
   @media ${mq.phone} {
     .filter-input {
       font-size: 1.1rem;
       padding: 0.3rem 0.5rem;
-      width: 11rem;
-    }
-  }
-
-  @media ${mq.tablet} {
-    .filter-input {
-      width: 16rem;
     }
   }
 
@@ -153,10 +158,18 @@ export const viewSwitchActiveStyles = css.resolve`
     background-color: white;
     color: ${colors.blue};
   }
+
+  @media ${mq.phone} {
+    span {
+      margin-right: 0.5rem;
+      padding: 0.6rem 0.65rem 0.4rem 0.65rem;
+    }
+  }
 `;
 
 export const viewIconStyles = css.resolve`
   svg {
+    display: none;
     height: 0.85rem;
     margin-right: 0.2rem;
     position: relative;
@@ -167,6 +180,7 @@ export const viewIconStyles = css.resolve`
 
   @media ${mq.phone} {
     svg {
+      display: inline;
       height: 1.2rem;
       margin-right: 0.4rem;
       width: 1.2rem;
