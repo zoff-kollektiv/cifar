@@ -1,4 +1,13 @@
 import React from 'react';
 
-// TODO: build something beautiful
-export default () => <div>Loading</div>;
+import Constraint from '../constraint';
+
+import styles from './styles';
+
+export default () => (
+  <p>
+    <style jsx>{styles}</style>
+
+    <Constraint>Building Network …</Constraint>
+  </p>
+);
