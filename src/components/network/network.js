@@ -8,7 +8,7 @@ const personInRadiusOfMiddle = (x, y, cx, cy, radius) =>
 
 const isRootPerson = person => !person.corruptionLink;
 
-const getWindowWidth = () =>
+export const getWindowWidth = () =>
   window.innerWidth ||
   document.documentElement.clientWidth ||
   document.body.clientWidth;

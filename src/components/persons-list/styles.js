@@ -78,6 +78,13 @@ export default css`
     width: 100%;
   }
 
+  @supports (font-variation-settings: normal) {
+    .filter-input {
+      font-variation-settings: 'wght' 600;
+      font-weight: inherit;
+    }
+  }
+
   @media ${mq.phone} {
     .filter-input {
       font-size: 1.1rem;
@@ -109,6 +116,13 @@ export default css`
     margin-bottom: 0.2rem;
     margin-right: 0.25rem;
     text-transform: uppercase;
+  }
+
+  @supports (font-variation-settings: normal) {
+    .view-label {
+      font-variation-settings: 'wght' 600;
+      font-weight: inherit;
+    }
   }
 
   @media ${mq.phone} {

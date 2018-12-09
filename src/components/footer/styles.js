@@ -18,6 +18,13 @@ export default css`
     letter-spacing: 0.075rem;
   }
 
+  @supports (font-variation-settings: normal) {
+    .h4 {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
   .columns {
     display: flex;
     flex-direction: row;
@@ -49,8 +56,22 @@ export default css`
     margin-bottom: 0.3rem;
   }
 
+  @supports (font-variation-settings: normal) {
+    .label {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
   .link {
     font-weight: 400;
+  }
+
+  @supports (font-variation-settings: normal) {
+    .link {
+      font-variation-settings: 'wght' 400;
+      font-weight: inherit;
+    }
   }
 
   a {

@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
 import Constraint from '../constraint';
-import renderNetwork from './network';
+import renderNetwork, { getWindowWidth } from './network';
 import styles from './styles';
 
 class Network extends Component {
@@ -13,7 +13,10 @@ class Network extends Component {
     renderNetwork(this.network.current, data, images);
 
     window.addEventListener('resize', () => {
-      renderNetwork(this.network.current, data, images);
+      // only re-render on large screens; below scale
+      if (getWindowWidth() > 600) {
+        renderNetwork(this.network.current, data, images);
+      }
     });
   }
 

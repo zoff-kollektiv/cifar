@@ -59,6 +59,13 @@ export default css`
     text-align: center;
   }
 
+  @supports (font-variation-settings: normal) {
+    .title {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
   @media ${mq.tablet} {
     .title {
       font-size: 1.5rem;
@@ -80,6 +87,13 @@ export default css`
     font-size: 0.85rem;
     font-weight: 400;
     margin-top: 0.25rem;
+  }
+
+  @supports (font-variation-settings: normal) {
+    .role {
+      font-variation-settings: 'wght' 400;
+      font-weight: inherit;
+    }
   }
 
   @media ${mq.tablet} {

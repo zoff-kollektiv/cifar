@@ -46,6 +46,13 @@ export default css`
     margin-top: 0;
   }
 
+  @supports (font-variation-settings: normal) {
+    .title {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
   @media ${mq.phone} {
     .title {
       font-size: 2.43rem;
@@ -79,6 +86,10 @@ export default css`
       height: 15rem;
       width: 15rem;
     }
+  }
+
+  .person-info-html {
+    letter-spacing: -0.01rem;
   }
 
   :global(.person-story a),
@@ -118,6 +129,13 @@ export default css`
     letter-spacing: 0.02rem;
     text-transform: uppercase;
     width: 100%;
+  }
+
+  @supports (font-variation-settings: normal) {
+    dt {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
   }
 
   @media ${mq.phone} {

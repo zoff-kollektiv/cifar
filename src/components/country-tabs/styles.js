@@ -20,7 +20,6 @@ export default css`
   ul {
     display: flex;
     flex-direction: row;
-
     list-style: none;
     margin-bottom: 0;
     margin-top: 0;
@@ -74,6 +73,13 @@ export const tabStyles = css.resolve`
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
+  }
+
+  @supports (font-variation-settings: normal) {
+    a {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
   }
 
   a:hover,

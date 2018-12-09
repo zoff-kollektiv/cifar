@@ -28,6 +28,13 @@ export default css`
     margin-top: 0;
   }
 
+  @supports (font-variation-settings: normal) {
+    .title {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
   @media ${mq.phone} {
     .title {
       font-size: 2.43rem;

@@ -38,6 +38,13 @@ export const navLinkStyles = css.resolve`
     text-decoration: none;
   }
 
+  @supports (font-variation-settings: normal) {
+    a {
+      font-variation-settings: 'wght' 600;
+      font-weight: inherit;
+    }
+  }
+
   @media ${mq.tablet} {
     a {
       font-size: 1rem;
@@ -70,6 +77,13 @@ export const titleStyles = css.resolve`
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
+  }
+
+  @supports (font-variation-settings: normal) {
+    a {
+      font-variation-settings: 'wght' 600;
+      font-weight: inherit;
+    }
   }
 
   @media ${mq.tablet} {

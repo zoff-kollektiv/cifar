@@ -29,6 +29,13 @@ export default css`
     line-height: 1.2;
   }
 
+  @supports (font-variation-settings: normal) {
+    .title {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
   @media ${mq.phone} {
     .title {
       font-size: 1.8rem;

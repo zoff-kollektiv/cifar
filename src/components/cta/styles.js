@@ -24,6 +24,13 @@ export const linkStyles = css.resolve`
     text-transform: uppercase;
   }
 
+  @supports (font-variation-settings: normal) {
+    .button {
+      font-variation-settings: 'wght' 600;
+      font-weight: inherit;
+    }
+  }
+
   @media ${mq.phone} {
     .button {
       font-size: 0.95rem;

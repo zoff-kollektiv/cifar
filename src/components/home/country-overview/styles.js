@@ -14,6 +14,14 @@ export default css`
     margin-top: 0.5rem;
   }
 
+  @supports (font-variation-settings: normal) {
+    .intro,
+    .outro {
+      font-variation-settings: 'wght' 600;
+      font-weight: inherit;
+    }
+  }
+
   @media ${mq.phone} {
     .intro,
     .outro {
@@ -41,6 +49,13 @@ export default css`
     margin-top: 2rem;
     text-align: center;
     text-transform: uppercase;
+  }
+
+  @supports (font-variation-settings: normal) {
+    .countries-title {
+      font-variation-settings: 'wght' 600;
+      font-weight: inherit;
+    }
   }
 
   .countries {

@@ -1,5 +1,7 @@
 import css from 'styled-jsx/css';
 
+import { colors } from '../../tokens';
+
 export default css`
   @font-face {
     font-display: swap;
@@ -154,5 +156,10 @@ export default css`
     :global(html) {
       font-family: 'Inter UI var', system-ui, sans-serif;
     }
+  }
+
+  :global(::selection) {
+    background-color: ${colors.blue};
+    color: white;
   }
 `;

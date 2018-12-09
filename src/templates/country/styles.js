@@ -12,6 +12,13 @@ export default css`
     margin-top: 2rem;
   }
 
+  @supports (font-variation-settings: normal) {
+    .title {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
   @media ${mq.phone} {
     .title {
       font-size: 2.2rem;
@@ -29,8 +36,16 @@ export default css`
     color: ${colors.blue};
     font-size: 1.125rem;
     font-weight: 500;
+    letter-spacing: -0.01rem;
     line-height: 1.35;
     margin-bottom: 2rem;
+  }
+
+  @supports (font-variation-settings: normal) {
+    .intro {
+      font-variation-settings: 'wght' 500;
+      font-weight: inherit;
+    }
   }
 
   @media ${mq.phone} {

@@ -26,9 +26,17 @@ export default css`
 
   h3 {
     font-size: 1.2rem;
+    font-weight: 700;
     line-height: 1.2;
     margin-bottom: 2.5rem;
     margin-top: 0;
+  }
+
+  @supports (font-variation-settings: normal) {
+    h3 {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
   }
 
   @media ${mq.phone} {
@@ -59,6 +67,13 @@ export default css`
     font-size: 0.9rem;
     font-weight: 700;
     position: relative;
+  }
+
+  @supports (font-variation-settings: normal) {
+    li {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
   }
 
   @media ${mq.phone} {

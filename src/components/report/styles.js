@@ -28,6 +28,13 @@ export default css`
     margin-top: 0;
   }
 
+  @supports (font-variation-settings: normal) {
+    .title {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
   @media ${mq.phone} {
     .title {
       font-size: 2.7rem;
@@ -51,6 +58,13 @@ export default css`
     margin-top: 1rem;
   }
 
+  @supports (font-variation-settings: normal) {
+    .title-author {
+      font-variation-settings: 'wght' 400;
+      font-weight: inherit;
+    }
+  }
+
   .report-content {
     letter-spacing: -0.01rem;
   }
@@ -63,6 +77,13 @@ export default css`
     margin-top: 5rem;
   }
 
+  @supports (font-variation-settings: normal) {
+    :global(.report h2) {
+      font-variation-settings: 'wght' 600;
+      font-weight: inherit;
+    }
+  }
+
   :global(.report h3) {
     font-size: 24px;
     font-weight: 600;
@@ -71,12 +92,26 @@ export default css`
     text-transform: uppercase;
   }
 
+  @supports (font-variation-settings: normal) {
+    :global(.report h3) {
+      font-variation-settings: 'wght' 600;
+      font-weight: inherit;
+    }
+  }
+
   :global(.report h4) {
     font-size: 24px;
     font-weight: 600;
     line-height: 1.2;
     margin-bottom: 0;
     margin-top: 3.5rem;
+  }
+
+  @supports (font-variation-settings: normal) {
+    :global(.report h4) {
+      font-variation-settings: 'wght' 600;
+      font-weight: inherit;
+    }
   }
 
   :global(.report h2 + h3) {
@@ -95,6 +130,13 @@ export default css`
     margin-left: 0.25rem;
     text-decoration: none;
     vertical-align: super;
+  }
+
+  @supports (font-variation-settings: normal) {
+    :global(.report-content .footnote-link) {
+      font-variation-settings: 'wght' 900;
+      font-weight: inherit;
+    }
   }
 
   :global(.report-content .footnote-link:hover),

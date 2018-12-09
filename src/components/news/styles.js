@@ -36,6 +36,13 @@ export default css`
     line-height: 1.3;
   }
 
+  @supports (font-variation-settings: normal) {
+    .title {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
   .title-link {
     color: currentColor;
     text-decoration: underline;
@@ -63,12 +70,26 @@ export default css`
     margin-right: 0.25rem;
   }
 
+  @supports (font-variation-settings: normal) {
+    .date {
+      font-variation-settings: 'wght' 900;
+      font-weight: inherit;
+    }
+  }
+
   .content {
     color: ${colors.blue};
     display: inline;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
+  }
+
+  @supports (font-variation-settings: normal) {
+    .content {
+      font-variation-settings: 'wght' 400;
+      font-weight: inherit;
+    }
   }
 
   :global(.content > p) {
