@@ -47,7 +47,7 @@ export default css`
 
   .filter-label {
     color: ${colors.blue};
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: 600;
     letter-spacing: 0.025rem;
     line-height: 1;
@@ -104,7 +104,7 @@ export default css`
   .view-label {
     color: ${colors.blue};
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     font-weight: 600;
     margin-bottom: 0.2rem;
     margin-right: 0.25rem;
