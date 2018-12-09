@@ -44,7 +44,11 @@ const Page = ({
           },
           index
         ) => (
-          <Block theme={index % 2 === 0 ? 'white' : false} title={blockTitle}>
+          <Block
+            theme={index % 2 === 0 ? 'white' : false}
+            title={blockTitle}
+            key={`block-${blockTitle}`}
+          >
             {/* eslint-disable-next-line react/no-danger */}
             <div dangerouslySetInnerHTML={{ __html: html }} />
 

@@ -15,7 +15,7 @@ export default ({ title, items }) => (
 
     <ul>
       {items.map(({ text, icon = 'check' }) => (
-        <li>
+        <li key={`checklist-${text}`}>
           {icon === 'check' ? (
             <CheckIcon className={checkIconStyles.className} />
           ) : null}

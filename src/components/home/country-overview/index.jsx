@@ -27,6 +27,7 @@ export default ({
     <ul className="countries">
       {countries.map(({ node: { frontmatter: { title: countryTitle } } }) => (
         <li
+          key={`countryshape-${countryTitle}`}
           className={`country-container country-container--for-${createSlug(
             countryTitle
           )}`}

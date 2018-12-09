@@ -30,7 +30,7 @@ export default ({ items }) => (
         excerpt: { rendered: renderedExcerpt },
         title: { rendered: renderedTitle }
       }) => (
-        <li>
+        <li key={`news-${renderedTitle}`}>
           <h3 className="title">
             <a className="title-link" href={link}>
               {renderedTitle}

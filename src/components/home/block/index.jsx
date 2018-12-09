@@ -4,8 +4,8 @@ import Constraint from '../../constraint';
 
 import styles from './styles';
 
-export default ({ children, theme = 'beige', title }) => (
-  <section className={`block block--has-theme-${theme}`}>
+export default ({ children, theme = 'beige', title, ...rest }) => (
+  <section className={`block block--has-theme-${theme}`} {...rest}>
     <style jsx>{styles}</style>
 
     <Constraint>
