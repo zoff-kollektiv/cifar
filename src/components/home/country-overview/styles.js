@@ -10,6 +10,7 @@ export default css`
     font-size: 1.2rem;
     font-weight: 600;
     line-height: 1.2;
+    letter-spacing: -0.015rem;
     margin-bottom: 0;
     margin-top: 0.5rem;
   }
