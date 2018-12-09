@@ -106,12 +106,16 @@ export default css`
   @media ${mq.tablet} {
     .country-container--for-ukraine .country-title {
       margin-left: 1.5rem;
+      margin-top: -1rem;
     }
-  }
 
-  @media ${mq.tablet} {
+    .country-container--for-egypt .country-title {
+      margin-left: -0.75rem;
+    }
+
     .country-container--for-tunisia .country-title {
       margin-left: -0.5rem;
+      margin-top: 0;
       transform: translate(-50%, -50%) rotate(-90deg);
     }
   }
