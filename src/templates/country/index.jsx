@@ -38,8 +38,11 @@ export const query = graphql`
     }
 
     allPersons: allMarkdownRemark(
-      filter: { fields: { folder: { eq: "persons" } } }
-      sort: { fields: [frontmatter___title] }
+      filter: {
+        frontmatter: { name: { ne: "" } }
+        fields: { folder: { eq: "persons" } }
+      }
+      sort: { fields: [frontmatter___id] }
     ) {
       ...personsList
     }
@@ -47,9 +50,12 @@ export const query = graphql`
     personsByCountry: allMarkdownRemark(
       filter: {
         fields: { folder: { eq: "persons" } }
-        frontmatter: { country: { eq: $countryName } }
+        frontmatter: {
+          name: { ne: "" }
+          sanctionsCountry: { eq: $countryName }
+        }
       }
-      sort: { fields: [frontmatter___title] }
+      sort: { fields: [frontmatter___id] }
     ) {
       ...personsList
     }
@@ -68,7 +74,10 @@ export const query = graphql`
               absolutePath
             }
           }
-          fluid(maxWidth: 150) {
+          fluid(
+            maxWidth: 400
+            duotone: { highlight: "#ebe7d6", shadow: "#192162" }
+          ) {
             src
           }
         }

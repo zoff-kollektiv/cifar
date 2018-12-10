@@ -13,7 +13,7 @@ import styles, { countryStyles, countryShapeStyles } from './styles';
 export default ({
   countries,
   rawMarkdownBody,
-  frontmatter: { title, buttonLabel, buttonLink }
+  frontmatter: { title, countriesTitle, buttonLabel, buttonLink }
 }) => (
   <Block>
     <style jsx>{styles}</style>
@@ -22,9 +22,12 @@ export default ({
 
     <p className="intro">{title}</p>
 
+    <small className="countries-title">{countriesTitle}</small>
+
     <ul className="countries">
       {countries.map(({ node: { frontmatter: { title: countryTitle } } }) => (
         <li
+          key={`countryshape-${countryTitle}`}
           className={`country-container country-container--for-${createSlug(
             countryTitle
           )}`}
@@ -44,7 +47,7 @@ export default ({
 
     <p className="outro">{rawMarkdownBody}</p>
 
-    <Cta href={buttonLink} label={buttonLabel} />
+    <Cta href={buttonLink} label={buttonLabel} theme="light" />
   </Block>
 );
 
@@ -54,6 +57,7 @@ export const fragment = graphql`
     frontmatter {
       buttonLabel
       buttonLink
+      countriesTitle
       title
     }
   }

@@ -1,23 +1,52 @@
 import Link from 'gatsby-link';
-import React, { Component } from 'react';
+import React, { Component, lazy, Suspense } from 'react';
 
 import Constraint from '../constraint';
-import Network from '../network';
+import Loading from '../loading';
 import Person from './person';
-import styles from './styles';
+import styles, {
+  viewSwitchStyles,
+  viewSwitchActiveStyles,
+  viewIconStyles
+} from './styles';
+
+import findImageById from '../../lib/find-image-by-id';
+import ListIcon from '../../static/list-ul.svg';
+import NetworkIcon from '../../static/share-alt.svg';
+
+const Network = lazy(() => import('../network'));
 
 const extractFrontmatter = persons =>
   persons.map(person => person.node.frontmatter);
 
-const filterPersonsByName = (persons, name) =>
-  !name
-    ? persons
-    : persons.filter(_ => _.node.frontmatter.title.includes(name));
+const filterPersonsByName = (persons, name) => {
+  if (!name) {
+    return persons;
+  }
+
+  return persons.filter(
+    ({
+      node: {
+        frontmatter: {
+          name: personName,
+          aliases,
+          nativeName,
+          firstAndMidleNames
+        }
+      }
+    }) =>
+      personName.includes(name) ||
+      nativeName.includes(name) ||
+      firstAndMidleNames.includes(name) ||
+      aliases.find(alias => alias.includes(name))
+  );
+};
 
 export default class PersonList extends Component {
   state = {
     persons: [],
-    view: 'list'
+    view: 'list',
+    filter: ''
   };
 
   constructor(props) {
@@ -31,96 +60,120 @@ export default class PersonList extends Component {
 
     this.setState(state => ({
       ...state,
+      filter: name,
       persons: filterPersonsByName(persons, name)
     }));
   };
 
-  updateView = event => {
-    const { value } = event.target;
-
-    this.setState({ view: value });
-  };
-
   render() {
     const { persons: initialPersons, images, slug } = this.props;
-    const { persons, view } = this.state;
+    const { persons, view, filter } = this.state;
     const url = typeof window !== 'undefined' && new URL(window.location.href);
     const hasInitialPersons = initialPersons && initialPersons.length > 0;
     const showGraphSwitch = hasInitialPersons && slug !== 'all';
-    const showFilter = hasInitialPersons;
     const showGraph =
       (url && url.searchParams.get('view') === 'network') || view === 'network';
+    const showFilter = hasInitialPersons && !showGraph;
 
     return (
-      <Constraint>
-        <style jsx>{styles}</style>
+      <>
+        <Constraint>
+          <style jsx>{styles}</style>
+          {viewSwitchStyles.styles}
+          {viewSwitchActiveStyles.styles}
+          {viewIconStyles.styles}
 
-        {showFilter && (
-          <form
-            onSubmit={event => {
-              event.preventDefault();
+          <div className="filter-container">
+            {showFilter && (
+              <form
+                onSubmit={event => {
+                  event.preventDefault();
 
-              const formData = new FormData(event.target);
-              const name = formData.get('name-filter');
+                  const formData = new FormData(event.target);
+                  const name = formData.get('name-filter');
 
-              this.updateNameFilter(name);
-            }}
-          >
-            <div className="filter">
-              {/* eslint-disable-next-line */}
-              <label htmlFor="name-filter" className="filter-label">
-                Filter by name
-              </label>
-
-              <input
-                type="text"
-                name="name-filter"
-                id="name-filter"
-                className="filter-input"
-                onChange={event => {
-                  this.updateNameFilter(event.target.value);
+                  this.updateNameFilter(name);
                 }}
-              />
-            </div>
+              >
+                <div className="filter">
+                  {/* eslint-disable-next-line */}
+                  <label htmlFor="name-filter" className="filter-label">
+                    Filter by name
+                  </label>
 
-            <button type="submit" className="filter-submit">
-              Filter
-            </button>
-          </form>
-        )}
+                  <input
+                    type="text"
+                    name="name-filter"
+                    id="name-filter"
+                    className="filter-input"
+                    defaultValue={filter}
+                    onChange={event => {
+                      this.updateNameFilter(event.target.value);
+                    }}
+                  />
+                </div>
+              </form>
+            )}
 
-        {showGraphSwitch && (
-          <>
-            Show as:
-            {showGraph ? (
-              <Link to={`/persons/${slug}/`}>List</Link>
-            ) : (
-              <span>List</span>
-            )}
-            {showGraph ? (
-              <span>Network</span>
-            ) : (
-              <Link to={`/persons/${slug}/?view=network`}>Network</Link>
-            )}
-            {showGraph && (
-              <Network
-                data={extractFrontmatter(persons)}
-                images={images.edges}
-              />
-            )}
-          </>
-        )}
+            {showGraphSwitch && (
+              <div className="view">
+                <span className="view-label">View as</span>
 
-        {!showGraph && (
-          <ul className="person-list">
-            {persons &&
-              persons.length > 0 &&
-              persons.map(({ node }) => (
-                <Person key={node.frontmatter.title} {...node} />
-              ))}
-          </ul>
+                {showGraph ? (
+                  <Link
+                    className={viewSwitchStyles.className}
+                    to={`/persons/${slug}/`}
+                  >
+                    <ListIcon className={viewIconStyles.className} />
+                    List
+                  </Link>
+                ) : (
+                  <span className={viewSwitchActiveStyles.className}>
+                    <ListIcon className={viewIconStyles.className} /> List
+                  </span>
+                )}
+                {showGraph ? (
+                  <span className={viewSwitchActiveStyles.className}>
+                    <NetworkIcon className={viewIconStyles.className} />
+                    Network
+                  </span>
+                ) : (
+                  <Link
+                    className={viewSwitchStyles.className}
+                    to={`/persons/${slug}/?view=network`}
+                  >
+                    <NetworkIcon className={viewIconStyles.className} />
+                    Network
+                  </Link>
+                )}
+              </div>
+            )}
+          </div>
+
+          {!showGraph && (
+            <ul className="person-list">
+              {persons &&
+                persons.length > 0 &&
+                persons.map(({ node }) => (
+                  <Person
+                    key={node.frontmatter.name}
+                    image={findImageById(images.edges, node.frontmatter.id)}
+                    {...node}
+                  />
+                ))}
+            </ul>
+          )}
+        </Constraint>
+
+        {showGraph && (
+          <Suspense fallback={<Loading />}>
+            <Network
+              data={extractFrontmatter(initialPersons)}
+              images={images.edges}
+            />
+          </Suspense>
         )}
-      </Constraint>
+      </>
     );
   }
 }

@@ -1,29 +1,62 @@
 import css from 'styled-jsx/css';
 
-import { colors } from '../../tokens';
+import { colors, mq } from '../../tokens';
 
 export default css`
   .person {
     color: ${colors.blue};
-    font-size: 1.5rem;
-    line-height: 1.45;
+    font-size: 1.25rem;
+    line-height: 1.35;
     padding-bottom: 4rem;
+  }
+
+  @media ${mq.phone} {
+    .person {
+      font-size: 1.5rem;
+      line-height: 1.45;
+    }
   }
 
   .title-container {
     display: flex;
     flex-direction: row;
-    margin-bottom: 3rem;
-    margin-top: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  @media ${mq.phone} {
+    .title-container {
+      margin-bottom: 3rem;
+      margin-top: 4rem;
+    }
+  }
+
+  .back {
+    display: block;
+    color: currentColor;
+    font-size: 0.6rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0.85rem;
   }
 
   .title {
-    font-size: 2.43rem;
+    font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.2;
-    margin-right: 1.5rem;
     margin-top: 0;
-    width: 75%;
+  }
+
+  @supports (font-variation-settings: normal) {
+    .title {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
+  @media ${mq.phone} {
+    .title {
+      font-size: 2.43rem;
+    }
   }
 
   .title-native {
@@ -31,37 +64,109 @@ export default css`
   }
 
   .image {
+    align-self: flex-end;
     background-color: ${colors.beige};
     border-radius: 50%;
-    flex: 1 0 auto;
-    margin: 0;
+    margin: 0 0 0 auto;
+    object-fit: cover;
     overflow: hidden;
-    height: 15rem;
-    width: 15rem;
+    height: 7rem;
+    width: 7rem;
   }
 
-  .image-image {
-    height: auto;
-    width: 100%;
+  @media ${mq.phone} {
+    .image {
+      height: 10rem;
+      width: 10rem;
+    }
+  }
+
+  @media ${mq.tablet} {
+    .image {
+      height: 15rem;
+      width: 15rem;
+    }
+  }
+
+  .person-info-html {
+    letter-spacing: -0.01rem;
+  }
+
+  :global(.person-story a),
+  :global(.person-info-html a) {
+    color: currentColor;
+  }
+
+  :global(.person-info-html > p) {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  dl {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  dt,
+  dd {
+    padding: 0.35rem 0.5rem;
+  }
+
+  @media ${mq.phone} {
+    dt,
+    dd {
+      padding: 1rem;
+    }
   }
 
   dt {
     background-color: ${colors.blue};
-    clear: left;
     color: white;
-    float: left;
-    font-size: 1.125rem;
+    font-size: 0.85rem;
     font-weight: 700;
-    padding: 0.5rem;
+    flex: 0 1 auto;
+    letter-spacing: 0.02rem;
     text-transform: uppercase;
-    width: 40%;
+    width: 100%;
+  }
+
+  @supports (font-variation-settings: normal) {
+    dt {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
+  @media ${mq.phone} {
+    dt {
+      border-bottom: 2px solid ${colors.beige};
+      font-size: 0.9rem;
+      width: 40%;
+    }
   }
 
   dd {
-    border: 1px solid ${colors.blue};
-    float: left;
+    border: 2px solid ${colors.blue};
+    flex: 1 1 50%;
+    font-size: 1rem;
     margin-left: 0;
-    padding: 0.5rem;
-    width: 50%;
+    margin-bottom: 4px;
+  }
+
+  @media ${mq.phone} {
+    dd {
+      font-size: 1.125rem;
+      margin-bottom: 0;
+      margin-top: -2px;
+    }
+  }
+
+  dt:last-of-type {
+    border-bottom-color: ${colors.blue};
+  }
+
+  dd:first-of-type {
+    margin-top: 0;
   }
 `;
