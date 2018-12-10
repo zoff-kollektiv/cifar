@@ -1,7 +1,8 @@
 {
   "name": "cifar-sanctions",
-  "description": "EU sanctions report",
+  "description": "The website documents persons under EU sanctions and analyzes sanctions as a tool against corruption.",
   "license": "MIT",
+  "version": "1.0.0",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
