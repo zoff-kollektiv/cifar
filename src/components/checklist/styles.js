@@ -92,25 +92,27 @@ export const checkIconStyles = css.resolve`
     background-color: white;
     border-radius: 50%;
     color: ${colors.blue};
-    height: 0.85rem;
+    height: 1.65rem;
     left: -2.75rem;
     padding: 0.5rem;
     position: absolute;
-    width: 0.85rem;
+    width: 1.65rem;
   }
 
   @media ${mq.phone} {
     svg {
-      height: 1.25rem;
+      height: 2rem;
       left: -3.5rem;
-      width: 1.25rem;
+      width: 2rem;
     }
   }
 
   @media ${mq.desktop} {
     svg {
+      height: 2.35rem;
       top: 50%;
       transform: translateY(-50%);
+      width: 2.35rem;
     }
   }
 `;
