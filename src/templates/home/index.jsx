@@ -67,7 +67,7 @@ const Page = ({
         )
       )}
 
-    {news && (
+    {news && news.length > 0 && (
       <Block title="News">
         <News items={news} />
       </Block>
