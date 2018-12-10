@@ -4,7 +4,13 @@ const remark = require('remark');
 const remarkHtml = require('remark-html');
 const slugify = require('slugify');
 
-const POSTS_WP_ENDPOINT = 'https://cifar.eu/wp-json/wp/v2/posts/?per_page=3';
+/**
+ * Categories:
+ * 66: sanctions
+ */
+
+const POSTS_WP_ENDPOINT =
+  'https://cifar.eu/wp-json/wp/v2/posts/?per_page=3&categories=66';
 
 const createSlug = text =>
   slugify(text, {
