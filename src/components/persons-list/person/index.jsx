@@ -12,7 +12,7 @@ export default ({
   <li className="person">
     <style jsx>{styles}</style>
 
-    <Link to={`/persons/${createSlug(country)}/${createSlug(name)}/`}>
+    <Link to={`/people/${createSlug(country)}/${createSlug(name)}/`}>
       <figure className="image">
         {image && (
           <img

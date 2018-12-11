@@ -139,7 +139,7 @@ const createCountries = (graphql, createPage) =>
         }
       }) => {
         const slug = createSlug(countrySlug || title);
-        const pagePath = `/persons/${slug}/`;
+        const pagePath = `/people/${slug}/`;
 
         // eslint-disable-next-line no-console
         console.log('create country', pagePath);
@@ -190,7 +190,7 @@ const createPersons = (graphql, createPage) =>
           frontmatter: { name, sanctionsCountry: country }
         }
       }) => {
-        const pagePath = `/persons/${createSlug(country)}/${createSlug(name)}/`;
+        const pagePath = `/people/${createSlug(country)}/${createSlug(name)}/`;
 
         // eslint-disable-next-line no-console
         console.log('create person', pagePath);
@@ -252,8 +252,8 @@ exports.createPages = ({ actions, graphql }) => {
   const { createPage, createRedirect } = actions;
 
   createRedirect({
-    fromPath: '/persons',
-    toPath: '/persons/all/',
+    fromPath: '/people',
+    toPath: '/people/all/',
     redirectInBrowser: true,
     isPermanent: true
   });

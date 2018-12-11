@@ -122,7 +122,7 @@ export default class PersonList extends Component {
                 {showGraph ? (
                   <Link
                     className={viewSwitchStyles.className}
-                    to={`/persons/${slug}/`}
+                    to={`/people/${slug}/`}
                   >
                     <ListIcon className={viewIconStyles.className} />
                     List
@@ -140,7 +140,7 @@ export default class PersonList extends Component {
                 ) : (
                   <Link
                     className={viewSwitchStyles.className}
-                    to={`/persons/${slug}/?view=network`}
+                    to={`/people/${slug}/?view=network`}
                   >
                     <NetworkIcon className={viewIconStyles.className} />
                     Network
