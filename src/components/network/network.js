@@ -57,7 +57,7 @@ const drawPersons = (svg, data, { svgWidth }) => {
     .attr('cy', d => d.y)
     .attr('transform', ({ x, y }) => `translate(${x},${y})`)
     .on('click', ({ sanctionsCountry, name }) => {
-      navigate(`/persons/${createSlug(sanctionsCountry)}/${createSlug(name)}/`);
+      navigate(`/people/${createSlug(sanctionsCountry)}/${createSlug(name)}/`);
     });
 
   // add a background-circle on the root person (for a background-color)

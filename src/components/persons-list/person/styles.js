@@ -68,7 +68,7 @@ export default css`
 
   @media ${mq.tablet} {
     .title {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
   }
 
@@ -77,14 +77,13 @@ export default css`
     text-decoration: none;
   }
 
-  :global(.person > a:hover .title),
-  :global(.person > a:focus .title) {
+  :global(.person > a:hover .title-name),
+  :global(.person > a:focus .title-name) {
     text-decoration: underline;
   }
 
   .role {
     display: none;
-    font-size: 0.85rem;
     font-weight: 400;
     margin-top: 0.25rem;
   }
@@ -99,6 +98,7 @@ export default css`
   @media ${mq.tablet} {
     .role {
       display: block;
+      font-size: 1rem;
     }
   }
 `;

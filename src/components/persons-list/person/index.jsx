@@ -12,7 +12,7 @@ export default ({
   <li className="person">
     <style jsx>{styles}</style>
 
-    <Link to={`/persons/${createSlug(country)}/${createSlug(name)}/`}>
+    <Link to={`/people/${createSlug(country)}/${createSlug(name)}/`}>
       <figure className="image">
         {image && (
           <img
@@ -24,7 +24,7 @@ export default ({
       </figure>
 
       <h2 className="title">
-        {name}
+        <span className="title-name">{name}</span>
         <small className="role">{role}</small>
       </h2>
     </Link>

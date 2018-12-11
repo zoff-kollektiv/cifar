@@ -22,7 +22,7 @@ export default ({ tabs }) => (
         {tabs.map(({ node: { frontmatter: { slug, title } } }) => (
           <li key={title}>
             <Link
-              to={`/persons/${createSlug(slug || title)}/`}
+              to={`/people/${createSlug(slug || title)}/`}
               className={`${tabStyles.className} ${tabStylesActive.className}`}
             >
               {title}

@@ -59,17 +59,26 @@ export default css`
     white-space: nowrap;
   }
 
+  @supports (font-variation-settings: normal) {
+    .filter-label {
+      font-variation-settings: 'wght' 600;
+      font-weight: inherit;
+    }
+  }
+
   @media ${mq.tablet} {
     .filter-label {
       color: white;
       font-size: 1rem;
-      margin-left: 2rem;
+      margin-left: 0.5rem;
       position: static;
     }
   }
 
   .filter-input {
+    background: white;
     border: 2px solid ${colors.blue};
+    border-radius: 0;
     color ${colors.blue};
     font-size: 1rem;
     font-weight: 600;

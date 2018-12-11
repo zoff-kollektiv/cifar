@@ -6,12 +6,10 @@ import QuestionIcon from '../../static/question.svg';
 
 import styles, { checkIconStyles } from './styles';
 
-export default ({ title, items }) => (
+export default ({ items }) => (
   <div>
     <style jsx>{styles}</style>
     {checkIconStyles.styles}
-
-    <h3>{title}</h3>
 
     <ul>
       {items.map(({ text, icon = 'check' }) => (

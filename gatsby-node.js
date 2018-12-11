@@ -5,12 +5,16 @@ const remarkHtml = require('remark-html');
 const slugify = require('slugify');
 
 /**
- * Categories:
+ * Categories
+ *
+ * 22: Tunisia
+ * 27: Egypt
+ * 46: Ukraine
  * 66: sanctions
  */
 
 const POSTS_WP_ENDPOINT =
-  'https://cifar.eu/wp-json/wp/v2/posts/?per_page=3&categories=66';
+  'https://cifar.eu/wp-json/wp/v2/posts/?per_page=3&categories=22,27,46,66';
 
 const createSlug = text =>
   slugify(text, {
@@ -139,7 +143,7 @@ const createCountries = (graphql, createPage) =>
         }
       }) => {
         const slug = createSlug(countrySlug || title);
-        const pagePath = `/persons/${slug}/`;
+        const pagePath = `/people/${slug}/`;
 
         // eslint-disable-next-line no-console
         console.log('create country', pagePath);
@@ -190,7 +194,7 @@ const createPersons = (graphql, createPage) =>
           frontmatter: { name, sanctionsCountry: country }
         }
       }) => {
-        const pagePath = `/persons/${createSlug(country)}/${createSlug(name)}/`;
+        const pagePath = `/people/${createSlug(country)}/${createSlug(name)}/`;
 
         // eslint-disable-next-line no-console
         console.log('create person', pagePath);
@@ -252,8 +256,8 @@ exports.createPages = ({ actions, graphql }) => {
   const { createPage, createRedirect } = actions;
 
   createRedirect({
-    fromPath: '/persons',
-    toPath: '/persons/all/',
+    fromPath: '/people',
+    toPath: '/people/all/',
     redirectInBrowser: true,
     isPermanent: true
   });

@@ -16,7 +16,7 @@ const renderPersonValue = (key, value, data) => {
           <Fragment key={member}>
             {index === 0 ? '' : ', '}
             <a
-              href={`/persons/${createSlug(data.sanctionsCountry)}/${createSlug(
+              href={`/people/${createSlug(data.sanctionsCountry)}/${createSlug(
                 member
               )}/`}
             >
@@ -65,10 +65,10 @@ export default ({
         <header className="title-container">
           <h1 className="title">
             <a
-              href={`/persons/${createSlug(sanctionsCountry)}/`}
+              href={`/people/${createSlug(sanctionsCountry)}/`}
               className="back"
             >
-              ‹ All affected persons of {sanctionsCountry}
+              ‹ All affected people of {sanctionsCountry}
             </a>
             {name}
             <small className="title-native">{nativeName}</small>
@@ -122,6 +122,7 @@ export const fragment = graphql`
       placeOfBirth
       countryOfResidence
       aliases
+      firstAndMidleNames
       familyMembers
       familyMembersSubjectToSanctions
       suspectedOrConfirmedLinksToLegalEntities

@@ -33,7 +33,7 @@ export default ({
           )}`}
         >
           <Link
-            to={`/persons/${createSlug(countryTitle)}/`}
+            to={`/people/${createSlug(countryTitle)}/`}
             className={countryStyles.className}
           >
             {countryShapes[createSlug(countryTitle)]({

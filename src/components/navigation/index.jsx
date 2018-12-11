@@ -15,13 +15,13 @@ export default () => (
 
     <nav>
       <Link
-        to="/persons/all/"
+        to="/people/all/"
         getProps={({ isPartiallyCurrent }) =>
           isPartiallyCurrent ? { 'aria-current': 'partially' } : null
         }
         className={navLinkStyles.className}
       >
-        Persons
+        People
       </Link>
 
       <Link to="/report/" className={navLinkStyles.className}>

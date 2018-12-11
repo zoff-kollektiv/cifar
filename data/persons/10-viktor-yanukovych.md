@@ -42,9 +42,9 @@ suspectedOrConfirmedLinksToBankAccounts: >-
   [Source](https://www.aljazeera.com/news/2017/12/exclusive-dirty-deal-traced-ukrainian-tycoons-171217131747631.html)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
-  None
+  .
   [Source](https://www.kyivpost.com/ukraine-politics/lawyers-says-european-commission-reveals-no-yanukovych-assets-frozen-eu-sanctions.html)
-estimatesOfAssetsReturned: None
+estimatesOfAssetsReturned: .
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---

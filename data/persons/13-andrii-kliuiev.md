@@ -54,7 +54,7 @@ suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
   26 million francs and a mansion in Switzerland
   [Source](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
-estimatesOfAssetsReturned: None
+estimatesOfAssetsReturned: .
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---

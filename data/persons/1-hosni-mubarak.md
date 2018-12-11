@@ -14,15 +14,14 @@ dateOfBirth: 04.05.1928
 countryOfResidence: Egypt
 corruptionLink: ''
 familyMembers:
-  - Suzanne Saleh Thabet
-  - Alaa Mohamed Hosni Elsayed Mubarak
-  - Gamal Mohamed Hosni Elsayed
-  - Mohammed Mubarak (deceased)
+  - Suzanne Thabet
+  - Alaa Mubarak
+  - Gamal Mubarak
   - Mahmoud Gamal Mubarak
   - Omar Alaa Mubarak
   - Farida Gamal Mubarak
 familyMembersSubjectToSanctions:
-  - Suzanne Saleh Thabet
+  - Suzanne Thabet
   - Alaa Mohamed Hosni Elsayed Mubarak
   - Gamal Mohamed Hosni Elsayed
 suspectedOrConfirmedOverseasProperties: >-

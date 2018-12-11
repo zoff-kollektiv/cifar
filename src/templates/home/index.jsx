@@ -35,7 +35,6 @@ const Page = ({
               html,
               frontmatter: {
                 checklist,
-                checklistTitle,
                 title: blockTitle,
                 buttonLink,
                 buttonLabel
@@ -52,9 +51,7 @@ const Page = ({
             {/* eslint-disable-next-line react/no-danger */}
             <div dangerouslySetInnerHTML={{ __html: html }} />
 
-            {checklist && (
-              <Checklist title={checklistTitle} items={checklist} />
-            )}
+            {checklist && <Checklist items={checklist} />}
 
             {buttonLink && buttonLabel && (
               <Cta
@@ -124,7 +121,6 @@ export const query = graphql`
               text
               icon
             }
-            checklistTitle
             title
           }
         }
