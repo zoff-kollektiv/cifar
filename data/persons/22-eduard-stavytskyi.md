@@ -33,7 +33,7 @@ suspectedOrConfirmedLinksToLegalEntities: 'ТОВ "ДІАГРАМА" , ГО "Д�
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: None
+estimatesOfAssetsReturned: .
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---

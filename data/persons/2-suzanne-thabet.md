@@ -1,12 +1,15 @@
 ---
 id: 2
-name: Suzanne Saleh Thabet
+name: Suzanne Thabet
 sanctionsCountry: Egypt
 fullName: Suzanne Saleh Thabet
 nativeName: سوزان صالح ثابت‎
 surname: Suzanne
 firstAndMidleNames: Saleh Thabet
-aliases: []
+aliases:
+  - Suzanne Saleh Thabet
+  - Sabet
+  - Suzanne Mubarak
 identifyingInformation: Spouse of Hosni Mubarak
 placeOfBirth: 'Egypt, Al Minya Governorate'
 dateOfBirth: 28.02.1941
