@@ -46,7 +46,7 @@ const preparePersons = country =>
   country.map(person => {
     const keys = Object.keys(person);
     const newPerson = {};
-    const omitValues = ['Unknown', 'Unkown', '.', 'None'];
+    const omitValues = ['Unknown', 'Unkown', '.'];
 
     const normalizeValue = value => {
       if (typeof value !== 'string') {
