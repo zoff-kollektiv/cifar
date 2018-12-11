@@ -1,11 +1,11 @@
 ---
 title: >-
-  With the help of their corrupt networks, kleptocrats steal billions of Euros
-  from their citizens every year. The European Union has imposed
-  misappropriation sanctions against high level officials and other persons
-  suspected of corruption in Egypt, Tunisia and Ukraine that freeze their assets.
+  With the help of their corrupt networks, kleptocrats steal billions from their
+  citizens every year. The European Union has imposed misappropriation sanctions
+  against high level officials and other persons suspected of corruption to
+  freeze their assets.
 countriesTitle: Sanctioned people by country
-buttonLabel: Browse all sanctioned people
+buttonLabel: See sanctioned people
 buttonLink: /people/all/
 sort: 0
 ---
