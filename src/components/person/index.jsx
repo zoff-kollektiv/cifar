@@ -122,6 +122,7 @@ export const fragment = graphql`
       placeOfBirth
       countryOfResidence
       aliases
+      firstAndMidleNames
       familyMembers
       familyMembersSubjectToSanctions
       suspectedOrConfirmedLinksToLegalEntities
