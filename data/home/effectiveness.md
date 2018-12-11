@@ -2,7 +2,6 @@
 title: Are misappropriation sanctions effective as a tool against corruption?
 buttonLabel: Read our report
 buttonLink: /report/
-checklistTitle: Pre-requisites of the EU misappropriation sanctions
 checklist:
   - text: Sanctions have been successful at signalling political support to the new governments of Tunisia Egypt and Ukraine.
     icon: check
