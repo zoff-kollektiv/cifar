@@ -12,7 +12,7 @@ export default css`
     line-height: 1.2;
     letter-spacing: -0.015rem;
     margin-bottom: 0;
-    margin-top: 0.5rem;
+    margin-top: 0;
   }
 
   @supports (font-variation-settings: normal) {
@@ -26,13 +26,20 @@ export default css`
   @media ${mq.phone} {
     .intro,
     .outro {
-      font-size: 1.875rem;
+      font-size: 1.5rem;
       line-height: 1.3;
     }
   }
 
+  @media ${mq.tablet} {
+    .intro,
+    .outro {
+      font-size: 1.875rem;
+    }
+  }
+
   .outro {
-    margin-top: 2rem;
+    margin-top: 1.75rem;
   }
 
   @media ${mq.phone} {

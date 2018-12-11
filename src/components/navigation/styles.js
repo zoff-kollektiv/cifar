@@ -26,6 +26,7 @@ export default css`
 
   nav {
     align-self: flex-end;
+    font-size: 0;
     margin-left: auto;
   }
 `;
@@ -33,7 +34,7 @@ export default css`
 export const navLinkStyles = css.resolve`
   a {
     color: currentColor;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 600;
     text-decoration: none;
   }
@@ -45,7 +46,7 @@ export const navLinkStyles = css.resolve`
     }
   }
 
-  @media ${mq.tablet} {
+  @media ${mq.phone} {
     a {
       font-size: 1rem;
     }
@@ -58,7 +59,7 @@ export const navLinkStyles = css.resolve`
   }
 
   a + a {
-    margin-left: 1rem;
+    margin-left: 0.7rem;
   }
 
   @media ${mq.tablet} {
@@ -71,7 +72,7 @@ export const navLinkStyles = css.resolve`
 export const titleStyles = css.resolve`
   a {
     color: currentColor;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.025rem;
     text-decoration: none;
@@ -86,7 +87,7 @@ export const titleStyles = css.resolve`
     }
   }
 
-  @media ${mq.tablet} {
+  @media ${mq.phone} {
     a {
       font-size: 1rem;
       letter-spacing: 0.05rem;
