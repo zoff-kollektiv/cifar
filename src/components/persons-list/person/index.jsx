@@ -24,7 +24,7 @@ export default ({
       </figure>
 
       <h2 className="title">
-        {name}
+        <span className="title-name">{name}</span>
         <small className="role">{role}</small>
       </h2>
     </Link>
