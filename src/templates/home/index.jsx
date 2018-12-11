@@ -121,7 +121,6 @@ export const query = graphql`
               text
               icon
             }
-            checklistTitle
             title
           }
         }
