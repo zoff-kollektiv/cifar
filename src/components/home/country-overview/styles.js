@@ -115,9 +115,8 @@ export default css`
     }
 
     .country-container--for-tunisia .country-title {
-      margin-left: -0.5rem;
+      margin-left: -1.05rem;
       margin-top: 0;
-      transform: translate(-50%, -50%) rotate(-90deg);
     }
   }
 `;
