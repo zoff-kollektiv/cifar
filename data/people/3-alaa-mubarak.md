@@ -33,20 +33,21 @@ suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
   300 million of frozen Swiss francs were said to belong to Mubarak’s sons Alaa
   and Gamal
-estimatesOfAssetsReturned: '0'
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011
 ---
 Alaa, Mubarak's older son was a businessman who owned a company that services 
-most of the airlines in Egypt but unlike his younger sibling, show no interest 
-in politics. Both sons were known for their extraagant and luxurious lifestyles 
-during their father's 30-year reign.
-Investigations that followed the Panama Papers leak revealed Alaa as the owner 
-of Pan World Investments, an investment fund for the Mubarak family of nearly $1 
-billion incorporated by Mossack Fonseca.
+most of the airlines in Egypt but unlike his younger sibling, showed no interest 
+in politics. Both sons of Hosni Mubarak were known for their extraagant and 
+luxurious lifestyles during their father's 30-year reign. Investigations that 
+followed the Panama Papers leak revealed Alaa as the owner of Pan World 
+Investments, an investment fund for the Mubarak family of nearly $1 billion 
+incorporated by Mossack Fonseca.
 Alongisde his father and older brother, Alaa was Initially sentenced for three 
 years in prison for diverting millions of public money to maintain presidential 
 palaces.
-In September 2018, Alaa was arrested along with his brother Gamal, accused of 
-manipulating the stock market.
+In September 2018, Alaa was arrested again along with his brother Gamal, accused 
+of manipulating the stock market. 
+[Source](https://madamasr.com/en/2018/10/01/feature/politics/the-mubaraks-quick-turn-through-the-jailhouse-turnstile/)

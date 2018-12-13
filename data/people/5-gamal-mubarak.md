@@ -33,7 +33,7 @@ suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
   300 million of frozen Swiss francs were said to belong to Mubarak’s sons Alaa
   and Gamal
-estimatesOfAssetsReturned: '0'
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011
@@ -51,11 +51,6 @@ commission fee to one of their companies. Under Egyptian law, foreign businesses
 are required to give a local partners a 51-percent stake in their Egyptian 
 operations and such local partners were usually connected to Mubarak's network 
 of family and allies.
-[Source](https://www.huffingtonpost.com/2011/02/11/how-the-mubarak-family-made-its-billions_n_821757.html 
-)
-After serving his time in prison together with his father and brother, Gamal has 
-been seen again attending public weddings and sporting events, as a possible 
-attempt to rehabilitate his public image.  
-https://www.wsj.com/articles/sons-of-ex-egypt-leader-mubarak-arrested-in-graft-probe-1537038338 
-However, in September 2018, Gamal and his brother Alaa were arrested for charges 
-of manipulation of the stock market.
+[Source](https://www.huffingtonpost.com/2011/02/11/how-the-mubarak-family-made-its-billions_n_821757.html)
+In September 2018, Gamal and his brother Alaa were arrested for charges of 
+manipulation of the stock market.
