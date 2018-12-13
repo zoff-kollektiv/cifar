@@ -142,6 +142,7 @@ export default css`
     dt {
       border-bottom: 2px solid ${colors.beige};
       font-size: 0.9rem;
+      padding-top: 1.25rem;
       width: 40%;
     }
   }
