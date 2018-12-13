@@ -43,6 +43,7 @@ export default css`
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.2;
+    margin-right: 1rem;
     margin-top: 0;
   }
 
@@ -64,9 +65,10 @@ export default css`
   }
 
   .image {
-    align-self: flex-end;
+    align-self: flex-start;
     background-color: ${colors.beige};
     border-radius: 50%;
+    flex: 0 0 auto;
     margin: 0 0 0 auto;
     object-fit: cover;
     overflow: hidden;
