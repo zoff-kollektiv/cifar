@@ -28,7 +28,8 @@ As soon as practicable, EU regulations require natural and legal persons, entiti
 
 ## Contacts of National Competent Authorities
 
-- [Austria](https://www.bmeia.gv.at/en/european-foreign-policy/foreign-policy/europe/eu-sanctions-national-authorities/), [Belgium](https://diplomatie.belgium.be/en/policy/policy_areas/peace_and_security/sanctions)
+- [Austria](https://www.bmeia.gv.at/en/european-foreign-policy/foreign-policy/europe/eu-sanctions-national-authorities/)
+- [Belgium](https://diplomatie.belgium.be/en/policy/policy_areas/peace_and_security/sanctions)
 - [Bulgaria](http://www.mfa.bg/en/pages/135/index.html)
 - [Croatia](http://www.mvep.hr/sankcije)
 - [Cyprus](http://www.mfa.gov.cy/mfa/mfa2016.nsf/mfa35_en/mfa35_en?OpenDocument)
@@ -45,7 +46,7 @@ As soon as practicable, EU regulations require natural and legal persons, entiti
 - [Latvia](http://www.mfa.gov.lv/en/policy/security-policy/links-addresses)
 - [Lithuania](http://www.urm.lt/en/sanctions)
 - [Luxembourg](https://maee.gouvernement.lu/fr/directions-du-ministere/affaires-europeennes/mesures-restrictives.html)
-- Malta
+- [Malta](https://foreignaffairs.gov.mt/en/Government/SMB/Pages/Sanctions-Monitoring-Board.aspx)
 - [Netherlands](https://www.rijksoverheid.nl/onderwerpen/internationale-sancties)
 - [Poland](http://www.msz.gov.pl/en/foreign_policy/international_law/international_sanctions/)
 - [Portugal](http://www.portugal.gov.pt/pt/ministerios/mne/quero-saber-mais/sobre-o-ministerio/medidas-restritivas/medidas-restritivas.aspx)
