@@ -75,6 +75,12 @@ export default css`
   :global(.person > a) {
     color: currentColor;
     text-decoration: none;
+    transition: transform 150ms ease;
+  }
+
+  :global(.person > a:hover),
+  :global(.person > a:focus) {
+    transform: scale(1.08);
   }
 
   :global(.person > a:hover .title-name),

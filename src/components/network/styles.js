@@ -196,12 +196,14 @@ export default css`
     }
   }
 
-  :global(.network .person:hover .person-name) {
+  :global(.network .person:hover .person-name),
+  :global(.network .person:focus .person-name) {
     font-weight: 900;
   }
 
   @supports (font-variation-settings: normal) {
-    :global(.network .person:hover .person-name) {
+    :global(.network .person:hover .person-name),
+    :global(.network .person:focus .person-name) {
       font-variation-settings: 'wght' 900;
       font-weight: inherit;
     }
