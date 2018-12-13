@@ -29,7 +29,7 @@ They are a type of financial sanctions when targeted asset freezes are applied. 
 ### Sanctions 
 Restrictive measures that can take a number of different forms, in pursuit of a variety of goals. The measures have ranged from comprehensive economic and trade sanctions to more targeted measures such as arms embargoes, travel bans, and financial or commodity restrictions. 
 
-Sources:[1],(https://eeas.europa.eu/topics/external-investment-plan/423/sanctions-policy_en), [2](https://www.consilium.europa.eu/en/council-eu/), [3](https://www.gov.uk/government/publications/financial-sanctions-faqs), [4](https://www.un.org/sc/suborg/en/sanctions/information)
+Sources:[1](https://eeas.europa.eu/topics/external-investment-plan/423/sanctions-policy_en), [2](https://www.consilium.europa.eu/en/council-eu/), [3](https://www.gov.uk/government/publications/financial-sanctions-faqs), [4](https://www.un.org/sc/suborg/en/sanctions/information)
 
 
 ## EU legal acts 
