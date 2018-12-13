@@ -95,6 +95,7 @@ export default css`
     color: ${colors.blue};
     display: inline-block;
     font-size: 0.8rem;
+    letter-spacing: 0.05rem;
     margin-top: 0.75rem;
     text-transform: uppercase;
   }
@@ -102,10 +103,10 @@ export default css`
   @media ${mq.tablet} {
     .country-title {
       color: ${colors.beige};
-      font-size: 0.875rem;
+      font-size: 0.7rem;
       left: 50%;
+      margin-top: 0;
       position: absolute;
-      text-decoration: underline;
       top: 50%;
       transform: translate(-50%, -50%);
     }
@@ -114,7 +115,7 @@ export default css`
   @media ${mq.tablet} {
     .country-container--for-ukraine .country-title {
       margin-left: 1.5rem;
-      margin-top: -1rem;
+      margin-top: -0.5rem;
     }
 
     .country-container--for-egypt .country-title {
@@ -123,7 +124,6 @@ export default css`
 
     .country-container--for-tunisia .country-title {
       margin-left: -1.05rem;
-      margin-top: 0;
     }
   }
 `;
