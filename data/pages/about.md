@@ -29,28 +29,7 @@ They are a type of financial sanctions when targeted asset freezes are applied. 
 ### Sanctions 
 Restrictive measures that can take a number of different forms, in pursuit of a variety of goals. The measures have ranged from comprehensive economic and trade sanctions to more targeted measures such as arms embargoes, travel bans, and financial or commodity restrictions. 
 
-<dl>
-  <dt>Asset freeze</dt>
-  <dd>It is the most common form of financial sanctions. Asset freeze makes funds and economic resources of the designated person unavailable, however, this process does not involve a confiscation or a change in the ownership of the frozen funds and economic resources.</dd>
-
-  <dt>Competent authority</dt>
-  <dd>Designated national authorities of the EU member states who implement financial sanctions. For a list of these authorities see the guidelines section on this website. </dd>
-
-  <dt>Council of the European Union</dt>
-  <dd>Often referred to as the Council, it is an institution representing the European Union member states' governments, where national ministers from each EU country meet to adopt laws and coordinate policies.</dd>
-
-  <dt>Misappropriation sanctions</dt>
-  <dd>They are a type of financial sanctions when targeted asset freezes are applied. These freezes can restrict the access to funds and economic resources of individuals, entities and bodies.</dd>
-
-  <dt>Sanctions</dt>
-  <dd>Restrictive measures that can take a number of different forms, in pursuit of a variety of goals. The measures have ranged from comprehensive economic and trade sanctions to more targeted measures such as arms embargoes, travel bans, and financial or commodity restrictions.</dd>
-</dl>
-
-#### Sources: 
-- [European Union External Action](https://eeas.europa.eu/topics/external-investment-plan/423/sanctions-policy_en)
-- [The Council of the European Union](https://www.consilium.europa.eu/en/council-eu/)
-- [The Office of Financial Sanctions Implementation, UK](https://www.gov.uk/government/publications/financial-sanctions-faqs) 
-- [United Nations Security Council](https://www.un.org/sc/suborg/en/sanctions/information)
+Sources:[1],(https://eeas.europa.eu/topics/external-investment-plan/423/sanctions-policy_en), [2](https://www.consilium.europa.eu/en/council-eu/), [3](https://www.gov.uk/government/publications/financial-sanctions-faqs), [4](https://www.un.org/sc/suborg/en/sanctions/information)
 
 
 ## EU legal acts 
@@ -59,7 +38,7 @@ Restrictive measures that can take a number of different forms, in pursuit of a 
 - [EU Council Decision. 23.03.2017 consolidated basic legal act - 2011/172/CFSP](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011D0172-20170323)
 - [EU Council Regulation. 23.03.2017 consolidated basic legal act - (EU) No 270/2011](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0270-20170323) 
 - [EU Council Implementing Regulation. 21.03.2018 amendments not yet included in the consolidated legal act - (EU) 2018/465](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32018R0137&from=EN)
-- [EU Council Decision. 21.03.2018 amendments not yet included in the consolidated legal act - (CFSP) 2018/466](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32018D0141&from=EN
+- [EU Council Decision. 21.03.2018 amendments not yet included in the consolidated legal act - (CFSP) 2018/466](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32018D0141&from=EN)
 
 ### Tunisia
 - [EU Council Decision. 31.01.2011 consolidated basic legal act - 2011/72/CFSP](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011D0072-20170128)
