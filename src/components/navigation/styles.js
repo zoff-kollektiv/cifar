@@ -10,10 +10,17 @@ export default css`
     background-color: ${colors.beige};
     color: ${colors.blue};
     display: flex;
-    padding: 1rem 1.5rem;
+    flex-direction: column;
+    padding: 0.7rem 1.5rem;
     position: sticky;
     top: 0;
     z-index: 100;
+  }
+
+  @media ${mq.phone} {
+    header {
+      flex-direction: row;
+    }
   }
 
   @media ${mq.tablet} {
@@ -25,16 +32,25 @@ export default css`
   }
 
   nav {
-    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
     font-size: 0;
-    margin-left: auto;
+    margin-top: 0.3rem;
+  }
+
+  @media ${mq.phone} {
+    nav {
+      align-self: flex-end;
+      margin-left: auto;
+      margin-top: 0;
+    }
   }
 `;
 
 export const navLinkStyles = css.resolve`
   a {
     color: currentColor;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: 600;
     text-decoration: none;
   }
@@ -47,6 +63,12 @@ export const navLinkStyles = css.resolve`
   }
 
   @media ${mq.phone} {
+    a {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media ${mq.tablet} {
     a {
       font-size: 1rem;
     }
@@ -59,12 +81,18 @@ export const navLinkStyles = css.resolve`
   }
 
   a + a {
-    margin-left: 0.7rem;
+    margin-left: 1rem;
+  }
+
+  @media ${mq.phone} {
+    a + a {
+      margin-left: 0.85rem;
+    }
   }
 
   @media ${mq.tablet} {
     a + a {
-      margin-left: 1.5rem;
+      margin-left: 1.25rem;
     }
   }
 `;
@@ -72,9 +100,9 @@ export const navLinkStyles = css.resolve`
 export const titleStyles = css.resolve`
   a {
     color: currentColor;
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.025rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
@@ -82,15 +110,27 @@ export const titleStyles = css.resolve`
 
   @supports (font-variation-settings: normal) {
     a {
-      font-variation-settings: 'wght' 600;
+      font-variation-settings: 'wght' 700;
       font-weight: inherit;
     }
   }
 
   @media ${mq.phone} {
     a {
+      font-size: 0.9rem;
+    }
+
+    @supports (font-variation-settings: normal) {
+      a {
+        font-variation-settings: 'wght' 600;
+        font-weight: inherit;
+      }
+    }
+  }
+
+  @media ${mq.tablet} {
+    a {
       font-size: 1rem;
-      letter-spacing: 0.05rem;
     }
   }
 `;
