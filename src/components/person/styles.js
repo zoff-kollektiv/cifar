@@ -43,6 +43,7 @@ export default css`
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.2;
+    margin-right: 1rem;
     margin-top: 0;
   }
 
@@ -64,9 +65,10 @@ export default css`
   }
 
   .image {
-    align-self: flex-end;
+    align-self: flex-start;
     background-color: ${colors.beige};
     border-radius: 50%;
+    flex: 0 0 auto;
     margin: 0 0 0 auto;
     object-fit: cover;
     overflow: hidden;
@@ -74,10 +76,20 @@ export default css`
     width: 7rem;
   }
 
+  .image-image {
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+
   @media ${mq.phone} {
     .image {
       height: 10rem;
       width: 10rem;
+    }
+
+    .image-image {
+      height: 10.75rem;
+      width: 10.75rem;
     }
   }
 
@@ -85,6 +97,11 @@ export default css`
     .image {
       height: 15rem;
       width: 15rem;
+    }
+
+    .image-image {
+      height: 16.25rem;
+      width: 16.25rem;
     }
   }
 
@@ -142,6 +159,7 @@ export default css`
     dt {
       border-bottom: 2px solid ${colors.beige};
       font-size: 0.9rem;
+      padding-top: 1.25rem;
       width: 40%;
     }
   }

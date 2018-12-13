@@ -68,18 +68,20 @@ export default ({
               href={`/people/${createSlug(sanctionsCountry)}/`}
               className="back"
             >
-              ‹ All affected people of {sanctionsCountry}
+              ‹ All affected people in {sanctionsCountry}
             </a>
             {name}
             <small className="title-native">{nativeName}</small>
           </h1>
 
           {image && (
-            <img
-              src={image.node.fluid.src}
-              className="image"
-              alt={`Portrait ${name}`}
-            />
+            <figure className="image">
+              <img
+                src={image.node.fluid.src}
+                className="image-image"
+                alt={`Portrait ${name}`}
+              />
+            </figure>
           )}
         </header>
 

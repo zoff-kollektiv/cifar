@@ -137,7 +137,15 @@ export default css`
 
   @media ${mq.phone} {
     .network {
-      height: 65vh;
+      height: 80vh;
+    }
+
+    .network--egypt {
+      height: 70vh;
+    }
+
+    .network--tunisia {
+      height: 120vh;
     }
   }
 
@@ -188,12 +196,14 @@ export default css`
     }
   }
 
-  :global(.network .person:hover .person-name) {
+  :global(.network .person:hover .person-name),
+  :global(.network .person:focus .person-name) {
     font-weight: 900;
   }
 
   @supports (font-variation-settings: normal) {
-    :global(.network .person:hover .person-name) {
+    :global(.network .person:hover .person-name),
+    :global(.network .person:focus .person-name) {
       font-variation-settings: 'wght' 900;
       font-weight: inherit;
     }

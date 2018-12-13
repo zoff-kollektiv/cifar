@@ -168,7 +168,7 @@ const createPersons = (graphql, createPage) =>
       persons: allMarkdownRemark(
         filter: {
           frontmatter: { name: { ne: "" } }
-          fields: { folder: { eq: "persons" } }
+          fields: { folder: { eq: "people" } }
         }
       ) {
         edges {

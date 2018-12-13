@@ -10,7 +10,7 @@ directory, as if contains most of the displayed texts.
 - `data/countries` Contains all country relevant data
 - `data/home` Contains all the content displayed in the blocks of the homepage
 - `data/pages` Contains the about and report page
-- `data/persons` Contains the import of all persons from the google sheet
+- `data/people` Contains the import of all persons from the google sheet
 - `data/translations` Contains the translations of the people keys
 
 ### Images

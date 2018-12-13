@@ -22,6 +22,7 @@ export const linkStyles = css.resolve`
     padding: 0.6rem 1.25rem;
     text-decoration: none;
     text-transform: uppercase;
+    transition: transform 150ms ease;
   }
 
   @supports (font-variation-settings: normal) {
@@ -48,6 +49,11 @@ export const linkStyles = css.resolve`
     background-color: ${colors.blue};
     border: 2px solid ${colors.blue};
     color: white;
+  }
+
+  .button:hover,
+  .button:focus {
+    transform: scale(1.02);
   }
 
   .button--theme-dark:hover,

@@ -20,7 +20,7 @@ export default css`
 
   @media ${mq.tablet} {
     div {
-      padding: 3rem 4.5rem 3rem 12.5rem;
+      padding: 3rem 4rem 3rem 8rem;
     }
   }
 
@@ -52,6 +52,12 @@ export default css`
   @media ${mq.phone} {
     li {
       font-size: 1rem;
+    }
+  }
+
+  @media ${mq.tablet} {
+    li {
+      font-size: 1.125rem;
     }
   }
 

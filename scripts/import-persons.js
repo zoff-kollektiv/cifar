@@ -10,7 +10,7 @@ const yaml = require('js-yaml');
 const wrap = require('word-wrap');
 
 const TRANSLATION_PATH = './data/translations';
-const MARKDOWN_PATH = './data/persons';
+const MARKDOWN_PATH = './data/people';
 const FAMILY_MEMBER_REGEX = new RegExp('^[^-]*');
 const TRANSLATIONS = {};
 

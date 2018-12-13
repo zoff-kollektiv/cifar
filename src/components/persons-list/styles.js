@@ -81,7 +81,9 @@ export default css`
     border-radius: 0;
     color ${colors.blue};
     font-size: 1rem;
+    font-style: normal;
     font-weight: 600;
+    margin: 0;
     padding: 0.2rem 0.5rem;
     vertical-align: middle;
     width: 100%;

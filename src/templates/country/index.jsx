@@ -40,7 +40,7 @@ export const query = graphql`
     allPersons: allMarkdownRemark(
       filter: {
         frontmatter: { name: { ne: "" } }
-        fields: { folder: { eq: "persons" } }
+        fields: { folder: { eq: "people" } }
       }
       sort: { fields: [frontmatter___id] }
     ) {
@@ -49,7 +49,7 @@ export const query = graphql`
 
     personsByCountry: allMarkdownRemark(
       filter: {
-        fields: { folder: { eq: "persons" } }
+        fields: { folder: { eq: "people" } }
         frontmatter: {
           name: { ne: "" }
           sanctionsCountry: { eq: $countryName }

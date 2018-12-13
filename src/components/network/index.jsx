@@ -21,11 +21,13 @@ class Network extends Component {
   }
 
   render() {
+    const { slug } = this.props;
+
     return (
       <Fragment>
         <style jsx>{styles}</style>
 
-        <div className="network" ref={this.network} />
+        <div className={`network network--${slug}`} ref={this.network} />
 
         <div className="labels">
           <Constraint>

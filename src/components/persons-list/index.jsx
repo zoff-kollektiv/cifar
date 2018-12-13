@@ -170,6 +170,7 @@ export default class PersonList extends Component {
             <Network
               data={extractFrontmatter(initialPersons)}
               images={images.edges}
+              slug={slug}
             />
           </Suspense>
         )}

@@ -30,7 +30,7 @@ export const query = graphql`
     }
 
     person: markdownRemark(
-      fields: { folder: { eq: "persons" } }
+      fields: { folder: { eq: "people" } }
       frontmatter: { name: { eq: $name } }
     ) {
       ...person

@@ -144,10 +144,6 @@ export default css`
     text-decoration: underline;
   }
 
-  .footnote + .footnote {
-    margin-top: 1.5rem;
-  }
-
   .footnote {
     padding: 0.25rem;
     word-break: break-all;
