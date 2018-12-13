@@ -3,7 +3,7 @@ import css from 'styled-jsx/css';
 import { colors, mq } from '../../tokens';
 
 export default css`
-  .about {
+  .page {
     color: ${colors.blue};
     font-size: 1.15rem;
     line-height: 1.35;
@@ -12,7 +12,7 @@ export default css`
   }
 
   @media ${mq.phone} {
-    .about {
+    .page {
       font-size: 1.5rem;
       line-height: 1.45;
       padding-bottom: 8rem;
@@ -41,7 +41,11 @@ export default css`
     }
   }
 
-  .about-content {
+  .page-content {
     letter-spacing: -0.01rem;
+  }
+
+  :global(.page-content a) {
+    color: currentColor;
   }
 `;

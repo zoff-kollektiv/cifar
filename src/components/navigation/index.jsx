@@ -24,6 +24,10 @@ export default () => (
         People
       </Link>
 
+      <Link to="/guidelines/" className={navLinkStyles.className}>
+        Guidelines
+      </Link>
+
       <Link to="/report/" className={navLinkStyles.className}>
         Report
       </Link>
