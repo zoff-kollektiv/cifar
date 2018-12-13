@@ -3,6 +3,7 @@ const path = require('path');
 const remark = require('remark');
 const remarkHtml = require('remark-html');
 const slugify = require('slugify');
+const xregexp = require('xregexp');
 
 /**
  * Categories
@@ -67,25 +68,21 @@ const createReport = (graphql, createPage) =>
     const { page, site } = data;
 
     const replaceFootnotes = text => {
-      let newText = text;
-      const search = /#(.*)#/g;
-      const matches = newText.match(search);
+      let index = 1;
       const footnotes = [];
+      const newText = xregexp.replace(text, /##(.*?)##/gm, match => {
+        const footnote = match.split('##')[1];
+        const link = `<a href="#footnote-${index}" id="footnote-link-${index}" class="footnote-link">${index}</a>`;
 
-      if (matches) {
-        matches.forEach((match, index) => {
-          const footnote = match.split('#')[1];
-          const number = index + 1;
-          const link = `<a href="#footnote-${number}" id="footnote-link-${number}" class="footnote-link">[${number}]</a>`;
-
-          footnotes.push({
-            number,
-            footnote
-          });
-
-          newText = newText.replace(match, link);
+        footnotes.push({
+          index,
+          footnote
         });
-      }
+
+        index += 1;
+
+        return link;
+      });
 
       return {
         text: newText,
