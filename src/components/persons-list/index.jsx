@@ -2,6 +2,7 @@ import Link from 'gatsby-link';
 import React, { Component, lazy, Suspense } from 'react';
 
 import Constraint from '../constraint';
+import Filter from './filter';
 import Loading from '../loading';
 import Person from './person';
 import styles, {
@@ -45,8 +46,7 @@ const filterPersonsByName = (persons, name) => {
 export default class PersonList extends Component {
   state = {
     persons: [],
-    view: 'list',
-    filter: ''
+    view: 'list'
   };
 
   constructor(props) {
@@ -60,14 +60,13 @@ export default class PersonList extends Component {
 
     this.setState(state => ({
       ...state,
-      filter: name,
       persons: filterPersonsByName(persons, name)
     }));
   };
 
   render() {
     const { persons: initialPersons, images, slug } = this.props;
-    const { persons, view, filter } = this.state;
+    const { persons, view } = this.state;
     const url = typeof window !== 'undefined' && new URL(window.location.href);
     const hasInitialPersons = initialPersons && initialPersons.length > 0;
     const showGraphSwitch = hasInitialPersons && slug !== 'all';
@@ -84,36 +83,7 @@ export default class PersonList extends Component {
           {viewIconStyles.styles}
 
           <div className="filter-container">
-            {showFilter && (
-              <form
-                onSubmit={event => {
-                  event.preventDefault();
-
-                  const formData = new FormData(event.target);
-                  const name = formData.get('name-filter');
-
-                  this.updateNameFilter(name);
-                }}
-              >
-                <div className="filter">
-                  {/* eslint-disable-next-line */}
-                  <label htmlFor="name-filter" className="filter-label">
-                    Filter by name
-                  </label>
-
-                  <input
-                    type="text"
-                    name="name-filter"
-                    id="name-filter"
-                    className="filter-input"
-                    defaultValue={filter}
-                    onChange={event => {
-                      this.updateNameFilter(event.target.value);
-                    }}
-                  />
-                </div>
-              </form>
-            )}
+            {showFilter && <Filter filterFn={this.updateNameFilter} />}
 
             {showGraphSwitch && (
               <div className="view">
