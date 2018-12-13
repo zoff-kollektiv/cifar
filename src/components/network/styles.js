@@ -137,7 +137,15 @@ export default css`
 
   @media ${mq.phone} {
     .network {
-      height: 65vh;
+      height: 80vh;
+    }
+
+    .network--egypt {
+      height: 70vh;
+    }
+
+    .network--tunisia {
+      height: 120vh;
     }
   }
 

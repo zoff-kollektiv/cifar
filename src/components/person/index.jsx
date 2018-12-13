@@ -75,11 +75,13 @@ export default ({
           </h1>
 
           {image && (
-            <img
-              src={image.node.fluid.src}
-              className="image"
-              alt={`Portrait ${name}`}
-            />
+            <figure className="image">
+              <img
+                src={image.node.fluid.src}
+                className="image-image"
+                alt={`Portrait ${name}`}
+              />
+            </figure>
           )}
         </header>
 

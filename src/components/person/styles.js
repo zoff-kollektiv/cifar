@@ -74,10 +74,20 @@ export default css`
     width: 7rem;
   }
 
+  .image-image {
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+
   @media ${mq.phone} {
     .image {
       height: 10rem;
       width: 10rem;
+    }
+
+    .image-image {
+      height: 10.75rem;
+      width: 10.75rem;
     }
   }
 
@@ -85,6 +95,11 @@ export default css`
     .image {
       height: 15rem;
       width: 15rem;
+    }
+
+    .image-image {
+      height: 16.25rem;
+      width: 16.25rem;
     }
   }
 

@@ -35,8 +35,8 @@ const appendImage = (svg, data, images) => {
     .append('image')
     .attr('x', 0)
     .attr('y', 0)
-    .attr('width', size)
-    .attr('height', size)
+    .attr('width', size + 11)
+    .attr('height', size + 11)
     .attr('xlink:href', () => {
       const { id } = data.find(_ => isRootPerson(_));
       const image = findImageById(images, id);
@@ -178,11 +178,11 @@ const render = (root, data, images) => {
 
   if (getWindowWidth() > 1000) {
     ROOT_PERSON_RADIUS = 65;
-    PERSON_RADIUS = 14;
+    PERSON_RADIUS = 18;
 
-    LENGTH_FAMILY = 30;
-    LENGTH_GOVERMENT = 140;
-    LENGTH_DEFAULT = 180;
+    LENGTH_FAMILY = 50;
+    LENGTH_GOVERMENT = 160;
+    LENGTH_DEFAULT = 200;
   }
 
   const svg = d3.select(root).append('svg');
@@ -229,7 +229,7 @@ const render = (root, data, images) => {
       d3
         .forceCollide()
         .radius(d =>
-          isRootPerson(d) ? ROOT_PERSON_RADIUS * 1.75 : PERSON_RADIUS * 1.2
+          isRootPerson(d) ? ROOT_PERSON_RADIUS * 1.75 : PERSON_RADIUS * 2
         )
     )
     .force(
@@ -268,9 +268,7 @@ const render = (root, data, images) => {
             (shorterEdge / 2) * radius
           )
         ) {
-          value *= 1.6;
-        } else {
-          value *= 0.2;
+          value *= 1.8;
         }
 
         return value;
@@ -279,7 +277,7 @@ const render = (root, data, images) => {
     .stop();
 
   // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < 300; ++i) {
+  for (let i = 0; i < 500; ++i) {
     simulation.tick();
   }
 
