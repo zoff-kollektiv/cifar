@@ -12,8 +12,10 @@ placeOfBirth: 'Egypt, Cairo'
 dateOfBirth: 23.01.1963
 countryOfResidence: Egypt
 corruptionLink: government
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Habib el
+familyMembersSubjectToSanctions:
+  - Habib el
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''

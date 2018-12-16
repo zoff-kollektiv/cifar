@@ -1,6 +1,6 @@
 ---
 id: 7
-name: Zuheir Garana
+name: Zuheir Garrana
 sanctionsCountry: Egypt
 fullName: Mohamed Zuheir Mohamed Wahid Garrana
 nativeName: زهير جرانة

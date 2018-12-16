@@ -1,11 +1,11 @@
 ---
 id: 6
-name: Khadiga El Gammal
+name: Khadiga el Gammal
 sanctionsCountry: Egypt
-fullName: Khadiga Mahmoud El Gammal
+fullName: Khadiga Mahmoud el Gammal
 nativeName: خديجة الجمال
 surname: Khadiga
-firstAndMidleNames: Mahmoud El Gammal
+firstAndMidleNames: Mahmoud el Gammal
 aliases:
   - Khadija Mahmoud El-Gammal
   - el Gamal

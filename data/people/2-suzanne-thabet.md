@@ -17,20 +17,19 @@ countryOfResidence: Egypt
 corruptionLink: family
 familyMembers:
   - Hosni Mubarak
-  - Alaa Mohamed Hosni Elsayed Mubarak
-  - Gamal Mohamed Hosni Elsayed
-  - Mohammed Mubarak (deceased)
+  - Alaa Mubarak
+  - Gamal Mubarak
   - Mahmoud Gamal Mubarak
   - Omar Alaa Mubarak
-  - Mounir Sabet
   - Farida Gamal Mubarak
+  - Mounir Sabet
 familyMembersSubjectToSanctions:
   - Hosni Mubarak
-  - Alaa Mohamed Hosni Elsayed Mubarak
-  - Gamal Mohamed Hosni Elsayed
+  - Alaa Mubarak
+  - Gamal Mubarak
 suspectedOrConfirmedOverseasProperties: >-
-  London (Knightsbridge), Paris (Bois de Bologne), Madrid, Marbella (Malaga)
-  Dubai, Washington, D.C., New York Beverly Hills 
+  London, Paris, Marbella (Spain), Dubai, US
+  [Source](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html)
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''

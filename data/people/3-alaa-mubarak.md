@@ -17,22 +17,26 @@ countryOfResidence: Egypt
 corruptionLink: family
 familyMembers:
   - Hosni Mubarak
-  - Suzanne Mubarak
-  - Heidi Rasekh
+  - Suzanne Thabet
+  - Heidy Rasekh
   - Omar Alaa Mubarak
 familyMembersSubjectToSanctions:
   - Hosni Mubarak
-  - Suzanne Mubarak
-  - Heidi Rasekh
+  - Suzanne Thabet
+  - Heidy Rasekh
 suspectedOrConfirmedOverseasProperties: >-
-  London (Knightsbridge), Paris (Bois de Bologne), Madrid, Marbella (Malaga)
-  Dubai, Washington, D.C., New York Beverly Hills 
-suspectedOrConfirmedLinksToLegalEntities: 'Pan World Investments Inc., Brick Nominees Limited'
-suspectedOrConfirmedLinksToBankAccounts: ''
+  London, Paris, Marbella (Spain), Dubai, US
+  [Source](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html)
+suspectedOrConfirmedLinksToLegalEntities: >-
+  Pan World Investments Inc., Brick Nominees Limited [Source
+  1](https://offshoreleaks.icij.org/nodes/10062310) 
+suspectedOrConfirmedLinksToBankAccounts: >-
+  Mubarak’s sons suspected of holding $340 million in Switzerland
+  [Source](https://www.theguardian.com/world/2011/oct/17/mubarak-sons-swiss-bank-accounts)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
-  300 million of frozen Swiss francs were said to belong to Mubarak’s sons Alaa
-  and Gamal
+  Mubarak’s sons suspected of holding $340 million in Switzerland
+  [Source](https://www.theguardian.com/world/2011/oct/17/mubarak-sons-swiss-bank-accounts)
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |

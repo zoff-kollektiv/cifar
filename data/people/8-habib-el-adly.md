@@ -2,21 +2,23 @@
 id: 8
 name: Habib el-Adly
 sanctionsCountry: Egypt
-fullName: Habib Ibrahim Habib Eladli
-nativeName: حبيب إبراهيم العادلي‎
+fullName: Habib Ibrahim Habib el-Adly
+nativeName: حبيب العادلي
 surname: Habib
-firstAndMidleNames: Ibrahim Habib  Eladli
+firstAndMidleNames: Ibrahim Habib el-Adly
 aliases:
   - Habib Ibrahim Habib al-Adli
   - al-Adly
-  - el-Adly
+  - Eladlii
 identifyingInformation: Former Minister of Interior
 placeOfBirth: 'Egypt, Sharqiya Governorate'
 dateOfBirth: 01.03.1938
 countryOfResidence: Egypt
 corruptionLink: government
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Elham Sharshar
+familyMembersSubjectToSanctions:
+  - Elham Sharshar
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''

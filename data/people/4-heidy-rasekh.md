@@ -16,7 +16,6 @@ corruptionLink: family
 familyMembers:
   - Alaa Mubarak
   - Omar Alaa Mubarak
-  - Mohammed Mubarak (deceased)
 familyMembersSubjectToSanctions:
   - Alaa Mubarak
 suspectedOrConfirmedOverseasProperties: ''
