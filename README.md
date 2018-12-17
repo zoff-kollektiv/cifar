@@ -36,3 +36,8 @@ each commit, all staged files are linted automatically.
 ```
 npm run build
 ```
+
+## Import people
+
+All people are currently fetched from a google spreadsheet. To re-import the data
+run `node scripts/import-persons.js` and commit the updated markdown files.
