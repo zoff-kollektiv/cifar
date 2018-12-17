@@ -1,5 +1,4 @@
 ---
-slug: all
 title: All people
 ---
 Following the revolutions in 2011 and 2014 in Tunisia, Egypt, and Ukraine, the
