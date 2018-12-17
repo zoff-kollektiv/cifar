@@ -32,8 +32,8 @@ export default () => (
         Report
       </Link>
 
-      <Link to="/about/" className={navLinkStyles.className}>
-        About
+      <Link to="/sanctions/" className={navLinkStyles.className}>
+        Sanctions
       </Link>
     </nav>
   </header>

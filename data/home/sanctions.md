@@ -1,7 +1,7 @@
 ---
 title: How do misappropriation sanctions work?
 buttonLabel: Find out more
-buttonLink: /about/
+buttonLink: /sanctions/
 sort: 1
 ---
 Following the revolutions in 2011 in Tunisia and Egypt and 2014 in Ukraine, the
