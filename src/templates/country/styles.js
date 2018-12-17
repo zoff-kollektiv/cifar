@@ -62,4 +62,8 @@ export default css`
       line-height: 1.58;
     }
   }
+
+  :global(.intro a) {
+    color: currentColor;
+  }
 `;
