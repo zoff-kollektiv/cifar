@@ -24,12 +24,16 @@ export default () => (
         People
       </Link>
 
+      <Link to="/guidelines/" className={navLinkStyles.className}>
+        Guidelines
+      </Link>
+
       <Link to="/report/" className={navLinkStyles.className}>
         Report
       </Link>
 
-      <Link to="/about/" className={navLinkStyles.className}>
-        About
+      <Link to="/sanctions/" className={navLinkStyles.className}>
+        Sanctions
       </Link>
     </nav>
   </header>

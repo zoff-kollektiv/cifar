@@ -1,20 +1,20 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 
-import About from '../../components/about';
+import Page from '../../components/page';
 import withLayout from '../../components/with-layout';
 import withNavigation from '../../components/with-navigation';
 
-const Page = ({ data: { site, page } }) => <About site={site} {...page} />;
-
-export default withNavigation(withLayout(Page));
+export default withNavigation(
+  withLayout(({ data: { site, page } }) => <Page site={site} {...page} />)
+);
 
 export const query = graphql`
   query {
     page: markdownRemark(
-      fields: { folder: { eq: "pages" }, fileName: { eq: "about.md" } }
+      fields: { folder: { eq: "pages" }, fileName: { eq: "guidelines.md" } }
     ) {
-      ...about
+      ...page
     }
 
     site: site {

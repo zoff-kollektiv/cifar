@@ -1,6 +1,6 @@
 ---
 id: 7
-name: Zuheir Garana
+name: Zuheir Garrana
 sanctionsCountry: Egypt
 fullName: Mohamed Zuheir Mohamed Wahid Garrana
 nativeName: زهير جرانة
@@ -24,13 +24,13 @@ suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: '0'
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011
 ---
 Minister of Tourism since 2005 until the revolution in January 2011. Garana has 
-been arrested together with Mubarak and  other ministers of government, some of 
+been arrested together with Mubarak and other ministers of government, some of 
 whom are not subject to sanctions anymore.  He has been sentenced to five years 
 in prison for letting two businessmen buy state land illegally. 
-https://www.voanews.com/a/egypts-former-tourism-minister-gets-5-years-for-corruption-121573429/158072.html  
+[Source](https://www.voanews.com/a/egypts-former-tourism-minister-gets-5-years-for-corruption-121573429/158072.html)  

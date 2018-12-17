@@ -33,7 +33,7 @@ familyMembers:
   - Liudmyla Oleksandrivna Yanukovych
   - Viktor Viktorovych Yanukovych
 familyMembersSubjectToSanctions:
-  - Viktor Fedorovych Yanukovych
+  - Viktor Yanukovych
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-
   "KOMPLEKS DRUZHBA" PJSC , energoinvest holding, "Mako Invest" llc,

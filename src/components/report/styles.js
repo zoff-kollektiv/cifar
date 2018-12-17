@@ -122,8 +122,11 @@ export default css`
     margin-top: -0.75rem;
   }
 
-  :global(.report-content .footnote-link) {
+  :global(.report-content a) {
     color: currentColor;
+  }
+
+  :global(.report-content .footnote-link) {
     font-size: 0.8rem;
     font-weight: 900;
     letter-spacing: 0.05rem;
@@ -142,6 +145,75 @@ export default css`
   :global(.report-content .footnote-link:hover),
   :global(.report-content .footnote-link:focus) {
     text-decoration: underline;
+  }
+
+  :global(.report-content dl) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  :global(.report-content dt),
+  :global(.report-content dd) {
+    padding: 0.35rem 0.5rem;
+  }
+
+  @media ${mq.phone} {
+    :global(.report-content dt),
+    :global(.report-content dd) {
+      padding: 1rem;
+    }
+  }
+
+  :global(.report-content dt) {
+    background-color: ${colors.blue};
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+    flex: 0 1 auto;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  @supports (font-variation-settings: normal) {
+    :global(.report-content dt) {
+      font-variation-settings: 'wght' 700;
+      font-weight: inherit;
+    }
+  }
+
+  @media ${mq.phone} {
+    :global(.report-content dt) {
+      border-bottom: 2px solid ${colors.beige};
+      font-size: 0.9rem;
+      padding-top: 1.25rem;
+      width: 40%;
+    }
+  }
+
+  :global(.report-content dd) {
+    border: 2px solid ${colors.blue};
+    flex: 1 1 50%;
+    font-size: 1rem;
+    margin-left: 0;
+    margin-bottom: 4px;
+  }
+
+  @media ${mq.phone} {
+    :global(.report-content dd) {
+      font-size: 1.125rem;
+      margin-bottom: 0;
+      margin-top: -2px;
+    }
+  }
+
+  :global(.report-content dt:last-of-type) {
+    border-bottom-color: ${colors.blue};
+  }
+
+  :global(.report-content dd:first-of-type) {
+    margin-top: 0;
   }
 
   .footnote {

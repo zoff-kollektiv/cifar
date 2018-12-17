@@ -40,16 +40,16 @@ export default ({
           <h2>Footnotes</h2>
 
           <ol className="footnotes">
-            {footnotes.map(({ number, footnote }) => (
+            {footnotes.map(({ index, footnote }) => (
               <li
                 className="footnote"
-                id={`footnote-${number}`}
-                key={`footnote-${number}`}
+                id={`footnote-${index}`}
+                key={`footnote-${index}`}
               >
                 {/* eslint-disable-next-line react/no-danger */}
                 <span dangerouslySetInnerHTML={{ __html: footnote }} />
                 <a
-                  href={`#footnote-link-${number}`}
+                  href={`#footnote-link-${index}`}
                   aria-label="Back to content"
                   className="footnote-back"
                 >

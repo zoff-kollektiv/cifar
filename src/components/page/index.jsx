@@ -6,7 +6,7 @@ import Constraint from '../constraint';
 import styles from './styles';
 
 export default ({ site, frontmatter: { title }, html }) => (
-  <div className="about">
+  <div className="page">
     <Helmet>
       <title>
         {title} | {site.siteMetadata.title}
@@ -20,7 +20,7 @@ export default ({ site, frontmatter: { title }, html }) => (
 
       {/* eslint-disable react/no-danger */}
       <div
-        className="about-content"
+        className="page-content"
         dangerouslySetInnerHTML={{ __html: html }}
       />
       {/* eslint-enable react/no-danger */}
@@ -29,7 +29,7 @@ export default ({ site, frontmatter: { title }, html }) => (
 );
 
 export const fragment = graphql`
-  fragment about on MarkdownRemark {
+  fragment page on MarkdownRemark {
     frontmatter {
       title
     }

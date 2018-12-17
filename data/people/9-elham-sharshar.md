@@ -12,14 +12,16 @@ placeOfBirth: 'Egypt, Cairo'
 dateOfBirth: 23.01.1963
 countryOfResidence: Egypt
 corruptionLink: government
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Habib el
+familyMembersSubjectToSanctions:
+  - Habib el
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: '0'
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011

@@ -30,7 +30,7 @@ familyMembers:
   - Illia Viktorovych Yanukovych
   - Olha Stanislavivna Yanukovych
 familyMembersSubjectToSanctions:
-  - Oleksandr Viktorovych Yanukovych
+  - Oleksandr Yanukovych
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-
   Bitkeep Development llp, Leolita trading Ltd, Aero Holdings Limited, LIMITED

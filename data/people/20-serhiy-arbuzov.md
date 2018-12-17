@@ -31,9 +31,9 @@ familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-
   ТОВ "ДЕНТ-СЕРВІС" , ТОВ "ПРИВАТТУР" ,  ηε,   Newlight Import s.a, Katiema
-  Enterprises Limited , Loricom Holding Group , foxtron networks limited ,
-  Wonderbliss Ltd , Sabulong Trading ltd , Kviten Solution Limited , Baleingate
-  Finance Limited , akemi management limited , Quickpace Limited , Opalcore ltd 
+  Enterprises Limited , Loricom Holding Group , foxtron networks ltd ,
+  Wonderbliss Ltd , Sabulong Trading ltd , Kviten Solution ltd , Baleingate
+  Finance ltd , akemi management ltd , Quickpace Limited , Opalcore ltd 
 suspectedOrConfirmedLinksToBankAccounts: >-
   Latvian bank accounts
   [Source](https://en.interfax.com.ua/news/press-conference/313396.html)

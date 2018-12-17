@@ -1,11 +1,11 @@
 ---
 id: 6
-name: Khadiga El Gammal
+name: Khadiga el Gammal
 sanctionsCountry: Egypt
-fullName: Khadiga Mahmoud El Gammal
+fullName: Khadiga Mahmoud el Gammal
 nativeName: خديجة الجمال
 surname: Khadiga
-firstAndMidleNames: Mahmoud El Gammal
+firstAndMidleNames: Mahmoud el Gammal
 aliases:
   - Khadija Mahmoud El-Gammal
   - el Gamal
@@ -27,12 +27,12 @@ suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: '0'
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011
 ---
-Khadiga, the wife of Gama Mubarak and 20-years his junior received a degree in 
+Khadiga, the wife of Gamal Mubarak and 20-years his junior received a degree in 
 business administration from the American University in Cairo, where she has met 
 Gamal Mubarak during a conference in 2006. Together they have two children, son 
 Mahmoud Gamal Mubarak  and a daughter Farida Gamal Mubarak.

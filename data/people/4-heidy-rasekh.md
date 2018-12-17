@@ -16,7 +16,6 @@ corruptionLink: family
 familyMembers:
   - Alaa Mubarak
   - Omar Alaa Mubarak
-  - Mohammed Mubarak (deceased)
 familyMembersSubjectToSanctions:
   - Alaa Mubarak
 suspectedOrConfirmedOverseasProperties: ''
@@ -24,7 +23,7 @@ suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: '0'
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011
@@ -37,5 +36,5 @@ Another alleged scheme of illicit enrichment of Mubarak's family happened when
 Heidi Rasekh reportedly bought land from the New Urban Communities Authority in 
 Sharm El-Sheikh in 2005 that was registered as 1000 square meters for LE1 
 million. The plot actually comprises 5000 square meters and is worth LE8 
-million, 
+million. 
 [Source](https://www.egyptindependent.com/prosecution-mubarak-and-family-amassed-le9-billion/) 
