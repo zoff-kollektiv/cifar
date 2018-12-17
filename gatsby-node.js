@@ -236,7 +236,10 @@ exports.onCreateNode = ({ node, actions }) => {
       'startOfSanctions',
       'suspectedOrConfirmedOverseasProperties',
       'estimatesOfAssetsFrozenOrConfiscated',
-      'suspectedOrConfirmedLinksToBankAccounts'
+      'suspectedOrConfirmedLinksToBankAccounts',
+      'suspectedOrConfirmedLinksToLegalEntities',
+      'suspectedOrConfirmedLinksToOtherAssets',
+      'estimatesOfAssetsReturned'
     ].forEach(key => {
       if (node.frontmatter && node.frontmatter[key]) {
         // eslint-disable-next-line no-param-reassign
