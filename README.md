@@ -31,8 +31,29 @@ npm run develop
 You can manually lint all `js` and `jsx` files by running `npm run lint`. Before
 each commit, all staged files are linted automatically.
 
+### Release process
+
+This project follows `git-flow`.
+
+1. Create a release branch from `develop` and name it `release/[version]`.
+2. Create PR, wait for builds to be green.
+3. Merge `release/[version]` into master.
+4. `git tag [version]`
+5. `git push --tags`
+6. Update release description on github
+7. Merge `master` into `develop`
+
 ## Production build
 
 ```
 npm run build
 ```
+
+## Import people
+
+All people are currently fetched from a google spreadsheet. To re-import the data
+run `node scripts/import-persons.js` and commit the updated markdown files.
+
+The import will omit the following values: `Unknown`, `Unkown`, `.`. All column
+headers will be transformed into a proper key. The original translation is
+stored in `data/translations/columns.json`.

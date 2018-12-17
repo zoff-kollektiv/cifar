@@ -27,7 +27,10 @@ const Page = ({
     {current && (
       <Constraint>
         <h1 className="title">{current.edges[0].node.frontmatter.title}</h1>
-        <p className="intro">{current.edges[0].node.rawMarkdownBody}</p>
+        <div
+          className="intro"
+          dangerouslySetInnerHTML={{ __html: current.edges[0].node.html }}
+        />
       </Constraint>
     )}
 
