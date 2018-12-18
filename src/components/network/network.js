@@ -168,7 +168,7 @@ const render = (root, data, images) => {
   root.innerHTML = '';
 
   if (getWindowWidth() > 500) {
-    ROOT_PERSON_RADIUS = 65;
+    ROOT_PERSON_RADIUS = 60;
     PERSON_RADIUS = 12;
 
     LENGTH_FAMILY = 15;
@@ -177,10 +177,7 @@ const render = (root, data, images) => {
   }
 
   if (getWindowWidth() > 1000) {
-    ROOT_PERSON_RADIUS = 65;
-    PERSON_RADIUS = 18;
-
-    LENGTH_FAMILY = 50;
+    LENGTH_FAMILY = 30;
     LENGTH_GOVERMENT = 160;
     LENGTH_DEFAULT = 200;
   }
@@ -222,14 +219,13 @@ const render = (root, data, images) => {
 
   const simulation = d3
     .forceSimulation(data)
-    .force('charge', d3.forceManyBody().strength(-100))
     .force('center', d3.forceCenter(width / 2, height / 2))
     .force(
       'collide',
       d3
         .forceCollide()
         .radius(d =>
-          isRootPerson(d) ? ROOT_PERSON_RADIUS * 1.75 : PERSON_RADIUS * 2
+          isRootPerson(d) ? ROOT_PERSON_RADIUS * 1.5 : PERSON_RADIUS * 4.75
         )
     )
     .force(
@@ -245,7 +241,7 @@ const render = (root, data, images) => {
         }
 
         if (getWindowWidth() > 1000) {
-          radius = 0.75;
+          radius = 0.85;
         }
 
         switch (d.source.corruptionLink) {
@@ -268,7 +264,7 @@ const render = (root, data, images) => {
             (shorterEdge / 2) * radius
           )
         ) {
-          value *= 1.8;
+          value *= 1.35;
         }
 
         return value;
@@ -277,7 +273,7 @@ const render = (root, data, images) => {
     .stop();
 
   // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < 500; ++i) {
+  for (let i = 0; i < 300; ++i) {
     simulation.tick();
   }
 
