@@ -7,20 +7,24 @@ nativeName: سليم زروق
 surname: Zarrouk
 firstAndMidleNames: Slim Ben Mohamed Salah Ben Ahmed
 aliases: []
-identifyingInformation: ''
-placeOfBirth: ''
-dateOfBirth: ''
+identifyingInformation: Son-in-law of Zine El Abidine Ben Ali
+placeOfBirth: 'Tunisia, Tunis'
+dateOfBirth: 13.08.1960
 countryOfResidence: ''
 corruptionLink: family
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Ghazoua Ben Ali
+familyMembersSubjectToSanctions:
+  - Ghazoua Ben Ali
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-
+Son-in-law of former President Ben Ali, married to also sanctioned Ghazoua Ben 
+Ali. Born in Tunis 13 August 1960, son of Maherzia Guedira.Formerly a CEO, 
+residing at 49 avenue Habib Bourguiba, Carthage.

@@ -7,20 +7,28 @@ nativeName: بلحسن الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Belhassen Ben Mohamed Ben Rhouma
 aliases: []
-identifyingInformation: businessman
-placeOfBirth: ''
-dateOfBirth: ''
+identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
+placeOfBirth: 'Tunisia, Tunis'
+dateOfBirth: 05.11.1962
 countryOfResidence: ''
 corruptionLink: family
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Leila Trabelsi
+  - Mohamed Fares Trabelsi
+  - Zaina Trabelsi
+  - Asma Trabelsi
+  - Syrine Trabelsi
+  - Soufia Trabelsi
+familyMembersSubjectToSanctions:
+  - Leila Trabelsi
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-
+Brother-in-law of Zine El Abidine Ben Ali is a businessman. Born in Tunis on 5 
+November 1962 to Saida Dherif.

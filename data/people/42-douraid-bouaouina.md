@@ -10,19 +10,26 @@ aliases:
   - Doraid
   - Douraïd Bouaouina
 identifyingInformation: Nephew of Zine El Abidine Ben Ali
-placeOfBirth: ''
-dateOfBirth: 26.04.1950
+placeOfBirth: 'Tunisia, Hammam Sousse'
+dateOfBirth: 08.10.1978
 countryOfResidence: ''
 corruptionLink: family
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Hayet Ben Ali
+  - Ghazoua Bouaouina
+  - Akrem Bouaouina
+familyMembersSubjectToSanctions:
+  - Hayet Ben Ali
+  - Ghazoua Bouaouina
+  - Akrem Bouaouina
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-
+Nephew of Zine El Abidine Ben Ali and a son of Hayet Ben Ali. Born in Hammam - 
+Sousse on 8 October 1978, he used to be a company director. 

@@ -9,19 +9,34 @@ firstAndMidleNames: Cyrine Bent Zine El Abidine Ben Haj Hamda
 aliases:
   - Sirine Ben Ali
 identifyingInformation: Daughter of Zine El Abidine Ben Ali
-placeOfBirth: ''
-dateOfBirth: ''
+placeOfBirth: 'Tunisia, Le Bardo'
+dateOfBirth: 21.08.1971
 countryOfResidence: ''
 corruptionLink: family
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Zine El Abidine Ben Ali
+  - Naima Kefi
+  - Marouane Mabrouk
+  - Nesrine Ben Ali
+  - Halima Ben Ali
+  - Dorsaf Ben Ali
+  - Ghazoua Ben Ali
+familyMembersSubjectToSanctions:
+  - Zine El Abidine Ben Ali
+  - Marouane Mabrouk
+  - Nesrine Ben Ali
+  - Halima Ben Ali
+  - Dorsaf Ben Ali
+  - Ghazoua Ben Ali
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-
+Daughter of former President Ben Ali from his first marriage with Naima el Keli, 
+wife of also sanctioned Marouene Mabrouk. Adviser at the Ministry of Foreign 
+Affairs 

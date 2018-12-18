@@ -7,20 +7,31 @@ nativeName: محمد الناصر الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Mohamed Naceur Ben Mohamed Ben Rhouma
 aliases: []
-identifyingInformation: ''
-placeOfBirth: ''
+identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
+placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 24.06.1948
 countryOfResidence: ''
 corruptionLink: family
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Leila Trabelsi
+  - Imed Trabelsi
+  - Houssem Trabelsi
+  - Yosra Trabelsi
+  - Rhouma Trabelsi
+  - Amine Trabelsi
+familyMembersSubjectToSanctions:
+  - Leila Trabelsi
+  - Imed Trabelsi
+  - Houssem Trabelsi
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-Acting manager of an agricultural undertaking
+Brother-in-law of Zine El Abidine Ben Ali, married to Nadia Makni. Born in Tunis 
+on 24 June 1948 to Saida Dherif. Mohamed Naceur used to be the acting manager of 
+an agricultural undertaking.

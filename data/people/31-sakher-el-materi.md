@@ -6,21 +6,26 @@ fullName: Fahd Mohamed Sakher Ben Moncef Ben Mohamed Hfaiez Materi
 nativeName: صخر الماطري
 surname: Materi
 firstAndMidleNames: Fahd Mohamed Sakher Ben Moncef Ben Mohamed Hfaiez
-aliases: []
+aliases:
+  - Sakhr El Materi
 identifyingInformation: Son-in-law of Zine El Abidine Ben Ali
-placeOfBirth: ''
+placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 02.12.1981
 countryOfResidence: ''
 corruptionLink: family
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Nesrine Ben Ali
+familyMembersSubjectToSanctions:
+  - Nesrine Ben Ali
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-Married to Nesrine Ben Ali
+Sakher El Materi was born in Tunis on 2 December 1981 to Naïma Boutiba. He is 
+married to Nesrine Ben Ali, daughter of Zine El Abidine Ben Ali and Laila 
+Trabelsi.

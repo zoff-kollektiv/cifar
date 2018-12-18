@@ -39,7 +39,7 @@ suspectedOrConfirmedLinksToBankAccounts: >-
   [Source](https://en.interfax.com.ua/news/press-conference/313396.html)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: .
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---

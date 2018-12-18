@@ -7,9 +7,9 @@ nativeName: نبيل الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Nabil Ben Abderrazek Ben Mohamed
 aliases: []
-identifyingInformation: ''
+identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
 placeOfBirth: ''
-dateOfBirth: ''
+dateOfBirth: 20.12.1965
 countryOfResidence: ''
 corruptionLink: family
 familyMembers: []
@@ -19,8 +19,9 @@ suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-
+Born on 20 December 1965, son of Radhia Mathlouthi, married to Linda Cherni. 
+Office worker at Tunisair, resided at 12 rue Taieb Mhiri, Le Kram.

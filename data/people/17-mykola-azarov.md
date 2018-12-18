@@ -30,7 +30,7 @@ suspectedOrConfirmedLinksToBankAccounts: >-
   [Source](https://www.pressreader.com/ukraine/kyiv-post/20170210/281694024525834)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: .
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---

@@ -8,7 +8,8 @@ fullName: Zine El Abidine Ben Haj Hamda Ben Haj Hassen Ben Ali
 nativeName: زين العابدين بن علي‎
 surname: Ben Ali
 firstAndMidleNames: Zine El Abidine Ben Haj Hamda Ben Haj Hassen
-aliases: []
+aliases:
+  - Zine al-Abidine Ben Ali
 identifyingInformation: Former president
 placeOfBirth: 'Tunisia, Hammam Sousse'
 dateOfBirth: 03.09.1936
@@ -33,8 +34,9 @@ suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-
+Ex-president of Tunisia was born in Hamman-Sousse 3 September 1936. Married to 
+Leïla Trabelsi.
