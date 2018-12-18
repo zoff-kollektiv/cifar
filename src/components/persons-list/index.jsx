@@ -83,7 +83,9 @@ export default class PersonList extends Component {
           {viewIconStyles.styles}
 
           <div className="filter-container">
-            {showFilter && <Filter filterFn={this.updateNameFilter} />}
+            {showFilter && (
+              <Filter filterFn={name => this.updateNameFilter(name)} />
+            )}
 
             {showGraphSwitch && (
               <div className="view">
@@ -122,15 +124,13 @@ export default class PersonList extends Component {
 
           {!showGraph && (
             <ul className="person-list">
-              {persons &&
-                persons.length > 0 &&
-                persons.map(({ node }) => (
-                  <Person
-                    key={node.frontmatter.name}
-                    image={findImageById(images.edges, node.frontmatter.id)}
-                    {...node}
-                  />
-                ))}
+              {persons.map(({ node }) => (
+                <Person
+                  key={node.frontmatter.name}
+                  image={findImageById(images.edges, node.frontmatter.id)}
+                  {...node}
+                />
+              ))}
             </ul>
           )}
         </Constraint>
