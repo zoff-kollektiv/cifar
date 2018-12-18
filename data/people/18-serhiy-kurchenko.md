@@ -102,7 +102,7 @@ estimatesOfAssetsFrozenOrConfiscated: >-
   1](https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
   80 million USD held in Latvian bank accounts [Source
   2](https://www.occrp.org/en/daily/4545-ukraine-kyiv-court-seizes-billionaire-kurchenko-s-14-offshore-accounts)
-estimatesOfAssetsReturned: .
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---

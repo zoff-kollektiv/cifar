@@ -10,16 +10,18 @@ aliases: []
 identifyingInformation: Son-in-law of Zine El Abidine Ben Ali
 placeOfBirth: Tunisa
 dateOfBirth: 13.01.1959
-countryOfResidence: 'Libya, United Arab Emirates'
+countryOfResidence: Libya / United Arab Emirates
 corruptionLink: family
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Dorsaf Ben Ali
+familyMembersSubjectToSanctions:
+  - Dorsaf Ben Ali
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---

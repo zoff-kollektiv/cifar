@@ -12,14 +12,27 @@ placeOfBirth: Tunisia
 dateOfBirth: 05.07.1965
 countryOfResidence: ''
 corruptionLink: family
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Zine El Abidine Ben Ali
+  - Naima Kefi
+  - Slim Chiboub
+  - Nesrine Ben Ali
+  - Halima Ben Ali
+  - Ghazoua Ben Ali
+  - Cyrine Ben Ali
+familyMembersSubjectToSanctions:
+  - Zine El Abidine Ben Ali
+  - Slim Chiboub
+  - Nesrine Ben Ali
+  - Halima Ben Ali
+  - Ghazoua Ben Ali
+  - Cyrine Ben Ali
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
-suspectedOrConfirmedLinksToOtherAssets: Unclear
-estimatesOfAssetsFrozenOrConfiscated: Unclear
-estimatesOfAssetsReturned: Unclear
+suspectedOrConfirmedLinksToOtherAssets: ''
+estimatesOfAssetsFrozenOrConfiscated: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---

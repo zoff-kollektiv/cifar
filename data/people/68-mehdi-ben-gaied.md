@@ -7,19 +7,21 @@ nativeName: مهدي بن قايد
 surname: Ben Gaied
 firstAndMidleNames: Mehdi Ben Ridha Ben Mohamed
 aliases: []
-identifyingInformation: ''
+identifyingInformation: Son-in-law of Zine El Abidine Ben Ali
 placeOfBirth: ''
-dateOfBirth: ''
+dateOfBirth: 29.01.1988
 countryOfResidence: ''
 corruptionLink: family
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Halime Ben Ali
+familyMembersSubjectToSanctions:
+  - Halime Ben Ali
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---

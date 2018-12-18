@@ -7,20 +7,30 @@ nativeName: حياة بن علي
 surname: Ben Ali
 firstAndMidleNames: Hayet Bent Haj Hamda Ben Haj Hassen
 aliases: []
-identifyingInformation: ''
-placeOfBirth: ''
-dateOfBirth: ''
+identifyingInformation: Sister of Zine El Abidine Ben Ali
+placeOfBirth: 'Tunisia, Hammam Sousse'
+dateOfBirth: 16.05.1952
 countryOfResidence: ''
 corruptionLink: family
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Zine El Abidine Ben Ali
+  - Akrem Bouaouina
+  - Douraid Bouaouina
+  - Ghazoua Bouaouina
+familyMembersSubjectToSanctions:
+  - Zine El Abidine Ben Ali
+  - Akrem Bouaouina
+  - Douraid Bouaouina
+  - Ghazoua Bouaouina
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-
+Sister of Zine el Abidine Ben Ali, born in Hammam-Sousse on 16 May 1952. Married 
+to Fathi Refat. Former resifential address at 17 avenue de la République, 
+Hammam-Sousse.

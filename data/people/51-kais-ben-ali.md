@@ -7,20 +7,31 @@ nativeName: قيس بن علي
 surname: Ben Ali
 firstAndMidleNames: Kaïs Ben Slaheddine Ben Haj Hamda
 aliases: []
-identifyingInformation: ''
-placeOfBirth: ''
-dateOfBirth: ''
+identifyingInformation: Nephew of Zine El Abidine Ben Ali
+placeOfBirth: 'Tunisia, Tunis'
+dateOfBirth: 21.10.1969
 countryOfResidence: ''
 corruptionLink: family
-familyMembers: []
-familyMembersSubjectToSanctions: []
+familyMembers:
+  - Slaheddine Ben Ali
+  - Nejet Ben Ali
+  - Nejmeddine Ben Ali
+  - Hamda Ben Ali
+familyMembersSubjectToSanctions:
+  - Slaheddine Ben Ali
+  - Nejet Ben Ali
+  - Nejmeddine Ben Ali
+  - Hamda Ben Ali
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: ''
+estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-
+Nephew of Zine El Abidine Ben Ali, born in Tunis 21 October 1969, son of Selma 
+MANSOUR, married to Monia CHEDLI. Managing director, residing at avenue Hédi 
+Nouira — Monastir. 
+[Source](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011D0072-20170128)
