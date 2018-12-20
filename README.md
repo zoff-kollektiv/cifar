@@ -15,6 +15,9 @@ directory, as if contains most of the displayed texts.
 General site data, such as the twitter/ facebook link or the page title is
 located in `gatsby-config.js`.
 
+All pages can contain markdown in the body text. Some frontmatter fields of a
+person can also contain markdown. Supported fields: [gatsby-node.js](./gatsby-node.js#L234).
+
 ### Report
 
 The report (located in `data/pages/report.md`) is capable of rendering
