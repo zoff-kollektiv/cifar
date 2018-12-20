@@ -25,6 +25,8 @@ const filterPersonsByName = (persons, name) => {
     return persons;
   }
 
+  const lowerCaseName = name.toLowerCase();
+
   return persons.filter(
     ({
       node: {
@@ -36,10 +38,10 @@ const filterPersonsByName = (persons, name) => {
         }
       }
     }) =>
-      personName.includes(name) ||
-      nativeName.includes(name) ||
-      firstAndMidleNames.includes(name) ||
-      aliases.find(alias => alias.includes(name))
+      personName.toLowerCase().includes(lowerCaseName) ||
+      nativeName.toLowerCase().includes(lowerCaseName) ||
+      firstAndMidleNames.toLowerCase().includes(lowerCaseName) ||
+      aliases.find(alias => alias.toLowerCase().includes(lowerCaseName))
   );
 };
 
