@@ -7,7 +7,7 @@ nativeName: نسرين بن علي‎
 surname: Ben Ali
 firstAndMidleNames: Nesrine Bent Zine El Abidine Ben Haj Hamda
 aliases: []
-identifyingInformation: Daughter of Zine El Abidine Ben Ali
+identifyingInformation: Daughter of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 16.01.1987
 countryOfResidence: ''

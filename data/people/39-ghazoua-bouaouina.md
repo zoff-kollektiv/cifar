@@ -7,7 +7,7 @@ nativeName: غزوة بوعوينة
 surname: Bouaouina
 firstAndMidleNames: Ghazoua Ben Hamed Ben Taher
 aliases: []
-identifyingInformation: Niece of Zine El Abidine Ben Ali
+identifyingInformation: Niece of Ben Ali
 placeOfBirth: 'Tunisia, Montasir'
 dateOfBirth: 30.08.1982
 countryOfResidence: ''

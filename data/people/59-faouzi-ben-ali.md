@@ -7,7 +7,7 @@ nativeName: فوزي بن علي
 surname: Ben Ali
 firstAndMidleNames: Faouzi Ben Haj Hamda Ben Haj Hassen
 aliases: []
-identifyingInformation: Brother of Zine El Abidine Ben Ali
+identifyingInformation: Brother of Ben Ali
 placeOfBirth: 'Tunisia, Hammam Sousse'
 dateOfBirth: 13.03.1947
 countryOfResidence: ''

@@ -7,7 +7,7 @@ nativeName: مهدي بن علي
 surname: Ben Ali
 firstAndMidleNames: Mehdi Ben Tijani Ben Haj Hamda Ben Haj Hassen
 aliases: []
-identifyingInformation: Nephew of Zine El Abidine Ben Ali
+identifyingInformation: Nephew of Ben Ali
 placeOfBirth: 'France, Paris'
 dateOfBirth: 27.10.1966
 countryOfResidence: Tunisia

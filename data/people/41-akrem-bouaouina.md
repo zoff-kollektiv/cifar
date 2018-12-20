@@ -7,7 +7,7 @@ nativeName: اكرم بوعوينة
 surname: Bouaouina
 firstAndMidleNames: Akrem Ben Hamed Ben Taher
 aliases: []
-identifyingInformation: Nephew of Zine El Abidine Ben Ali
+identifyingInformation: Nephew of Ben Ali
 placeOfBirth: 'Tunisia, Hammam Sousse'
 dateOfBirth: 09.08.1977
 countryOfResidence: ''

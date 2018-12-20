@@ -8,7 +8,7 @@ surname: Ben Zakir
 firstAndMidleNames: Habib Ben Kaddour Ben Mustapha Ben
 aliases:
   - Habib Zakik
-identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Brother-in-law of Ben Ali
 placeOfBirth: Tunisia
 dateOfBirth: 05.03.1957
 countryOfResidence: ''

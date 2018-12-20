@@ -7,7 +7,7 @@ nativeName: محمد الناصر الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Mohamed Naceur Ben Mohamed Ben Rhouma
 aliases: []
-identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Brother-in-law of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 24.06.1948
 countryOfResidence: ''

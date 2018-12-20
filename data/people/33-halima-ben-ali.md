@@ -7,7 +7,7 @@ nativeName: حليمة بن علي
 surname: Ben Ali
 firstAndMidleNames: Halima Bent Zine El Abidine Ben Haj Hamda
 aliases: []
-identifyingInformation: Daughter of Zine El Abidine Ben Ali
+identifyingInformation: Daughter of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 17.07.1992
 countryOfResidence: Seychelles

@@ -7,7 +7,7 @@ nativeName: سليم زروق
 surname: Zarrouk
 firstAndMidleNames: Slim Ben Mohamed Salah Ben Ahmed
 aliases: []
-identifyingInformation: Son-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Son-in-law of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 13.08.1960
 countryOfResidence: ''

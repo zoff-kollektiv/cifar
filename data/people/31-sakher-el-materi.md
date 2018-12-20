@@ -8,7 +8,7 @@ surname: Materi
 firstAndMidleNames: Fahd Mohamed Sakher Ben Moncef Ben Mohamed Hfaiez
 aliases:
   - Sakhr El Materi
-identifyingInformation: Son-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Son-in-law of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 02.12.1981
 countryOfResidence: ''

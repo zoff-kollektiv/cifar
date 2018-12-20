@@ -7,7 +7,7 @@ nativeName: حياة بن علي
 surname: Ben Ali
 firstAndMidleNames: Hayet Bent Haj Hamda Ben Haj Hassen
 aliases: []
-identifyingInformation: Sister of Zine El Abidine Ben Ali
+identifyingInformation: Sister of Ben Ali
 placeOfBirth: 'Tunisia, Hammam Sousse'
 dateOfBirth: 16.05.1952
 countryOfResidence: ''

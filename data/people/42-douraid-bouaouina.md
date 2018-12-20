@@ -9,7 +9,7 @@ firstAndMidleNames: Douraied Ben Hamed Ben Taher
 aliases:
   - Doraid
   - Douraïd Bouaouina
-identifyingInformation: Nephew of Zine El Abidine Ben Ali
+identifyingInformation: Nephew of Ben Ali
 placeOfBirth: 'Tunisia, Hammam Sousse'
 dateOfBirth: 08.10.1978
 countryOfResidence: ''

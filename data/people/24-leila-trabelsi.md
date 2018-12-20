@@ -1,6 +1,6 @@
 ---
 id: 24
-name: Leïla Trabelsi
+name: Leila Trabelsi
 sanctionsCountry: Tunisia
 fullName: Leila Bent Mohamed Ben Rhouma Trabelsi
 nativeName: ليلى الطرابلسي
@@ -8,7 +8,7 @@ surname: Trabelsi
 firstAndMidleNames: Leila Bent Mohamed Ben Rhouma
 aliases:
   - Leïla Ben Ali
-identifyingInformation: Spouse of Zine El Abidine Ben Ali
+identifyingInformation: Spouse of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 24.10.1956
 countryOfResidence: Saudi Arabia

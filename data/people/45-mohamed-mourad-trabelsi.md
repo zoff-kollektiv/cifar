@@ -7,7 +7,7 @@ nativeName: محمد مراد الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Mohamed Mourad Ben Mohamed Ben Rehouma
 aliases: []
-identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Brother-in-law of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 25.09.1955
 countryOfResidence: ''

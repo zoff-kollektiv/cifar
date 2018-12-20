@@ -8,7 +8,7 @@ surname: Ben Ali
 firstAndMidleNames: Cyrine Bent Zine El Abidine Ben Haj Hamda
 aliases:
   - Sirine Ben Ali
-identifyingInformation: Daughter of Zine El Abidine Ben Ali
+identifyingInformation: Daughter of Ben Ali
 placeOfBirth: 'Tunisia, Le Bardo'
 dateOfBirth: 21.08.1971
 countryOfResidence: ''

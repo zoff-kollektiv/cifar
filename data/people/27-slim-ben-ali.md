@@ -7,7 +7,7 @@ nativeName: سليم بن علي
 surname: Ben Ali
 firstAndMidleNames: Slim Ben Tijani Ben Haj Hamda
 aliases: []
-identifyingInformation: Nephew of Zine El Abidine Ben Ali
+identifyingInformation: Nephew of Ben Ali
 placeOfBirth: 'France, Le Petit Quevilly'
 dateOfBirth: 06.04.1971
 countryOfResidence: Tunisia

@@ -7,7 +7,7 @@ nativeName: درصاف بن علي
 surname: Ben Ali
 firstAndMidleNames: Bent Zine El Abidine Ben Haj Hamda
 aliases: []
-identifyingInformation: Daughter of Zine El Abidine Ben Ali
+identifyingInformation: Daughter of Ben Ali
 placeOfBirth: Tunisia
 dateOfBirth: 05.07.1965
 countryOfResidence: ''

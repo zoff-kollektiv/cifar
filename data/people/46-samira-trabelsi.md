@@ -7,7 +7,7 @@ nativeName: سميرة الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Samira Bent Mohamed Ben Rhouma
 aliases: []
-identifyingInformation: Sister-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Sister-in-law of Ben Ali
 placeOfBirth: Tunisia
 dateOfBirth: 27.12.1958
 countryOfResidence: ''

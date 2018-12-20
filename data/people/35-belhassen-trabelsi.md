@@ -7,7 +7,7 @@ nativeName: بلحسن الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Belhassen Ben Mohamed Ben Rhouma
 aliases: []
-identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Brother-in-law of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 05.11.1962
 countryOfResidence: ''

@@ -7,7 +7,7 @@ nativeName: مهدي بن قايد
 surname: Ben Gaied
 firstAndMidleNames: Mehdi Ben Ridha Ben Mohamed
 aliases: []
-identifyingInformation: Son-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Son-in-law of Ben Ali
 placeOfBirth: ''
 dateOfBirth: 29.01.1988
 countryOfResidence: ''

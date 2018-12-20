@@ -7,7 +7,7 @@ nativeName: قيس بن علي
 surname: Ben Ali
 firstAndMidleNames: Kaïs Ben Slaheddine Ben Haj Hamda
 aliases: []
-identifyingInformation: Nephew of Zine El Abidine Ben Ali
+identifyingInformation: Nephew of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 21.10.1969
 countryOfResidence: ''

@@ -7,7 +7,7 @@ nativeName: غزوة  بن علي
 surname: Ben Ali
 firstAndMidleNames: Ghazoua Bent Zine El Abidine Ben Haj Hamda
 aliases: []
-identifyingInformation: Daughter of Zine El Abidine Ben Ali
+identifyingInformation: Daughter of Ben Ali
 placeOfBirth: 'Tunisia, Le Bardo'
 dateOfBirth: 08.03.1963
 countryOfResidence: ''

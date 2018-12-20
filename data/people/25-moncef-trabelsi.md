@@ -7,7 +7,7 @@ nativeName: المنصف الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Moncef Ben Mohamed Ben Rhouma
 aliases: []
-identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Brother-in-law of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 04.03.1944
 countryOfResidence: Tunisia

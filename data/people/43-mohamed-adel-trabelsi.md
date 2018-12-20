@@ -7,7 +7,7 @@ nativeName: محمد الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Mohamed Adel Ben Mohamed Ben Rehouma
 aliases: []
-identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Brother-in-law of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 26.04.1950
 countryOfResidence: ''
