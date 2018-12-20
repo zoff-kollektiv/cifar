@@ -6,6 +6,7 @@ import { colors } from '../../tokens';
 
 export default css`
   a {
+    align-items: center;
     background-color: ${colors.blue};
     border: 3px solid ${colors.blue};
     color: white;
@@ -25,17 +26,12 @@ export default css`
     background-color: white;
     color: ${colors.blue};
   }
-
-  .title {
-    vertical-align: middle;
-  }
 `;
 
 export const downloadIconStyles = css.resolve`
   svg {
     height: 2.25rem;
     margin-right: 1.25rem;
-    vertical-align: middle;
     width: 2.25rem;
   }
 `;
