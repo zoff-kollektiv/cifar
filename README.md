@@ -15,6 +15,22 @@ directory, as if contains most of the displayed texts.
 General site data, such as the twitter/ facebook link or the page title is
 located in `gatsby-config.js`.
 
+### Report
+
+The report (located in `data/pages/report.md`) is capable of rendering
+footnotes, which doesn't follow a markdown standard. In order to add a footnote
+you have to use:
+
+```md
+Lorem ipsum dolor. ##Footnote Text##
+```
+
+The footnote text can contain markdown, to e.g. render links.
+
+```md
+Lorem ipsum dolor. ##Footnote Text with [link](http://sanctionswatch.cifar.eu).##
+```
+
 ### Images
 
 Portraits of the people under sanctions are stored in `static/media`. The
