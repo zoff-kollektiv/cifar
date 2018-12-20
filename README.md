@@ -1,5 +1,4 @@
-# Cifar Sanctions
-
+# Cifar - sanctions watch
 
 ## Structure
 
@@ -12,6 +11,28 @@ directory, as if contains most of the displayed texts.
 - `data/pages` Contains the about and report page
 - `data/people` Contains the import of all persons from the google sheet
 - `data/translations` Contains the translations of the people keys
+
+General site data, such as the twitter/ facebook link or the page title is
+located in `gatsby-config.js`.
+
+All pages can contain markdown in the body text. Some frontmatter fields of a
+person can also contain markdown. Supported fields: [gatsby-node.js](./gatsby-node.js#L234).
+
+### Report
+
+The report (located in `data/pages/report.md`) is capable of rendering
+footnotes, which doesn't follow a markdown standard. In order to add a footnote
+you have to use:
+
+```md
+Lorem ipsum dolor. ##Footnote Text##
+```
+
+The footnote text can contain markdown, to e.g. render links.
+
+```md
+Lorem ipsum dolor. ##Footnote Text with [link](http://sanctionswatch.cifar.eu).##
+```
 
 ### Images
 

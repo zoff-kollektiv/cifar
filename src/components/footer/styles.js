@@ -41,40 +41,52 @@ export default css`
 
   .columns {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     list-style: none;
     margin: 0;
     padding: 0;
   }
 
-  ul.columns {
-    width: 60%;
+  @media ${mq.phone} {
+    .columns {
+      flex-direction: row;
+    }
+
+    ul.columns {
+      width: 60%;
+    }
   }
 
   .column {
     display: flex;
     flex-direction: column;
     font-size: 0.8rem;
-    margin-top: 1.5rem;
-    width: 50%;
+    width: 100%;
   }
 
   @media ${mq.phone} {
     .column {
       font-size: 1.125rem;
-      margin-top: 2rem;
+      width: 50%;
+    }
+
+    .column--logo {
+      width: 40%;
     }
   }
 
-  .column--logo {
-    width: 40%;
-  }
-
   .label {
-    display: block;
+    align-self: flex-start;
     font-weight: 700;
     margin-bottom: 0.3rem;
+    margin-top: 1.5rem;
+  }
+
+  @media ${mq.phone} {
+    .label {
+      margin-top: 2rem;
+    }
   }
 
   @supports (font-variation-settings: normal) {
@@ -95,6 +107,10 @@ export default css`
     }
   }
 
+  .link + .link {
+    margin-left: 0.5rem;
+  }
+
   a {
     color: currentColor;
     text-decoration: none;
@@ -104,23 +120,44 @@ export default css`
   a:focus {
     text-decoration: underline;
   }
+
+  .social-container {
+    margin-top: 0.5rem;
+  }
 `;
 
 export const logoStyles = css.resolve`
   svg {
     color: white;
     height: 4rem;
+    margin-top: 1.5rem;
     width: 6rem;
   }
 
   @media ${mq.phone} {
     svg {
       height: 8rem;
+      margin-top: 2rem;
       width: 10rem;
     }
   }
 
   path {
     fill: white;
+  }
+`;
+
+export const socialStyles = css.resolve`
+  svg {
+    height: 1.25rem;
+    vertical-align: middle;
+    width: 1.25rem;
+  }
+
+  @media ${mq.phone} {
+    svg {
+      height: 1.5rem;
+      width: 1.5rem;
+    }
   }
 `;

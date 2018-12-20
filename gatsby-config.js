@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'EU sanctions watch'
+    title: 'EU sanctions watch',
+    twitter: 'https://twitter.com/CiFAR_EU',
+    facebook: 'https://www.facebook.com/civilforumAR/'
   },
 
   plugins: [
