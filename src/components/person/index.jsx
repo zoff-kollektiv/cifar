@@ -9,6 +9,19 @@ import styles from './styles';
 import translations from '../../../data/translations/columns.json';
 
 const renderPersonValue = (key, value, data) => {
+  if (key === 'familyMembers' && value) {
+    return (
+      <div className="person-info-html">
+        {value.map(({ name, type }, index) => (
+          <Fragment key={`${name}-${type}`}>
+            {index === 0 ? '' : ', '}
+            {name} ({type})
+          </Fragment>
+        ))}
+      </div>
+    );
+  }
+
   if (key === 'familyMembersSubjectToSanctions') {
     return (
       <div className="person-info-html">
@@ -125,7 +138,10 @@ export const fragment = graphql`
       countryOfResidence
       aliases
       firstAndMidleNames
-      familyMembers
+      familyMembers {
+        name
+        type
+      }
       familyMembersSubjectToSanctions
       suspectedOrConfirmedLinksToLegalEntities
       suspectedOrConfirmedOverseasProperties

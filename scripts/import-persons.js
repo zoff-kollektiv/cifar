@@ -91,6 +91,30 @@ const preparePersons = country =>
           break;
 
         case 'familyMembers':
+          newPerson[newKey] = person[key]
+            .split(',')
+            .map(name => {
+              let trimmedName = name.trim();
+              let type = '';
+
+              if (omitValues.includes(name) || !trimmedName) {
+                return undefined;
+              }
+
+              if (trimmedName.split(' - ')[1]) {
+                type = trimmedName.split(' - ');
+                trimmedName = type[0].trim();
+                type = `${type[1]}`.trim();
+              }
+
+              return {
+                name: trimmedName,
+                type
+              };
+            })
+            .filter(Boolean);
+          break;
+
         case 'familyMembersSubjectToSanctions':
           if (person[key] && person[key].length > 1) {
             newPerson[newKey] = person[key]
