@@ -21,7 +21,7 @@ export default class Filter extends Component {
 
           this.setState({ value: name });
 
-          filterFn(value);
+          filterFn(name);
         }}
       >
         <style jsx>{styles}</style>
