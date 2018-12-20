@@ -1,5 +1,4 @@
-# Cifar Sanctions
-
+# Cifar - sanctions watch
 
 ## Structure
 
@@ -12,6 +11,9 @@ directory, as if contains most of the displayed texts.
 - `data/pages` Contains the about and report page
 - `data/people` Contains the import of all persons from the google sheet
 - `data/translations` Contains the translations of the people keys
+
+General site data, such as the twitter/ facebook link or the page title is
+located in `gatsby-config.js`.
 
 ### Images
 
