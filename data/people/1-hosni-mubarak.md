@@ -14,12 +14,18 @@ dateOfBirth: 04.05.1928
 countryOfResidence: Egypt
 corruptionLink: ''
 familyMembers:
-  - Suzanne Thabet
-  - Alaa Mubarak
-  - Gamal Mubarak
-  - Mahmoud Gamal Mubarak
-  - Omar Alaa Mubarak
-  - Farida Gamal Mubarak
+  - name: Suzanne Thabet
+    type: spouse
+  - name: Alaa Mubarak
+    type: son
+  - name: Gamal Mubarak
+    type: son
+  - name: Mahmoud Gamal Mubarak
+    type: grandson
+  - name: Omar Alaa Mubarak
+    type: grandson
+  - name: Farida Gamal Mubarak
+    type: granddaughter
 familyMembersSubjectToSanctions:
   - Suzanne Thabet
   - Alaa Mubarak

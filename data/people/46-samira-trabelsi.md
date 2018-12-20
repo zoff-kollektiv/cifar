@@ -7,14 +7,16 @@ nativeName: سميرة الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Samira Bent Mohamed Ben Rhouma
 aliases: []
-identifyingInformation: Sister-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Sister-in-law of Ben Ali
 placeOfBirth: Tunisia
 dateOfBirth: 27.12.1958
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Leila Trabelsi
-  - Montassar Meherzi
+  - name: Leila Trabelsi
+    type: sister
+  - name: Montassar Meherzi
+    type: spouse
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
   - Montassar Meherzi

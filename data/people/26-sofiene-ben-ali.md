@@ -7,7 +7,7 @@ nativeName: سفيان بن علي
 surname: Ben Ali
 firstAndMidleNames: Sofiene Ben Habib Ben Haj Hamda
 aliases: []
-identifyingInformation: Nephew of Zine El Abidine Ben Ali
+identifyingInformation: Nephew of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 28.08.1974
 countryOfResidence: ''

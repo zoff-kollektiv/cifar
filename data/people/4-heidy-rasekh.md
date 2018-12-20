@@ -14,8 +14,10 @@ dateOfBirth: ''
 countryOfResidence: Egypt
 corruptionLink: family
 familyMembers:
-  - Alaa Mubarak
-  - Omar Alaa Mubarak
+  - name: Alaa Mubarak
+    type: spouse
+  - name: Omar Alaa Mubarak
+    type: son
 familyMembersSubjectToSanctions:
   - Alaa Mubarak
 suspectedOrConfirmedOverseasProperties: ''

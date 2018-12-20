@@ -22,11 +22,16 @@ dateOfBirth: 04.10.1972
 countryOfResidence: Israel
 corruptionLink: government
 familyMembers:
-  - Anatolii Borysovych Valentyna Hryhorivna
-  - Viktoriia Ivanivna Valentyna Hryhorivna
-  - Olena Volodymyrivna Valentyna Hryhorivna
-  - Stanislav E. Stavytskyi
-  - Valentyna Hryhorivna Ushakova
+  - name: Anatolii Borysovych Valentyna Hryhorivna
+    type: father
+  - name: Viktoriia Ivanivna Valentyna Hryhorivna
+    type: mother
+  - name: Olena Volodymyrivna Valentyna Hryhorivna
+    type: spouse
+  - name: Stanislav E. Stavytskyi
+    type: son
+  - name: Valentyna Hryhorivna Ushakova
+    type: mother-in-law
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: 'ТОВ "ДІАГРАМА" , ГО "ДЮФК "АМЕТИСТ-2001" '

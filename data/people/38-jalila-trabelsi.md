@@ -7,18 +7,24 @@ nativeName: جليلة الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Jalila Bent Mohamed Ben Rhouma
 aliases: []
-identifyingInformation: Sister-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Sister-in-law of Ben Ali
 placeOfBirth: 'Tunisia, Radès'
 dateOfBirth: 19.02.1953
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Leila Trabelsi
-  - Mohamed Mahjoub
-  - Asma Trabelsi
-  - Rym Trabelsi
-  - Amira Trabelsi
-  - Islam Trabelsi
+  - name: Leila Trabelsi
+    type: sister
+  - name: Mohamed Mahjoub
+    type: spouse
+  - name: Asma Trabelsi
+    type: child
+  - name: Rym Trabelsi
+    type: child
+  - name: Amira Trabelsi
+    type: child
+  - name: Islam Trabelsi
+    type: child
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''

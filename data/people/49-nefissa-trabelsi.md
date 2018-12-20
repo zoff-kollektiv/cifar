@@ -7,17 +7,22 @@ nativeName: نفيسة الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Nefissa Bent Mohamed Ben Rhouma
 aliases: []
-identifyingInformation: Sister-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Sister-in-law of Ben Ali
 placeOfBirth: Tunisia
 dateOfBirth: 01.02.1960
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Leila Trabelsi
-  - Habib Zakir
-  - Youssef Trabelsi
-  - Chams Trabelsi
-  - Rania Trabelsi
+  - name: Leila Trabelsi
+    type: sister
+  - name: Habib Zakir- spouse
+    type: ''
+  - name: Youssef Trabelsi
+    type: child
+  - name: Chams Trabelsi
+    type: child
+  - name: Rania Trabelsi
+    type: child
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
   - Habib Zakir

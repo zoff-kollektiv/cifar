@@ -7,15 +7,18 @@ nativeName: غزوة بوعوينة
 surname: Bouaouina
 firstAndMidleNames: Ghazoua Ben Hamed Ben Taher
 aliases: []
-identifyingInformation: Niece of Zine El Abidine Ben Ali
+identifyingInformation: Niece of Ben Ali
 placeOfBirth: 'Tunisia, Montasir'
 dateOfBirth: 30.08.1982
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Hayet Ben Ali
-  - Akrem Bouaouina
-  - Douraid Bouaouina
+  - name: Hayet Ben Ali
+    type: mother
+  - name: Akrem Bouaouina
+    type: brother
+  - name: Douraid Bouaouina
+    type: brother
 familyMembersSubjectToSanctions:
   - Hayet Ben Ali
   - Akrem Bouaouina

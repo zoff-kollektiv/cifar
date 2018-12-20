@@ -8,16 +8,20 @@ surname: Ben Ali
 firstAndMidleNames: Najmeddine Ben Slaheddine Ben Haj Hamda
 aliases:
   - Nesmeddine Ben Ali
-identifyingInformation: Nephew of Zine El Abidine Ben Ali
+identifyingInformation: Nephew of Ben Ali
 placeOfBirth: 'Tunisia, Monastir'
 dateOfBirth: 12.10.1972
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Slaheddine Ben Ali
-  - Nejet Ben Ali
-  - Hamda Ben Ali
-  - Kaïs Ben Ali
+  - name: Slaheddine Ben Ali
+    type: father
+  - name: Nejet Ben Ali
+    type: sister
+  - name: Hamda Ben Ali
+    type: brother
+  - name: Kaïs Ben Ali
+    type: brother
 familyMembersSubjectToSanctions:
   - Slaheddine Ben Ali
   - Nejet Ben Ali

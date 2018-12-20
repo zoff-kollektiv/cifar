@@ -7,13 +7,14 @@ nativeName: سليم شيبوب
 surname: Chiboub
 firstAndMidleNames: Mohamed Slim Ben Mohamed Hassen Ben Salah
 aliases: []
-identifyingInformation: Son-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Son-in-law of Ben Ali
 placeOfBirth: Tunisa
 dateOfBirth: 13.01.1959
 countryOfResidence: Libya / United Arab Emirates
 corruptionLink: family
 familyMembers:
-  - Dorsaf Ben Ali
+  - name: Dorsaf Ben Ali
+    type: spouse
 familyMembersSubjectToSanctions:
   - Dorsaf Ben Ali
 suspectedOrConfirmedOverseasProperties: ''

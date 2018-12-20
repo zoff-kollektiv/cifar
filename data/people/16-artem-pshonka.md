@@ -22,9 +22,12 @@ dateOfBirth: 19.03.1976
 countryOfResidence: ''
 corruptionLink: government
 familyMembers:
-  - Olha M. Pshonka
-  - S. A. Pshonka
-  - M. A. Pshonka
+  - name: Olha M. Pshonka
+    type: spouse
+  - name: S. A. Pshonka
+    type: daughter
+  - name: M. A. Pshonka
+    type: daughter
 familyMembersSubjectToSanctions:
   - Viktor Pavlovych Pshonka
 suspectedOrConfirmedOverseasProperties: ''

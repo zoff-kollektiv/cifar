@@ -14,12 +14,18 @@ dateOfBirth: 03.07.1973
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Moncef Trabelsi
-  - Mohamed Trabelsi
-  - Bouthaina Trabelsi
-  - Tarek Trabelsi
-  - Ghaya Trabelsi
-  - Leila Trabelsi
+  - name: Moncef Trabelsi
+    type: father
+  - name: Mohamed Trabelsi
+    type: brother
+  - name: Bouthaina Trabelsi
+    type: sister
+  - name: Tarek Trabelsi
+    type: brother
+  - name: Ghaya Trabelsi
+    type: sister
+  - name: Leila Trabelsi
+    type: sister
 familyMembersSubjectToSanctions:
   - Moncef Trabelsi
   - Mohamed Trabelsi

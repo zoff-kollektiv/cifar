@@ -7,17 +7,22 @@ nativeName: صلاح الدين بن علي
 surname: Ben Ali
 firstAndMidleNames: Slaheddine Ben Haj Hamda Ben Haj Hassen
 aliases: []
-identifyingInformation: Brother of Zine El Abidine Ben Ali
+identifyingInformation: Brother of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 28.10.1938
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Zine El Abidine Ben Ali
-  - Hamda Ben Ali
-  - Nejet Ben Ali
-  - Nejmeddine Ben Ali
-  - Kaïs Ben Ali
+  - name: Zine El Abidine Ben Ali
+    type: brother
+  - name: Hamda Ben Ali
+    type: son
+  - name: Nejet Ben Ali
+    type: daughter
+  - name: Nejmeddine Ben Ali
+    type: son
+  - name: Kaïs Ben Ali
+    type: son
 familyMembersSubjectToSanctions:
   - Hamda Ben Ali
   - Nejet Ben Ali

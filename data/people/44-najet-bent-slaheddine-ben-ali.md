@@ -7,16 +7,20 @@ nativeName: نجاة بن علي
 surname: Ben Ali
 firstAndMidleNames: Najet Bent Slaheddine Ben Haj Hamda
 aliases: []
-identifyingInformation: Niece of Zine El Abidine Ben Ali
+identifyingInformation: Niece of Ben Ali
 placeOfBirth: 'Tunisia, Monastir'
 dateOfBirth: 08.03.1980
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Slaheddine Ben Ali
-  - Najmeddine Ben Ali
-  - Hamda Ben Ali
-  - Kaïs Ben Ali
+  - name: Slaheddine Ben Ali
+    type: father
+  - name: Najmeddine Ben Ali
+    type: brother
+  - name: Hamda Ben Ali
+    type: brother
+  - name: Kaïs Ben Ali
+    type: brother
 familyMembersSubjectToSanctions:
   - Slaheddine Ben Ali
   - Najmeddine Ben Ali

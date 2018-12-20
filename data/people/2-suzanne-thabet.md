@@ -16,13 +16,20 @@ dateOfBirth: 28.02.1941
 countryOfResidence: Egypt
 corruptionLink: family
 familyMembers:
-  - Hosni Mubarak
-  - Alaa Mubarak
-  - Gamal Mubarak
-  - Mahmoud Gamal Mubarak
-  - Omar Alaa Mubarak
-  - Farida Gamal Mubarak
-  - Mounir Sabet
+  - name: Hosni Mubarak
+    type: spouse
+  - name: Alaa Mubarak
+    type: son
+  - name: Gamal Mubarak
+    type: son
+  - name: Mahmoud Gamal Mubarak
+    type: grandson
+  - name: Omar Alaa Mubarak
+    type: grandson
+  - name: Farida Gamal Mubarak
+    type: granddaughter
+  - name: Mounir Sabet
+    type: brother
 familyMembersSubjectToSanctions:
   - Hosni Mubarak
   - Alaa Mubarak

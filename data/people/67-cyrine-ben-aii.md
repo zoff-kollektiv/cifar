@@ -8,19 +8,26 @@ surname: Ben Ali
 firstAndMidleNames: Cyrine Bent Zine El Abidine Ben Haj Hamda
 aliases:
   - Sirine Ben Ali
-identifyingInformation: Daughter of Zine El Abidine Ben Ali
+identifyingInformation: Daughter of Ben Ali
 placeOfBirth: 'Tunisia, Le Bardo'
 dateOfBirth: 21.08.1971
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Zine El Abidine Ben Ali
-  - Naima Kefi
-  - Marouane Mabrouk
-  - Nesrine Ben Ali
-  - Halima Ben Ali
-  - Dorsaf Ben Ali
-  - Ghazoua Ben Ali
+  - name: Zine El Abidine Ben Ali
+    type: father
+  - name: Naima Kefi
+    type: mother
+  - name: Marouane Mabrouk
+    type: spouse
+  - name: Nesrine Ben Ali
+    type: sister
+  - name: Halima Ben Ali
+    type: sister
+  - name: Dorsaf Ben Ali
+    type: sister
+  - name: Ghazoua Ben Ali
+    type: sister
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
   - Marouane Mabrouk

@@ -7,16 +7,20 @@ nativeName: نجاة بن علي‎
 surname: Ben Ali
 firstAndMidleNames: Najet Bent Haj Hamda Ben Raj Hassen
 aliases: []
-identifyingInformation: Sister of Zine El Abidine Ben Ali
+identifyingInformation: Sister of Ben Ali
 placeOfBirth: 'Tunisia, Sousse'
 dateOfBirth: 18.09.1956
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Zine El Abidine Ben Ali
-  - Sadok Mihri
-  - Neji Ben Ali
-  - Dhafrallah Ben Ali
+  - name: Zine El Abidine Ben Ali
+    type: brother
+  - name: Sadok Mihri
+    type: spouse
+  - name: Neji Ben Ali
+    type: child
+  - name: Dhafrallah Ben Ali
+    type: child
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
 suspectedOrConfirmedOverseasProperties: ''

@@ -9,14 +9,16 @@ firstAndMidleNames: Imed Ben Habib Ben Bouali
 aliases:
   - Imed Eltaief
   - Letaief
-identifyingInformation: Nephew of Zine El Abidine Ben Ali
+identifyingInformation: Nephew of Ben Ali
 placeOfBirth: 'Tunisia, Sousse'
 dateOfBirth: 13.01.1970
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Naoufel Ltaief
-  - Montassar Ltaief
+  - name: Naoufel Ltaief
+    type: brother
+  - name: Montassar Ltaief
+    type: brother
 familyMembersSubjectToSanctions:
   - Naoufel Ltaief
   - Montassar Ltaief

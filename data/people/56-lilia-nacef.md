@@ -13,8 +13,10 @@ dateOfBirth: 25.06.1975
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Ahmed Trabelsi
-  - Mourad Mehdoui
+  - name: Ahmed Trabelsi
+    type: sibling
+  - name: Mourad Mehdoui
+    type: spouse
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''

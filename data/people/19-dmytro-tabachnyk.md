@@ -19,8 +19,10 @@ dateOfBirth: 28.11.1963
 countryOfResidence: Israel
 corruptionLink: government
 familyMembers:
-  - Tatyana Nazarova
-  - Mykhailo Volodymyrovych Tabachnyk
+  - name: Tatyana Nazarova
+    type: spouse
+  - name: Mykhailo Volodymyrovych Tabachnyk
+    type: brother
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-

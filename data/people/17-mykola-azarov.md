@@ -20,8 +20,10 @@ dateOfBirth: 17.12.1947
 countryOfResidence: Russia
 corruptionLink: government
 familyMembers:
-  - Liudmyla Mykolaivna Azarova
-  - Oleksii Mykolaiovych Azarov
+  - name: Liudmyla Mykolaivna Azarova
+    type: spouse
+  - name: Oleksii Mykolaiovych Azarov
+    type: son
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''

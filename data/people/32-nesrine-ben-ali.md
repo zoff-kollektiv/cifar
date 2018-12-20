@@ -7,19 +7,26 @@ nativeName: نسرين بن علي‎
 surname: Ben Ali
 firstAndMidleNames: Nesrine Bent Zine El Abidine Ben Haj Hamda
 aliases: []
-identifyingInformation: Daughter of Zine El Abidine Ben Ali
+identifyingInformation: Daughter of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 16.01.1987
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Zine El Abidine Ben Ali
-  - Leila Trabelsi
-  - Sakher El Materi
-  - Halima Ben Ali
-  - Ghazoua Ben Ali
-  - Dorsaf Ben Ali
-  - Cyrine Ben Ali
+  - name: Zine El Abidine Ben Ali
+    type: father
+  - name: Leila Trabelsi
+    type: mother
+  - name: Sakher El Materi
+    type: spouse
+  - name: Halima Ben Ali
+    type: sister
+  - name: Ghazoua Ben Ali
+    type: sister
+  - name: Dorsaf Ben Ali
+    type: sister
+  - name: Cyrine Ben Ali
+    type: sister
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
   - Leila Trabelsi

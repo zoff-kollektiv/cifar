@@ -14,11 +14,16 @@ dateOfBirth: 18.09.1976
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Imed Trabelsi
-  - Houssem Trabelsi
-  - Yosra Trabelsi
-  - Rhouma Trabelsi
-  - Amine Trabelsi
+  - name: Imed Trabelsi
+    type: sibling
+  - name: Houssem Trabelsi
+    type: sibling
+  - name: Yosra Trabelsi
+    type: sibling
+  - name: Rhouma Trabelsi
+    type: sibling
+  - name: Amine Trabelsi
+    type: sibling
 familyMembersSubjectToSanctions:
   - Mohamed Naceur Trabelsi
   - Imed Trabelsi

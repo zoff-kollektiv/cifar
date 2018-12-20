@@ -16,10 +16,14 @@ dateOfBirth: 13.10.1984
 countryOfResidence: Egypt
 corruptionLink: family
 familyMembers:
-  - Mahamoud el Gamal
-  - Gamal Mubarak
-  - Mahmoud Gamal Mubarak
-  - Farida Gamal Mubarak
+  - name: Mahamoud el Gamal
+    type: father
+  - name: Gamal Mubarak
+    type: spouse
+  - name: Mahmoud Gamal Mubarak
+    type: son
+  - name: Farida Gamal Mubarak
+    type: daughter
 familyMembersSubjectToSanctions:
   - Gamal Mubarak
 suspectedOrConfirmedOverseasProperties: ''

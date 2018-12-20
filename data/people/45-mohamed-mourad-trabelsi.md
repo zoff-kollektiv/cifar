@@ -7,18 +7,24 @@ nativeName: محمد مراد الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Mohamed Mourad Ben Mohamed Ben Rehouma
 aliases: []
-identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Brother-in-law of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 25.09.1955
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Leila Trabelsi
-  - Hela Belhaj
-  - Jannet Trabelsi
-  - Sami Trabelsi
-  - Yassine Trabelsi
-  - Mahemd Ali Trabelsi
+  - name: Leila Trabelsi
+    type: sister
+  - name: Hela Belhaj
+    type: wife
+  - name: Jannet Trabelsi
+    type: child
+  - name: Sami Trabelsi
+    type: child
+  - name: Yassine Trabelsi
+    type: child
+  - name: Mahemd Ali Trabelsi
+    type: child
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
 suspectedOrConfirmedOverseasProperties: ''

@@ -7,7 +7,7 @@ nativeName: نبيل الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Nabil Ben Abderrazek Ben Mohamed
 aliases: []
-identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Brother-in-law of Ben Ali
 placeOfBirth: ''
 dateOfBirth: 20.12.1965
 countryOfResidence: ''

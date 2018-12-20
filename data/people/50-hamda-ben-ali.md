@@ -7,16 +7,20 @@ nativeName: حمدة بن علي
 surname: Ben Ali
 firstAndMidleNames: Hamda Ben Slaheddine Ben Haj Hamda
 aliases: []
-identifyingInformation: Nephew of Zine El Abidine Ben Ali
+identifyingInformation: Nephew of Ben Ali
 placeOfBirth: 'Tunisia, Monastir'
 dateOfBirth: 29.04.1974
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Slaheddine Ben Ali
-  - Nejet Ben Ali
-  - Nejmeddine Ben Ali
-  - Kaïs Ben Ali
+  - name: Slaheddine Ben Ali
+    type: father
+  - name: Nejet Ben Ali
+    type: sister
+  - name: Nejmeddine Ben Ali
+    type: brother
+  - name: Kaïs Ben Ali
+    type: brother
 familyMembersSubjectToSanctions:
   - Slaheddine Ben Ali
   - Nejet Ben Ali

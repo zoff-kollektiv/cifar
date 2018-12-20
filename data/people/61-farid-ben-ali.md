@@ -7,13 +7,14 @@ nativeName: فريد  بن علي
 surname: Ben Ali
 firstAndMidleNames: Farid Ben Haj Hamda Ben Haj Hassen
 aliases: []
-identifyingInformation: Brother of Zine El Abidine Ben Ali
+identifyingInformation: Brother of Ben Ali
 placeOfBirth: 'Tunisia, Hammam Sousse'
 dateOfBirth: 22.11.1949
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Zine El Abidine Ben Ali
+  - name: Zine El Abidine Ben Ali
+    type: brother
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
 suspectedOrConfirmedOverseasProperties: ''

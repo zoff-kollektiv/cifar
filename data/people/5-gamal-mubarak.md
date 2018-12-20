@@ -13,11 +13,16 @@ dateOfBirth: 28.12.1963
 countryOfResidence: Egypt
 corruptionLink: family
 familyMembers:
-  - Hosni Mubarak
-  - Suzanne Mubarak
-  - Khadiga el Gammal
-  - Mahmoud Gamal Mubarak
-  - Farida Gamal Mubarak
+  - name: Hosni Mubarak
+    type: father
+  - name: Suzanne Mubarak
+    type: mother
+  - name: Khadiga el Gammal
+    type: spouse
+  - name: Mahmoud Gamal Mubarak
+    type: son
+  - name: Farida Gamal Mubarak
+    type: daughter
 familyMembersSubjectToSanctions:
   - Hosni Mubarak
   - Suzanne Mubarak

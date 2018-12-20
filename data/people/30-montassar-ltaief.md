@@ -9,14 +9,16 @@ firstAndMidleNames: Mohamed Montassar Ben Habib Ben Bouali
 aliases:
   - Montassar Eltaief
   - Letaief
-identifyingInformation: Nephew of Zine El Abidine Ben Ali
+identifyingInformation: Nephew of Ben Ali
 placeOfBirth: 'Tunisia, Sousse'
 dateOfBirth: 03.01.1973
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Naoufel Ltaief
-  - Imed Ltaief
+  - name: Naoufel Ltaief
+    type: brother
+  - name: Imed Ltaief
+    type: brother
 familyMembersSubjectToSanctions:
   - Naoufel Ltaief
   - Imed Ltaief

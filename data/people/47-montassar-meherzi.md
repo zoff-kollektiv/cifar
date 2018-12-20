@@ -7,13 +7,14 @@ nativeName: منتصر محرزي
 surname: Meherzi
 firstAndMidleNames: Mohamed Montassar Ben Kbaier Ben Mohamed
 aliases: []
-identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Brother-in-law of Ben Ali
 placeOfBirth: 'Tunisia, La Marsa'
 dateOfBirth: 05.05.1959
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Samira Trabelsi
+  - name: Samira Trabelsi
+    type: spouse
 familyMembersSubjectToSanctions:
   - Samira Trabelsi
 suspectedOrConfirmedOverseasProperties: ''

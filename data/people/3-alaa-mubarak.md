@@ -16,10 +16,14 @@ dateOfBirth: 26.11.1960
 countryOfResidence: Egypt
 corruptionLink: family
 familyMembers:
-  - Hosni Mubarak
-  - Suzanne Thabet
-  - Heidy Rasekh
-  - Omar Alaa Mubarak
+  - name: Hosni Mubarak
+    type: father
+  - name: Suzanne Thabet
+    type: mother
+  - name: Heidy Rasekh
+    type: spouse
+  - name: Omar Alaa Mubarak
+    type: son
 familyMembersSubjectToSanctions:
   - Hosni Mubarak
   - Suzanne Thabet

@@ -7,18 +7,24 @@ nativeName: بلحسن الطرابلسي
 surname: Trabelsi
 firstAndMidleNames: Belhassen Ben Mohamed Ben Rhouma
 aliases: []
-identifyingInformation: Brother-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Brother-in-law of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 05.11.1962
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Leila Trabelsi
-  - Mohamed Fares Trabelsi
-  - Zaina Trabelsi
-  - Asma Trabelsi
-  - Syrine Trabelsi
-  - Soufia Trabelsi
+  - name: Leila Trabelsi
+    type: sister
+  - name: Mohamed Fares Trabelsi
+    type: son
+  - name: Zaina Trabelsi
+    type: daughter
+  - name: Asma Trabelsi
+    type: daughter
+  - name: Syrine Trabelsi
+    type: daughter
+  - name: Soufia Trabelsi
+    type: daughter
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
 suspectedOrConfirmedOverseasProperties: ''

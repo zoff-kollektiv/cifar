@@ -7,19 +7,26 @@ nativeName: حليمة بن علي
 surname: Ben Ali
 firstAndMidleNames: Halima Bent Zine El Abidine Ben Haj Hamda
 aliases: []
-identifyingInformation: Daughter of Zine El Abidine Ben Ali
+identifyingInformation: Daughter of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 17.07.1992
 countryOfResidence: Seychelles
 corruptionLink: family
 familyMembers:
-  - Zine El Abidine Ben Ali
-  - Leila Trabelsi
-  - Mehdi Ben Gaied
-  - Nesrine Ben Ali
-  - Ghazoua Ben Ali
-  - Dorsaf Ben Ali
-  - Cyrine Ben Ali
+  - name: Zine El Abidine Ben Ali
+    type: father
+  - name: Leila Trabelsi
+    type: mother
+  - name: Mehdi Ben Gaied- spouse
+    type: ''
+  - name: Nesrine Ben Ali
+    type: sister
+  - name: Ghazoua Ben Ali
+    type: sister
+  - name: Dorsaf Ben Ali
+    type: sister
+  - name: Cyrine Ben Ali
+    type: sister
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
   - Leila Trabelsi

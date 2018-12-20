@@ -16,7 +16,8 @@ dateOfBirth: 01.03.1938
 countryOfResidence: Egypt
 corruptionLink: government
 familyMembers:
-  - Elham Sharshar
+  - name: Elham Sharshar
+    type: spouse
 familyMembersSubjectToSanctions:
   - Elham Sharshar
 suspectedOrConfirmedOverseasProperties: ''

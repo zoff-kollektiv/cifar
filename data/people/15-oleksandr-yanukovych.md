@@ -29,9 +29,12 @@ dateOfBirth: 10.07.1973
 countryOfResidence: Russia
 corruptionLink: family
 familyMembers:
-  - Viktor Fedorovych Yanukovych
-  - Liudmyla Oleksandrivna Yanukovych
-  - Viktor Viktorovych Yanukovych
+  - name: Viktor Fedorovych Yanukovych
+    type: father
+  - name: Liudmyla Oleksandrivna Yanukovych
+    type: mother
+  - name: Viktor Viktorovych Yanukovych
+    type: father
 familyMembersSubjectToSanctions:
   - Viktor Yanukovych
 suspectedOrConfirmedOverseasProperties: ''

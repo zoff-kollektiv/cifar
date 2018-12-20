@@ -7,19 +7,26 @@ nativeName: درصاف بن علي
 surname: Ben Ali
 firstAndMidleNames: Bent Zine El Abidine Ben Haj Hamda
 aliases: []
-identifyingInformation: Daughter of Zine El Abidine Ben Ali
+identifyingInformation: Daughter of Ben Ali
 placeOfBirth: Tunisia
 dateOfBirth: 05.07.1965
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Zine El Abidine Ben Ali
-  - Naima Kefi
-  - Slim Chiboub
-  - Nesrine Ben Ali
-  - Halima Ben Ali
-  - Ghazoua Ben Ali
-  - Cyrine Ben Ali
+  - name: Zine El Abidine Ben Ali
+    type: father
+  - name: Naima Kefi
+    type: mother
+  - name: Slim Chiboub
+    type: spouse
+  - name: Nesrine Ben Ali
+    type: sister
+  - name: Halima Ben Ali
+    type: sister
+  - name: Ghazoua Ben Ali
+    type: sister
+  - name: Cyrine Ben Ali
+    type: sister
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
   - Slim Chiboub

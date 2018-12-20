@@ -7,13 +7,14 @@ nativeName: مروان مبروك
 surname: Mabrouk
 firstAndMidleNames: Mohamed Marouen Ben Ali Ben Mohamed
 aliases: []
-identifyingInformation: Son-in-law of Zine El Abidine Ben Ali
+identifyingInformation: Son-in-law of Ben Ali
 placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 11.03.1972
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Sirine Ben Ali
+  - name: Sirine Ben Ali
+    type: spouse
 familyMembersSubjectToSanctions:
   - Sirine Ben Ali
 suspectedOrConfirmedOverseasProperties: ''
