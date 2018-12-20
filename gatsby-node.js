@@ -50,6 +50,8 @@ const createReport = (graphql, createPage) =>
           date
           author
           title
+          downloadTitle
+          downloadLink
         }
         html
       }
