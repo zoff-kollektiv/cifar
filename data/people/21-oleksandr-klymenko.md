@@ -19,9 +19,12 @@ dateOfBirth: 16.11.1980
 countryOfResidence: Russia
 corruptionLink: government
 familyMembers:
-  - O.M. Klymenko
-  - V. O. Klymenko
-  - A. O. Klymenko
+  - name: O.M. Klymenko
+    type: spouse
+  - name: V. O. Klymenko
+    type: daugther
+  - name: A. O. Klymenko
+    type: son
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''

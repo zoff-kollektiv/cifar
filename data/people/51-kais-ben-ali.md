@@ -13,10 +13,14 @@ dateOfBirth: 21.10.1969
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Slaheddine Ben Ali
-  - Nejet Ben Ali
-  - Nejmeddine Ben Ali
-  - Hamda Ben Ali
+  - name: Slaheddine Ben Ali
+    type: father
+  - name: Nejet Ben Ali
+    type: sister
+  - name: Nejmeddine Ben Ali
+    type: brother
+  - name: Hamda Ben Ali
+    type: brother
 familyMembersSubjectToSanctions:
   - Slaheddine Ben Ali
   - Nejet Ben Ali

@@ -13,7 +13,8 @@ dateOfBirth: 05.05.1959
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Samira Trabelsi
+  - name: Samira Trabelsi
+    type: spouse
 familyMembersSubjectToSanctions:
   - Samira Trabelsi
 suspectedOrConfirmedOverseasProperties: ''

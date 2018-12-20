@@ -21,7 +21,8 @@ dateOfBirth: 21.09.1985
 countryOfResidence: ''
 corruptionLink: business
 familyMembers:
-  - Olena Rymarenko
+  - name: Olena Rymarenko
+    type: spouse
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: >-
   Property in Switzerland [Source

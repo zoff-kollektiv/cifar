@@ -13,7 +13,8 @@ dateOfBirth: 03.05.1962
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Lilia Nacef
+  - name: Lilia Nacef
+    type: spouse
 familyMembersSubjectToSanctions:
   - Lilia Nacef
 suspectedOrConfirmedOverseasProperties: ''

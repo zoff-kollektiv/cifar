@@ -13,9 +13,12 @@ dateOfBirth: 30.08.1982
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Hayet Ben Ali
-  - Akrem Bouaouina
-  - Douraid Bouaouina
+  - name: Hayet Ben Ali
+    type: mother
+  - name: Akrem Bouaouina
+    type: brother
+  - name: Douraid Bouaouina
+    type: brother
 familyMembersSubjectToSanctions:
   - Hayet Ben Ali
   - Akrem Bouaouina

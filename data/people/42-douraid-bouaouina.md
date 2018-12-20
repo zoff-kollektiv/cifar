@@ -15,9 +15,12 @@ dateOfBirth: 08.10.1978
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Hayet Ben Ali
-  - Ghazoua Bouaouina
-  - Akrem Bouaouina
+  - name: Hayet Ben Ali
+    type: mother
+  - name: Ghazoua Bouaouina
+    type: sister
+  - name: Akrem Bouaouina
+    type: brother
 familyMembersSubjectToSanctions:
   - Hayet Ben Ali
   - Ghazoua Bouaouina

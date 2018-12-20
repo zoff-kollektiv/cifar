@@ -13,7 +13,8 @@ dateOfBirth: 06.04.1971
 countryOfResidence: Tunisia
 corruptionLink: family
 familyMembers:
-  - Mehdi Ben Ali
+  - name: Mehdi Ben Ali
+    type: brother
 familyMembersSubjectToSanctions:
   - Mehdi Ben Ali
 suspectedOrConfirmedOverseasProperties: ''

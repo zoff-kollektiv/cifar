@@ -13,10 +13,14 @@ dateOfBirth: 16.05.1952
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Zine El Abidine Ben Ali
-  - Akrem Bouaouina
-  - Douraid Bouaouina
-  - Ghazoua Bouaouina
+  - name: Zine El Abidine Ben Ali
+    type: brother
+  - name: Akrem Bouaouina
+    type: son
+  - name: Douraid Bouaouina
+    type: son
+  - name: Ghazoua Bouaouina
+    type: daughter
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
   - Akrem Bouaouina

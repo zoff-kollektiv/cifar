@@ -19,7 +19,8 @@ dateOfBirth: 20.01.1963
 countryOfResidence: ''
 corruptionLink: government
 familyMembers:
-  - Lyudmyla Zakharchenko
+  - name: Lyudmyla Zakharchenko
+    type: ''
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''

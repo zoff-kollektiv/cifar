@@ -13,7 +13,8 @@ dateOfBirth: 13.01.1959
 countryOfResidence: Libya / United Arab Emirates
 corruptionLink: family
 familyMembers:
-  - Dorsaf Ben Ali
+  - name: Dorsaf Ben Ali
+    type: spouse
 familyMembersSubjectToSanctions:
   - Dorsaf Ben Ali
 suspectedOrConfirmedOverseasProperties: ''

@@ -21,10 +21,14 @@ dateOfBirth: 12.08.1964
 countryOfResidence: ''
 corruptionLink: government
 familyMembers:
-  - Zhanna Viktorivna Kliuieva
-  - Serhii Petrovych Kliuiev
-  - Bohdan Andriiovych Kliuiev
-  - Kyrylo Andriiovych Kliuiev
+  - name: Zhanna Viktorivna Kliuieva
+    type: spouse
+  - name: Serhii Petrovych Kliuiev
+    type: brother
+  - name: Bohdan Andriiovych Kliuiev
+    type: son
+  - name: Kyrylo Andriiovych Kliuiev
+    type: son
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-

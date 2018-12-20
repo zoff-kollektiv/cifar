@@ -13,7 +13,8 @@ dateOfBirth: 23.01.1963
 countryOfResidence: Egypt
 corruptionLink: government
 familyMembers:
-  - Habib el
+  - name: Habib el-Adly
+    type: spouse
 familyMembersSubjectToSanctions:
   - Habib el
 suspectedOrConfirmedOverseasProperties: ''

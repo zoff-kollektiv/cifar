@@ -15,8 +15,10 @@ dateOfBirth: 22.10.1967
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Montassar Ltaief
-  - Imed Ltaief
+  - name: Montassar Ltaief
+    type: brother
+  - name: Imed Ltaief
+    type: brother
 familyMembersSubjectToSanctions:
   - Montassar Ltaief
   - Imed Ltaief

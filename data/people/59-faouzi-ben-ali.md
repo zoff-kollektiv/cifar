@@ -13,7 +13,8 @@ dateOfBirth: 13.03.1947
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Zine El Abidine Ben Ali
+  - name: Zine El Abidine Ben Ali
+    type: brother
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
 suspectedOrConfirmedOverseasProperties: ''

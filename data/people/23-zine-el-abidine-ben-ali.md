@@ -16,12 +16,18 @@ dateOfBirth: 03.09.1936
 countryOfResidence: Saudi Arabia
 corruptionLink: ''
 familyMembers:
-  - Leila Trabelsi
-  - Nesrine Ben Ali
-  - Halima Ben Ali
-  - Cyrine Ben Ali
-  - Dorsaf Ben Ali
-  - Ghazoua Ben Ali
+  - name: Leila Trabelsi
+    type: spouse
+  - name: Nesrine Ben Ali
+    type: daughter
+  - name: Halima Ben Ali
+    type: daughter
+  - name: Cyrine Ben Ali
+    type: daughter
+  - name: Dorsaf Ben Ali
+    type: daughter
+  - name: Ghazoua Ben Ali
+    type: daughter
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
   - Nesrine Ben Ali

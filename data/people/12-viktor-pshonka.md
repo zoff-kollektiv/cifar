@@ -18,8 +18,10 @@ dateOfBirth: 06.02.1954
 countryOfResidence: Russia
 corruptionLink: government
 familyMembers:
-  - Olha Hennadiivna Pshonka
-  - Artem Viktorovych Pshonka
+  - name: Olha Hennadiivna Pshonka
+    type: spouse
+  - name: Artem Viktorovych Pshonka
+    type: son
 familyMembersSubjectToSanctions:
   - Artem Viktorovych Pshonka
 suspectedOrConfirmedOverseasProperties: ''

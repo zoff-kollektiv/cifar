@@ -13,7 +13,8 @@ dateOfBirth: 11.03.1972
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Sirine Ben Ali
+  - name: Sirine Ben Ali
+    type: spouse
 familyMembersSubjectToSanctions:
   - Sirine Ben Ali
 suspectedOrConfirmedOverseasProperties: ''

@@ -13,8 +13,10 @@ dateOfBirth: 04.03.1944
 countryOfResidence: Tunisia
 corruptionLink: family
 familyMembers:
-  - Leila Trabelsi
-  - Mohamed Ben Moncef Trabelsi
+  - name: Leila Trabelsi
+    type: sister
+  - name: Mohamed Ben Moncef Trabelsi
+    type: son
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
   - Mohamed Ben Moncef Trabelsi

@@ -13,11 +13,16 @@ dateOfBirth: 01.02.1960
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Leila Trabelsi
-  - Habib Zakir
-  - Youssef Trabelsi
-  - Chams Trabelsi
-  - Rania Trabelsi
+  - name: Leila Trabelsi
+    type: sister
+  - name: Habib Zakir- spouse
+    type: ''
+  - name: Youssef Trabelsi
+    type: child
+  - name: Chams Trabelsi
+    type: child
+  - name: Rania Trabelsi
+    type: child
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
   - Habib Zakir

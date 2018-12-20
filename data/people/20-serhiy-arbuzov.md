@@ -21,12 +21,18 @@ dateOfBirth: 24.03.1976
 countryOfResidence: ''
 corruptionLink: government
 familyMembers:
-  - Iryna Oleksandrivna Arbuzova
-  - Vadym Viktorovych Bahola
-  - Mykhailo Serhiiovych Arbuzov
-  - Serhii Serhiiovych Arbuzov
-  - Hennadii Pavlovych Arbuzov
-  - Valentyna Ivanivna Arbuzova
+  - name: Iryna Oleksandrivna Arbuzova
+    type: spouse
+  - name: Vadym Viktorovych Bahola
+    type: brother
+  - name: Mykhailo Serhiiovych Arbuzov
+    type: son
+  - name: Serhii Serhiiovych Arbuzov
+    type: son
+  - name: Hennadii Pavlovych Arbuzov
+    type: father
+  - name: Valentyna Ivanivna Arbuzova
+    type: mother
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-

@@ -13,11 +13,16 @@ dateOfBirth: 26.04.1950
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Leila Trabelsi
-  - Souad Ben Jemia
-  - Ines Trabelsi
-  - Faten Trabelsi
-  - Mohamed Trabelsi
+  - name: Leila Trabelsi
+    type: sister
+  - name: Souad Ben Jemia
+    type: wife
+  - name: Ines Trabelsi
+    type: child
+  - name: Faten Trabelsi
+    type: child
+  - name: Mohamed Trabelsi
+    type: child
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
 suspectedOrConfirmedOverseasProperties: ''

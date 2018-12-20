@@ -13,12 +13,18 @@ dateOfBirth: 25.09.1955
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Leila Trabelsi
-  - Hela Belhaj
-  - Jannet Trabelsi
-  - Sami Trabelsi
-  - Yassine Trabelsi
-  - Mahemd Ali Trabelsi
+  - name: Leila Trabelsi
+    type: sister
+  - name: Hela Belhaj
+    type: wife
+  - name: Jannet Trabelsi
+    type: child
+  - name: Sami Trabelsi
+    type: child
+  - name: Yassine Trabelsi
+    type: child
+  - name: Mahemd Ali Trabelsi
+    type: child
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
 suspectedOrConfirmedOverseasProperties: ''

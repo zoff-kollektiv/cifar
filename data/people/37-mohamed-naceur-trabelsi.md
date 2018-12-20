@@ -13,12 +13,18 @@ dateOfBirth: 24.06.1948
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Leila Trabelsi
-  - Imed Trabelsi
-  - Houssem Trabelsi
-  - Yosra Trabelsi
-  - Rhouma Trabelsi
-  - Amine Trabelsi
+  - name: Leila Trabelsi
+    type: sister
+  - name: Imed Trabelsi
+    type: son
+  - name: Houssem Trabelsi
+    type: son
+  - name: Yosra Trabelsi
+    type: daughter
+  - name: Rhouma Trabelsi
+    type: child
+  - name: Amine Trabelsi
+    type: child
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
   - Imed Trabelsi

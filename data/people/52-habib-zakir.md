@@ -14,10 +14,14 @@ dateOfBirth: 05.03.1957
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Nefissa Trabelsi
-  - Youssef Trabelsi
-  - Chams Trabelsi
-  - Rania Trabelsi
+  - name: Nefissa Trabelsi
+    type: spouse
+  - name: Youssef Trabelsi
+    type: child
+  - name: Chams Trabelsi
+    type: child
+  - name: Rania Trabelsi
+    type: child
 familyMembersSubjectToSanctions:
   - Nefissa Trabelsi
 suspectedOrConfirmedOverseasProperties: ''

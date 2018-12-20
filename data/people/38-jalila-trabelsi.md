@@ -13,12 +13,18 @@ dateOfBirth: 19.02.1953
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Leila Trabelsi
-  - Mohamed Mahjoub
-  - Asma Trabelsi
-  - Rym Trabelsi
-  - Amira Trabelsi
-  - Islam Trabelsi
+  - name: Leila Trabelsi
+    type: sister
+  - name: Mohamed Mahjoub
+    type: spouse
+  - name: Asma Trabelsi
+    type: child
+  - name: Rym Trabelsi
+    type: child
+  - name: Amira Trabelsi
+    type: child
+  - name: Islam Trabelsi
+    type: child
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''

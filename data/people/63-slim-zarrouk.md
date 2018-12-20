@@ -13,7 +13,8 @@ dateOfBirth: 13.08.1960
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Ghazoua Ben Ali
+  - name: Ghazoua Ben Ali
+    type: spouse
 familyMembersSubjectToSanctions:
   - Ghazoua Ben Ali
 suspectedOrConfirmedOverseasProperties: ''

@@ -15,8 +15,10 @@ dateOfBirth: 13.01.1970
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Naoufel Ltaief
-  - Montassar Ltaief
+  - name: Naoufel Ltaief
+    type: brother
+  - name: Montassar Ltaief
+    type: brother
 familyMembersSubjectToSanctions:
   - Naoufel Ltaief
   - Montassar Ltaief

@@ -14,12 +14,18 @@ dateOfBirth: 24.10.1956
 countryOfResidence: Saudi Arabia
 corruptionLink: family
 familyMembers:
-  - Zine El Abidine Ben Ali
-  - Nesrine Ben Ali
-  - Halima Ben Ali
-  - Cyrine Ben Ali
-  - Dorsaf Ben Ali
-  - Ghazoua Ben Ali
+  - name: Zine El Abidine Ben Ali
+    type: spouse
+  - name: Nesrine Ben Ali
+    type: daughter
+  - name: Halima Ben Ali
+    type: daughter
+  - name: Cyrine Ben Ali
+    type: daughter
+  - name: Dorsaf Ben Ali
+    type: daughter
+  - name: Ghazoua Ben Ali
+    type: daughter
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
   - Nesrine Ben Ali

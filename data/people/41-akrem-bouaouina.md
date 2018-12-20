@@ -13,9 +13,12 @@ dateOfBirth: 09.08.1977
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Hayet Ben Ali
-  - Ghazoua Bouaouina
-  - Douraid Bouaouina
+  - name: Hayet Ben Ali
+    type: mother
+  - name: Ghazoua Bouaouina
+    type: sister
+  - name: Douraid Bouaouina
+    type: brother
 familyMembersSubjectToSanctions:
   - Hayet Ben Ali
   - Ghazoua Bouaouina

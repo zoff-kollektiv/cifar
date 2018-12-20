@@ -24,11 +24,16 @@ dateOfBirth: 09.07.1950
 countryOfResidence: Russia
 corruptionLink: ''
 familyMembers:
-  - Liudmyla Oleksandrivna Yanukovych
-  - Oleksandr Viktorovych Yanukovych
-  - Viktor Viktorovych Yanukovych
-  - Illia Viktorovych Yanukovych
-  - Olha Stanislavivna Yanukovych
+  - name: Liudmyla Oleksandrivna Yanukovych
+    type: wife
+  - name: Oleksandr Viktorovych Yanukovych
+    type: son
+  - name: Viktor Viktorovych Yanukovych
+    type: son
+  - name: Illia Viktorovych Yanukovych
+    type: grandson
+  - name: Olha Stanislavivna Yanukovych
+    type: daughter-in-law
 familyMembersSubjectToSanctions:
   - Oleksandr Yanukovych
 suspectedOrConfirmedOverseasProperties: ''

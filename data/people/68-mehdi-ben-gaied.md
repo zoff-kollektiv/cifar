@@ -13,7 +13,8 @@ dateOfBirth: 29.01.1988
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Halime Ben Ali
+  - name: Halime Ben Ali
+    type: spouse
 familyMembersSubjectToSanctions:
   - Halime Ben Ali
 suspectedOrConfirmedOverseasProperties: ''

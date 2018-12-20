@@ -14,7 +14,8 @@ dateOfBirth: 02.12.1981
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Nesrine Ben Ali
+  - name: Nesrine Ben Ali
+    type: spouse
 familyMembersSubjectToSanctions:
   - Nesrine Ben Ali
 suspectedOrConfirmedOverseasProperties: ''

@@ -13,13 +13,20 @@ dateOfBirth: 08.03.1963
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Zine El Abidine Ben Ali
-  - Naima Kefi
-  - Slim Zarrouk
-  - Nesrine Ben Ali
-  - Halima Ben Ali
-  - Dorsaf Ben Ali
-  - Cyrine Ben Ali
+  - name: Zine El Abidine Ben Ali
+    type: father
+  - name: Naima Kefi
+    type: mother
+  - name: Slim Zarrouk
+    type: spouse
+  - name: Nesrine Ben Ali
+    type: sister
+  - name: Halima Ben Ali
+    type: sister
+  - name: Dorsaf Ben Ali
+    type: sister
+  - name: Cyrine Ben Ali
+    type: sister
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
   - Slim Zarrouk

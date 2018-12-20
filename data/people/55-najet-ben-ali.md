@@ -13,10 +13,14 @@ dateOfBirth: 18.09.1956
 countryOfResidence: ''
 corruptionLink: family
 familyMembers:
-  - Zine El Abidine Ben Ali
-  - Sadok Mihri
-  - Neji Ben Ali
-  - Dhafrallah Ben Ali
+  - name: Zine El Abidine Ben Ali
+    type: brother
+  - name: Sadok Mihri
+    type: spouse
+  - name: Neji Ben Ali
+    type: child
+  - name: Dhafrallah Ben Ali
+    type: child
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
 suspectedOrConfirmedOverseasProperties: ''
