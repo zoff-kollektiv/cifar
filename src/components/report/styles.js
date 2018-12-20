@@ -69,7 +69,7 @@ export default css`
     letter-spacing: -0.01rem;
   }
 
-  :global(.report h2) {
+  :global(.report h2:not(:first-child)) {
     font-size: 30px;
     font-weight: 600;
     line-height: 1.2;

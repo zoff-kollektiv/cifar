@@ -1,8 +1,8 @@
-import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import React from 'react';
 
 import Constraint from '../constraint';
+import Download from '../download';
 
 import styles from './styles';
 
@@ -10,7 +10,7 @@ export default ({
   footnotes,
   site,
   html,
-  frontmatter: { author, date, title }
+  frontmatter: { author, date, title, downloadTitle, downloadLink }
 }) => (
   <div className="report">
     <style jsx>{styles}</style>
@@ -27,6 +27,8 @@ export default ({
         {title}
         <small className="title-author">{author}</small>
       </h1>
+
+      {downloadLink && <Download title={downloadTitle} link={downloadLink} />}
 
       {/* eslint-disable react/no-danger */}
       <div
@@ -63,14 +65,3 @@ export default ({
     </Constraint>
   </div>
 );
-
-export const fragment = graphql`
-  fragment report on MarkdownRemark {
-    frontmatter {
-      date
-      author
-      title
-    }
-    html
-  }
-`;
