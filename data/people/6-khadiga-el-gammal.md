@@ -36,7 +36,7 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011
 ---
-Khadiga, the wife of Gamal Mubarak and 20-years his junior received a degree in 
-business administration from the American University in Cairo, where she has met 
-Gamal Mubarak during a conference in 2006. Together they have two children, son 
-Mahmoud Gamal Mubarak  and a daughter Farida Gamal Mubarak.
+Khadiga, the wife of Gamal Mubarak received a degree in business administration 
+from the American University in Cairo, where she met Gamal Mubarak during a 
+conference in 2006. Together they have two children, son Mahmoud Gamal Mubarak  
+and a daughter Farida Gamal Mubarak.

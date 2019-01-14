@@ -59,18 +59,16 @@ estimatesOfAssetsReturned: >-
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 21.03.2011
 ---
-The former Air Force officer, Hosni Mubarak, was sworn into power in 1981, after 
-the assassination of a former president Anwar Sadat. 
-But during the 30 year-long reign, Mubarak, his family and his close circle of 
-advisers have enriched themselves through partnerships in powerful Egyptian 
-companies and stashed a lot of this wealth abroad. The exposure of Mubarak's 
-wealth by media, which has been assessed by some as high as $70 billion was a 
-catalyst for people in Egypt, that time experiencing a chronic lack of jobs, who 
-took to streets and pressured Mubarak to step down.  
-Hosni Mubarak and his sons Gamal and Alaa Mubarak served three to four-year jail 
-sentences on charges of embezzlement and were ordered to pay a $17.5 million 
-fine. In March 2017, Hosni Mubarak was released from detention after being 
-acquitted of charges of killing protesters but remains under investigation for 
-alleged corruption. Mubarak is said to reside in his private family residence in 
-Cairo’s upscale district of Heliopolis. 
-[Source](https://www.bbc.com/news/world-middle-east-12301713)
+A former Air Force officer, Hosni Mubarak was sworn into power in 1981, after 
+the assassination of president Anwar Sadat. 
+During his 30 year rule, Mubarak, his family and his close circle of advisers 
+are alleged to have enriched themselves through partnerships in powerful 
+Egyptian companies and stashed a large part of this wealth abroad, with media 
+sources estimating this fortune at up to US$70 billion. Mubarak and his sons, 
+Gamal Mubrarak and Alaa Mubarak, served three to four-year jail sentences on 
+charges of embezzlement in Egypt after the 2011 revolution and were ordered to 
+pay a $17.5 million fine. In March 2017, Hosni Mubarak was released from 
+detention after being acquitted of charges of killing protesters during the 
+revolution, but remains under investigation for alleged corruption. He is said 
+to reside in his private family residence in Cairo’s upscale district of 
+Heliopolis. [Source](https://www.bbc.com/news/world-middle-east-12301713)
