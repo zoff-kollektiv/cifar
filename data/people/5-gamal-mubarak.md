@@ -48,23 +48,27 @@ estimatesOfAssetsFrozenOrConfiscated: >-
   300 million of frozen Swiss francs were said to belong to Mubarak’s sons Alaa
   and Gamal
 estimatesOfAssetsReturned: None
-typeOfSanctions: Asset freeze and prohibition to make funds available
+typeOfSanctions: ''
 startOfSanctions: |
   21.03.2011
 ---
-Gamal, Mubarak's younger son who was said to succeed his father as a president, 
-was educated at the American University of Cairo and spent six years working as 
-an investment banker for Bank of America in Egypt and also in London. In London, 
-Gamal and his wife Khadiga lived in a luxurious propoerty in wealthy 
-Knightsbridge. Gamal founded an investment advisory firm, Med Invest Partners, 
-which helped Western investors seeking to purchase stocks and companies in 
-Egypt.
-Children of Hosni Mubarak, mainly Gamal Mubarak, have aquired their fortune by 
-ensuring that companies coming to Egypt pay from 5 percent to 20 percent 
-commission fee to one of their companies. Under Egyptian law, foreign businesses 
-are required to give a local partners a 51-percent stake in their Egyptian 
-operations and such local partners were usually connected to Mubarak's network 
-of family and allies.
-[Source](https://www.huffingtonpost.com/2011/02/11/how-the-mubarak-family-made-its-billions_n_821757.html)
-In September 2018, Gamal and his brother Alaa were arrested for charges of 
-manipulation of the stock market.
+Gamal, Mubarak's younger son, who was said to be planning to succeed his father 
+as a president, was educated at the American University of Cairo and spent six 
+years working as an investment banker for Bank of America in Egypt and also in 
+London. In London, Gamal and his wife Khadiga lived in a luxurious propoerty in 
+wealthy Knightsbridge. Gamal founded an investment advisory firm, Med Invest 
+Partners, which helped Western investors seeking to purchase stocks and 
+companies in Egypt.
+The children of Hosni Mubarak, and principally Gamal Mubarak, are alleged to 
+have aquired their fortune by ensuring that companies coming to Egypt paid a 
+commission fee of between 5% and 20% to one of their companies. Under Egyptian 
+law, foreign businesses are required to give a local partners a 51-percent stake 
+in their Egyptian operations and such local partners were usually connected to 
+Mubarak's network of family and allies.
+[Source](https://www.huffingtonpost.com/2011/02/11/how-the-mubarak-family-made-its-billions_n_821757.html) 
+Alongisde his father and brother, Gamal was Initially sentenced for three years 
+in prison for diverting millions of public money to maintain presidential 
+palaces.
+In September 2018, Gamal was arrested, along with his brother Alaa, and accused 
+of manipulating the stock market. 
+[Source](https://madamasr.com/en/2018/10/01/feature/politics/the-mubaraks-quick-turn-through-the-jailhouse-turnstile/)

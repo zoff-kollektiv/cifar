@@ -45,12 +45,11 @@ estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 21.03.2011
 ---
-Mubarak's wife Suzanne was born to a Wesh mother and an Egyptian father. She met 
-Mubarak when she was only 16 years old, with whom they had together two sons; 
-Alaa Mubarak and Gamal Mubarak. As First Lady, she was known for her charitable 
-work and attended many important world events, and she served as a goodwill 
-ambassador for the U.N.'s Food and Agricultural Organization. After the ousting 
-of her husband, her charitable work came under srutiny and she has been 
-investigted for corruption. One such case has been an alleged misappropriation 
-of funds and donations related to the Alexandria Library. 
+Mubarak's wife Suzanne was born to a Wesh mother and an Egyptian father. and is 
+the mother of Alaa Mubarak and Gamal Mubarak. As First Lady, she was known for 
+her charitable work and attended many important world events, serving for a time 
+as a goodwill ambassador for the U.N.'s Food and Agricultural Organization. 
+After the ousting of her husband, her charitable work came under srutiny and she 
+has been investigted for corruption. One such case has been an alleged 
+misappropriation of funds and donations related to the Alexandria Library. 
 [Source](http://content.time.com/time/world/article/0,8599,2071446,00.html) 

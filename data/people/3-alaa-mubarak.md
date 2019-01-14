@@ -46,16 +46,16 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011
 ---
-Alaa, Mubarak's older son was a businessman who owned a company that services 
-most of the airlines in Egypt but unlike his younger sibling, showed no interest 
-in politics. Both sons of Hosni Mubarak were known for their extraagant and 
-luxurious lifestyles during their father's 30-year reign. Investigations that 
-followed the Panama Papers leak revealed Alaa as the owner of Pan World 
-Investments, an investment fund for the Mubarak family of nearly $1 billion 
-incorporated by Mossack Fonseca.
+Alaa, Mubarak's older son was a businessman who owned a company servicing most 
+of the airlines in Egypt. Unlike his younger sibling, he showed no interest in 
+politics. Both sons of Hosni Mubarak were known for their extravagant and 
+luxurious lifestyles during their father's 30-year rule. Investigations coming 
+out of the Panama Papers revealed Alaa as the owner of Pan World Investments, an 
+investment fund for the Mubarak family of nearly US$1 billion and incorporated 
+by Mossack Fonseca.
 Alongisde his father and older brother, Alaa was Initially sentenced for three 
 years in prison for diverting millions of public money to maintain presidential 
 palaces.
-In September 2018, Alaa was arrested again along with his brother Gamal, accused 
-of manipulating the stock market. 
+In September 2018, Alaa was arrested again in Egypt, along with his brother 
+Gamal, and accused of manipulating the stock market. 
 [Source](https://madamasr.com/en/2018/10/01/feature/politics/the-mubaraks-quick-turn-through-the-jailhouse-turnstile/)
