@@ -27,5 +27,4 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Husband of Samira Trabelsi, who is a sister of Laila Trabelsi. Born in La Marsa 
-on 5 May 1959 to Fatma Sfar. Montassar Mehrezi used to reside at 4 rue Taoufik 
-El Hakim, La Marsa. 
+on 5 May 1959 to Fatma Sfar. Montassar Mehrezi used to reside La Marsa, Tunisia. 

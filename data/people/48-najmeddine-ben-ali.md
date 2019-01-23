@@ -37,6 +37,6 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Nephew of Zine El Abidine Ben Ali, born in Monastir in 1972, son of Selma 
-MANSOUR. Bachelor, commercial exporter and importer, residing at avenue Mohamed 
-Salah Sayadi — Skanes — Monastir. 
+MANSOUR. Commercial exporter and importer, allegedly residing in Monastir, 
+Tunisia. 
 [Source](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011D0072-20170128)

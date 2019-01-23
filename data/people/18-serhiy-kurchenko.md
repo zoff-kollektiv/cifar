@@ -108,14 +108,14 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---
 Dubbed as the ‘billionaire from nowhere’ or the ‘wizard of gas’, young 
-entrepreneur Kurchenko managed to aquire a great wealth in a very short amount 
-of time in the gas business. Kurchenko was the head of "The VETEK Group of 
-Companies”,  which later included the UMH group that controlled 50 Ukrainian and 
-Russian Internet, radio and media brands. Among them: the Ukrainian edition of 
-Forbes. Kurchenko’s company UMH has been the publisher of Forbes Ukraine until 
-July 2015 when the U.S. government imposed sanctions on him and he was denied to 
-use the Forbes brand. He is allegedly residing in Russia, where he has acquired 
-real estate and continues to engage in entrepreneurial activity. 
+entrepreneur Kurchenko managed to aquire a fortune in a very short amount of 
+time in the gas business. Kurchenko was the head of "The VETEK Group of 
+Companies”,  which later included the UMH group and which controlled 50 
+Ukrainian and Russian internet, radio and media brands. Among them ws the 
+Ukrainian edition of Forbes until July 2015, when the U.S. government imposed 
+sanctions on him and he was no longer allowed to use the Forbes brand. He is 
+allegedly residing in Russia, where he has acquired real estate and continues to 
+engage in entrepreneurial activity. 
 [Source](https://www.reuters.com/article/us-russia-capitalism-kurchenko-specialre/special-report-how-a-29-year-old-ukrainian-made-a-killing-on-russian-gas-idUSKBN0JP1KO20141212) 
 [Source 
 1](https://www.thedailybeast.com/sergiy-kurchenko-ukraines-missing-oligarch) 

@@ -40,5 +40,5 @@ startOfSanctions: 04.02.2011
 ---
 Former managing director, Mohamed Ben Moncef Trabelsi is a nephew of Laila 
 Trabelsi, the wife of Zine El Abidine Ben Ali. Son of Yamina SOUIEI, born in 
-Libya on 7 January 1980. Moncef is married to Inès LEJRI, residing at Résidence 
-de l'Étoile du Nord, Cité El Khadra.
+Libya on 7 January 1980. Moncef is married to Inès LEJRI, allegedly residing in 
+El Khadra, Tunisia.

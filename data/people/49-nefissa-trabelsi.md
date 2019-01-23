@@ -36,5 +36,5 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Sister-in-law of Zine El Abidine Ben Ali and a sister of Laila Trabelsi, Nefissa 
-was born on 1 February 1960. She is married to Habib Zakir and was said to be 
-residing at 4 rue de la Mouette, Gammarth Supérieur. 
+was born on 1 February 1960. She is married to Habib Zakir and is alleged to be 
+residing in Gammarth, Tunisia. 

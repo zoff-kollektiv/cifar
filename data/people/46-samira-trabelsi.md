@@ -30,5 +30,5 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Sister-in-law of Zine El Abidine Ben Ali Tunisian and a daughter of Saida 
-Dherif. She was born on 27 December 1958, and used to reside at 4 rue Taoufik EI 
-Hakim, La Marsa. She is married to Mohamed Montassar Meherzi. 
+Dherif. She was born on 27 December 1958, and used to reside in La Marsa, 
+Tunisia. She is married to Mohamed Montassar Meherzi. 

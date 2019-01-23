@@ -36,5 +36,4 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Sister of Zine el Abidine Ben Ali, born in Hammam-Sousse on 16 May 1952. Married 
-to Fathi Refat. Former resifential address at 17 avenue de la République, 
-Hammam-Sousse.
+to Fathi Refat. Formerly alleged to have been living in Sousse, Tunisia.

@@ -32,5 +32,5 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Nephew of Zine El Abidine Ben Ali, born in Sousse on 13 January 1970 to Naïma 
-Ben Ali. Former Tunisian department manager is supposed to be residing at 
-Résidence les Jardins, El Menzah 8, l'Ariana.
+Ben Ali. Former Tunisian department manager, allegedly residing in Ariana, 
+Tunisia.

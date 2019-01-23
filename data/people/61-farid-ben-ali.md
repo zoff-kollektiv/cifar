@@ -27,5 +27,5 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Brother of Zine El Abidine Ben Ali, born in Hammam-Sousse on 22 November 1949. 
-Formerly a press photographer in Germany, resided at 11 rue Sidi el Gharbi, 
-Hammam - Sousse. 
+Formerly a press photographer in Germany, he is alleged to have resided in 
+Hammam - Sousse, Tunisia. 

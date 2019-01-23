@@ -35,5 +35,5 @@ Zakharchenko was ousted from the office at the same time as Viktor Yanukovych,
 both facing charges of using violence against protesters in the February 2014 
 Euromaidan riots, which led to several deaths. He was last seen in Russia in 
 April 2014 during a joint press conference with Viktor Yanukovych and former 
-Viktor Pshonka. 
+prosecutor general Viktor Pshonka. 
 [Source](https://www.rt.com/news/yanukovich-ukraine-war-civil-292/)

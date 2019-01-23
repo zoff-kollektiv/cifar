@@ -66,8 +66,8 @@ Andriy Klyuev is a former Ukrainian politician, who served as Deputy People's
 Deputy of Ukraine, Vice Prime Minister of Ukraine, Secretary of the National 
 Security and Defense Council of Ukraine, and Head of the Presidential 
 Administration. Together with his younger brother Sergiy Petrovich Klyuev they 
-were active in the solar energy business. The Klyuyev brothers are the 
-beneficiary owners of a number of companies, from whose 70 were formerly linked 
-to few Austrian holding companies.
+were active in the solar energy business. The Klyuyev brothers are the alleged 
+beneficial owners of a number of companies, from which 70 were formerly linked 
+to a small number of Austrian holding companies.
 [Source 1](https://pep.org.ua/uk/person/742#dossier) [Source 
 2](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)

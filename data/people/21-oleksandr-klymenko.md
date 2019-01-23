@@ -38,13 +38,13 @@ estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---
-With a bakcground in management and finance, Oleksandr Klymenko has held several 
+With a background in management and finance, Oleksandr Klymenko held several 
 public positions before becoming the Revenue Minister. After the events in 2014, 
 Klymenko was accused of being involved in a vast tax fraud scheme that inflicted 
-financial losses on Ukraine of several billions USD. He himself has been vocal 
-in denying the raised allegations as attempts for a political prosecution and 
-has established a new political party called Successful Ukraine. He is belived 
-to reside in Russia.
+financial losses on Ukraine of several billion USD. He himself has been vocal in 
+denying the allegations as attempts as politically motivated and has established 
+a new political party called Successful Ukraine. He is belived to reside in 
+Russia.
 
 [Source](https://www.independent.co.uk/news/world/europe/oleksandr-klymenko-ukraines-exiled-tax-minister-says-charges-against-him-are-payback-time-for-vested-a6758046.html)[Source1](https://www.occrp.org/en/history-of-occrp/27-ccwatch/cc-watch-briefs/2484-ukraine-11-billion-allegedly-stolen-in-colossal-3-year-tax-fraud)[Source2](https://www.occrp.org/en/history-of-occrp/27-ccwatch/cc-watch-briefs/2484-ukraine-11-billion-allegedly-stolen-in-colossal-3-year-tax-fraud) 
 [Source 3](https://en.interfax.com.ua/news/general/493303.html) 

@@ -24,4 +24,4 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Born on 20 December 1965, son of Radhia Mathlouthi, married to Linda Cherni. 
-Office worker at Tunisair, resided at 12 rue Taieb Mhiri, Le Kram.
+Office worker at Tunisair, resided in Le Kram, Tunisia.

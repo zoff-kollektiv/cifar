@@ -26,8 +26,8 @@ estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-Nephew of Zine El Abidine Ben Ali, born in Le Petit Quevilly on 6 April 1971 (or 
-on 16 April according to his Tunisian identity card). Son of Tijani BEN ALI and 
-Paulette HAZET; married to Amel SAIED. Managing director; residing at Chouket El 
-Arressa, Hammam — Sousse, Tunisia or at 14, esplanade des Guinandiers à Bailly 
-Romainvilliers in France. He holds a Tunisian and French nationality. 
+Nephew of Zine El Abidine Ben Ali, born in Le Petit Quevilly, France on 6 April 
+1971 (or on 16 April according to his Tunisian identity card). Son of Tijani BEN 
+ALI and Paulette HAZET; married to Amel SAIED. Managing director; in Sousse, 
+Tunisia or Bailly Romainvilliers, France. He holds a Tunisian and French 
+nationality. 

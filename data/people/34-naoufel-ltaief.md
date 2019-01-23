@@ -33,5 +33,4 @@ startOfSanctions: 04.02.2011
 ---
 Nephew of Zine El Abidine Ben Ali, born in Hammam Sousse on 22 October 1967 to 
 Naïma Ben Ali. Naoufel used to be a special adviser at the Ministry of 
-Transport. His last reported address of residence was 4 avenue Tahar SFAR, El 
-Manar 2 Tunis.
+Transport. His last reported address of residence is in Tunis.

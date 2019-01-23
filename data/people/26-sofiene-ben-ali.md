@@ -24,7 +24,6 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 The son of Moncef Ben Ali and a nephew of former president Zine El Abidine Ben 
-Ali was a managing director, residing at 11 rue de France in Paris. He died on 
-23rd February 2018 due to a protracted illness contracted during his detention 
-after January 2011.  
+Ali. He died on 23rd February 2018 due to a protracted illness contracted during 
+his detention after January 2011.  
 [Source](http://www.webdo.tn/2018/02/23/deces-de-sofiene-ben-ali-neveu-de-lancien-president-gendre-de-hedi-jilani/)

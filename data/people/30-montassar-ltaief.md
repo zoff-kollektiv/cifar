@@ -32,5 +32,5 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Nephew of Zine El Abidine Ben Ali, born in Sousse on 3 January 1973. Son of 
-Naïma Ben Ali later married to Lamia Jegham. He was said to be residing at 13 
-Ennakhil housing estate, Sousse.
+Naïma Ben Ali later married to Lamia Jegham. He was said to be residing in 
+Sousse, Tunisia.

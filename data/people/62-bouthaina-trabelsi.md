@@ -39,5 +39,4 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Niece of Laila Trabelsi, the wife of Zine El Abidine Ben Ali. Daughter of Yamina 
-Souiei, born on 4 December 1971. Last resident address at 2 rue El Farrouj - La 
-Marsa.
+Souiei, born on 4 December 1971. Last resident address is La Marsa, Tunisia.

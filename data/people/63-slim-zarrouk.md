@@ -28,4 +28,4 @@ startOfSanctions: 04.02.2011
 ---
 Son-in-law of former President Ben Ali, married to also sanctioned Ghazoua Ben 
 Ali. Born in Tunis 13 August 1960, son of Maherzia Guedira.Formerly a CEO, 
-residing at 49 avenue Habib Bourguiba, Carthage.
+residing in Carthage, Tunisia.
