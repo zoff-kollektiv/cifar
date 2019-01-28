@@ -1,33 +1,33 @@
 ---
 title: About EU misappropriation sanctions
 ---
-Following the revolutions in 2011 in Tunisia and Egypt and 2014 in Ukraine, the Council of the European Union (EU) imposed misappropriation sanctions on people suspected of corruption from the ousted regimes.
+Following the revolutions in 2011 in Tunisia and Egypt and 2014 in Ukraine, the Council of the European Union imposed misappropriation sanctions on people suspected of corruption from the ousted regimes.
 
 These require that any assets relating to persons on the list, including houses and bank accounts, are frozen in all EU Member States.
 
-Sanctions are imposed by the Council of the EU to promote the objectives of the Common Foreign and Security Policy (CFSP): peace, democracy and the respect for the rule of law, human rights and international law.
+Sanctions are imposed by the Council of the EU to promote the objectives of the Common Foreign and Security Policy: peace, democracy and the respect for the rule of law, human rights and international law.
 
 Each year, the Council of the EU decides whether sanctions should be renewed, amended or lifted.
 
 
 ## Glossary
 
-Disclaimer: The following is a general description of terms used throughout this website. For exact terms used in context, please see the up-to-date version of the relevant legislation. If you are in doubt about any of the below, please contact your competent national authority or seek independent legal advice.
+*Disclaimer: The following is a general description of terms used throughout this website. For exact terms used in context, please see the up-to-date version of the relevant legislation. If you are in doubt about any of the below, please contact your competent national authority or seek independent legal advice.*
 
 ### Asset freeze
-It is the most common form of financial sanctions. Asset freeze makes funds and economic resources of the designated person unavailable, however, this process does not involve a confiscation or a change in the ownership of the frozen funds and economic resources.
+The most common form of financial sanctions. Asset freezes makes funds and economic resources of the designated person unavailable for the period they are in force. This process does not however involve a confiscation or a change in the ownership of the frozen funds and economic resources.
 
 ### Competent authority
-Designated national authorities of the EU member states who implement financial sanctions. For a list of these authorities see the guidelines section on this website.
+Designated national authorities of EU member states responsible for implementing financial sanctions. For a list of these authorities see the guidelines section on this website.
 
 ### Council of the European Union
-Often referred to as the Council, it is an institution representing the European Union member states' governments, where national ministers from each EU country meet to adopt laws and coordinate policies.
+Often referred to as the Council, an institution representing the European Union Member State governments, where national ministers from each EU country meet to adopt laws and coordinate policies.
 
 ### Misappropriation sanctions
-They are a type of financial sanctions when targeted asset freezes are applied. These freezes can restrict the access to funds and economic resources of individuals, entities and bodies.
+A type of financial sanction related to corruption. These sanctions can restrict access to funds and economic resources of individuals, entities and bodies.
 
 ### Sanctions
-Restrictive measures that can take a number of different forms, in pursuit of a variety of goals. The measures have ranged from comprehensive economic and trade sanctions to more targeted measures such as arms embargoes, travel bans, and financial or commodity restrictions.
+Restrictive measures that can take a number of different forms, in pursuit of a variety of goals. Measures rangee from comprehensive economic and trade sanctions to more targeted measures such as arms embargoes, travel bans, and financial or commodity restrictions.
 
 Sources: [1](https://eeas.europa.eu/topics/external-investment-plan/423/sanctions-policy_en), [2](https://www.consilium.europa.eu/en/council-eu/), [3](https://www.gov.uk/government/publications/financial-sanctions-faqs), [4](https://www.un.org/sc/suborg/en/sanctions/information)
 
