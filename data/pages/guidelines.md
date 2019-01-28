@@ -5,24 +5,16 @@ As well as assisting the countries of origin, businesses have a role and respons
 report and to act when there is a suspicion that they are dealing with people subject to
 sanctions.
 
-As well as assisting the countries of origin, businesses have a role and responsibilities to both
-report and to act when there is a suspicion that they are dealing with people subject to
-sanctions.
+All EU nationals and legal entities established under EU law must comply with the EU sanctions that are in force, irrespective of where their activities take place. Failure to comply with sanctions might result in a criminal prosecution or a monetary penalty.
 
-EU misappropriation sanctions are only one type of sanctions that businesses need to be aware
-of when performing due diligence investigation. The information on this website does not
-provide a comprehensive list of all sanctions nor can it replace legal advice. This website should
-be used as a resource to inform businesses about misappropriation sanctions and to aid the
-identification of designated persons.
+Banks and financial institutions, as well as real estate agents and sellers, and the luxury goods sector are all particularly at risk of dealing with persons subject to sanctions. Undertaking due diligence obligations and ensuring your company does not deal with someone subject to sanctions is therefore key.
 
 There is a number of processes that your company or institution can adopt in order to minimize the risk of non-compliance with sanctions. Depending on your business model and risk factors, these may include:
 
-- Have a sanctions policy in place
-- Have a monitoring system to ensure compliance with sanctions at all times
-- Raise awareness of sanctions-compliance amongst your staff
-- Identify and establish a communication channel with your national competent authority
-
-All EU nationals and legal entities established under EU law must comply with the EU sanctions that are in force, irrespective of where their activities take place. Failure to comply with sanctions might result in a criminal prosecution or a monetary penalty.
+-	Establishing and updating a sanctions policy
+-	Implementing a monitoring system to ensure continual compliance with sanctions
+-	Raising awareness of sanctions-compliance amongst your staff and within your supply chain
+-	Identifying and establishing a communication channel with your national competent authority 
 
 As soon as practicable, EU regulations require natural and legal persons, entities and bodies to provide their national competent authorities with information that would facilitate compliance with the regulations. In case you might be dealing with a designated entity or you are unsure of your reporting obligations, you should seek independent legal advice or contact the relevant national competent authority from the list below.
 
@@ -56,3 +48,12 @@ As soon as practicable, EU regulations require natural and legal persons, entiti
 - [Spain](http://www.exteriores.gob.es/Portal/en/PoliticaExteriorCooperacion/GlobalizacionOportunidadesRiesgos/Paginas/SancionesInternacionales.aspx)
 - [Sweden](http://www.ud.se/sanktioner)
 - [United Kingdom](https://www.gov.uk/guidance/sanctions-embargoes-and-restrictions)
+
+## Contacts of the European Commission
+
+- [European Commission, Service for Foreign Policy Instruments (FPI)](https://ec.europa.eu/fpi/what-we-do/sanctions_en)
+- [European External Action Service, Sanctions Division](https://eeas.europa.eu/generic-warning-system-taxonomy/404_en/423/Sanctions%20policy) 
+
+## Note
+*EU misappropriation sanctions are only one type of sanctions that businesses need to be aware of when performing due diligence investigation. The information on this website does not provide a comprehensive list of all sanctions nor can it replace legal advice. This website should be used as a resource to inform businesses about misappropriation sanctions and to aid the identification of designated persons.* 
+
