@@ -28,8 +28,9 @@ familyMembersSubjectToSanctions:
   - Suzanne Mubarak
   - Khadiga el Gammal
 suspectedOrConfirmedOverseasProperties: >-
-  London, Paris, Marbella (Spain), Dubai, US
-  [Source](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html)
+  London, Paris, Marbella (Spain), Dubai, Berverly Hills (US)
+  [1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html),
+  [2](https://www.huffingtonpost.co.uk/entry/how-the-mubarak-family-made-its-billions_n_821757)
 suspectedOrConfirmedLinksToLegalEntities: >-
   Pan World Investments Inc., Brick Nominees Limited, MedInvest Associates Ltd.,
   Bullion Co. Ltd, EFG Private Equity  [Source
@@ -59,16 +60,12 @@ London. In London, Gamal and his wife Khadiga lived in a luxurious propoerty in
 wealthy Knightsbridge. Gamal founded an investment advisory firm, Med Invest 
 Partners, which helped Western investors seeking to purchase stocks and 
 companies in Egypt.
-The children of Hosni Mubarak, and principally Gamal Mubarak, are alleged to 
-have aquired their fortune by ensuring that companies coming to Egypt paid a 
-commission fee of between 5% and 20% to one of their companies. Under Egyptian 
-law, foreign businesses are required to give a local partners a 51-percent stake 
-in their Egyptian operations and such local partners were usually connected to 
-Mubarak's network of family and allies.
-[Source](https://www.huffingtonpost.com/2011/02/11/how-the-mubarak-family-made-its-billions_n_821757.html) 
-Alongisde his father and brother, Gamal was Initially sentenced for three years 
-in prison for diverting millions of public money to maintain presidential 
-palaces.
-In September 2018, Gamal was arrested, along with his brother Alaa, and accused 
-of manipulating the stock market. 
-[Source](https://madamasr.com/en/2018/10/01/feature/politics/the-mubaraks-quick-turn-through-the-jailhouse-turnstile/)
+Together with his brother Alaa, he is alleged to have aquired his fortune by 
+levying commissions on foreign companies. Accoridng to the Egyptian law, foreign 
+companies were required to have local partners, which in most cases were 
+conected to the Mubarak family or the ruling party. Alongisde his father and 
+brother, Gamal was initially sentenced for three years in prison for diverting 
+millions of public money to maintain presidential palaces. In September 2018, 
+Gamal was arrested, along with his brother Alaa, and accused of manipulating the 
+stock market. 
+[1](https://www.huffingtonpost.com/2011/02/11/how-the-mubarak-family-made-its-billions_n_821757.html)[2](https://madamasr.com/en/2018/10/01/feature/politics/the-mubaraks-quick-turn-through-the-jailhouse-turnstile/)

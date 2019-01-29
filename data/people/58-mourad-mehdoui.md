@@ -28,4 +28,5 @@ startOfSanctions: 04.02.2011
 ---
 Mourad married Lilia Nacef - a niece of Laila Trabelsi, the wife of Zine El 
 Abidine Ben Ali. He was born in Tunis on 3 May 1962 to Neila Bartaji. He used to 
-be a company CEO and was alleged to reside in Tunis.
+be a company CEO and was alleged to reside in Tunis. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

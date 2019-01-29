@@ -33,4 +33,5 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Sister of Zine el Abidine Ben Ali, born in Sousse on 18 September 1956. Married 
-to Sadok Habib Mhiri.
+to Sadok Habib Mhiri. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

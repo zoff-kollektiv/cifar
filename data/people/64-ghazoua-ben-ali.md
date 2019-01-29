@@ -45,4 +45,5 @@ startOfSanctions: 04.02.2011
 ---
 Daughter of former President Ben Ali from his first marriage with Naima el Keli, 
 wife of also sanctioned Slim Zarrouk. Ghazoua was born in Le Bardo on 8 March 
-1963 and worked as a medical doctor.
+1963 and worked as a medical doctor. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

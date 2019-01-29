@@ -37,4 +37,5 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Nephew of Ben Ali's spouse Laila Trabelsi was born on 18 September 1976 to Najia 
-Jeridi.
+Jeridi. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

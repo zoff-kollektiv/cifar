@@ -36,3 +36,4 @@ startOfSanctions: 04.02.2011
 ---
 Nephew of Zine El Abidine Ben Ali and a son of Hayet Ben Ali. Born in Hammam - 
 Sousse on 8 October 1978, he used to be a company director. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

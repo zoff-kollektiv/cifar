@@ -29,8 +29,9 @@ familyMembersSubjectToSanctions:
   - Suzanne Thabet
   - Heidy Rasekh
 suspectedOrConfirmedOverseasProperties: >-
-  London, Paris, Marbella (Spain), Dubai, US
-  [Source](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html)
+  London, Paris, Marbella (Spain), Dubai, Berverly Hills (US)
+  [1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html),
+  [2](https://www.huffingtonpost.co.uk/entry/how-the-mubarak-family-made-its-billions_n_821757)
 suspectedOrConfirmedLinksToLegalEntities: >-
   Pan World Investments Inc., Brick Nominees Limited [Source
   1](https://offshoreleaks.icij.org/nodes/10062310) 
@@ -58,4 +59,4 @@ years in prison for diverting millions of public money to maintain presidential
 palaces.
 In September 2018, Alaa was arrested again in Egypt, along with his brother 
 Gamal, and accused of manipulating the stock market. 
-[Source](https://madamasr.com/en/2018/10/01/feature/politics/the-mubaraks-quick-turn-through-the-jailhouse-turnstile/)
+[1](https://madamasr.com/en/2018/10/01/feature/politics/the-mubaraks-quick-turn-through-the-jailhouse-turnstile/)

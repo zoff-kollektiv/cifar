@@ -37,3 +37,4 @@ startOfSanctions: 04.02.2011
 ---
 Jalila is a sister of Laila Trabelsi, the wife of Zine El Abidine Ben Ali. Born 
 in Radès on 19 February 1953, she has been married to Mohamed Mahjoub. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

@@ -32,9 +32,12 @@ suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
-estimatesOfAssetsReturned: None
+estimatesOfAssetsReturned: >-
+  CHF40 million from Switzerland
+  [1](https://www.swissinfo.ch/eng/dictator-s-assets_first-batch-of-ben-ali-funds-returned-to-tunisia/42197748)
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Brother-in-law of Zine El Abidine Ben Ali is a businessman. Born in Tunis on 5 
-November 1962 to Saida Dherif.
+November 1962 to Saida Dherif.  
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

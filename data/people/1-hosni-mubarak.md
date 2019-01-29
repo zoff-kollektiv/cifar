@@ -34,8 +34,9 @@ familyMembersSubjectToSanctions:
   - Omar Alaa Mubarak
   - Farida Gamal Mubarak
 suspectedOrConfirmedOverseasProperties: >-
-  London, Paris, Marbella (Spain), Dubai, US
-  [Source](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html)
+  London, Paris, Marbella (Spain), Dubai, Berverly Hills (US)
+  [1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html),
+  [2](https://www.huffingtonpost.co.uk/entry/how-the-mubarak-family-made-its-billions_n_821757)
 suspectedOrConfirmedLinksToLegalEntities: >-
   Pan World Investments Inc., Brick Nominees Limited [Source
   1](https://offshoreleaks.icij.org/nodes/10062310)
@@ -53,8 +54,8 @@ estimatesOfAssetsFrozenOrConfiscated: >-
   Egypt
   [Source](https://www.egyptindependent.com/switzerland-lifts-freeze-ousted-mubaraks-financial-assets/)
 estimatesOfAssetsReturned: >-
-  $34 million linked to businessman Ahmed Ezz who was removed from the sanctions
-  list in 2018
+  $34 million linked to businessman Ahmed Ezz, who was removed from the
+  sanctions list in 2018
   [Source](https://www.swissinfo.ch/eng/politics/chf32m-thaw_switzerland-repatriates-chunk-of-frozen-mubarak-funds/43999128)
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 21.03.2011

@@ -29,4 +29,5 @@ startOfSanctions: 04.02.2011
 ---
 Nephew of Ben Ali's spouse Laila Trabelsi was born in Tunis on 25 June 1975. 
 Lilia is a daughter of deceased Mounira Trabelsi, who was a sister of Leila 
-Trabelsi. She is married to Mourad Mehdoui.
+Trabelsi. She is married to Mourad Mehdoui. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

@@ -35,8 +35,9 @@ familyMembersSubjectToSanctions:
   - Alaa Mubarak
   - Gamal Mubarak
 suspectedOrConfirmedOverseasProperties: >-
-  London, Paris, Marbella (Spain), Dubai, US
-  [Source](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html)
+  London, Paris, Marbella (Spain), Dubai, Berverly Hills (US)
+  [1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html),
+  [2](https://www.huffingtonpost.co.uk/entry/how-the-mubarak-family-made-its-billions_n_821757)
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
@@ -52,4 +53,4 @@ as a goodwill ambassador for the U.N.'s Food and Agricultural Organization.
 After the ousting of her husband, her charitable work came under srutiny and she 
 has been investigted for corruption. One such case has been an alleged 
 misappropriation of funds and donations related to the Alexandria Library. 
-[Source](http://content.time.com/time/world/article/0,8599,2071446,00.html) 
+[1](http://content.time.com/time/world/article/0,8599,2071446,00.html) 

@@ -45,4 +45,4 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Ex-president of Tunisia was born in Hamman-Sousse 3 September 1936. Married to 
-Leïla Trabelsi.
+Leïla Trabelsi. They both currently live in Saudi Arabia

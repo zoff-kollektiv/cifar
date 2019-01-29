@@ -35,4 +35,5 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Brother-in-law of Zine El Abidine Ben Ali, son of Saida Dherif, born in Tunis on 
-26 April 1950. He is married to Souad Ben Jemia. He died on January 27 2011.
+26 April 1950. He is married to Souad Ben Jemia. He died on January 27 2011. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

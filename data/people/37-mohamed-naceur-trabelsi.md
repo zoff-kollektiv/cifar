@@ -40,4 +40,5 @@ startOfSanctions: 04.02.2011
 ---
 Brother-in-law of Zine El Abidine Ben Ali, married to Nadia Makni. Born in Tunis 
 on 24 June 1948 to Saida Dherif. Mohamed Naceur used to be the acting manager of 
-an agricultural undertaking.
+an agricultural undertaking. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

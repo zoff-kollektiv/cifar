@@ -45,4 +45,5 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Halima is an older of two daughters of Zine El Abidine Ben Ali and Laila 
-Trabelsi. Born in Tunis 17 July 1992 she is married to Mehdi Ben Gaied.
+Trabelsi. Born in Tunis 17 July 1992 she is married to Mehdi Ben Gaied. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

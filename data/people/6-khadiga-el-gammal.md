@@ -37,6 +37,6 @@ startOfSanctions: |
   21.03.2011
 ---
 Khadiga, the wife of Gamal Mubarak received a degree in business administration 
-from the American University in Cairo, where she met Gamal Mubarak during a 
-conference in 2006. Together they have two children, son Mahmoud Gamal Mubarak  
-and a daughter Farida Gamal Mubarak.
+from the American University in Cairo, where also her husband studied. Together 
+they have two children, son Mahmoud Gamal Mubarak and a daughter Farida Gamal 
+Mubarak. [1](https://www.newyorker.com/magazine/2010/04/05/the-contenders)

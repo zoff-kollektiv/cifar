@@ -38,4 +38,5 @@ startOfSanctions: 04.02.2011
 ---
 Brother-in-law of Zine El Abidine Ben Ali and a son of Saida Dherif. He was born 
 in Tunis on 25 September 1955 and was said to be risiding in Carthage, Tunis. He 
-is married to Hela Belhaj.
+is married to Hela Belhaj. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

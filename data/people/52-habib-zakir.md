@@ -36,4 +36,5 @@ startOfSanctions: 04.02.2011
 Born on 5 March 1957 in Tunisia, Habib is a son of Saida Ben Abdallah. He is 
 married to Nefissa Trabelsi, who is a sister to Zine El Abidine Ben Ali's wife 
 Laila Trabelsi. He used to be a property developer and was alledged to reside in 
-Gammarth, Tunisia.
+Gammarth, Tunisia. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

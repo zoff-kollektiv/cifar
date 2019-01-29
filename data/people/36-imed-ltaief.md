@@ -33,4 +33,5 @@ startOfSanctions: 04.02.2011
 ---
 Nephew of Zine El Abidine Ben Ali, born in Sousse on 13 January 1970 to Naïma 
 Ben Ali. Former Tunisian department manager, allegedly residing in Ariana, 
-Tunisia.
+Tunisia. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

@@ -33,4 +33,5 @@ startOfSanctions: 04.02.2011
 ---
 Nephew of Zine El Abidine Ben Ali, born in Sousse on 3 January 1973. Son of 
 Naïma Ben Ali later married to Lamia Jegham. He was said to be residing in 
-Sousse, Tunisia.
+Sousse, Tunisia. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)
