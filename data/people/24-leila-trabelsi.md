@@ -46,7 +46,10 @@ suspectedOrConfirmedLinksToOtherAssets: >-
 estimatesOfAssetsFrozenOrConfiscated: >-
   Unknown amounts in Germany
   [1](http://www.welt.de/wirtschaft/article12465557/Deutschland-beschlagnahmt-Vermoegen-des-Ben-Ali-Clans.html)
-estimatesOfAssetsReturned: None
+estimatesOfAssetsReturned: >-
+  $28.8 million hidden from a Lebanese bank account controlled by Leila
+  Trabelsi 
+  [1](http://blogs.worldbank.org/arabvoices/impactevaluations/publicsphere/nasikiliza/endpovertyinsouthasia/health/voices/tracking-tunisias-stolen-assets-balance-sheet-three-years)
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---

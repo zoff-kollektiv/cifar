@@ -43,7 +43,9 @@ suspectedOrConfirmedLinksToLegalEntities: >-
 suspectedOrConfirmedLinksToBankAccounts: >-
   Spain (€18.4 million), Switzerland ($650 million)
   [1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html),
-  [2](https://www.egyptindependent.com/switzerland-lifts-freeze-ousted-mubaraks-financial-assets/)
+  [2](https://www.egyptindependent.com/switzerland-lifts-freeze-ousted-mubaraks-financial-assets/),
+  likekly also Germany, UK and the US
+  [2](https://www.welt.de/wirtschaft/article12531594/Die-Schweiz-laesst-Mubarak-nicht-mehr-an-sein-Geld.html)
 suspectedOrConfirmedLinksToOtherAssets: >-
   Spain (five luxury cars)
   [1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html)
