@@ -40,6 +40,7 @@ const createStartpage = createPage =>
     return null;
   });
 
+// eslint-disable-next-line no-unused-vars
 const createReport = (graphql, createPage) =>
   graphql(`
     query {
@@ -267,7 +268,7 @@ exports.createPages = ({ actions, graphql }) => {
   return Promise.all([
     createCountries(graphql, createPage),
     createPersons(graphql, createPage),
-    createReport(graphql, createPage),
+    // createReport(graphql, createPage),
     createStartpage(createPage)
   ]);
 };
