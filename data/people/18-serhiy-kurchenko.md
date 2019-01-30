@@ -18,15 +18,13 @@ aliases:
 identifyingInformation: Ukrainian businessman
 placeOfBirth: 'Ukraine, Kharkiv oblast, Kharkiv'
 dateOfBirth: 21.09.1985
-countryOfResidence: ''
+countryOfResidence: Russia
 corruptionLink: business
 familyMembers:
   - name: Olena Rymarenko
     type: spouse
 familyMembersSubjectToSanctions: []
-suspectedOrConfirmedOverseasProperties: >-
-  Property in Switzerland [Source
-  1](https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
+suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-
   Devora ltd , Jetlit ltd , adform experts inc , Algerna Investment ltd , Anapom
   Business ltd , Aplanor Trading ltd , Arzana Commerce Corp , avenna holding ltd
@@ -62,7 +60,7 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   vinaceous holdings ltd, Violanex Group ltd , wells tech ltd, White Springs
   Investment Assets Corp , Whitemont Intertrade ltd , zevidon trading ltd ,
   Sparschwein Gas Handels gmbh , Sparschwein Gas gmbh , Flussiggasvertried GMBH
-  Carola Wurzbacher , LPG Trading gmbh , Eelbrus s.a , Katiema Enterprises ltd ,
+  Carola Wurzbacher , LPG Trading gmbh, Eelbrus s.a , Katiema Enterprises ltd ,
   Loricom Holding Group , foxtron networks limited , foxtron networks ltd ,
   Wonderbliss Ltd , Sabulong Trading ltd , Kviten Solution ltd , Baleingate
   Finance ltd , akemi management ltd , LLC Syepek , "Sepek" llc ,
@@ -93,16 +91,19 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   Holding , Grand&Rend ltd, LLC "Liberty Finance" , Destu Capital llp , Canyon
   Capital inc , Celestia Limited, Fincorp Resources llp , Elaine Group Invest
   ltd, ТОВ "КАЛИНА ЦЕНТР" , ТОВ "ІМПЕРІАЛ-БІЛДІНГ" , Naftoproduct Plus LLC ,
-  LYBSTER OVERSEAS LTD , Harin Enterprises Corp. , BERWYN ENTERPRISES CORP 
+  LYBSTER OVERSEAS LTD , Harin Enterprises Corp., BERWYN ENTERPRISES CORP
+  [1](https://pep.org.ua/en/person/15452)
 suspectedOrConfirmedLinksToBankAccounts: >-
-  Swiss bank account [Source
-  ](https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
+  $2 million on bank account in Switzerland, Latvian bank accounts
+  [1](https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html),
+  [2](https://www.occrp.org/en/component/content/article?id=4545:ukraine-kyiv-court-seizes-billionaire-kurchenko-s-14-offshore-accounts)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
-  Assets worth 2 million USD in Switzerland [Source
-  1](https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
-  80 million USD held in Latvian bank accounts [Source
-  2](https://www.occrp.org/en/daily/4545-ukraine-kyiv-court-seizes-billionaire-kurchenko-s-14-offshore-accounts)
+  Assets worth 2 million USD in Switzerland
+  [1](https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
+  80 million USD held in Latvian bank accounts, later seized by the Latvian
+  state.
+  [2](https://www.occrp.org/en/daily/4545-ukraine-kyiv-court-seizes-billionaire-kurchenko-s-14-offshore-accounts) 
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
@@ -110,16 +111,15 @@ startOfSanctions: 06.03.2014
 Dubbed as the ‘billionaire from nowhere’ or the ‘wizard of gas’, young 
 entrepreneur Kurchenko managed to aquire a fortune in a very short amount of 
 time in the gas business. Kurchenko was the head of "The VETEK Group of 
-Companies”,  which later included the UMH group and which controlled 50 
-Ukrainian and Russian internet, radio and media brands. Among them ws the 
-Ukrainian edition of Forbes until July 2015, when the U.S. government imposed 
-sanctions on him and he was no longer allowed to use the Forbes brand. He is 
-allegedly residing in Russia, where he has acquired real estate and continues to 
-engage in entrepreneurial activity. 
-[Source](https://www.reuters.com/article/us-russia-capitalism-kurchenko-specialre/special-report-how-a-29-year-old-ukrainian-made-a-killing-on-russian-gas-idUSKBN0JP1KO20141212) 
-[Source 
-1](https://www.thedailybeast.com/sergiy-kurchenko-ukraines-missing-oligarch) 
-[Source 
-2](https://www.kyivpost.com/article/content/business/forbes-takes-further-steps-to-deny-fugitive-kurchenko-foreign-language-publishing-license-395353.html) 
-[Source 
-3](http://euromaidanpress.com/2016/11/02/smuggling-business-donbas-criminal-coal-akhmetov-kurchenko-cigarettes-ukraine-russia/)
+Companies”, which later included the UMH group and which controlled 50 Ukrainian 
+and Russian internet, radio and media brands. Among them was the Ukrainian 
+edition of Forbes until July 2015, when the U.S. government imposed sanctions on 
+him and he was no longer allowed to use the Forbes brand. 11 criminal 
+investigations have been started into Kurchenko’s companies, allegedly haveing 
+stolen around $1 billion from Ukrainian state. He is said to reside in Russia, 
+where he has acquired real estate and continues to engage in entrepreneurial 
+activity. 
+[1](https://www.reuters.com/article/us-russia-capitalism-kurchenko-specialre/special-report-how-a-29-year-old-ukrainian-made-a-killing-on-russian-gas-idUSKBN0JP1KO20141212), 
+[2](https://www.thedailybeast.com/sergiy-kurchenko-ukraines-missing-oligarch), 
+[3](https://www.kyivpost.com/article/content/business/forbes-takes-further-steps-to-deny-fugitive-kurchenko-foreign-language-publishing-license-395353.html), 
+[4](http://euromaidanpress.com/2016/11/02/smuggling-business-donbas-criminal-coal-akhmetov-kurchenko-cigarettes-ukraine-russia/)

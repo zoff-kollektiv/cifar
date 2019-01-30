@@ -39,20 +39,23 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   ТОВ "ДЕНТ-СЕРВІС" , ТОВ "ПРИВАТТУР" ,  ηε,   Newlight Import s.a, Katiema
   Enterprises Limited , Loricom Holding Group , foxtron networks ltd ,
   Wonderbliss Ltd , Sabulong Trading ltd , Kviten Solution ltd , Baleingate
-  Finance ltd , akemi management ltd , Quickpace Limited , Opalcore ltd 
+  Finance ltd , akemi management ltd , Quickpace Limited , Opalcore ltd
+  [1](https://pep.org.ua/en/person/9558)
 suspectedOrConfirmedLinksToBankAccounts: >-
   Latvian bank accounts
-  [Source](https://en.interfax.com.ua/news/press-conference/313396.html)
+  [1](https://eng.lsm.lv/article/economy/economy/latvia-keeps-50m-believed-stolen-from-ukraine.a200426/)
 suspectedOrConfirmedLinksToOtherAssets: ''
-estimatesOfAssetsFrozenOrConfiscated: ''
+estimatesOfAssetsFrozenOrConfiscated: >-
+  Latvian bank accounts seized by the Latvian state
+  [1](https://eng.lsm.lv/article/economy/economy/latvia-keeps-50m-believed-stolen-from-ukraine.a200426/)
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---
 As the Ukraine's former First Deputy Prime Minister, Azrubov became interim 
 Prime Minister following the resignation of Mykola Azarov in January 2014. A 
-month later, on 27 February 2014, he was dismissed. There are several crominal 
-proceedings against Azrubov ongoing in Ukraine for misappropriation or seizure 
-of property and funds by abuse of official position.  [Source 
-1](https://ukranews.com/en/news/544600-pgo-serves-azarov-with-suspicion-of-inflicting-losses-of-uah-22-billion-on-state-serves-arbuzov) 
-[Source 2](https://pep.org.ua/uk/person/9558#reputation)
+month later, on 27 February 2014, he was dismissed. There are several criminal 
+proceedings against Azrubov ongoing in Ukraine for misappropriation and seizure 
+of property and funds by abuse of his position. 
+[1],(https://ukranews.com/en/news/544600-pgo-serves-azarov-with-suspicion-of-inflicting-losses-of-uah-22-billion-on-state-serves-arbuzov), 
+[2](https://pep.org.ua/uk/person/9558#reputation)

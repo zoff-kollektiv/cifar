@@ -41,4 +41,5 @@ in March 2010. He was the Prime Minister until 27 January 2014, when he resigned
 after weeks of Euromaidan protests. During his term as the Prime Minister of 
 Ukraine, he is suspected as having been involved in the theft of public funds. 
 Azarov is currently residing in Russia. 
-[Source](https://pep.org.ua/uk/person/9553#reputation) 
+[1](https://pep.org.ua/uk/person/9553#reputation), 
+[2](https://transparency.org.ru/images/docs/yanek_eng.pdf) 

@@ -29,3 +29,4 @@ startOfSanctions: 04.02.2011
 Nephew of Zine El Abidine Ben Ali, born in Paris 27 October 1966. Son of 
 Paulette HAZAT. Company director, residing at Chouket El Arressa, Hammam-Sousse. 
 He holds a Tunisian and French nationality. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

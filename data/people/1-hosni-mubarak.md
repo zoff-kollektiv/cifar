@@ -38,25 +38,26 @@ suspectedOrConfirmedOverseasProperties: >-
   [1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html),
   [2](https://www.huffingtonpost.co.uk/entry/how-the-mubarak-family-made-its-billions_n_821757)
 suspectedOrConfirmedLinksToLegalEntities: >-
-  Pan World Investments Inc., Brick Nominees Limited [Source
-  1](https://offshoreleaks.icij.org/nodes/10062310)
+  Pan World Investments Inc., Brick Nominees Limited
+  [1](https://offshoreleaks.icij.org/nodes/10062310)
 suspectedOrConfirmedLinksToBankAccounts: >-
-  Spain (€18.4 million), Switzerland ($650 million) [Source
-  1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html),
+  Spain (€18.4 million), Switzerland ($650 million)
+  [1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html),
   [2](https://www.egyptindependent.com/switzerland-lifts-freeze-ousted-mubaraks-financial-assets/)
 suspectedOrConfirmedLinksToOtherAssets: >-
   Spain (five luxury cars)
-  [Source](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html)
+  [1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html)
 estimatesOfAssetsFrozenOrConfiscated: >-
   €28 million in Spain
-  [Source](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html),
-  around $650 million in Switzerland later lowered due to reconciliations in
+  [1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html),
+  around US $650 million in Switzerland later lowered due to reconciliations in
   Egypt
-  [Source](https://www.egyptindependent.com/switzerland-lifts-freeze-ousted-mubaraks-financial-assets/)
+  [2](https://www.egyptindependent.com/switzerland-lifts-freeze-ousted-mubaraks-financial-assets/),
+  and £85m in the UK [3](https://www.bbc.co.uk/news/uk-17717988)
 estimatesOfAssetsReturned: >-
   $34 million linked to businessman Ahmed Ezz, who was removed from the
   sanctions list in 2018
-  [Source](https://www.swissinfo.ch/eng/politics/chf32m-thaw_switzerland-repatriates-chunk-of-frozen-mubarak-funds/43999128)
+  [1](https://www.swissinfo.ch/eng/politics/chf32m-thaw_switzerland-repatriates-chunk-of-frozen-mubarak-funds/43999128)
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 21.03.2011
 ---
@@ -72,4 +73,4 @@ pay a $17.5 million fine. In March 2017, Hosni Mubarak was released from
 detention after being acquitted of charges of killing protesters during the 
 revolution, but remains under investigation for alleged corruption. He is said 
 to reside in his private family residence in Cairo’s upscale district of 
-Heliopolis. [Source](https://www.bbc.com/news/world-middle-east-12301713)
+Heliopolis. [1](https://www.bbc.com/news/world-middle-east-12301713)

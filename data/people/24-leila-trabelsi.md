@@ -33,13 +33,19 @@ familyMembersSubjectToSanctions:
   - Cyrine Ben Ali
   - Dorsaf Ben Ali
   - Ghazoua Ben Ali
-suspectedOrConfirmedOverseasProperties: ''
+suspectedOrConfirmedOverseasProperties: >-
+  property in Frankfurt, Germany, belonging to one of his
+  daughters[1](http://www.welt.de/wirtschaft/article12465557/Deutschland-beschlagnahmt-Vermoegen-des-Ben-Ali-Clans.html)
 suspectedOrConfirmedLinksToLegalEntities: ''
-suspectedOrConfirmedLinksToBankAccounts: ''
+suspectedOrConfirmedLinksToBankAccounts: >-
+  German accounts
+  [1](http://www.welt.de/wirtschaft/article12465557/Deutschland-beschlagnahmt-Vermoegen-des-Ben-Ali-Clans.html)
 suspectedOrConfirmedLinksToOtherAssets: >-
   gold ingots
   [1](https://www.telegraph.co.uk/news/worldnews/africaandindianocean/tunisia/8265025/Tunisian-former-presidents-wife-fled-country-with-38-million-in-gold.html)
-estimatesOfAssetsFrozenOrConfiscated: ''
+estimatesOfAssetsFrozenOrConfiscated: >-
+  Unknown amounts in Germany
+  [1](http://www.welt.de/wirtschaft/article12465557/Deutschland-beschlagnahmt-Vermoegen-des-Ben-Ali-Clans.html)
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011

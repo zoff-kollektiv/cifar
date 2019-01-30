@@ -50,14 +50,15 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   ТЗОВ "КАПЕЛЛА СОЛАР" ,  PrJSC "Ukrbearing" ,  Activ Solar GmbH , Gunaldi
   Commercial Ltd , P & A Corporate Services Trust , Aurina Commercial Ltd ,
   Helios Netherlands B. V. ,  KOLTRESO COMMERCIAL LTD , MIlideno Holdings Ltd. ,
-  Kvalisto Holdings Ltd , 
+  Kvalisto Holdings Ltd , [1](https://pep.org.ua/en/person/742)
 suspectedOrConfirmedLinksToBankAccounts: >-
-  Russia, Cyprus, Latvia, Bahamas, Switzerland
-  [Source](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
+  shell company accounts in Russia, Cyprus, Latvia, Bahamas, Switzerland
+  [1](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html),
+  [2](https://pep.org.ua/en/person/742)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
   26 million francs and a mansion in Switzerland
-  [Source](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
+  [1](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
@@ -69,5 +70,5 @@ Administration. Together with his younger brother Sergiy Petrovich Klyuev they
 were active in the solar energy business. The Klyuyev brothers are the alleged 
 beneficial owners of a number of companies, from which 70 were formerly linked 
 to a small number of Austrian holding companies.
-[Source 1](https://pep.org.ua/uk/person/742#dossier) [Source 
+[1](https://pep.org.ua/uk/person/742#dossier) [Source 
 2](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)

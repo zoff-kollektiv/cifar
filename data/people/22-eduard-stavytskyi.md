@@ -34,7 +34,9 @@ familyMembers:
     type: mother-in-law
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
-suspectedOrConfirmedLinksToLegalEntities: 'ТОВ "ДІАГРАМА" , ГО "ДЮФК "АМЕТИСТ-2001" '
+suspectedOrConfirmedLinksToLegalEntities: >-
+  ТОВ "ДІАГРАМА" , ГО "ДЮФК "АМЕТИСТ-2001"
+  [1](https://pep.org.ua/en/person/9564)
 suspectedOrConfirmedLinksToBankAccounts: ''
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
@@ -49,5 +51,6 @@ and jewelery in his possession. He has been accused of being involved in the
 privatisation of the formerly state-owned Mezhyhirya residence to a company 
 linked to Yanukovych. Stavytskyi obtained Israeli citizenship and is belived to 
 reside in Israel, where he uses his grandfather's name Rosenberh. 
-[Source1](https://www.kyivpost.com/article/content/ukraine-politics/investigators-find-fortunes-in-homes-of-ex-ministers-341153.html) 
-[Source2](https://www.opendemocracy.net/od-russia/sergii-leshchenko/ukraine-yanukovychs-family-spreads-its-tentacles)
+[1](https://www.kyivpost.com/article/content/ukraine-politics/investigators-find-fortunes-in-homes-of-ex-ministers-341153.html), 
+[2](https://www.opendemocracy.net/od-russia/sergii-leshchenko/ukraine-yanukovychs-family-spreads-its-tentacles), 
+[3](https://ukranews.com/en/news/473442-head-of-ukraine-interpol-bureau-nevolia-ex-education-minister-tabachnyk-not-wanted)

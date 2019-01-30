@@ -31,4 +31,4 @@ startOfSanctions: 06.03.2014
 Viktor Ratushniak is the former deputy head of the Interior Ministry of Ukraine. 
 Together with the former Interior Minister Vitaliy Zakharchenko and other 
 high-ranking officials from the Yanukovich era, Ratushniak is wanted in Ukraine 
-for embezzlement.
+for embezzlement. [1](https://pep.org.ua/uk/person/9550#reputation)

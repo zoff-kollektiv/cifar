@@ -33,23 +33,22 @@ suspectedOrConfirmedOverseasProperties: >-
   [2](https://www.huffingtonpost.co.uk/entry/how-the-mubarak-family-made-its-billions_n_821757)
 suspectedOrConfirmedLinksToLegalEntities: >-
   Pan World Investments Inc., Brick Nominees Limited, MedInvest Associates Ltd.,
-  Bullion Co. Ltd, EFG Private Equity  [Source
-  1](https://offshoreleaks.icij.org/nodes/10062310)
+  Bullion Co. Ltd, EFG Private Equity 
+  [1](https://offshoreleaks.icij.org/nodes/10062310)
   [2](https://www.theguardian.com/world/2012/sep/02/scandal-mubarak-regime-millions-assets-uk),
   [3](https://eipr.org/en/press/2014/03/european-commission-confirms-freezing-four-bank-accounts-related-gamal-mubarak-cyprus),
   [4](https://www.reuters.com/article/us-egypt-efghermes-idUSTRE71G5MM20110217)
 suspectedOrConfirmedLinksToBankAccounts: >-
-  Mubarak’s sons suspected of holding $340 million in Switzerland, and more in
-  Cyprus, British Virgin Islands
-  [Source](https://www.theguardian.com/world/2011/oct/17/mubarak-sons-swiss-bank-accounts),
-  [Source
-  2](https://eipr.org/en/press/2014/03/european-commission-confirms-freezing-four-bank-accounts-related-gamal-mubarak-cyprus) 
+  Mubarak’s sons suspected of holding $340 million in Switzerland
+  [1](https://www.theguardian.com/world/2011/oct/17/mubarak-sons-swiss-bank-accounts)
+  , Germany, UK and the US
+  [2](https://www.welt.de/wirtschaft/article12531594/Die-Schweiz-laesst-Mubarak-nicht-mehr-an-sein-Geld.html)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
-  300 million of frozen Swiss francs were said to belong to Mubarak’s sons Alaa
-  and Gamal
+  Mubarak’s sons suspected of holding $340 million in Switzerland
+  [1](https://www.theguardian.com/world/2011/oct/17/mubarak-sons-swiss-bank-accounts)
 estimatesOfAssetsReturned: None
-typeOfSanctions: ''
+typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011
 ---

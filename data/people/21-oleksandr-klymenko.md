@@ -27,11 +27,13 @@ familyMembers:
     type: son
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
-suspectedOrConfirmedLinksToLegalEntities: ''
+suspectedOrConfirmedLinksToLegalEntities: >-
+  Offshore companies in the British Virgin Islands and Cyprus
+  [1](https://www.rferl.org/a/kyiv-raids-properties-800-million-graft-probe/28617121.html)
 suspectedOrConfirmedLinksToBankAccounts: >-
-  British Virgin Islands, Cyprus 
+  Accounts linked to offshore companies in the British Virgin Islands and Cyprus
 
-  [Source](https://www.rferl.org/a/kyiv-raids-properties-800-million-graft-probe/28617121.html)
+  [1](https://www.rferl.org/a/kyiv-raids-properties-800-million-graft-probe/28617121.html)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None
@@ -41,11 +43,11 @@ startOfSanctions: 06.03.2014
 With a background in management and finance, Oleksandr Klymenko held several 
 public positions before becoming the Revenue Minister. After the events in 2014, 
 Klymenko was accused of being involved in a vast tax fraud scheme that inflicted 
-financial losses on Ukraine of several billion USD. He himself has been vocal in 
-denying the allegations as attempts as politically motivated and has established 
-a new political party called Successful Ukraine. He is belived to reside in 
-Russia.
+financial losses on Ukraine of several billion USD. He himself has denied the 
+allegations as politically motivated and has established a new political party 
+Successful Ukraine. He is belived to reside in Russia.
 
-[Source](https://www.independent.co.uk/news/world/europe/oleksandr-klymenko-ukraines-exiled-tax-minister-says-charges-against-him-are-payback-time-for-vested-a6758046.html)[Source1](https://www.occrp.org/en/history-of-occrp/27-ccwatch/cc-watch-briefs/2484-ukraine-11-billion-allegedly-stolen-in-colossal-3-year-tax-fraud)[Source2](https://www.occrp.org/en/history-of-occrp/27-ccwatch/cc-watch-briefs/2484-ukraine-11-billion-allegedly-stolen-in-colossal-3-year-tax-fraud) 
-[Source 3](https://en.interfax.com.ua/news/general/493303.html) 
-[Source4](https://oleksandr-klymenko.com/en/uspishna-kraina/)
+[1](https://www.independent.co.uk/news/world/europe/oleksandr-klymenko-ukraines-exiled-tax-minister-says-charges-against-him-are-payback-time-for-vested-a6758046.html), 
+[2](https://www.occrp.org/en/history-of-occrp/27-ccwatch/cc-watch-briefs/2484-ukraine-11-billion-allegedly-stolen-in-colossal-3-year-tax-fraud)[3](https://www.occrp.org/en/history-of-occrp/27-ccwatch/cc-watch-briefs/2484-ukraine-11-billion-allegedly-stolen-in-colossal-3-year-tax-fraud), 
+[4](https://en.interfax.com.ua/news/general/493303.html), 
+[5](https://oleksandr-klymenko.com/en/uspishna-kraina/)

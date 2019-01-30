@@ -50,16 +50,16 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   Trading SA, ARTVIN Holding B.V., Mako Holding B.V. , Aivengo Travel (Ivanhoe)
   LLC , KHAL DROGO LLC, ТОВ "БК", ТОВ "РОДЖЕРС-К", BOSTANI-K LLC, STARTER LTD 
   LLC, ТОВ "САТІН КОНСАЛТ", ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ "КРЕДО-АКТИВ
-  КОРПОРЕЙШН", TPK A LLC, Varenda ltd  
+  КОРПОРЕЙШН", TPK A LLC, Varenda ltd, [1](https://pep.org.ua/en/person/9416)
 suspectedOrConfirmedLinksToBankAccounts: >-
-  1 million Swiss franks on MAKO Trading SA bank account
-  [Source](https://en.interfax.com.ua/news/general/407631.html)
+  Switzerland, Austria, Liechtenstein
+  [1](https://www.euronews.com/2014/02/28/switzerland-austria-and-liechtenstein-freeze-assets-and-bank-accounts-of-)
 suspectedOrConfirmedLinksToOtherAssets: >-
   luxury yacht
-  [Source](https://www.unian.info/common/1266574-yanukovych-sons-yacht-spotted-near-turkey-video.html)
+  [1](https://www.unian.info/common/1266574-yanukovych-sons-yacht-spotted-near-turkey-video.html)
 estimatesOfAssetsFrozenOrConfiscated: >-
-  A Swiss account controlled by Victor Fedorovych's company MAKO Trading SA and
-  its assets [Source](https://en.interfax.com.ua/news/general/407631.html)
+  Unknown amounts in Switzerland, Austria, Liechtenstein
+  [1](https://www.euronews.com/2014/02/28/switzerland-austria-and-liechtenstein-freeze-assets-and-bank-accounts-of-)
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
