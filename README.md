@@ -1,5 +1,7 @@
 # Cifar - sanctions watch
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/275c6f0f-74b4-469d-bee4-541d71e572ea/deploy-status)](https://app.netlify.com/sites/cifar-sanctions/deploys)
+
 ## Structure
 
 If you only want to update some content displayed, have a look into the `data`
