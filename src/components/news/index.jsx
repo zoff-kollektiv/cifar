@@ -5,7 +5,7 @@ import styles from './styles';
 const formatDate = dateStr => {
   const date = new Date(dateStr);
   let day = `${date.getDate()}`;
-  let month = `${date.getDate()}`;
+  let month = `${date.getMonth() + 1}`;
   const year = date.getFullYear();
 
   if (day.length === 1) {
@@ -15,6 +15,8 @@ const formatDate = dateStr => {
   if (month.length === 1) {
     month = `0${month}`;
   }
+
+  console.log(dateStr);
 
   return `${day}/${month}/${year}`;
 };
