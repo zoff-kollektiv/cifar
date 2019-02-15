@@ -12,7 +12,7 @@ export default withNavigation(
 export const query = graphql`
   query {
     page: markdownRemark(
-      fields: { folder: { eq: "pages" }, fileName: { eq: "guidelines.md" } }
+      fields: { folder: { eq: "pages" }, fileName: { eq: "guidelines" } }
     ) {
       ...page
     }

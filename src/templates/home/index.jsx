@@ -1,4 +1,3 @@
-import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import React, { Fragment } from 'react';
 
@@ -11,13 +10,15 @@ import withLayout from '../../components/with-layout';
 import withNavigation from '../../components/with-navigation';
 
 const Page = ({
-  pageContext: { news },
-  data: {
-    blocks,
-    countries,
-    missionStatement,
-    site: {
-      siteMetadata: { title }
+  pageContext: {
+    news,
+    data: {
+      blocks,
+      countries,
+      missionStatement,
+      site: {
+        siteMetadata: { title }
+      }
     }
   }
 }) => (
@@ -73,64 +74,3 @@ const Page = ({
 );
 
 export default withNavigation(withLayout(Page));
-
-export const query = graphql`
-  query {
-    missionStatement: markdownRemark(
-      fields: {
-        folder: { eq: "home" }
-        fileName: { eq: "mission-statement.md" }
-      }
-    ) {
-      ...missionStatement
-    }
-
-    countries: allMarkdownRemark(
-      filter: {
-        fields: { fileName: { ne: "all.md" }, folder: { eq: "countries" } }
-      }
-      sort: { fields: [frontmatter___title] }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-          }
-        }
-      }
-    }
-
-    blocks: allMarkdownRemark(
-      filter: {
-        fields: {
-          folder: { eq: "home" }
-          fileName: {
-            in: ["effectiveness.md", "private-sector.md", "sanctions.md"]
-          }
-        }
-      }
-      sort: { fields: [frontmatter___sort] }
-    ) {
-      edges {
-        node {
-          html
-          frontmatter {
-            buttonLabel
-            buttonLink
-            checklist {
-              text
-              icon
-            }
-            title
-          }
-        }
-      }
-    }
-
-    site: site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;

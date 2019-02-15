@@ -16,8 +16,6 @@ const formatDate = dateStr => {
     month = `0${month}`;
   }
 
-  console.log(dateStr);
-
   return `${day}/${month}/${year}`;
 };
 

@@ -24,8 +24,74 @@ const createSlug = text =>
 
 const fetchNews = () => fetch(POSTS_WP_ENDPOINT).then(res => res.json());
 
-const createStartpage = createPage =>
-  fetchNews().then(news => {
+const createStartpage = (graphql, createPage) =>
+  Promise.all([
+    fetchNews(),
+    graphql(`
+      query {
+        missionStatement: markdownRemark(
+          fields: {
+            folder: { eq: "home" }
+            fileName: { eq: "mission-statement" }
+          }
+        ) {
+          rawMarkdownBody
+          frontmatter {
+            buttonLabel
+            buttonLink
+            countriesTitle
+            title
+          }
+        }
+
+        countries: allMarkdownRemark(
+          filter: {
+            fields: { fileName: { ne: "all" }, folder: { eq: "countries" } }
+          }
+          sort: { fields: [frontmatter___title] }
+        ) {
+          edges {
+            node {
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+
+        blocks: allMarkdownRemark(
+          filter: {
+            fields: {
+              folder: { eq: "home" }
+              fileName: { in: ["effectiveness", "private-sector", "sanctions"] }
+            }
+          }
+          sort: { fields: [frontmatter___sort] }
+        ) {
+          edges {
+            node {
+              html
+              frontmatter {
+                buttonLabel
+                buttonLink
+                checklist {
+                  text
+                  icon
+                }
+                title
+              }
+            }
+          }
+        }
+
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `)
+  ]).then(([news, data]) => {
     // eslint-disable-next-line no-console
     console.log('create page: /');
 
@@ -33,7 +99,8 @@ const createStartpage = createPage =>
       path: '/',
       component: path.resolve('src/templates/home/index.jsx'),
       context: {
-        news
+        news,
+        ...data
       }
     });
 
@@ -45,7 +112,7 @@ const createReport = (graphql, createPage) =>
   graphql(`
     query {
       page: markdownRemark(
-        fields: { folder: { eq: "pages" }, fileName: { eq: "report.md" } }
+        fields: { folder: { eq: "pages" }, fileName: { eq: "report" } }
       ) {
         frontmatter {
           date
@@ -218,12 +285,12 @@ exports.onCreateNode = ({ node, actions }) => {
   if (node.internal.type === 'MarkdownRemark') {
     const absPath = node.fileAbsolutePath.split('/');
     const folder = absPath[absPath.length - 2];
-    const fileName = absPath[absPath.length - 1];
+    const fileName = absPath[absPath.length - 1].split('.');
 
     createNodeField({
       node,
       name: 'fileName',
-      value: fileName
+      value: fileName[0]
     });
 
     createNodeField({
@@ -269,6 +336,6 @@ exports.createPages = ({ actions, graphql }) => {
     createCountries(graphql, createPage),
     createPersons(graphql, createPage),
     // createReport(graphql, createPage),
-    createStartpage(createPage)
+    createStartpage(graphql, createPage)
   ]);
 };

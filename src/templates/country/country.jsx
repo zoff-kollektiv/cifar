@@ -1,3 +1,5 @@
+/* eslint-disable react/no-danger */
+
 import Helmet from 'react-helmet';
 import React from 'react';
 
