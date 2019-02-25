@@ -61,7 +61,7 @@ Ex-president of Tunisia was born in Hamman-Sousse 3 September 1936. He was a
 president for 23 years before stepping down in January 2011 due to a wave of 
 demonstrations, that have seen several protesters killed. Over his long rule, 
 Ben Ali's extended family were said to take control over many areas of Tunisia's 
-business. After the regime fell, Tunisian authorities seize 220 companies owned 
+business. After the regime fell, Tunisian authorities seized 220 companies owned 
 by the family members which controlled 21% of private sector profits. Ben Ali 
 and his wife Leïla Trabelsi were found guilty in absentia by a Tunisian court 
 for embezzlement and misuse of public funds, and sentenced to 35 years in 
