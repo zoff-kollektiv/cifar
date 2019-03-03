@@ -456,73 +456,129 @@ Council of the European Union (2014) Council Decision 2014/119/CFSP of 5 March 2
 Council of the European Union (2015) Council Decision (CFSP) 2015/143 of 29 January 2015 amending Decision 2014/119/CFSP concerning restrictive measures directed against certain persons, entities and bodies in view of the situation in Ukraine, OJ L 24, 30.1.2015, p. 16
 
 Court of Justice of the European Union (2008) Joined Cases C-402/05 P and C-415/05 P, Yassin Abdullah Kadi and Al Barakaat International Foundation v. Council of the European Union and Commission of the European Communities, Judgment of the Court (Grand Chamber) of 3 September 2008, available online under: https://eur-lex.europa.eu/legal- content/EN/TXT/?uri=CELEX:62005CJ0402
+
 Dale, Tom (2013) “UK delegation assures return of Mubarak assets, denies inaction”, Egypt Independent, 15 January 2013, available at: https://ww.egyptindependent.com/uk-delegation-assures-return-mubarak-assets-denies-inaction/
+
 Daily News Egypt (2018) “The years-long tale of going after Mubarak wealth”, Daily News Egypt 28 November 2018, available at: https://dailynewsegypt.com/2018/11/25/the-years-long-tale-of-going-after-mubarak-wealth/
+
 Duncan, Alan (2017) Letter to the Chair of the EU Select Committee, House of Lords, London, 10 February 2017
+
 Egypt Independent (2017) “Switzerland lifts freeze on ousted Mubarak’s financial assets”, Egypt Independent, 21 December 2017, available at: https://ww.egyptindependent.com/switzerland-lifts-freeze-ousted-mubaraks-financial-assets/
+
 Egypt Today (2018) “Last corruption case against Ahmed Ezz dropped per reconciliation”, Egypt Today, 14 April 2018, available at: http://www.egypttoday.com/Article/1/47785/Last-corruption-case-against-Ahmed-Ezz-dropped-per- reconciliation
+
 European Parliament (2017a) Resolution of 6 April 2017 on Russia, the arrest of Alexei Navalny and other protestors (2017/2646(RSP)), available at: http://www.europarl.europa.eu/sides/getDoc.do?type=TA&language=EN&reference=P8-TA- 2017-0125
+
 European Parliament (2017b) Resolution of 13 September 2017 on corruption and human rights in third countries (2017/2028(INI)), available at: http://www.europarl.europa.eu/sides/getDoc.do?pubRef=%2f%2fEP%2f%2fTEXT%2bTA%2bP8-TA-2017- 0346%2b0%2bDOC%2bXML%2bV0%2f%2fEN&language=EN
+
 European Parliament (2017c) Exchange of views with Idriss Jazairy, UN Special Rapporteur on the negative impact of unilateral coercive measures on the enjoyment of Human Rights, the European Parliament Subcommittee on Human Rights, Brussels, 21 June 2017
+
 European Union (2015) Directive (EU) 2015/849 of the European Parliament and of the Council of 20 May 2015 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and Commission Directive 2006/70/EC
+
 European Union (2014) Council Decision 2014/119/CFSP of 5 March 2014 concerning restrictive measures directed against certain persons, entities and bodies in view of the situation in Ukraine, available under: http://data.europa.eu/eli/dec/2014/119(1)/2017-03-05
+
 Federal Department of Foreign Affairs (2018) “Freezing of assets”, available at https://www.eda.admin.ch/eda/en/home/foreign-policy/financial-centre-economy/illicit-assets-pep/freeze-assets.html (accessed 10 October 2018)
 Fenner, Gretta (2016) “The really critical condition in investigating financial crimes is no political interference”, Ukrainian Weekly#5 (99)
+
 Giumelli, Francesco (2018) “Quando sono utili le sanzioni internazionali? L'Italia, la Russia e l'Unione Europea”, Approfondimenti 142, Istituto di Affari Internazionali: Roma
+
 Govan, Fiona (2012) “£23 million of Hosni Mubarak assets seized in Spain”, The Guardian, 13 December 2012, available at: https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in- Spain.html
+
 Happold, Matthias (2016) “Targeted Sanctions and Human Rights”, in M. Happold and P. Eden (eds.) Economic Sanctions and International Law, Oxford: Hart, pp. 87-111
+
 Hellquist, Elin (2016) “Either with Us or against Us? Third-country Alignment with EU Sanctions against Russia/Ukraine”, Cambridge Review of International Affairs 29(3), pp. 997-1021
 
 House of Lords (2017) The Legality of EU Sanctions, European Union Committee, 11th Report of Session 2016–17. UK Parliament: London
+
 Howard, Michael (2018) “The Never Ending Story: The Yanukovych Asset Recovery”, CIFAR, 17 October 2018
+
 Human Rights First et al. (2018) Open Letter from Non-Governmental Organizations in Support of a Targeted, Global EU Human Rights Sanctions Regime, 5 December 2018, available at: https://www.humanrightsfirst.org/sites/default/files/European-Union-Sanctions-Letter.pdf
+
 Jozwiak, Rikard (2018) “Netherlands proposes new EU Human Rights sanctions regime”, Radio Free Europe, 19 November 2018, available at: https://www.rferl.org/a/netherlands-propose-new-eu-human-rights-sanctions-regime/29609488.html
+
 Keller, Benjamin (2015) “The complex case of Tunisia’s blocked funds”, Swissinfo, 06 April 2015, available at: https://www.swissinfo.ch/eng/politics/returning-stolen-assets_the-complex-case-of-tunisia-s-blocked-funds/41360476
+
 Kettis, Andreas and Hakala, Pekka (2013) “Recovering Tunisian and Egyptian assets: Legal complexity challenges states in need”, DG EXPO/B/PolDep/Note/2013_92, available at: http://www.europarl.europa.eu/meetdocs/2009_2014/documents/dmas/dv/20130318_assets_recovery_/20130318_assets_ recovery_en.pdf
+
 Moret, Erica, et al. (2016) “The New Deterrent: International Sanctions against Russia”, Graduate Institute: Geneva
+
 Häuptli, Lukas (2018) „Schweiz tritt 32 Millionen Franken an Ägypten ab“, NZZ am Sonntag, 24 March 2018, available at: https://nzzas.nzz.ch/schweiz/schweiz-tritt-32-millionen-an-aegypten-ab-ld.1369176?reduced=true
+
 Lester, Maya (2016) Written evidence to the UK House of Lords Inquiry on “The legality of EU sanctions”, 14 October 2016, available at: http://data.parliament.uk/writtenevidence/committeeevidence.svc/evidencedocument/eu-justice- subcommittee/the-legality-of-the-eu-sanctions-process/written/41026.html
+
 Lidington, David (2016) Letter to the Chair of the EU Select Committee, House of Lords, London, 2016
+
 Lidington, David (2015a) Letter to the Chair of the EU Select Committee, House of Lords, London, 15 July 2015
+
 Lidington, David (2015b) Letter to the Chair of the EU Select Committee, House of Lords, London, 18 December 2015
+
 Lohaus, Mathis (forthcoming) Asset Recovery and Illicit Financial Flows from a Developmental Perspective, U4 Issue, Bergen: Anti-corruption Resource Centre
+
 Lough, John and Dubrovskiy, Vladimir (2018) Are Ukraine’s Anti-corruption Reforms Working?, London: Chatham House
+
 Louis, Justine (2017) “Egypt: The Failed Transition” in A. Mungiu-Pippidi and J. Warkotsch (eds) Beyond the Panama Papers: The Performance of EU Good Governance Promotion, Barbara Budrich, Opladen, pp. 89-99
+
 LSM (Public Broadcasting of Latvia) (2017) “Latvia may keep further €25m of stolen Ukrainian funds”, 27 November 2017, available at: https://eng.lsm.lv/article/society/crime/latvia-may-keep-further-25m-of-stolen-ukrainian-funds.a258829/
+
 LSM (Public Broadcasting of Latvia) (2016) “Latvia keeps €50m believed stolen from Ukraine”, 12 September 2016, available at: https://eng.lsm.lv/article/economy/economy/latvia-keeps-50m-believed-stolen-from-ukraine.a200426/
+
 Nephew, Richard (2018) The Art of Sanctions: A View from the Field. Columbia University Press, New York
+
 Portela, Clara (2009) “National Implementation of United Nations Security Council Sanctions: Towards fragmentation”, International Journal (Canada) 65(1), pp. 13-30
+
 Portela, Clara (2010) European Union Sanctions and Foreign Policy, Routledge: London
+
 Portela, Clara (2012) “EU Sanctions as a Foreign Policy Tool: Do They Work?” in SB. Gareis, G. Hauser and F. Kernic (eds) Europe as a Global Actor, Budrich: Opladen/Farmington Hills
+
 Portela, Clara (2017) “Sanctions and the European Neighbourhood Policy” in T. Demmelhuber, A. Marchetti, T. Schumacher (eds) The Routledge Handbook on the European Neighbourhood Policy, London: Routledge
+
 Portela, Clara (2018a) “Sanctions against Individuals for Grave Human Rights Violations”, Briefing Paper, European Parliament, General Directorate for External Policy, Brussels
 
 Portela, Clara (2018b) “The Power of Blacklists: The European Parliament’s proposed Magnitsky Act”, London: European Council on Foreign Relations, available at: https://www.ecfr.eu/article/commentary_power_of_blacklist_european_parliament_magnitsky_act
-Public Eye (2017) Failed Recovery, Lausanne: Public Eye, available under: https://www.publiceye.ch/fileadmin/doc/Finanzplatz/2017_PublicEye_Failed_Recovery_Report.pdf
-Pursiainen, Aleksi (2017) “Targeted Sanctions and Fundamental Rights”, Solidplan Consulting: Helsinki
-Radio Free Europe (2018) “EU Court clears ex-Yanukovych aide of past sanctions”, available at: https://www.rferl.org/a/eu- court-clears-ex-yanukovych-aide-past-sanctions-upholds-current-measures/29357641.html
-Rees, Wyn (2013) “The External Face of Internal Security”, in C. Hill and M. Smith (eds) International Relations and the European Union, Oxford University Press: Oxford, pp. 226-245
-Reuters (2017) “Swiss return funds from Ben Ali relative to Tunisia”, 26 May, available at: https://www.reuters.com/article/us-tunisia-swiss-assets/swiss-return-funds-from-ben-ali-relative-to-tunisia- idUSKBN18M1RN
-Servettaz, Elena (2014) “A Sanctions Primer. What Happens to the Targeted?”, World Affairs 177(2), pp. 82-89
-Shagina, Maria (2018) “Ukraine’s inconsistent sanctions policy towards Russia”, New Eastern Europe, available under: http://neweasterneurope.eu/2018/10/18/ukraines-inconsistent-sanctions-policy-towards-russia/
-Shenker, Jack (2012) “Scandal of Mubarak regime millions in UK”, The Guardian, 2 September 2012, available at: https://www.theguardian.com/world/2012/sep/02/scandal-mubarak-regime-millions-assets-uk
-Staff, Toi (2016) “Egypt asks foreign countries to unfreeze Mubarak-linked tycoon’s asset”, Times of Israel 24 August 2016, available under: https://www.timesofisrael.com/egypt-asks-foreign-countries-to-unfreeze-tycoons-assets/
-State Financial Monitoring Service of Ukraine (2015) Information dated 09 December 2015, available at: http://www.sdfm.gov.ua/news.php?news_id=2927&lang=en
-Stepien, Beata, Pospieszna, Paulina and Skrzypczynska, Joanna (2016) “Challenges in Evaluating Impact of Sanctions”, Przegląd Politologiczny (Political Science Review) 4, pp. 155-167
-Swissinfo (2018) “Switzerland repatriates chunk of frozen Mubarak funds”, Swissinfo, 25 March 2018, available at: https://www.swissinfo.ch/eng/politics/chf32m-thaw_switzerland-repatriates-chunk-of-frozen-mubarak-funds/43999128
-Taylor, Brendan (2009) Sanctions as Grand Strategy. IISS: London
-Timmermans, Frans and Mogherini, Federica (2017), Letter to the Chair of the EU Select Committee, House of Lords, Brussels, 8 June 2017
-The Economist (2014) “Ukraine’s stolen assets. A long, hard slog”, 5 March 2014
-Tovrov, Daniel (2012) “Egypt sues UK over frozen Mubarak assets”, International Business Times, 16 April 2012, available under: https://www.ibtimes.com/egypt-sues-uk-over-frozen-mubarak-assets-437994
-Transparency International (2016) “Lost Billions: Recovering Public Money in Egypt, Libya, Tunisia and Yemen”. Study completed by JMW Consulting. Berlin: TI
-Transparency International (2018) “EU sanctions for corruption – the flight back starts here”, available at: http://transparency.eu/eu-sanctions-for-corruption-the-fight-back-starts-here/
-Verhofstadt, Guy (2018) “How Europe can push back against Putin’s aggression”, EU Observer 30 November 2018
-Wallensteen, Peter and Grusell, Helena (2012) “Targeting the Right Targets? The UN Use of Individual Sanctions”, Global Governance 18(2), pp. 207-230
-Warkotsch, Jana (2017) “Tunisia: Great Expectations” in A. Mungiu-Pippidi and J. Warkotsch (eds) Beyond the Panama Papers: The Performance of EU Good Governance Promotion, Barbara Budrich, Opladen, pp. 104-116
-Webber, Douglas (2019) European Disintegration? The Politics of Crisis in the European Union, London: Springer
 
-- **Aljazeera** (2018) “Dirty deal traced to three Ukrainian tycoons”, 7 January 2018, available at:
-[https://www.aljazeera.com/news/2017/12/exclusive-dirty-deal-traced-ukrainian-tycoons-171217131747631.html](https://www.aljazeera.com/news/2017/12/exclusive-dirty-deal-traced-ukrainian-tycoons-171217131747631.html)
+Public Eye (2017) Failed Recovery, Lausanne: Public Eye, available under: https://www.publiceye.ch/fileadmin/doc/Finanzplatz/2017_PublicEye_Failed_Recovery_Report.pdf
+
+Pursiainen, Aleksi (2017) “Targeted Sanctions and Fundamental Rights”, Solidplan Consulting: Helsinki
+
+Radio Free Europe (2018) “EU Court clears ex-Yanukovych aide of past sanctions”, available at: https://www.rferl.org/a/eu- court-clears-ex-yanukovych-aide-past-sanctions-upholds-current-measures/29357641.html
+
+Rees, Wyn (2013) “The External Face of Internal Security”, in C. Hill and M. Smith (eds) International Relations and the European Union, Oxford University Press: Oxford, pp. 226-245
+
+Reuters (2017) “Swiss return funds from Ben Ali relative to Tunisia”, 26 May, available at: https://www.reuters.com/article/us-tunisia-swiss-assets/swiss-return-funds-from-ben-ali-relative-to-tunisia- idUSKBN18M1RN
+
+Servettaz, Elena (2014) “A Sanctions Primer. What Happens to the Targeted?”, World Affairs 177(2), pp. 82-89
+
+Shagina, Maria (2018) “Ukraine’s inconsistent sanctions policy towards Russia”, New Eastern Europe, available under: http://neweasterneurope.eu/2018/10/18/ukraines-inconsistent-sanctions-policy-towards-russia/
+
+Shenker, Jack (2012) “Scandal of Mubarak regime millions in UK”, The Guardian, 2 September 2012, available at: https://www.theguardian.com/world/2012/sep/02/scandal-mubarak-regime-millions-assets-uk
+
+Staff, Toi (2016) “Egypt asks foreign countries to unfreeze Mubarak-linked tycoon’s asset”, Times of Israel 24 August 2016, available under: https://www.timesofisrael.com/egypt-asks-foreign-countries-to-unfreeze-tycoons-assets/
+
+State Financial Monitoring Service of Ukraine (2015) Information dated 09 December 2015, available at: http://www.sdfm.gov.ua/news.php?news_id=2927&lang=en
+
+Stepien, Beata, Pospieszna, Paulina and Skrzypczynska, Joanna (2016) “Challenges in Evaluating Impact of Sanctions”, Przegląd Politologiczny (Political Science Review) 4, pp. 155-167
+
+Swissinfo (2018) “Switzerland repatriates chunk of frozen Mubarak funds”, Swissinfo, 25 March 2018, available at: https://www.swissinfo.ch/eng/politics/chf32m-thaw_switzerland-repatriates-chunk-of-frozen-mubarak-funds/43999128
+
+Taylor, Brendan (2009) Sanctions as Grand Strategy. IISS: London
+
+Timmermans, Frans and Mogherini, Federica (2017), Letter to the Chair of the EU Select Committee, House of Lords, Brussels, 8 June 2017
+
+The Economist (2014) “Ukraine’s stolen assets. A long, hard slog”, 5 March 2014
+
+Tovrov, Daniel (2012) “Egypt sues UK over frozen Mubarak assets”, International Business Times, 16 April 2012, available under: https://www.ibtimes.com/egypt-sues-uk-over-frozen-mubarak-assets-437994
+
+Transparency International (2016) “Lost Billions: Recovering Public Money in Egypt, Libya, Tunisia and Yemen”. Study completed by JMW Consulting. Berlin: TI
+
+Transparency International (2018) “EU sanctions for corruption – the flight back starts here”, available at: http://transparency.eu/eu-sanctions-for-corruption-the-fight-back-starts-here/
+
+Verhofstadt, Guy (2018) “How Europe can push back against Putin’s aggression”, EU Observer 30 November 2018
+
+Wallensteen, Peter and Grusell, Helena (2012) “Targeting the Right Targets? The UN Use of Individual Sanctions”, Global Governance 18(2), pp. 207-230
+
+Warkotsch, Jana (2017) “Tunisia: Great Expectations” in A. Mungiu-Pippidi and J. Warkotsch (eds) Beyond the Panama Papers: The Performance of EU Good Governance Promotion, Barbara Budrich, Opladen, pp. 104-116
+
+Webber, Douglas (2019) European Disintegration? The Politics of Crisis in the European Union, London: Springer
 
 ## Annexes
 
