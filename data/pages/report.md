@@ -3,7 +3,7 @@ title: Sanctioning Kleptocrats. An Assessment of EU Misappropriation Sanctions
 date: March 2019
 author: Dr. Clara Portela, University of Valencia, Spain
 downloadTitle: Download Report as PDF (420kB)
-downloadLink: https://cifar.eu/wp-content/uploads/2018/12/CIFAR_Second_Draft_December_2018.pdf
+downloadLink: https://cifar.eu/wp-content/uploads/2019/03/CiFAR_Sanctioning-kleptocrats.pdf
 ---
 
 ## Executive Summary
