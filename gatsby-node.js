@@ -335,7 +335,7 @@ exports.createPages = ({ actions, graphql }) => {
   return Promise.all([
     createCountries(graphql, createPage),
     createPersons(graphql, createPage),
-    // createReport(graphql, createPage),
+    createReport(graphql, createPage),
     createStartpage(graphql, createPage)
   ]);
 };
