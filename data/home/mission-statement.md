@@ -2,7 +2,7 @@
 title: >-
   With the help of their corrupt networks, kleptocrats steal billions from their
   citizens every year. The European Union has imposed misappropriation sanctions
-  against high level officials and other persons suspected of corruption to
+  against high level officials and other people suspected of corruption to
   freeze their assets.
 countriesTitle: Sanctioned people by country
 buttonLabel: See sanctioned people
