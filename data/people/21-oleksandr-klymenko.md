@@ -13,7 +13,7 @@ aliases:
   - Viktorovich
   - Wiktorowytsch
   - Viktorovyč Klimenko
-identifyingInformation: Former Minister of Revenues and Charges
+identifyingInformation: Former Minister of Revenues and Duties
 placeOfBirth: 'Ukraine, Donetsk oblast, Makiivka'
 dateOfBirth: 16.11.1980
 countryOfResidence: Russia
@@ -45,9 +45,8 @@ public positions before becoming the Revenue Minister. After the events in 2014,
 Klymenko was accused of being involved in a vast tax fraud scheme that inflicted 
 financial losses on Ukraine of several billion USD. He himself has denied the 
 allegations as politically motivated and has established a new political party 
-Successful Ukraine. He is belived to reside in Russia.
+Successful Ukraine. He is believed to reside in Russia.
 
 [1](https://www.independent.co.uk/news/world/europe/oleksandr-klymenko-ukraines-exiled-tax-minister-says-charges-against-him-are-payback-time-for-vested-a6758046.html), 
-[2](https://www.occrp.org/en/history-of-occrp/27-ccwatch/cc-watch-briefs/2484-ukraine-11-billion-allegedly-stolen-in-colossal-3-year-tax-fraud)[3](https://www.occrp.org/en/history-of-occrp/27-ccwatch/cc-watch-briefs/2484-ukraine-11-billion-allegedly-stolen-in-colossal-3-year-tax-fraud), 
-[4](https://en.interfax.com.ua/news/general/493303.html), 
-[5](https://oleksandr-klymenko.com/en/uspishna-kraina/)
+[2](https://www.occrp.org/en/history-of-occrp/27-ccwatch/cc-watch-briefs/2484-ukraine-11-billion-allegedly-stolen-in-colossal-3-year-tax-fraud), 
+[3](https://oleksandr-klymenko.com/en/uspishna-kraina/)

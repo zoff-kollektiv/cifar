@@ -1,6 +1,6 @@
 ---
 id: 67
-name: Cyrine Ben Aii
+name: Cyrine Ben Ali
 sanctionsCountry: Tunisia
 fullName: Cyrine Bent Zine El Abidine Ben Haj Hamda Ben Ali
 nativeName: سيرين بن علي
@@ -30,7 +30,6 @@ familyMembers:
     type: sister
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
-  - Marouane Mabrouk
   - Nesrine Ben Ali
   - Halima Ben Ali
   - Dorsaf Ben Ali
@@ -44,6 +43,8 @@ estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-Daughter of former President Ben Ali from his first marriage with Naima el Keli, 
-wife of also sanctioned Marouene Mabrouk. Adviser at the Ministry of Foreign 
-Affairs 
+Daughter of former president Ben Ali from his first marriage with Naima el Kefi. 
+She is a wife to formerly also sanctioned Marouene Mabrouk, who was removed from 
+the EU sanctions list in 2018. 
+[1](https://www.europeansanctions.com/2019/01/eu-renews-tunisia-sanctions-for-1-year-de-lists-mabrouk/), 
+[2](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011D0072-20180130)

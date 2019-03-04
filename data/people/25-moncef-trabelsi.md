@@ -20,6 +20,8 @@ familyMembers:
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
   - Mohamed Ben Moncef Trabelsi
+  - Yamina Souiei
+  - Saida Dherif
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
@@ -30,7 +32,9 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Brother-in-law of Zine El Abidine Ben Ali born in Tunis 4 March 1944. Son of 
-Saida DHERIF, married to Yamina SOUIEI. He was a managing director and said to 
+Saida Dherif, married to Yamina Souiei. He was a managing director and said to 
 be residing in Radès Ben Arous. Jailed for fraud, Moncef died in custody due to 
-a brain tumor on 4 April 2018 
-[1](http://english.alarabiya.net/en/News/africa/2013/04/05/Moncef-Trabelsi-brother-in-law-of-Tunisia-s-Ben-Ali-dies-in-jail.html)
+a brain tumor on 4 April 2018. He remains on the sanctions list as his 
+activities are subject to judicial investigations by the Tunisian authorities. 
+[1](http://english.alarabiya.net/en/News/africa/2013/04/05/Moncef-Trabelsi-brother-in-law-of-Tunisia-s-Ben-Ali-dies-in-jail.html), 
+[2](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011D0072-20180130)

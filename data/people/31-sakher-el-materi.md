@@ -16,6 +16,8 @@ corruptionLink: family
 familyMembers:
   - name: Nesrine Ben Ali
     type: spouse
+  - name: Naïma Boutiba
+    type: mother
 familyMembersSubjectToSanctions:
   - Nesrine Ben Ali
 suspectedOrConfirmedOverseasProperties: ''

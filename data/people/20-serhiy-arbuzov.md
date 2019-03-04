@@ -42,7 +42,7 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   Finance ltd , akemi management ltd , Quickpace Limited , Opalcore ltd
   [1](https://pep.org.ua/en/person/9558)
 suspectedOrConfirmedLinksToBankAccounts: >-
-  Latvian bank accounts
+  Latvian bank accounts.
   [1](https://eng.lsm.lv/article/economy/economy/latvia-keeps-50m-believed-stolen-from-ukraine.a200426/)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
@@ -57,5 +57,5 @@ Prime Minister following the resignation of Mykola Azarov in January 2014. A
 month later, on 27 February 2014, he was dismissed. There are several criminal 
 proceedings against Azrubov ongoing in Ukraine for misappropriation and seizure 
 of property and funds by abuse of his position. 
-[1],(https://ukranews.com/en/news/544600-pgo-serves-azarov-with-suspicion-of-inflicting-losses-of-uah-22-billion-on-state-serves-arbuzov), 
+[1](https://ukranews.com/en/news/544600-pgo-serves-azarov-with-suspicion-of-inflicting-losses-of-uah-22-billion-on-state-serves-arbuzov), 
 [2](https://pep.org.ua/uk/person/9558#reputation)

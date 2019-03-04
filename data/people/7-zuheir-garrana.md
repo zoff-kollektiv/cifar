@@ -29,9 +29,8 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011
 ---
-Minister of Tourism between 2005 and until the revolution in January 2011, 
-Zuheir Garrana was arrested alongside Hosni Mubarak and other ministers of 
-government, some of whom are no longer subject to sanctions.  He was sentenced 
-to five years in prison for letting two businessmen buy state land illegally in 
-2011. 
+Minister of Tourism between 2005 until the revolution in January 2011, Zuheir 
+Garrana was arrested alongside Hosni Mubarak and other ministers of government, 
+some of whom are no longer subject to sanctions. He was sentenced to five years 
+in prison for letting two businessmen buy state land illegally in 2011. 
 [1](https://www.voanews.com/a/egypts-former-tourism-minister-gets-5-years-for-corruption-121573429/158072.html)  

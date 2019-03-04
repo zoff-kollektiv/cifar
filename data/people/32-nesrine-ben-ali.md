@@ -44,7 +44,8 @@ estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-Nesrine is an older of two daughters of Zine El Abidine Ben Ali and Laila 
-Trabelsi. Born in Tunis 16 January 1987 he has been married to Mohamed Sakher 
-Materi. 
-[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)
+Nesrine is the older of two daughters of Zine El Abidine Ben Ali and Laila 
+Trabelsi. Born in Tunis 16 January 1987 she has been married to Mohamed Sakher 
+Materi with whom she is said to reside in Seychelles. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128), 
+[2](https://www.aljazeera.com/indepth/features/2014/03/revealing-tunisia-corruption-under-ben-ali-201432785825560542.html)

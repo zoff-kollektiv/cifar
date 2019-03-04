@@ -20,7 +20,7 @@ countryOfResidence: ''
 corruptionLink: government
 familyMembers:
   - name: Lyudmyla Zakharchenko
-    type: ''
+    type: spouse
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''

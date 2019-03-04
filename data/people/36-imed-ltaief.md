@@ -19,6 +19,8 @@ familyMembers:
     type: brother
   - name: Montassar Ltaief
     type: brother
+  - name: Naïma Ben Ali
+    type: mother
 familyMembersSubjectToSanctions:
   - Naoufel Ltaief
   - Montassar Ltaief

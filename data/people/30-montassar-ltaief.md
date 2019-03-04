@@ -19,6 +19,10 @@ familyMembers:
     type: brother
   - name: Imed Ltaief
     type: brother
+  - name: Naïma Ben Ali
+    type: mother
+  - name: Lamia Jegham
+    type: spouse
 familyMembersSubjectToSanctions:
   - Naoufel Ltaief
   - Imed Ltaief
@@ -32,6 +36,6 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Nephew of Zine El Abidine Ben Ali, born in Sousse on 3 January 1973. Son of 
-Naïma Ben Ali later married to Lamia Jegham. He was said to be residing in 
+Naïma Ben Ali later married to Lamia Jegham. He is said to be residing in 
 Sousse, Tunisia. 
 [1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

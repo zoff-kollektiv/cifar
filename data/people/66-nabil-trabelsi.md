@@ -12,7 +12,11 @@ placeOfBirth: ''
 dateOfBirth: 20.12.1965
 countryOfResidence: ''
 corruptionLink: family
-familyMembers: []
+familyMembers:
+  - name: Radhia Mathlouthi
+    type: mother
+  - name: Linda Cherni
+    type: spouse
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''

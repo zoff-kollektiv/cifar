@@ -15,6 +15,8 @@ corruptionLink: family
 familyMembers:
   - name: Zine El Abidine Ben Ali
     type: brother
+  - name: Zohra Ben Ammar
+    type: spouse
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
 suspectedOrConfirmedOverseasProperties: ''
@@ -28,5 +30,6 @@ startOfSanctions: 04.02.2011
 ---
 Brother of Zine El Abidine Ben Ali, born in Hammam-Sousse on 13 March 1947. He 
 was married to Zohra Ben Ammar and resided in Hammam - Sousse, Tunisia.  He died 
-on 25th February 2011. 
+on 25th February 2011 but remains on the sanctions list as his activities are 
+subject to judicial investigations by the Tunisian authorities. 
 [1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

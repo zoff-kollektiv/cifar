@@ -22,6 +22,8 @@ dateOfBirth: 19.03.1976
 countryOfResidence: ''
 corruptionLink: government
 familyMembers:
+  - name: Viktor Pshonka
+    type: father
   - name: Olha M. Pshonka
     type: spouse
   - name: S. A. Pshonka
@@ -29,7 +31,7 @@ familyMembers:
   - name: M. A. Pshonka
     type: daughter
 familyMembersSubjectToSanctions:
-  - Viktor Pavlovych Pshonka
+  - Viktor Pshonka
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: >-
   BG Bank
@@ -43,8 +45,8 @@ estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---
-Artem Pshonka, together with his father Viktor Pshonka are both wanted on 
+Artem Pshonka, together with his father Viktor Pshonka, are both wanted on 
 criminal charges for abuse of office. Both fled Ukraine shortly after Viktor 
-Yanukovych. Artem Pshonka has been linked to BG Bank which has been declared 
+Yanukovych. Artem Pshonka has been linked to BG Bank, which has been declared 
 insolvent and is facing charges of fraud. 
 [1](https://www.kyivpost.com/article/content/business/bg-bank-steals-from-sinking-ship-417545.html)

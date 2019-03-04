@@ -21,6 +21,10 @@ familyMembers:
     type: brother
   - name: Kaïs Ben Ali
     type: brother
+  - name: Selma Mansour
+    type: mother
+  - name: Zied Jaziri
+    type: spouse
 familyMembersSubjectToSanctions:
   - Slaheddine Ben Ali
   - Najmeddine Ben Ali

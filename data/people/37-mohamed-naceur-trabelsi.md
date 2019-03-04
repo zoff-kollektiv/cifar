@@ -25,6 +25,10 @@ familyMembers:
     type: child
   - name: Amine Trabelsi
     type: child
+  - name: Nadia Makni
+    type: spouse
+  - name: Saida Dherif
+    type: mother
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
   - Imed Trabelsi

@@ -29,7 +29,7 @@ suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: >-
   Swiss bank account
-  [Source](https://www.pressreader.com/ukraine/kyiv-post/20170210/281694024525834)
+  [1](https://www.pressreader.com/ukraine/kyiv-post/20170210/281694024525834)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: None

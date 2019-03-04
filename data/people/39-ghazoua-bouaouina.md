@@ -19,6 +19,8 @@ familyMembers:
     type: brother
   - name: Douraid Bouaouina
     type: brother
+  - name: Badreddine Bennour
+    type: spouse
 familyMembersSubjectToSanctions:
   - Hayet Ben Ali
   - Akrem Bouaouina

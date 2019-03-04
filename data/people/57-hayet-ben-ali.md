@@ -21,6 +21,8 @@ familyMembers:
     type: son
   - name: Ghazoua Bouaouina
     type: daughter
+  - name: Fathi Refat
+    type: spouse
 familyMembersSubjectToSanctions:
   - Zine El Abidine Ben Ali
   - Akrem Bouaouina
@@ -36,5 +38,5 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Sister of Zine el Abidine Ben Ali, born in Hammam-Sousse on 16 May 1952. Married 
-to Fathi Refat. Formerly alleged to have been living in Sousse, Tunisia. 
+to Fathi Refat. She is alleged to have been living in Sousse, Tunisia. 
 [1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

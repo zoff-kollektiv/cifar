@@ -25,6 +25,10 @@ familyMembers:
     type: sister
   - name: Leila Trabelsi
     type: sister
+  - name: Yamina Souiei
+    type: mother
+  - name: Inès Lejri
+    type: spouse
 familyMembersSubjectToSanctions:
   - Moncef Trabelsi
   - Moez Trabelsi
@@ -38,8 +42,7 @@ estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-Former managing director, Mohamed Ben Moncef Trabelsi is a nephew of Laila 
-Trabelsi, the wife of Zine El Abidine Ben Ali. Son of Yamina SOUIEI, born in 
-Libya on 7 January 1980. Moncef is married to Inès LEJRI, allegedly residing in 
-El Khadra, Tunisia. 
+Businessman, Mohamed Ben Moncef Trabelsi is a nephew of Laila Trabelsi, the wife 
+of Zine El Abidine Ben Ali. Son of Yamina Souiei, born in Libya on 7 January 
+1980. Moncef is married to Inès Lejri, allegedly residing in El Khadra, Tunisia. 
 [1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)

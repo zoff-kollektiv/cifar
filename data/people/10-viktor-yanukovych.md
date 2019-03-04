@@ -25,7 +25,7 @@ countryOfResidence: Russia
 corruptionLink: ''
 familyMembers:
   - name: Liudmyla Oleksandrivna Yanukovych
-    type: wife
+    type: spouse
   - name: Oleksandr Viktorovych Yanukovych
     type: son
   - name: Viktor Viktorovych Yanukovych
@@ -44,12 +44,15 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   "PRINTING HOUSE "NEW WORLD", [1](https://pep.org.ua/en/person/747)
 suspectedOrConfirmedLinksToBankAccounts: >-
   Potentially in Austria, UK, Latvia, Cyprus, Italy, Liechtenstein, Switzerland
-  and/or Netherlands [1](http://www.sdfm.gov.ua/news.php?news_id=2927&lang=en)
+  and Netherlands [1](http://www.sdfm.gov.ua/news.php?news_id=2927&lang=en)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
-  Unknown but potentially in Austria, UK, Latvia, Cyprus, Italy, Liechtenstein,
-  Switzerland and/or Netherlands
-  [1](http://www.sdfm.gov.ua/news.php?news_id=2927&lang=en)
+  Unknown directly belonging to Yanukovych. However, there has been a number of
+  asset freezes linked anonymously to Yanukovych and former government officials
+  in Austria, UK, Latvia, Cyprus, Italy, Liechtenstein, Switzerland and
+  Netherlands [1](http://www.sdfm.gov.ua/news.php?news_id=2927&lang=en). In
+  Switzerland alone, $193.34 million was frozen
+  [2](https://www.reuters.com/article/us-ukraine-crisis-switzerland-idUSBREA4307N20140504)
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
@@ -63,7 +66,7 @@ state-owned but later privatised and enhanced from unknown income. The area of
 the residence has its own helicopter ground, a zoo, a collection of cars, a golf 
 course, a dairy farm and a restaurant. The exact amount of money alleged to have 
 been stolen by Yanukovych is still unknown. The estimated damage to the state 
-budget varies from 40 to 100 billion USD. 
+budget varies from $40 to $100 billion. 
 [1](https://pep.org.ua/uk/person/747#dossier), 
 [2](https://www.opendemocracy.net/od-russia/serhij-leschenko/yanukovych-luxury-residence-and-money-trail-that-leads-to-london), 
 [3](https://uncaccoalition.org/files/Asset-Recovery-Ukraine-Full-Report.pdf), 

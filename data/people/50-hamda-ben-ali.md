@@ -15,15 +15,17 @@ corruptionLink: family
 familyMembers:
   - name: Slaheddine Ben Ali
     type: father
-  - name: Nejet Ben Ali
+  - name: Najet Ben Ali
     type: sister
   - name: Nejmeddine Ben Ali
     type: brother
   - name: Kaïs Ben Ali
     type: brother
+  - name: Selma Mansour
+    type: mother
 familyMembersSubjectToSanctions:
   - Slaheddine Ben Ali
-  - Nejet Ben Ali
+  - Najet Bent Slaheddine Ben Ali
   - Nejmeddine Ben Ali
   - Kaïs Ben Ali
 suspectedOrConfirmedOverseasProperties: ''
@@ -36,5 +38,5 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Nephew of Zine El Abidine Ben Ali, born in Monastir 29 April 1974, son of Selma 
-MANSOUR, company manager, allegedly residing in Monastir, Tunisia. 
+Mansour, company manager, allegedly residing in Monastir, Tunisia. 
 [1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011D0072-20170128)

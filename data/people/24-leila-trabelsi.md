@@ -34,14 +34,14 @@ familyMembersSubjectToSanctions:
   - Dorsaf Ben Ali
   - Ghazoua Ben Ali
 suspectedOrConfirmedOverseasProperties: >-
-  property in Frankfurt, Germany, belonging to one of his
-  daughters[1](http://www.welt.de/wirtschaft/article12465557/Deutschland-beschlagnahmt-Vermoegen-des-Ben-Ali-Clans.html)
+  Property in Frankfurt, Germany, belonging to one of her daughters
+  [1](http://www.welt.de/wirtschaft/article12465557/Deutschland-beschlagnahmt-Vermoegen-des-Ben-Ali-Clans.html)
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: >-
   German accounts
   [1](http://www.welt.de/wirtschaft/article12465557/Deutschland-beschlagnahmt-Vermoegen-des-Ben-Ali-Clans.html)
 suspectedOrConfirmedLinksToOtherAssets: >-
-  gold ingots
+  Gold ingots
   [1](https://www.telegraph.co.uk/news/worldnews/africaandindianocean/tunisia/8265025/Tunisian-former-presidents-wife-fled-country-with-38-million-in-gold.html)
 estimatesOfAssetsFrozenOrConfiscated: >-
   Unknown amounts in Germany
@@ -54,8 +54,8 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Leila Trabelsi was born in 1957. Before marrying Ben Ali in 1992, she worked as 
-a hairdresser. Mrs Trabelsi is alleged to have taken away 1.5 tonnes of the 
-central bank's gold worth approximately USD 50 million when fleeing with her 
-family to Dubai, Saudi Arabia. 
+a hairdresser. She is alleged to have taken away 1.5 tonnes of the central 
+bank's gold worth approximately US $50 million when fleeing with her family to 
+Dubai, Saudi Arabia. 
 [1](http://archive.boston.com/news/world/africa/articles/2011/01/17/tunisians_hail_fall_of_ex_leaders_corrupt_family/?page=2), 
 [2](https://www.telegraph.co.uk/news/worldnews/africaandindianocean/tunisia/8265025/Tunisian-former-presidents-wife-fled-country-with-38-million-in-gold.html)

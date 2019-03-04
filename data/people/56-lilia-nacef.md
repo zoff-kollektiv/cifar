@@ -17,6 +17,8 @@ familyMembers:
     type: sibling
   - name: Mourad Mehdoui
     type: spouse
+  - name: Mounira Trabelsi -mother
+    type: ''
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''

@@ -16,7 +16,7 @@ familyMembers:
   - name: Leila Trabelsi
     type: sister
   - name: Hela Belhaj
-    type: wife
+    type: spouse
   - name: Jannet Trabelsi
     type: child
   - name: Sami Trabelsi
@@ -25,6 +25,8 @@ familyMembers:
     type: child
   - name: Mahemd Ali Trabelsi
     type: child
+  - name: Saida Dherif
+    type: mother
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
 suspectedOrConfirmedOverseasProperties: ''

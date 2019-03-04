@@ -15,8 +15,8 @@ corruptionLink: family
 familyMembers:
   - name: Leila Trabelsi
     type: sister
-  - name: Habib Zakir- spouse
-    type: ''
+  - name: Habib Zakir
+    type: spouse
   - name: Youssef Trabelsi
     type: child
   - name: Chams Trabelsi

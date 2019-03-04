@@ -7,7 +7,8 @@ nativeName: هيدي راسخ
 surname: Heidy
 firstAndMidleNames: Mahmoud Magdy Hussein Rasekh
 aliases:
-  - Heddy Mahmoud Magdy Hussein Rasekh
+  - Heddy
+  - Heidi Mahmoud Magdy Hussein Rasekh
 identifyingInformation: Daughter-in-law of Hosni Mubarak
 placeOfBirth: ''
 dateOfBirth: ''
@@ -30,9 +31,9 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011
 ---
-Heidi Rasekh is a wife of Alaa Mubarak, with whom they have one child. Heidi 
-Rasekh is said to own two apartments in Cairo, allegedly bought by the president 
-Hosni Mubarak. Heidi is also said to purchase a land in Sharm El-Sheikh in 2005 
+Heidy Rasekh is a wife of Alaa Mubarak, with whom they have one child. She is 
+said to own two apartments in Cairo, allegedly bought by the president Hosni 
+Mubarak. Heidy is also said to purchase a land in Sharm El-Sheikh in 2005 
 substantially below the market value and with documents obscuring the actual 
 size. 
 [1](https://www.egyptindependent.com/prosecution-mubarak-and-family-amassed-le9-billion/) 

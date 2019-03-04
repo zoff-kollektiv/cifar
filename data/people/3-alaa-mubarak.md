@@ -29,7 +29,7 @@ familyMembersSubjectToSanctions:
   - Suzanne Thabet
   - Heidy Rasekh
 suspectedOrConfirmedOverseasProperties: >-
-  London, Paris, Marbella (Spain), Dubai, Berverly Hills (US)
+  London, Paris, Marbella (Spain), Dubai, Beverly Hills (US)
   [1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html),
   [2](https://www.huffingtonpost.co.uk/entry/how-the-mubarak-family-made-its-billions_n_821757)
 suspectedOrConfirmedLinksToLegalEntities: >-
@@ -38,7 +38,7 @@ suspectedOrConfirmedLinksToLegalEntities: >-
 suspectedOrConfirmedLinksToBankAccounts: >-
   Mubarak’s sons suspected of holding $340 million in Switzerland
   [1](https://www.theguardian.com/world/2011/oct/17/mubarak-sons-swiss-bank-accounts)
-  , Germany, UK and the US
+  , Germany, UK, the US
   [2](https://www.welt.de/wirtschaft/article12531594/Die-Schweiz-laesst-Mubarak-nicht-mehr-an-sein-Geld.html)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
@@ -55,10 +55,9 @@ politics. Both sons of Hosni Mubarak were known for their extravagant and
 luxurious lifestyles during their father's 30-year rule. Investigations coming 
 out of the Panama Papers revealed Alaa as the owner of Pan World Investments, an 
 investment fund for the Mubarak family of nearly US$1 billion and incorporated 
-by Mossack Fonseca.
-Alongisde his father and older brother, Alaa was Initially sentenced for three 
-years in prison for diverting millions of public money to maintain presidential 
-palaces.
-In September 2018, Alaa was arrested again in Egypt, along with his brother 
-Gamal, and accused of manipulating the stock market. 
-[1](https://madamasr.com/en/2018/10/01/feature/politics/the-mubaraks-quick-turn-through-the-jailhouse-turnstile/)
+by Mossack Fonseca. Alongisde his father and older brother, Alaa was initially 
+sentenced for three years in prison for diverting millions of public money to 
+maintain presidential palaces. In September 2018, Alaa was arrested again, 
+together with his brother Gamal, and accused of manipulating the stock market. 
+[1](https://madamasr.com/en/2018/10/01/feature/politics/the-mubaraks-quick-turn-through-the-jailhouse-turnstile/), 
+[2](https://offshoreleaks.icij.org/stories/alaa-mubarak)

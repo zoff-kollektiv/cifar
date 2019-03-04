@@ -12,7 +12,9 @@ placeOfBirth: 'Tunisia, Tunis'
 dateOfBirth: 28.08.1974
 countryOfResidence: ''
 corruptionLink: family
-familyMembers: []
+familyMembers:
+  - name: Moncef Ben Ali
+    type: father
 familyMembersSubjectToSanctions: []
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''

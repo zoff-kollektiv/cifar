@@ -55,7 +55,7 @@ suspectedOrConfirmedLinksToBankAccounts: >-
   Switzerland, Austria, Liechtenstein
   [1](https://www.euronews.com/2014/02/28/switzerland-austria-and-liechtenstein-freeze-assets-and-bank-accounts-of-)
 suspectedOrConfirmedLinksToOtherAssets: >-
-  luxury yacht
+  €6 million luxury yacht
   [1](https://www.unian.info/common/1266574-yanukovych-sons-yacht-spotted-near-turkey-video.html)
 estimatesOfAssetsFrozenOrConfiscated: >-
   Unknown amounts in Switzerland, Austria, Liechtenstein
@@ -64,8 +64,8 @@ estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---
-Oleksandr Viktorovych Yanukovych is the son of the former President and was 
-considered one of the richest businessmen in Ukraine. Forbes estimated the total 
-value of assets of Alexander Yanukovych at USD510 million. This fortune is 
-alleged to have grown substantially after his father became President. 
-[Source](https://pep.org.ua/uk/person/9416#dossier)
+Oleksandr Viktorovych Yanukovych is the son of the former president Yanukovych 
+and was considered one of the richest businessman in Ukraine. Forbes estimated 
+the total value of his assets at $510 million. This fortune is alleged to have 
+grown substantially after his father became President. 
+[1](https://pep.org.ua/uk/person/9416#dossier)

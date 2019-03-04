@@ -15,6 +15,8 @@ corruptionLink: family
 familyMembers:
   - name: Lilia Nacef
     type: spouse
+  - name: Neila Bartaji
+    type: mother
 familyMembersSubjectToSanctions:
   - Lilia Nacef
 suspectedOrConfirmedOverseasProperties: ''

@@ -25,11 +25,17 @@ familyMembers:
     type: daughter
   - name: Soufia Trabelsi
     type: daughter
+  - name: Saida Dherif
+    type: mother
 familyMembersSubjectToSanctions:
   - Leila Trabelsi
 suspectedOrConfirmedOverseasProperties: ''
-suspectedOrConfirmedLinksToLegalEntities: ''
-suspectedOrConfirmedLinksToBankAccounts: ''
+suspectedOrConfirmedLinksToLegalEntities: >-
+  Zenade Resources Limited
+  [1](https://projects.icij.org/swiss-leaks/people/belhassen-trabelsi)
+suspectedOrConfirmedLinksToBankAccounts: >-
+  Assets in Canada
+  [1](https://www.cbc.ca/news/canada/montreal/belhassen-trabelsi-tunisia-canada-1.3612214)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: ''
 estimatesOfAssetsReturned: >-
@@ -38,6 +44,11 @@ estimatesOfAssetsReturned: >-
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
-Brother-in-law of Zine El Abidine Ben Ali is a businessman. Born in Tunis on 5 
-November 1962 to Saida Dherif.  
-[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128)
+Brother-in-law of Zine El Abidine Ben Ali is a businessman. As one of the most 
+powerful members of the former Tunisian regime, he was convicted for corruption 
+in absentia in 2011 and sentenced to 15 years in prison. Belhassen resided in 
+Canada for several years but he has disappeared off the radar of Canadian 
+authorities when threatened with deportation. 
+[1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0101-20170128), 
+[2](https://projects.icij.org/swiss-leaks/people/belhassen-trabelsi), 
+[3](https://www.cbc.ca/news/canada/montreal/belhassen-trabelsi-tunisia-canada-1.3612214)

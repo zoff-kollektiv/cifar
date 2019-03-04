@@ -52,7 +52,7 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   Helios Netherlands B. V. ,  KOLTRESO COMMERCIAL LTD , MIlideno Holdings Ltd. ,
   Kvalisto Holdings Ltd , [1](https://pep.org.ua/en/person/742)
 suspectedOrConfirmedLinksToBankAccounts: >-
-  shell company accounts in Russia, Cyprus, Latvia, Bahamas, Switzerland
+  Shell company accounts in Russia, Cyprus, Latvia, Bahamas, Switzerland
   [1](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html),
   [2](https://pep.org.ua/en/person/742)
 suspectedOrConfirmedLinksToOtherAssets: ''
@@ -63,12 +63,11 @@ estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---
-Andriy Klyuev is a former Ukrainian politician, who served as Deputy People's 
-Deputy of Ukraine, Vice Prime Minister of Ukraine, Secretary of the National 
-Security and Defense Council of Ukraine, and Head of the Presidential 
-Administration. Together with his younger brother Sergiy Petrovich Klyuev they 
-were active in the solar energy business. The Klyuyev brothers are the alleged 
-beneficial owners of a number of companies, from which 70 were formerly linked 
-to a small number of Austrian holding companies.
-[1](https://pep.org.ua/uk/person/742#dossier) [Source 
-2](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)
+Andrii Kliuiev is a former Ukrainian politician, who served as Vice Prime 
+Minister of Ukraine, Secretary of the National Security and Defense Council of 
+Ukraine, and Head of the Presidential Administration. Together with his younger 
+brother Serhii Petrovich Kliuiev they were active in the solar energy business. 
+The Kliuiev brothers are the alleged beneficial owners of a number of companies, 
+from which many have made suspicious transactions.
+[1](https://pep.org.ua/uk/person/742#dossier) 
+[2](https://www.unian.info/politics/10187643-here-s-how-ukraine-s-ousted-government-got-away-with-40-bln-media.html)

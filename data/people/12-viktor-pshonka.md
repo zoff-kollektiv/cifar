@@ -23,7 +23,7 @@ familyMembers:
   - name: Artem Viktorovych Pshonka
     type: son
 familyMembersSubjectToSanctions:
-  - Artem Viktorovych Pshonka
+  - Artem Pshonka
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''
@@ -34,10 +34,10 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---
 Viktor Pshonka was a Prosecutor General of Ukraine, State Counselor of Justice 
-of Ukraine and member of the High Council of Justice of Ukraine during Viktor's 
-Yanukovych reign. Similarly to Viktor Yanukovych, Pshonka has lived in a an 
-extremely luxurious residence that contained a swimming pool and countless art 
-pieces. He has been accused of appropriating money allocated for the 
+of Ukraine and member of the High Council of Justice of Ukraine during 
+Yanukovych's reign. Similarly to Viktor Yanukovych, Pshonka has lived in an 
+extremely luxurious residence that contained a swimming pool, lavish decoration 
+and art pieces. He has been accused of misappropriating money allocated for the 
 construction of a new Prosecutor General’s Office building. He allegedly holds a 
 Russian passport and is likely to be currently residing in Russia. 
 [1](https://www.telegraph.co.uk/news/worldnews/europe/ukraine/10660562/kiev-ukraine-maidan-russia-war-clashes-protest-wounded-yanukovych-europe-police.html?frame=2833706), 

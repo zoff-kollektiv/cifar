@@ -24,6 +24,8 @@ familyMembers:
     type: sibling
   - name: Amine Trabelsi
     type: sibling
+  - name: Najia Jeridi
+    type: mother
 familyMembersSubjectToSanctions:
   - Mohamed Naceur Trabelsi
   - Imed Trabelsi

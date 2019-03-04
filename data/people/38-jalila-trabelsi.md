@@ -25,7 +25,8 @@ familyMembers:
     type: child
   - name: Islam Trabelsi
     type: child
-familyMembersSubjectToSanctions: []
+familyMembersSubjectToSanctions:
+  - Leila Trabelsi
 suspectedOrConfirmedOverseasProperties: ''
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: ''

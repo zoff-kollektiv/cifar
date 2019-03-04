@@ -35,7 +35,7 @@ familyMembersSubjectToSanctions:
   - Alaa Mubarak
   - Gamal Mubarak
 suspectedOrConfirmedOverseasProperties: >-
-  London, Paris, Marbella (Spain), Dubai, Berverly Hills (US)
+  London, Paris, Marbella (Spain), Dubai, Beverly Hills (US)
   [1](https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html),
   [2](https://www.huffingtonpost.co.uk/entry/how-the-mubarak-family-made-its-billions_n_821757)
 suspectedOrConfirmedLinksToLegalEntities: ''
@@ -46,11 +46,11 @@ estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 21.03.2011
 ---
-Mubarak's wife Suzanne was born to a Wesh mother and an Egyptian father. and is 
+Mubarak's wife Suzanne was born to a Welsh mother and an Egyptian father and is 
 the mother of Alaa Mubarak and Gamal Mubarak. As First Lady, she was known for 
-her charitable work and attended many important world events, serving for a time 
-as a goodwill ambassador for the U.N.'s Food and Agricultural Organization. 
-After the ousting of her husband, her charitable work came under srutiny and she 
-has been investigted for corruption. One such case has been an alleged 
-misappropriation of funds and donations related to the Alexandria Library. 
+her charitable work, serving for a time as a goodwill ambassador for the U.N.'s 
+Food and Agricultural Organization. After the ousting of her husband, her 
+charitable work came under srutiny and she has been investigted for corruption. 
+One such case has been an alleged misappropriation of funds and donations 
+related to the Alexandria Library. 
 [1](http://content.time.com/time/world/article/0,8599,2071446,00.html) 

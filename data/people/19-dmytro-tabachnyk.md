@@ -39,6 +39,6 @@ startOfSanctions: 06.03.2014
 The former Minister of Education and Science of Ukraine, Tabachnyk is accused of 
 abuse of office in the execution of state orders and implementation of public 
 procurement. Together with his brother Mikhail, they are controllers of a number 
-of enterprises that continue business activity.  He is now believed to be in 
+of enterprises that continue in business activity.  He is now believed to be in 
 Israel. [1](https://pep.org.ua/uk/person/9555#dossier), 
 [2](https://ukranews.com/en/news/473442-head-of-ukraine-interpol-bureau-nevolia-ex-education-minister-tabachnyk-not-wanted)

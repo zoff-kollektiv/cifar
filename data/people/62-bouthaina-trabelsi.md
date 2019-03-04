@@ -25,6 +25,8 @@ familyMembers:
     type: sister
   - name: Leila Trabelsi
     type: sister
+  - name: Yamina Souiei
+    type: mother
 familyMembersSubjectToSanctions:
   - Moncef Trabelsi
   - Mohamed Trabelsi

@@ -15,6 +15,8 @@ corruptionLink: family
 familyMembers:
   - name: Samira Trabelsi
     type: spouse
+  - name: Fatma Sfar
+    type: mother
 familyMembersSubjectToSanctions:
   - Samira Trabelsi
 suspectedOrConfirmedOverseasProperties: ''

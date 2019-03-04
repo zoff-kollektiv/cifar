@@ -36,8 +36,8 @@ familyMembersSubjectToSanctions:
   - Dorsaf Ben Ali
   - Ghazoua Ben Ali
 suspectedOrConfirmedOverseasProperties: >-
-  property in Frankfurt, Germany, belonging to one of his
-  daughters[1](http://www.welt.de/wirtschaft/article12465557/Deutschland-beschlagnahmt-Vermoegen-des-Ben-Ali-Clans.html)
+  Property in Frankfurt, Germany, belonging to one of his daughters
+  [1](http://www.welt.de/wirtschaft/article12465557/Deutschland-beschlagnahmt-Vermoegen-des-Ben-Ali-Clans.html)
 suspectedOrConfirmedLinksToLegalEntities: ''
 suspectedOrConfirmedLinksToBankAccounts: >-
   German accounts
@@ -46,13 +46,15 @@ suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
   Unknown amounts in Germany
   [1](http://www.welt.de/wirtschaft/article12465557/Deutschland-beschlagnahmt-Vermoegen-des-Ben-Ali-Clans.html),
-  $80M frozen or seized in Switzerland, France, Belgium and Italy.
-  [2](http://blogs.worldbank.org/arabvoices/impactevaluations/publicsphere/nasikiliza/endpovertyinsouthasia/health/voices/tracking-tunisias-stolen-assets-balance-sheet-three-years)
+  $80 million frozen or seized in Switzerland, France, Belgium and Italy.
+  [2](http://blogs.worldbank.org/arabvoices/impactevaluations/publicsphere/nasikiliza/endpovertyinsouthasia/health/voices/tracking-tunisias-stolen-assets-balance-sheet-three-years).
+  $61.75 million in Switzerland alone
+  [3](https://www.swissinfo.ch/eng/politics/returning-stolen-assets_the-complex-case-of-tunisia-s-blocked-funds/41360476) 
 estimatesOfAssetsReturned: >-
   Two planes (France, Switzerland) and two yachts (Italy and Spain)
-  [1](http://blogs.worldbank.org/arabvoices/impactevaluations/publicsphere/nasikiliza/endpovertyinsouthasia/health/voices/tracking-tunisias-stolen-assets-balance-sheet-three-years),
-  Assets from Swizerland in two rounds - first around €225,00, followed by €3.5m
-  in 2017.
+  [1](http://blogs.worldbank.org/arabvoices/impactevaluations/publicsphere/nasikiliza/endpovertyinsouthasia/health/voices/tracking-tunisias-stolen-assets-balance-sheet-three-years).
+  Assets from Swizerland in two rounds - first around €225,000, followed by €3.5
+  million in 2017.
   [2](https://www.reuters.com/article/us-tunisia-swiss-assets/swiss-return-funds-from-ben-ali-relative-to-tunisia-idUSKBN18M1RN)
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011

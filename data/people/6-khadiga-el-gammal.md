@@ -8,11 +8,11 @@ surname: Khadiga
 firstAndMidleNames: Mahmoud el Gammal
 aliases:
   - Khadija Mahmoud El-Gammal
-  - el Gamal
+  - el Gama l
   - al-gammal
 identifyingInformation: Daughter-in-law of Hosni Mubarak
 placeOfBirth: ''
-dateOfBirth: 13.10.1984
+dateOfBirth: 13.10.1982
 countryOfResidence: Egypt
 corruptionLink: family
 familyMembers:
@@ -37,6 +37,6 @@ startOfSanctions: |
   21.03.2011
 ---
 Khadiga, the wife of Gamal Mubarak received a degree in business administration 
-from the American University in Cairo, where also her husband studied. Together 
-they have two children, son Mahmoud Gamal Mubarak and a daughter Farida Gamal 
-Mubarak. [1](https://www.newyorker.com/magazine/2010/04/05/the-contenders)
+from the American University in Cairo, where her husband studied as well. 
+Together they have two children, son Mahmoud Gamal Mubarak and a daughter Farida 
+Gamal Mubarak. [1](https://www.newyorker.com/magazine/2010/04/05/the-contenders)

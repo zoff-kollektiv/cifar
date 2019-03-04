@@ -27,6 +27,6 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: |
   21.03.2011
 ---
-Wife of Habib el-Adly. Former journalist in State-owned Al-Ahram Daily newspaper 
-in its Crime section. Owner and editor-in-chief of a weekly newspaper Al-Zaman. 
+Wife of Habib el-Adly. Former journalist in the state-owned newspaper Al-Ahram 
+Daily. Owner and editor-in-chief of a weekly newspaper Al-Zaman. 
 [1](https://dailynewsegypt.com/2016/06/01/wife-mubarak-era-interior-minister-al-adly-launches-newspaper/)

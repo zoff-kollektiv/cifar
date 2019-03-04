@@ -94,31 +94,30 @@ suspectedOrConfirmedLinksToLegalEntities: >-
   LYBSTER OVERSEAS LTD , Harin Enterprises Corp., BERWYN ENTERPRISES CORP
   [1](https://pep.org.ua/en/person/15452)
 suspectedOrConfirmedLinksToBankAccounts: >-
-  $2 million on bank account in Switzerland, Latvian bank accounts
+  $2 million in bank account in Switzerland, Latvian bank accounts.
   [1](https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html),
   [2](https://www.occrp.org/en/component/content/article?id=4545:ukraine-kyiv-court-seizes-billionaire-kurchenko-s-14-offshore-accounts)
 suspectedOrConfirmedLinksToOtherAssets: ''
 estimatesOfAssetsFrozenOrConfiscated: >-
-  Assets worth 2 million USD in Switzerland
-  [1](https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html)
-  80 million USD held in Latvian bank accounts, later seized by the Latvian
-  state.
+  Assets worth $2 million in Switzerland, 80 million USD held in Latvian bank
+  accounts, later seized by the Latvian state.
+  [1](https://www.ukrinform.net/rubric-crime/2559708-kurchenkos-property-arrested-in-switzerland.html),
   [2](https://www.occrp.org/en/daily/4545-ukraine-kyiv-court-seizes-billionaire-kurchenko-s-14-offshore-accounts) 
 estimatesOfAssetsReturned: None
 typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 06.03.2014
 ---
-Dubbed as the ‘billionaire from nowhere’ or the ‘wizard of gas’, young 
-entrepreneur Kurchenko managed to aquire a fortune in a very short amount of 
-time in the gas business. Kurchenko was the head of "The VETEK Group of 
-Companies”, which later included the UMH group and which controlled 50 Ukrainian 
-and Russian internet, radio and media brands. Among them was the Ukrainian 
-edition of Forbes until July 2015, when the U.S. government imposed sanctions on 
-him and he was no longer allowed to use the Forbes brand. 11 criminal 
-investigations have been started into Kurchenko’s companies, allegedly haveing 
-stolen around $1 billion from Ukrainian state. He is said to reside in Russia, 
-where he has acquired real estate and continues to engage in entrepreneurial 
-activity. 
+Dubbed as the ‘billionaire from nowhere’, ‘wizard of gas’, or 'Yanukovych's 
+wallet', young entrepreneur Kurchenko managed to aquire a fortune in a very 
+short amount of time in the gas business. Kurchenko was the head of "The VETEK 
+Group of Companies”, which later included the UMH group and which controlled 50 
+Ukrainian and Russian internet, radio and media brands. Among them was the 
+Ukrainian edition of Forbes until July 2015, when the U.S. government imposed 
+sanctions on him and he was no longer allowed to use the Forbes brand. 11 
+criminal investigations have been started into Kurchenko’s companies, allegedly 
+having stolen around $1 billion from Ukrainian state. He is said to reside in 
+Russia, where he has acquired real estate and continues to engage in 
+entrepreneurial activity. 
 [1](https://www.reuters.com/article/us-russia-capitalism-kurchenko-specialre/special-report-how-a-29-year-old-ukrainian-made-a-killing-on-russian-gas-idUSKBN0JP1KO20141212), 
 [2](https://www.thedailybeast.com/sergiy-kurchenko-ukraines-missing-oligarch), 
 [3](https://www.kyivpost.com/article/content/business/forbes-takes-further-steps-to-deny-fugitive-kurchenko-foreign-language-publishing-license-395353.html), 
