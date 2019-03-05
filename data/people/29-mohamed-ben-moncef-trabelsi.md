@@ -27,7 +27,7 @@ familyMembers:
     type: sister
   - name: Yamina Souiei
     type: mother
-  - name: Inès Lejri
+  - name: Ines Lejri
     type: spouse
 familyMembersSubjectToSanctions:
   - Moncef Trabelsi
