@@ -57,8 +57,8 @@ As soon as practicable, EU regulations require natural and legal persons, entiti
 ## Useful links
 - Service for Foreign Policy Instruments (FPI) - [Sanctions website](https://ec.europa.eu/fpi/what-we-do/sanctions_en)
 - [Frequently Asked Questions on EU restrictive measures](http://eeas.europa.eu/archives/docs/cfsp/sanctions/docs/frequently_asked_questions_en.pdf)
-A firm’s guide to preventing financial crime [link](https://www.handbook.fca.org.uk/handbook/document/FC1_FCA_20150427.pdf)
+- [A firm’s guide to preventing financial crime](https://www.handbook.fca.org.uk/handbook/document/FC1_FCA_20150427.pdf)
 
 
-## Note
+#### Note
 *EU misappropriation sanctions are only one type of sanctions that businesses need to be aware of when performing due diligence investigation. The information on this website does not provide a comprehensive list of all sanctions nor can it replace legal advice. This website should be used as a resource to inform businesses about misappropriation sanctions and to aid the identification of designated persons.* 
