@@ -7,7 +7,7 @@ sanctions.
 
 All EU nationals and legal entities established under EU law must comply with the EU sanctions that are in force, irrespective of where their activities take place. Failure to comply with sanctions might result in a criminal prosecution or a monetary penalty.
 
-Banks and financial institutions, as well as real estate agents and sellers, and the luxury goods sector are all particularly at risk of dealing with persons subject to sanctions. Undertaking due diligence obligations and ensuring your company does not deal with someone subject to sanctions is therefore key.
+Banks and financial institutions, as well as real estate agents and retailers in the luxury goods sector are all particularly at risk of dealing with persons subject to sanctions. Undertaking due diligence obligations and ensuring your company does not deal with someone subject to sanctions is therefore key.
 
 There is a number of processes that your company or institution can adopt in order to minimize the risk of non-compliance with sanctions. Depending on your business model and risk factors, these may include:
 
@@ -54,6 +54,11 @@ As soon as practicable, EU regulations require natural and legal persons, entiti
 - [European Commission, Service for Foreign Policy Instruments (FPI)](https://ec.europa.eu/fpi/what-we-do/sanctions_en)
 - [European External Action Service, Sanctions Division](https://eeas.europa.eu/generic-warning-system-taxonomy/404_en/423/Sanctions%20policy) 
 
+## Useful links
+- Service for Foreign Policy Instruments (FPI) - Sanctions website [link](https://ec.europa.eu/fpi/what-we-do/sanctions_en)
+- Frequently Asked Questions on EU restrictive measures [link[(http://eeas.europa.eu/archives/docs/cfsp/sanctions/docs/frequently_asked_questions_en.pdf)
+A firm’s guide to preventing financial crime [link](https://www.handbook.fca.org.uk/handbook/document/FC1_FCA_20150427.pdf)
+
+
 ## Note
 *EU misappropriation sanctions are only one type of sanctions that businesses need to be aware of when performing due diligence investigation. The information on this website does not provide a comprehensive list of all sanctions nor can it replace legal advice. This website should be used as a resource to inform businesses about misappropriation sanctions and to aid the identification of designated persons.* 
-
