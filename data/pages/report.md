@@ -277,6 +277,9 @@ In April 2013, an even more visible success demonstrated that the consistent and
   <dd>47</dd>
 </dl>
 
+Full table is available [here](https://cifar.eu/wp-content/uploads/2019/03/Table-3-EU_Tunisia.pdf)
+
+
 As evident from the table above, the Tunisian misappropriation regime displays a pattern of stability. Patterns of litigation are low: Only 15% of Tunisian targets contested their designations in court.##Boogaerts 2018##
 
 #### Egypt
@@ -300,6 +303,9 @@ The Egyptian blacklist is the shortest in our sample, featuring only 19 entries 
   <dt>Individuals listed as of Dec.2018</dt>
   <dd>9</dd>
 </dl>
+
+Full table is available [here](https://cifar.eu/wp-content/uploads/2019/03/Table-6-CH_Egypt.pdf)
+
 
 In 2012, Spain froze a number of assets belonging to businessman Hussein Salem, a dual citizen of Egypt and Spain. This included € 28m in cash and financial investments, and seized a number of luxury properties across the country, including two houses in a Madrid suburb with a combined value of around € 7m, seven properties in southern Spain worth around € 3m, and five luxury cars.##Govan 2012##
 
@@ -349,6 +355,9 @@ The asset freezes have not yet been successful in facilitating asset recovery. H
   <dd>15</dd>
 </dl>
 
+Full table is available [here](https://cifar.eu/wp-content/uploads/2019/03/Table-1-EU_Ukraine_Updated.pdf)
+
+
 The European Commission collects information on the amounts frozen,##Council 2011a, 2011b, 2014## but it is not authorised to disclose them. Ukrainian authorities reported freezes totalling $107.2m, €15.9m and CHF135m in Austria, the UK, Latvia, Cyprus, Italy, Liechtenstein, Switzerland and the Netherlands.##State Financial Monitoring Service of Ukraine 2018## As pointed out by Michael Howard, not a single Ukrainian politician or businessman implicated in the Yanukovych era has so far been brought to justice.##Howard 2018## To date, only middle-level public officials have been convicted.##Anti-corruption Action Centre 2017##
 
 Funds belonging to several individuals closely associated with former president Viktor Yanukovich were identified in Latvian banks and frozen. They included Sergiy Kurchenko, one of the first individuals to be named on EU and US blacklists, Serhii Arbuzov, who had $49m frozen in Latvian accounts, and businessmen and politician Yuri Ivanyushenko, who had $32m plus CHF72m. However, neither Kurchenko, Arbuzov nor Ivanyushenko were under investigation in Ukraine over the ownership of funds held in Latvian banks and a series of court decisions led to their unfreezing and seizure by the Latvian state.##LSM 2016## Ivanyushenko, who was investigated in Ukraine over a different embezzlement case, was removed from the EU blacklist after the case against him was discontinued in 2017.##LSM 2017##
@@ -375,6 +384,9 @@ Similarly to the EU list, there were two consecutive rounds of listings also in 
   <dt>Individuals listed as of Dec.2018</dt>
   <dd>15</dd>
 </dl>
+
+Full table is available [here](https://cifar.eu/wp-content/uploads/2019/03/Table-2-CH_Ukraine.pdf)
+
 
 #### Comparing the three misappropriation regimes
 
@@ -478,6 +490,7 @@ European Union (2015) Directive (EU) 2015/849 of the European Parliament and of 
 European Union (2014) Council Decision 2014/119/CFSP of 5 March 2014 concerning restrictive measures directed against certain persons, entities and bodies in view of the situation in Ukraine, available under: http://data.europa.eu/eli/dec/2014/119(1)/2017-03-05
 
 Federal Department of Foreign Affairs (2018) “Freezing of assets”, available at https://www.eda.admin.ch/eda/en/home/foreign-policy/financial-centre-economy/illicit-assets-pep/freeze-assets.html (accessed 10 October 2018)
+
 Fenner, Gretta (2016) “The really critical condition in investigating financial crimes is no political interference”, Ukrainian Weekly#5 (99)
 
 Giumelli, Francesco (2018) “Quando sono utili le sanzioni internazionali? L'Italia, la Russia e l'Unione Europea”, Approfondimenti 142, Istituto di Affari Internazionali: Roma
@@ -593,3 +606,6 @@ Webber, Douglas (2019) European Disintegration? The Politics of Crisis in the Eu
 - Interview with EU officials, Brussels, November 2018
 All interviewees are guaranteed full anonymity.
 
+ #### All Annexes are available in the PDF version of the report [here](https://cifar.eu/wp-content/uploads/2019/03/CiFAR_Sanctioning-kleptocrats.pdf)
+ #### To see all tables detailing the evolution of asset freezes in Egypt, Tunisia and Ukraine, click [here](https://cifar.eu/wp-content/uploads/2019/03/Tables-evolution-of-asset-freezes.pdf)
+ 
