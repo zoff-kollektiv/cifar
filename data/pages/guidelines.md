@@ -55,8 +55,8 @@ As soon as practicable, EU regulations require natural and legal persons, entiti
 - [European External Action Service, Sanctions Division](https://eeas.europa.eu/generic-warning-system-taxonomy/404_en/423/Sanctions%20policy) 
 
 ## Useful links
-- Service for Foreign Policy Instruments (FPI) - Sanctions website [link](https://ec.europa.eu/fpi/what-we-do/sanctions_en)
-- Frequently Asked Questions on EU restrictive measures [link[(http://eeas.europa.eu/archives/docs/cfsp/sanctions/docs/frequently_asked_questions_en.pdf)
+- Service for Foreign Policy Instruments (FPI) - [Sanctions website](https://ec.europa.eu/fpi/what-we-do/sanctions_en)
+- [Frequently Asked Questions on EU restrictive measures](http://eeas.europa.eu/archives/docs/cfsp/sanctions/docs/frequently_asked_questions_en.pdf)
 A firm’s guide to preventing financial crime [link](https://www.handbook.fca.org.uk/handbook/document/FC1_FCA_20150427.pdf)
 
 
