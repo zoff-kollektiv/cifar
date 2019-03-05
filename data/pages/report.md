@@ -467,7 +467,7 @@ Council of the European Union (2014) Council Decision 2014/119/CFSP of 5 March 2
 
 Council of the European Union (2015) Council Decision (CFSP) 2015/143 of 29 January 2015 amending Decision 2014/119/CFSP concerning restrictive measures directed against certain persons, entities and bodies in view of the situation in Ukraine, OJ L 24, 30.1.2015, p. 16
 
-Court of Justice of the European Union (2008) Joined Cases C-402/05 P and C-415/05 P, Yassin Abdullah Kadi and Al Barakaat International Foundation v. Council of the European Union and Commission of the European Communities, Judgment of the Court (Grand Chamber) of 3 September 2008, available online under: https://eur-lex.europa.eu/legal- content/EN/TXT/?uri=CELEX:62005CJ0402
+Court of Justice of the European Union (2008) Joined Cases C-402/05 P and C-415/05 P, Yassin Abdullah Kadi and Al Barakaat International Foundation v. Council of the European Union and Commission of the European Communities, Judgment of the Court (Grand Chamber) of 3 September 2008, available online under: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62005CJ0402
 
 Dale, Tom (2013) “UK delegation assures return of Mubarak assets, denies inaction”, Egypt Independent, 15 January 2013, available at: https://ww.egyptindependent.com/uk-delegation-assures-return-mubarak-assets-denies-inaction/
 
@@ -481,7 +481,7 @@ Egypt Today (2018) “Last corruption case against Ahmed Ezz dropped per reconci
 
 European Parliament (2017a) Resolution of 6 April 2017 on Russia, the arrest of Alexei Navalny and other protestors (2017/2646(RSP)), available at: http://www.europarl.europa.eu/sides/getDoc.do?type=TA&language=EN&reference=P8-TA- 2017-0125
 
-European Parliament (2017b) Resolution of 13 September 2017 on corruption and human rights in third countries (2017/2028(INI)), available at: http://www.europarl.europa.eu/sides/getDoc.do?pubRef=%2f%2fEP%2f%2fTEXT%2bTA%2bP8-TA-2017- 0346%2b0%2bDOC%2bXML%2bV0%2f%2fEN&language=EN
+European Parliament (2017b) Resolution of 13 September 2017 on corruption and human rights in third countries (2017/2028(INI)), available at: http://www.europarl.europa.eu/sides/getDoc.do?pubRef=%2f%2fEP%2f%2fTEXT%2bTA%2bP8-TA-2017-0346%2b0%2bDOC%2bXML%2bV0%2f%2fEN&language=EN
 
 European Parliament (2017c) Exchange of views with Idriss Jazairy, UN Special Rapporteur on the negative impact of unilateral coercive measures on the enjoyment of Human Rights, the European Parliament Subcommittee on Human Rights, Brussels, 21 June 2017
 
@@ -495,7 +495,7 @@ Fenner, Gretta (2016) “The really critical condition in investigating financia
 
 Giumelli, Francesco (2018) “Quando sono utili le sanzioni internazionali? L'Italia, la Russia e l'Unione Europea”, Approfondimenti 142, Istituto di Affari Internazionali: Roma
 
-Govan, Fiona (2012) “£23 million of Hosni Mubarak assets seized in Spain”, The Guardian, 13 December 2012, available at: https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in- Spain.html
+Govan, Fiona (2012) “£23 million of Hosni Mubarak assets seized in Spain”, The Guardian, 13 December 2012, available at: https://www.telegraph.co.uk/news/worldnews/europe/spain/9743470/23-million-of-Hosni-Mubarak-assets-seized-in-Spain.html
 
 Happold, Matthias (2016) “Targeted Sanctions and Human Rights”, in M. Happold and P. Eden (eds.) Economic Sanctions and International Law, Oxford: Hart, pp. 87-111
 
@@ -511,13 +511,13 @@ Jozwiak, Rikard (2018) “Netherlands proposes new EU Human Rights sanctions reg
 
 Keller, Benjamin (2015) “The complex case of Tunisia’s blocked funds”, Swissinfo, 06 April 2015, available at: https://www.swissinfo.ch/eng/politics/returning-stolen-assets_the-complex-case-of-tunisia-s-blocked-funds/41360476
 
-Kettis, Andreas and Hakala, Pekka (2013) “Recovering Tunisian and Egyptian assets: Legal complexity challenges states in need”, DG EXPO/B/PolDep/Note/2013_92, available at: http://www.europarl.europa.eu/meetdocs/2009_2014/documents/dmas/dv/20130318_assets_recovery_/20130318_assets_ recovery_en.pdf
+Kettis, Andreas and Hakala, Pekka (2013) “Recovering Tunisian and Egyptian assets: Legal complexity challenges states in need”, DG EXPO/B/PolDep/Note/2013_92, available at: http://www.europarl.europa.eu/meetdocs/2009_2014/documents/dmas/dv/20130318_assets_recovery_/20130318_assets_recovery_en.pdf
 
 Moret, Erica, et al. (2016) “The New Deterrent: International Sanctions against Russia”, Graduate Institute: Geneva
 
 Häuptli, Lukas (2018) „Schweiz tritt 32 Millionen Franken an Ägypten ab“, NZZ am Sonntag, 24 March 2018, available at: https://nzzas.nzz.ch/schweiz/schweiz-tritt-32-millionen-an-aegypten-ab-ld.1369176?reduced=true
 
-Lester, Maya (2016) Written evidence to the UK House of Lords Inquiry on “The legality of EU sanctions”, 14 October 2016, available at: http://data.parliament.uk/writtenevidence/committeeevidence.svc/evidencedocument/eu-justice- subcommittee/the-legality-of-the-eu-sanctions-process/written/41026.html
+Lester, Maya (2016) Written evidence to the UK House of Lords Inquiry on “The legality of EU sanctions”, 14 October 2016, available at: http://data.parliament.uk/writtenevidence/committeeevidence.svc/evidencedocument/eu-justice-subcommittee/the-legality-of-the-eu-sanctions-process/written/41026.html
 
 Lidington, David (2016) Letter to the Chair of the EU Select Committee, House of Lords, London, 2016
 
@@ -553,11 +553,11 @@ Public Eye (2017) Failed Recovery, Lausanne: Public Eye, available under: https:
 
 Pursiainen, Aleksi (2017) “Targeted Sanctions and Fundamental Rights”, Solidplan Consulting: Helsinki
 
-Radio Free Europe (2018) “EU Court clears ex-Yanukovych aide of past sanctions”, available at: https://www.rferl.org/a/eu- court-clears-ex-yanukovych-aide-past-sanctions-upholds-current-measures/29357641.html
+Radio Free Europe (2018) “EU Court clears ex-Yanukovych aide of past sanctions”, available at: https://www.rferl.org/a/eu-court-clears-ex-yanukovych-aide-past-sanctions-upholds-current-measures/29357641.html
 
 Rees, Wyn (2013) “The External Face of Internal Security”, in C. Hill and M. Smith (eds) International Relations and the European Union, Oxford University Press: Oxford, pp. 226-245
 
-Reuters (2017) “Swiss return funds from Ben Ali relative to Tunisia”, 26 May, available at: https://www.reuters.com/article/us-tunisia-swiss-assets/swiss-return-funds-from-ben-ali-relative-to-tunisia- idUSKBN18M1RN
+Reuters (2017) “Swiss return funds from Ben Ali relative to Tunisia”, 26 May, available at: https://www.reuters.com/article/us-tunisia-swiss-assets/swiss-return-funds-from-ben-ali-relative-to-tunisia-idUSKBN18M1RN
 
 Servettaz, Elena (2014) “A Sanctions Primer. What Happens to the Targeted?”, World Affairs 177(2), pp. 82-89
 
