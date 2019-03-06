@@ -62,9 +62,9 @@ Knightsbridge. Gamal founded an investment advisory firm, Med Invest Partners,
 which helped Western investors seeking to purchase stocks and companies in 
 Egypt.
 Together with his brother Alaa, he is alleged to have aquired his fortune by 
-levying commissions on foreign companies. Accoridng to the Egyptian law, foreign 
+levying commissions on foreign companies. According to the Egyptian law, foreign 
 companies were required to have local partners, which in most cases were 
-conected to the Mubarak family or the ruling party. Alongisde his father and 
+connected to the Mubarak family or the ruling party. Alongside his father and 
 brother, Gamal was initially sentenced for three years in prison for diverting 
 millions of public money to maintain presidential palaces. In September 2018, 
 Gamal was arrested, together with his brother Alaa, and accused of manipulating 

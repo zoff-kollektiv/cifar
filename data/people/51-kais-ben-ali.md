@@ -40,6 +40,6 @@ typeOfSanctions: Asset freeze and prohibition to make funds available
 startOfSanctions: 04.02.2011
 ---
 Nephew of Zine El Abidine Ben Ali, born in Tunis 21 October 1969, son of Selma 
-Mansour,, married to Monia Cheldi. Bussinesman, allegedly residing in Monastir, 
+Mansour, married to Monia Cheldi. Bussinesman, allegedly residing in Monastir, 
 Tunisia. 
 [1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011D0072-20170128)

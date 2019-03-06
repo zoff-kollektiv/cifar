@@ -17,7 +17,7 @@ aliases:
   - Stavitsky
   - Natan Rozenberh
   - Rozenberg
-identifyingInformation: Former Minister of Fuel and Energy of Ukraine
+identifyingInformation: Former Minister of Fuel and Energy
 placeOfBirth: 'Ukraine, Sumy oblast, Lebedyn '
 dateOfBirth: 04.10.1972
 countryOfResidence: Israel

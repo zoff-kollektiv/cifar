@@ -55,7 +55,9 @@ startOfSanctions: 04.02.2011
 ---
 Leila Trabelsi was born in 1957. Before marrying Ben Ali in 1992, she worked as 
 a hairdresser. She is alleged to have taken away 1.5 tonnes of the central 
-bank's gold worth approximately US $50 million when fleeing with her family to 
-Dubai, Saudi Arabia. 
+bank's gold worth approximately US $50 million when fleeing Tunisia with her 
+family. Leila Trabelsi, her husband Hosni Mubarak and their children Halima and 
+Mohamed are said to currently reside in Saudi Arabia. 
 [1](http://archive.boston.com/news/world/africa/articles/2011/01/17/tunisians_hail_fall_of_ex_leaders_corrupt_family/?page=2), 
-[2](https://www.telegraph.co.uk/news/worldnews/africaandindianocean/tunisia/8265025/Tunisian-former-presidents-wife-fled-country-with-38-million-in-gold.html)
+[2](https://www.telegraph.co.uk/news/worldnews/africaandindianocean/tunisia/8265025/Tunisian-former-presidents-wife-fled-country-with-38-million-in-gold.html), 
+[3](https://www.alaraby.co.uk/english/blog/2017/10/15/ex-tunisian-dictator-ben-ali-makes-public-appearance)
