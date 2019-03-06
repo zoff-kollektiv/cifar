@@ -28,11 +28,9 @@ export default () => (
         Guidelines
       </Link>
 
-      {/*
       <Link to="/report/" className={navLinkStyles.className}>
         Report
       </Link>
-      */}
 
       <Link to="/sanctions/" className={navLinkStyles.className}>
         Sanctions
