@@ -5,7 +5,7 @@ author: Dr. Clara Portela, University of Valencia, Spain
 downloadTitle: Download Report as PDF (420kB)
 downloadLink: https://cifar.eu/wp-content/uploads/2019/03/CiFAR_Sanctioning-kleptocrats.pdf
 ---
-[Download Annex]((https://cifar.eu/wp-content/uploads/2019/03/Tables-evolution-of-asset-freezes.pdf)) - The Evolution of Asset Freezes in Egypt, Tunisia and Ukraine 
+[Download Annex](https://cifar.eu/wp-content/uploads/2019/03/Tables-evolution-of-asset-freezes.pdf) - The Evolution of Asset Freezes in Egypt, Tunisia and Ukraine 
 
 ## Executive Summary
 
