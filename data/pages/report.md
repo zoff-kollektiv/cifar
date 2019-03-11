@@ -5,6 +5,7 @@ author: Dr. Clara Portela, University of Valencia, Spain
 downloadTitle: Download Report as PDF (420kB)
 downloadLink: https://cifar.eu/wp-content/uploads/2019/03/CiFAR_Sanctioning-kleptocrats.pdf
 ---
+ #### Download Annexes - the evolution of asset freezes in Egypt, Tunisia and Ukraine [here](https://cifar.eu/wp-content/uploads/2019/03/Tables-evolution-of-asset-freezes.pdf)
 
 ## Executive Summary
 
@@ -607,5 +608,5 @@ Webber, Douglas (2019) European Disintegration? The Politics of Crisis in the Eu
 All interviewees are guaranteed full anonymity.
 
  #### All Annexes are available in the PDF version of the report [here](https://cifar.eu/wp-content/uploads/2019/03/CiFAR_Sanctioning-kleptocrats.pdf)
- #### To see all tables detailing the evolution of asset freezes in Egypt, Tunisia and Ukraine, click [here](https://cifar.eu/wp-content/uploads/2019/03/Tables-evolution-of-asset-freezes.pdf)
+ #### To see all tables analysing the evolution of asset freezes in Egypt, Tunisia and Ukraine, click [here](https://cifar.eu/wp-content/uploads/2019/03/Tables-evolution-of-asset-freezes.pdf)
  
