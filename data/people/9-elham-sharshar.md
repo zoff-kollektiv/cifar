@@ -3,7 +3,7 @@ id: 9
 name: Elham Sharshar
 sanctionsCountry: Egypt
 fullName: Elham Sayed Salem Sharshar
-nativeName: لهام شرشر
+nativeName: إلهام شرشر
 surname: Sharshar
 firstAndMidleNames: Elham Sayed Salem
 aliases: []
