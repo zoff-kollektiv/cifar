@@ -1,15 +1,16 @@
 ---
 id: 8
-name: Habib el-Adly
+name: Habib El Adly
 sanctionsCountry: Egypt
-fullName: Habib Ibrahim Habib el-Adly
+fullName: Habib Ibrahim Habib El Adly
 nativeName: حبيب العادلي
 surname: Habib
-firstAndMidleNames: Ibrahim Habib el-Adly
+firstAndMidleNames: Ibrahim Habib El Adly
 aliases:
   - Habib Ibrahim Habib al-Adli
   - al-Adly
   - Eladlii
+  - el-Adly
 identifyingInformation: Former Minister of Interior
 placeOfBirth: 'Egypt, Sharqiya Governorate'
 dateOfBirth: 01.03.1938
